@@ -1,0 +1,2823 @@
+{
+  "schema_version": "one-confidence-public-linear-erasure-v1",
+  "protocol": {
+    "cell": "llama31|TriviaQA",
+    "model_path": "<REMOTE_WORKSPACE>/models/Meta-Llama-3.1-8B-Instruct",
+    "model_revision": null,
+    "tokenizer_revision": null,
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "dtype": "bfloat16",
+    "selected_layer": 28,
+    "component": "MLP output at final prompt position",
+    "direction_fit": "mean of unit-normalized paired donor-minus-canonical development HCE displacements",
+    "projection": "rank-one centered orthogonal projection around development centroid midpoint",
+    "validation_use": "evaluation only",
+    "candidate_source": "frozen NLI alternative cluster; no answer key is read",
+    "controls": [
+      "exact no-op",
+      "seeded random rank-one directions",
+      "development-derived unrelated-fact direction",
+      "frozen shuffled candidate",
+      "validation HCC damage"
+    ],
+    "random_controls": 5,
+    "seed": 2026072904,
+    "locked_accessed": false,
+    "erasure_protocol_sha256": "ad1fb4da23384ab72119425f9560368c0cf8e0fb55c579ae4ef8dfe7c27997f6",
+    "manifest_sha256": "7baca9ee8142dc9f03cf015d964af023eb5707da9828df0f69efa79440efb3a3",
+    "patch_result_sha256": "d07458fdd8cbce57ed57a46bb91e967af0ce17209d69110780ee082b756a8705",
+    "direction_artifact": "experiments/hallucination/results/one_confidence_mosaic_v1/llama31-triviaqa-public-mechanism-erasure-directions.pt",
+    "direction_artifact_sha256": "e6d463f1be94723c351f6f8d14bca8b66d01739f2e1a57f5174e79439caee2cb",
+    "scientific_status": "reverse validation of a development-localized public mechanism direction; not a detector and not a unique-circuit claim"
+  },
+  "sample_counts": {
+    "development_direction_pairs": 14,
+    "validation_hce": 7,
+    "validation_hcc": 30
+  },
+  "direction_fit": {
+    "true": {
+      "n_pairs": 14,
+      "hidden_size": 4096,
+      "raw_mean_unit_displacement_norm": 0.2685401737689972,
+      "unweighted_mean_displacement_norm": 2.2275822162628174,
+      "pair_displacement_norm_mean": 7.344463348388672,
+      "pair_displacement_norm_p50": 6.525790691375732,
+      "paired_direction_cosine_mean": 0.2685402035713196,
+      "positive_projection_fraction": 1.0,
+      "canonical_centroid_coordinate": -0.9895738959312439,
+      "donor_centroid_coordinate": 0.9895738363265991
+    },
+    "unrelated_control": {
+      "n_pairs": 14,
+      "hidden_size": 4096,
+      "raw_mean_unit_displacement_norm": 0.1288350522518158,
+      "unweighted_mean_displacement_norm": 2.2275822162628174,
+      "pair_displacement_norm_mean": 16.89085578918457,
+      "pair_displacement_norm_p50": 16.622413635253906,
+      "paired_direction_cosine_mean": 0.1288350522518158,
+      "positive_projection_fraction": 1.0,
+      "canonical_centroid_coordinate": -1.0913408994674683,
+      "donor_centroid_coordinate": 1.0913410186767578
+    },
+    "true_direction_sha256": "39fef463a5df647bae2c0b49490d7e9e123952c8c710d0d71b3e969931674a8d",
+    "true_center_sha256": "6e8ded14d90c3edf1f9dfcc7403ed2fe858ccf8e2e1ec0c46b68b1f26c56598c",
+    "unrelated_direction_sha256": "6dd9bbb616099205b304567590410f6a3df67a7e3e0e24d24bb5e09ba1f34935",
+    "true_unrelated_direction_cosine": 0.8932420015335083,
+    "random_direction_cosines_to_true": [
+      0.015556766651570797,
+      -0.0416610985994339,
+      0.008796374313533306,
+      -0.021383851766586304,
+      0.008504251018166542
+    ]
+  },
+  "validation_hce_summary": {
+    "n": 7,
+    "true_donor_candidate_margin_drop_mean": 0.0009462460875511169,
+    "true_donor_candidate_margin_drop_p50": 0.0003114938735961914,
+    "true_donor_candidate_margin_drop_positive_fraction": 0.5714285714285714,
+    "true_canonical_candidate_margin_change_mean": 0.014965465691472803,
+    "true_answer_start_js_reduction_donor_only_mean": 0.0009421142084257943,
+    "true_answer_start_js_reduction_both_mean": 0.004642178437539509,
+    "random_direction_margin_drop_mean": -0.00460602231323719,
+    "unrelated_direction_margin_drop_mean": 0.00196528754064015,
+    "shuffled_candidate_margin_drop_mean": -0.004921542746680123,
+    "control_adjusted_margin_drop_mean": -0.0027602461831910266,
+    "control_adjusted_positive_fraction": 0.42857142857142855,
+    "max_abs_noop_margin_change": 0.0
+  },
+  "validation_hce_records": [
+    {
+      "sample_id": "llama31|TriviaQA|jp_4141",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "\"Bohemian Rhapsody\"",
+      "canonical_answer": "\"Start Me Up\"",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|odql_2913",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -0.43110205978155136,
+        "donor_candidate_minus_canonical_margin": 0.7004030495882034,
+        "donor_shuffled_minus_canonical_margin": -5.5764153599739075,
+        "answer_start_js": 0.07464461028575897
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.43222901970148087,
+        "canonical_candidate_margin_change": -0.0011269599199295044,
+        "donor_candidate_minus_canonical_margin": 0.7015419378876686,
+        "donor_candidate_margin_change": 0.0011388882994651794,
+        "donor_candidate_margin_drop": -0.0011388882994651794,
+        "donor_candidate_score_change": -0.0007436051964759827,
+        "donor_canonical_score_change": -0.0018824934959411621,
+        "donor_shuffled_margin_change": 0.007142484188079834,
+        "donor_shuffled_margin_drop": -0.007142484188079834,
+        "answer_start_js_baseline": 0.07464461028575897,
+        "answer_start_js_donor_erased": 0.07474316656589508,
+        "answer_start_js_both_erased": 0.07256405055522919,
+        "answer_start_js_reduction_donor_only": -9.85562801361084e-05,
+        "answer_start_js_reduction_both": 0.002080559730529785
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.4335467889904976,
+        "canonical_candidate_margin_change": -0.002444729208946228,
+        "donor_candidate_minus_canonical_margin": 0.700812503695488,
+        "donor_candidate_margin_change": 0.0004094541072845459,
+        "donor_candidate_margin_drop": -0.0004094541072845459,
+        "donor_candidate_score_change": 0.0004766881465911865,
+        "donor_canonical_score_change": 6.723403930664062e-05,
+        "donor_shuffled_margin_change": -0.004082202911376953,
+        "donor_shuffled_margin_drop": 0.004082202911376953,
+        "answer_start_js_baseline": 0.07464461028575897,
+        "answer_start_js_donor_erased": 0.07676094770431519,
+        "answer_start_js_both_erased": 0.06834550946950912,
+        "answer_start_js_reduction_donor_only": -0.0021163374185562134,
+        "answer_start_js_reduction_both": 0.006299100816249847
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -0.43201931565999985,
+          "canonical_candidate_margin_change": -0.0009172558784484863,
+          "donor_candidate_minus_canonical_margin": 0.7014715820550919,
+          "donor_candidate_margin_change": 0.0010685324668884277,
+          "donor_candidate_margin_drop": -0.0010685324668884277,
+          "donor_candidate_score_change": 6.514787673950195e-05,
+          "donor_canonical_score_change": -0.0010033845901489258,
+          "donor_shuffled_margin_change": -0.004115462303161621,
+          "donor_shuffled_margin_drop": 0.004115462303161621,
+          "answer_start_js_baseline": 0.07464461028575897,
+          "answer_start_js_donor_erased": 0.07325714081525803,
+          "answer_start_js_both_erased": 0.0713246688246727,
+          "answer_start_js_reduction_donor_only": 0.001387469470500946,
+          "answer_start_js_reduction_both": 0.003319941461086273
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.4314666837453842,
+          "canonical_candidate_margin_change": -0.0003646239638328552,
+          "donor_candidate_minus_canonical_margin": 0.7015221416950226,
+          "donor_candidate_margin_change": 0.0011190921068191528,
+          "donor_candidate_margin_drop": -0.0011190921068191528,
+          "donor_candidate_score_change": -0.000703856348991394,
+          "donor_canonical_score_change": -0.0018229484558105469,
+          "donor_shuffled_margin_change": -0.004015922546386719,
+          "donor_shuffled_margin_drop": 0.004015922546386719,
+          "answer_start_js_baseline": 0.07464461028575897,
+          "answer_start_js_donor_erased": 0.07389101386070251,
+          "answer_start_js_both_erased": 0.07370463013648987,
+          "answer_start_js_reduction_donor_only": 0.0007535964250564575,
+          "answer_start_js_reduction_both": 0.000939980149269104
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.4320603981614113,
+          "canonical_candidate_margin_change": -0.0009583383798599243,
+          "donor_candidate_minus_canonical_margin": 0.7011983022093773,
+          "donor_candidate_margin_change": 0.0007952526211738586,
+          "donor_candidate_margin_drop": -0.0007952526211738586,
+          "donor_candidate_score_change": 0.0005202963948249817,
+          "donor_canonical_score_change": -0.00027495622634887695,
+          "donor_shuffled_margin_change": 0.03506499528884888,
+          "donor_shuffled_margin_drop": -0.03506499528884888,
+          "answer_start_js_baseline": 0.07464461028575897,
+          "answer_start_js_donor_erased": 0.07462237775325775,
+          "answer_start_js_both_erased": 0.07243868708610535,
+          "answer_start_js_reduction_donor_only": 2.2232532501220703e-05,
+          "answer_start_js_reduction_both": 0.0022059231996536255
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.4325399473309517,
+          "canonical_candidate_margin_change": -0.0014378875494003296,
+          "donor_candidate_minus_canonical_margin": 0.7005298882722855,
+          "donor_candidate_margin_change": 0.00012683868408203125,
+          "donor_candidate_margin_drop": -0.00012683868408203125,
+          "donor_candidate_score_change": 0.0016499161720275879,
+          "donor_canonical_score_change": 0.0015230774879455566,
+          "donor_shuffled_margin_change": -0.015301764011383057,
+          "donor_shuffled_margin_drop": 0.015301764011383057,
+          "answer_start_js_baseline": 0.07464461028575897,
+          "answer_start_js_donor_erased": 0.07470722496509552,
+          "answer_start_js_both_erased": 0.07258535921573639,
+          "answer_start_js_reduction_donor_only": -6.261467933654785e-05,
+          "answer_start_js_reduction_both": 0.002059251070022583
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.43210165202617645,
+          "canonical_candidate_margin_change": -0.0009995922446250916,
+          "donor_candidate_minus_canonical_margin": 0.7013775259256363,
+          "donor_candidate_margin_change": 0.0009744763374328613,
+          "donor_candidate_margin_drop": -0.0009744763374328613,
+          "donor_candidate_score_change": 0.00023889541625976562,
+          "donor_canonical_score_change": -0.0007355809211730957,
+          "donor_shuffled_margin_change": -0.014819324016571045,
+          "donor_shuffled_margin_drop": 0.014819324016571045,
+          "answer_start_js_baseline": 0.07464461028575897,
+          "answer_start_js_donor_erased": 0.07478494197130203,
+          "answer_start_js_both_erased": 0.0725933238863945,
+          "answer_start_js_reduction_donor_only": -0.0001403316855430603,
+          "answer_start_js_reduction_both": 0.0020512863993644714
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -0.43110205978155136,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.7004030495882034,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.07464461028575897,
+        "answer_start_js_donor_erased": 0.07464461028575897,
+        "answer_start_js_both_erased": 0.07464461028575897,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_2913",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "Persuasion",
+      "canonical_answer": "Mansfield Park",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|qb_3147",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -0.4543980211019516,
+        "donor_candidate_minus_canonical_margin": 0.3447500765323639,
+        "donor_shuffled_minus_canonical_margin": -3.6827507317066193,
+        "answer_start_js": 0.21745818853378296
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.4146968200802803,
+        "canonical_candidate_margin_change": 0.039701201021671295,
+        "donor_candidate_minus_canonical_margin": 0.31177474558353424,
+        "donor_candidate_margin_change": -0.03297533094882965,
+        "donor_candidate_margin_drop": 0.03297533094882965,
+        "donor_candidate_score_change": -0.006988063454627991,
+        "donor_canonical_score_change": 0.02598726749420166,
+        "donor_shuffled_margin_change": -0.023146748542785645,
+        "donor_shuffled_margin_drop": 0.023146748542785645,
+        "answer_start_js_baseline": 0.21745818853378296,
+        "answer_start_js_donor_erased": 0.20702135562896729,
+        "answer_start_js_both_erased": 0.195548415184021,
+        "answer_start_js_reduction_donor_only": 0.010436832904815674,
+        "answer_start_js_reduction_both": 0.021909773349761963
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.49225377291440964,
+        "canonical_candidate_margin_change": -0.03785575181245804,
+        "donor_candidate_minus_canonical_margin": 0.31200625002384186,
+        "donor_candidate_margin_change": -0.032743826508522034,
+        "donor_candidate_margin_drop": 0.032743826508522034,
+        "donor_candidate_score_change": -0.006053164601325989,
+        "donor_canonical_score_change": 0.026690661907196045,
+        "donor_shuffled_margin_change": -0.022805392742156982,
+        "donor_shuffled_margin_drop": 0.022805392742156982,
+        "answer_start_js_baseline": 0.21745818853378296,
+        "answer_start_js_donor_erased": 0.2070462554693222,
+        "answer_start_js_both_erased": 0.21766431629657745,
+        "answer_start_js_reduction_donor_only": 0.010411933064460754,
+        "answer_start_js_reduction_both": -0.00020612776279449463
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -0.4543936178088188,
+          "canonical_candidate_margin_change": 4.403293132781982e-06,
+          "donor_candidate_minus_canonical_margin": 0.34482212364673615,
+          "donor_candidate_margin_change": 7.204711437225342e-05,
+          "donor_candidate_margin_drop": -7.204711437225342e-05,
+          "donor_candidate_score_change": -4.29302453994751e-05,
+          "donor_canonical_score_change": -0.00011497735977172852,
+          "donor_shuffled_margin_change": -0.0066065192222595215,
+          "donor_shuffled_margin_drop": 0.0066065192222595215,
+          "answer_start_js_baseline": 0.21745818853378296,
+          "answer_start_js_donor_erased": 0.21687954664230347,
+          "answer_start_js_both_erased": 0.21688078343868256,
+          "answer_start_js_reduction_donor_only": 0.0005786418914794922,
+          "answer_start_js_reduction_both": 0.0005774050951004028
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.45429903268814087,
+          "canonical_candidate_margin_change": 9.898841381072998e-05,
+          "donor_candidate_minus_canonical_margin": 0.3119473159313202,
+          "donor_candidate_margin_change": -0.0328027606010437,
+          "donor_candidate_margin_drop": 0.0328027606010437,
+          "donor_candidate_score_change": -0.006189435720443726,
+          "donor_canonical_score_change": 0.026613324880599976,
+          "donor_shuffled_margin_change": -0.03800973296165466,
+          "donor_shuffled_margin_drop": 0.03800973296165466,
+          "answer_start_js_baseline": 0.21745818853378296,
+          "answer_start_js_donor_erased": 0.20651382207870483,
+          "answer_start_js_both_erased": 0.20619511604309082,
+          "answer_start_js_reduction_donor_only": 0.010944366455078125,
+          "answer_start_js_reduction_both": 0.011263072490692139
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.41660915315151215,
+          "canonical_candidate_margin_change": 0.03778886795043945,
+          "donor_candidate_minus_canonical_margin": 0.3447769433259964,
+          "donor_candidate_margin_change": 2.6866793632507324e-05,
+          "donor_candidate_margin_drop": -2.6866793632507324e-05,
+          "donor_candidate_score_change": 5.577504634857178e-05,
+          "donor_canonical_score_change": 2.8908252716064453e-05,
+          "donor_shuffled_margin_change": 0.015948951244354248,
+          "donor_shuffled_margin_drop": -0.015948951244354248,
+          "answer_start_js_baseline": 0.21745818853378296,
+          "answer_start_js_donor_erased": 0.2174443006515503,
+          "answer_start_js_both_erased": 0.20636481046676636,
+          "answer_start_js_reduction_donor_only": 1.3887882232666016e-05,
+          "answer_start_js_reduction_both": 0.011093378067016602
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.454408623278141,
+          "canonical_candidate_margin_change": -1.0602176189422607e-05,
+          "donor_candidate_minus_canonical_margin": 0.34479090571403503,
+          "donor_candidate_margin_change": 4.082918167114258e-05,
+          "donor_candidate_margin_drop": -4.082918167114258e-05,
+          "donor_candidate_score_change": -6.0886144638061523e-05,
+          "donor_canonical_score_change": -0.0001017153263092041,
+          "donor_shuffled_margin_change": 0.005098015069961548,
+          "donor_shuffled_margin_drop": -0.005098015069961548,
+          "answer_start_js_baseline": 0.21745818853378296,
+          "answer_start_js_donor_erased": 0.21752753853797913,
+          "answer_start_js_both_erased": 0.21752199530601501,
+          "answer_start_js_reduction_donor_only": -6.935000419616699e-05,
+          "answer_start_js_reduction_both": -6.380677223205566e-05
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.4543880373239517,
+          "canonical_candidate_margin_change": 9.98377799987793e-06,
+          "donor_candidate_minus_canonical_margin": 0.344771608710289,
+          "donor_candidate_margin_change": 2.1532177925109863e-05,
+          "donor_candidate_margin_drop": -2.1532177925109863e-05,
+          "donor_candidate_score_change": 8.819997310638428e-05,
+          "donor_canonical_score_change": 6.666779518127441e-05,
+          "donor_shuffled_margin_change": -0.006438642740249634,
+          "donor_shuffled_margin_drop": 0.006438642740249634,
+          "answer_start_js_baseline": 0.21745818853378296,
+          "answer_start_js_donor_erased": 0.2174823135137558,
+          "answer_start_js_both_erased": 0.21748477220535278,
+          "answer_start_js_reduction_donor_only": -2.4124979972839355e-05,
+          "answer_start_js_reduction_both": -2.658367156982422e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -0.4543980211019516,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.3447500765323639,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.21745818853378296,
+        "answer_start_js_donor_erased": 0.21745818853378296,
+        "answer_start_js_both_erased": 0.21745818853378296,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3147",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "The Gondoliers",
+      "canonical_answer": "The Pirates of Penzance",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|qb_6193",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -0.2250746786594391,
+        "donor_candidate_minus_canonical_margin": 0.15454711019992828,
+        "donor_shuffled_minus_canonical_margin": -4.533064752817154,
+        "answer_start_js": 0.032275937497615814
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.22521190345287323,
+        "canonical_candidate_margin_change": -0.00013722479343414307,
+        "donor_candidate_minus_canonical_margin": 0.1539899706840515,
+        "donor_candidate_margin_change": -0.00055713951587677,
+        "donor_candidate_margin_drop": 0.00055713951587677,
+        "donor_candidate_score_change": -0.0008767694234848022,
+        "donor_canonical_score_change": -0.0003196299076080322,
+        "donor_shuffled_margin_change": 0.0028945505619049072,
+        "donor_shuffled_margin_drop": -0.0028945505619049072,
+        "answer_start_js_baseline": 0.032275937497615814,
+        "answer_start_js_donor_erased": 0.03224407136440277,
+        "answer_start_js_both_erased": 0.03258219733834267,
+        "answer_start_js_reduction_donor_only": 3.186613321304321e-05,
+        "answer_start_js_reduction_both": -0.0003062598407268524
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.22511747479438782,
+        "canonical_candidate_margin_change": -4.279613494873047e-05,
+        "donor_candidate_minus_canonical_margin": 0.15396712720394135,
+        "donor_candidate_margin_change": -0.0005799829959869385,
+        "donor_candidate_margin_drop": 0.0005799829959869385,
+        "donor_candidate_score_change": -0.0015098154544830322,
+        "donor_canonical_score_change": -0.0009298324584960938,
+        "donor_shuffled_margin_change": 0.004764080047607422,
+        "donor_shuffled_margin_drop": -0.004764080047607422,
+        "answer_start_js_baseline": 0.032275937497615814,
+        "answer_start_js_donor_erased": 0.03229435160756111,
+        "answer_start_js_both_erased": 0.032466985285282135,
+        "answer_start_js_reduction_donor_only": -1.841410994529724e-05,
+        "answer_start_js_reduction_both": -0.0001910477876663208
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -0.23700148612260818,
+          "canonical_candidate_margin_change": -0.011926807463169098,
+          "donor_candidate_minus_canonical_margin": 0.15458491444587708,
+          "donor_candidate_margin_change": 3.7804245948791504e-05,
+          "donor_candidate_margin_drop": -3.7804245948791504e-05,
+          "donor_candidate_score_change": -0.00020839273929595947,
+          "donor_canonical_score_change": -0.000246196985244751,
+          "donor_shuffled_margin_change": 0.0021287500858306885,
+          "donor_shuffled_margin_drop": -0.0021287500858306885,
+          "answer_start_js_baseline": 0.032275937497615814,
+          "answer_start_js_donor_erased": 0.03224688768386841,
+          "answer_start_js_both_erased": 0.032754942774772644,
+          "answer_start_js_reduction_donor_only": 2.9049813747406006e-05,
+          "answer_start_js_reduction_both": -0.00047900527715682983
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.22522583603858948,
+          "canonical_candidate_margin_change": -0.00015115737915039062,
+          "donor_candidate_minus_canonical_margin": 0.15453080832958221,
+          "donor_candidate_margin_change": -1.6301870346069336e-05,
+          "donor_candidate_margin_drop": 1.6301870346069336e-05,
+          "donor_candidate_score_change": -0.0005755424499511719,
+          "donor_canonical_score_change": -0.0005592405796051025,
+          "donor_shuffled_margin_change": 0.021280676126480103,
+          "donor_shuffled_margin_drop": -0.021280676126480103,
+          "answer_start_js_baseline": 0.032275937497615814,
+          "answer_start_js_donor_erased": 0.032255809754133224,
+          "answer_start_js_both_erased": 0.032742343842983246,
+          "answer_start_js_reduction_donor_only": 2.012774348258972e-05,
+          "answer_start_js_reduction_both": -0.00046640634536743164
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.2250688672065735,
+          "canonical_candidate_margin_change": 5.811452865600586e-06,
+          "donor_candidate_minus_canonical_margin": 0.15391606092453003,
+          "donor_candidate_margin_change": -0.0006310492753982544,
+          "donor_candidate_margin_drop": 0.0006310492753982544,
+          "donor_candidate_score_change": -0.00162486732006073,
+          "donor_canonical_score_change": -0.0009938180446624756,
+          "donor_shuffled_margin_change": 0.002719968557357788,
+          "donor_shuffled_margin_drop": -0.002719968557357788,
+          "answer_start_js_baseline": 0.032275937497615814,
+          "answer_start_js_donor_erased": 0.03226146101951599,
+          "answer_start_js_both_erased": 0.03231339529156685,
+          "answer_start_js_reduction_donor_only": 1.4476478099822998e-05,
+          "answer_start_js_reduction_both": -3.7457793951034546e-05
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.2251119762659073,
+          "canonical_candidate_margin_change": -3.7297606468200684e-05,
+          "donor_candidate_minus_canonical_margin": 0.15464110672473907,
+          "donor_candidate_margin_change": 9.399652481079102e-05,
+          "donor_candidate_margin_drop": -9.399652481079102e-05,
+          "donor_candidate_score_change": 0.00010687112808227539,
+          "donor_canonical_score_change": 1.2874603271484375e-05,
+          "donor_shuffled_margin_change": 0.005373477935791016,
+          "donor_shuffled_margin_drop": -0.005373477935791016,
+          "answer_start_js_baseline": 0.032275937497615814,
+          "answer_start_js_donor_erased": 0.032269373536109924,
+          "answer_start_js_both_erased": 0.032305896282196045,
+          "answer_start_js_reduction_donor_only": 6.563961505889893e-06,
+          "answer_start_js_reduction_both": -2.9958784580230713e-05
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.2251986712217331,
+          "canonical_candidate_margin_change": -0.00012399256229400635,
+          "donor_candidate_minus_canonical_margin": 0.16566361486911774,
+          "donor_candidate_margin_change": 0.011116504669189453,
+          "donor_candidate_margin_drop": -0.011116504669189453,
+          "donor_candidate_score_change": 0.0060870349407196045,
+          "donor_canonical_score_change": -0.005029469728469849,
+          "donor_shuffled_margin_change": 0.005174428224563599,
+          "donor_shuffled_margin_drop": -0.005174428224563599,
+          "answer_start_js_baseline": 0.032275937497615814,
+          "answer_start_js_donor_erased": 0.03232572227716446,
+          "answer_start_js_both_erased": 0.03260435909032822,
+          "answer_start_js_reduction_donor_only": -4.978477954864502e-05,
+          "answer_start_js_reduction_both": -0.00032842159271240234
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -0.2250746786594391,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.15454711019992828,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.032275937497615814,
+        "answer_start_js_donor_erased": 0.032275937497615814,
+        "answer_start_js_both_erased": 0.032275937497615814,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6193",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "Switzerland.",
+      "canonical_answer": "Czechoslovakia",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|qw_11340",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -0.8986155483871698,
+        "donor_candidate_minus_canonical_margin": 0.46971242129802704,
+        "donor_shuffled_minus_canonical_margin": -7.297873556613922,
+        "answer_start_js": 0.43240487575531006
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.8588396459817886,
+        "canonical_candidate_margin_change": 0.0397759024053812,
+        "donor_candidate_minus_canonical_margin": 0.49608052521944046,
+        "donor_candidate_margin_change": 0.02636810392141342,
+        "donor_candidate_margin_drop": -0.02636810392141342,
+        "donor_candidate_score_change": 0.0026287660002708435,
+        "donor_canonical_score_change": -0.023739337921142578,
+        "donor_shuffled_margin_change": 0.047686100006103516,
+        "donor_shuffled_margin_drop": -0.047686100006103516,
+        "answer_start_js_baseline": 0.43240487575531006,
+        "answer_start_js_donor_erased": 0.4421861171722412,
+        "answer_start_js_both_erased": 0.43099480867385864,
+        "answer_start_js_reduction_donor_only": -0.009781241416931152,
+        "answer_start_js_reduction_both": 0.001410067081451416
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.8588900715112686,
+        "canonical_candidate_margin_change": 0.03972547687590122,
+        "donor_candidate_minus_canonical_margin": 0.4957676902413368,
+        "donor_candidate_margin_change": 0.026055268943309784,
+        "donor_candidate_margin_drop": -0.026055268943309784,
+        "donor_candidate_score_change": 0.0026201531291007996,
+        "donor_canonical_score_change": -0.023435115814208984,
+        "donor_shuffled_margin_change": 0.04196643829345703,
+        "donor_shuffled_margin_drop": -0.04196643829345703,
+        "answer_start_js_baseline": 0.43240487575531006,
+        "answer_start_js_donor_erased": 0.4421750605106354,
+        "answer_start_js_both_erased": 0.43098199367523193,
+        "answer_start_js_reduction_donor_only": -0.009770184755325317,
+        "answer_start_js_reduction_both": 0.001422882080078125
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -0.8587353732436895,
+          "canonical_candidate_margin_change": 0.0398801751434803,
+          "donor_candidate_minus_canonical_margin": 0.5221112444996834,
+          "donor_candidate_margin_change": 0.05239882320165634,
+          "donor_candidate_margin_drop": -0.05239882320165634,
+          "donor_candidate_score_change": 0.005209766328334808,
+          "donor_canonical_score_change": -0.04718905687332153,
+          "donor_shuffled_margin_change": -0.00900810956954956,
+          "donor_shuffled_margin_drop": 0.00900810956954956,
+          "answer_start_js_baseline": 0.43240487575531006,
+          "answer_start_js_donor_erased": 0.45175284147262573,
+          "answer_start_js_both_erased": 0.4405146837234497,
+          "answer_start_js_reduction_donor_only": -0.019347965717315674,
+          "answer_start_js_reduction_both": -0.008109807968139648
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.8586321789771318,
+          "canonical_candidate_margin_change": 0.039983369410037994,
+          "donor_candidate_minus_canonical_margin": 0.49577320367097855,
+          "donor_candidate_margin_change": 0.026060782372951508,
+          "donor_candidate_margin_drop": -0.026060782372951508,
+          "donor_candidate_score_change": 0.0026478394865989685,
+          "donor_canonical_score_change": -0.02341294288635254,
+          "donor_shuffled_margin_change": 0.027985811233520508,
+          "donor_shuffled_margin_drop": -0.027985811233520508,
+          "answer_start_js_baseline": 0.43240487575531006,
+          "answer_start_js_donor_erased": 0.44220995903015137,
+          "answer_start_js_both_erased": 0.43101710081100464,
+          "answer_start_js_reduction_donor_only": -0.009805083274841309,
+          "answer_start_js_reduction_both": 0.00138777494430542
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.8586562797427177,
+          "canonical_candidate_margin_change": 0.039959268644452095,
+          "donor_candidate_minus_canonical_margin": 0.4697059541940689,
+          "donor_candidate_margin_change": -6.467103958129883e-06,
+          "donor_candidate_margin_drop": 6.467103958129883e-06,
+          "donor_candidate_score_change": 1.1622905731201172e-06,
+          "donor_canonical_score_change": 7.62939453125e-06,
+          "donor_shuffled_margin_change": -0.00033092498779296875,
+          "donor_shuffled_margin_drop": 0.00033092498779296875,
+          "answer_start_js_baseline": 0.43240487575531006,
+          "answer_start_js_donor_erased": 0.43240416049957275,
+          "answer_start_js_both_erased": 0.42128732800483704,
+          "answer_start_js_reduction_donor_only": 7.152557373046875e-07,
+          "answer_start_js_reduction_both": 0.011117547750473022
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.8586223144084215,
+          "canonical_candidate_margin_change": 0.03999323397874832,
+          "donor_candidate_minus_canonical_margin": 0.4960942938923836,
+          "donor_candidate_margin_change": 0.026381872594356537,
+          "donor_candidate_margin_drop": -0.026381872594356537,
+          "donor_candidate_score_change": 0.0026373490691184998,
+          "donor_canonical_score_change": -0.023744523525238037,
+          "donor_shuffled_margin_change": 0.0746416449546814,
+          "donor_shuffled_margin_drop": -0.0746416449546814,
+          "answer_start_js_baseline": 0.43240487575531006,
+          "answer_start_js_donor_erased": 0.4421950876712799,
+          "answer_start_js_both_erased": 0.4310002624988556,
+          "answer_start_js_reduction_donor_only": -0.009790211915969849,
+          "answer_start_js_reduction_both": 0.0014046132564544678
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.8650977704674006,
+          "canonical_candidate_margin_change": 0.03351777791976929,
+          "donor_candidate_minus_canonical_margin": 0.5011231899261475,
+          "donor_candidate_margin_change": 0.03141076862812042,
+          "donor_candidate_margin_drop": -0.03141076862812042,
+          "donor_candidate_score_change": 0.008128955960273743,
+          "donor_canonical_score_change": -0.02328181266784668,
+          "donor_shuffled_margin_change": -0.035898447036743164,
+          "donor_shuffled_margin_drop": 0.035898447036743164,
+          "answer_start_js_baseline": 0.43240487575531006,
+          "answer_start_js_donor_erased": 0.442595511674881,
+          "answer_start_js_both_erased": 0.43142545223236084,
+          "answer_start_js_reduction_donor_only": -0.010190635919570923,
+          "answer_start_js_reduction_both": 0.0009794235229492188
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -0.8986155483871698,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.46971242129802704,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.43240487575531006,
+        "answer_start_js_donor_erased": 0.43240487575531006,
+        "answer_start_js_both_erased": 0.43240487575531006,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_11340",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "Cricket",
+      "canonical_answer": "Jai Alai",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|sfq_13447",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -1.7403012365102768,
+        "donor_candidate_minus_canonical_margin": 0.9247769042849541,
+        "donor_shuffled_minus_canonical_margin": -6.440388202667236,
+        "answer_start_js": 0.49308541417121887
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -1.7080561220645905,
+        "canonical_candidate_margin_change": 0.03224511444568634,
+        "donor_candidate_minus_canonical_margin": 0.9244149923324585,
+        "donor_candidate_margin_change": -0.00036191195249557495,
+        "donor_candidate_margin_drop": 0.00036191195249557495,
+        "donor_candidate_score_change": -0.0007164403796195984,
+        "donor_canonical_score_change": -0.00035452842712402344,
+        "donor_shuffled_margin_change": 0.014227628707885742,
+        "donor_shuffled_margin_drop": -0.014227628707885742,
+        "answer_start_js_baseline": 0.49308541417121887,
+        "answer_start_js_donor_erased": 0.4922648072242737,
+        "answer_start_js_both_erased": 0.48934996128082275,
+        "answer_start_js_reduction_donor_only": 0.0008206069469451904,
+        "answer_start_js_reduction_both": 0.003735452890396118
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -1.7911356464028358,
+        "canonical_candidate_margin_change": -0.05083440989255905,
+        "donor_candidate_minus_canonical_margin": 0.9245364665985107,
+        "donor_candidate_margin_change": -0.00024043768644332886,
+        "donor_candidate_margin_drop": 0.00024043768644332886,
+        "donor_candidate_score_change": -0.0006264373660087585,
+        "donor_canonical_score_change": -0.0003859996795654297,
+        "donor_shuffled_margin_change": -0.0020258426666259766,
+        "donor_shuffled_margin_drop": 0.0020258426666259766,
+        "answer_start_js_baseline": 0.49308541417121887,
+        "answer_start_js_donor_erased": 0.49243074655532837,
+        "answer_start_js_both_erased": 0.4990931451320648,
+        "answer_start_js_reduction_donor_only": 0.0006546676158905029,
+        "answer_start_js_reduction_both": -0.006007730960845947
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -1.70613032579422,
+          "canonical_candidate_margin_change": 0.034170910716056824,
+          "donor_candidate_minus_canonical_margin": 0.9250118061900139,
+          "donor_candidate_margin_change": 0.00023490190505981445,
+          "donor_candidate_margin_drop": -0.00023490190505981445,
+          "donor_candidate_score_change": 0.0003591179847717285,
+          "donor_canonical_score_change": 0.00012421607971191406,
+          "donor_shuffled_margin_change": 0.0011870861053466797,
+          "donor_shuffled_margin_drop": -0.0011870861053466797,
+          "answer_start_js_baseline": 0.49308541417121887,
+          "answer_start_js_donor_erased": 0.49304723739624023,
+          "answer_start_js_both_erased": 0.49014633893966675,
+          "answer_start_js_reduction_donor_only": 3.8176774978637695e-05,
+          "answer_start_js_reduction_both": 0.002939075231552124
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -1.7611746117472649,
+          "canonical_candidate_margin_change": -0.020873375236988068,
+          "donor_candidate_minus_canonical_margin": 0.9246144145727158,
+          "donor_candidate_margin_change": -0.00016248971223831177,
+          "donor_candidate_margin_drop": 0.00016248971223831177,
+          "donor_candidate_score_change": -0.0004288032650947571,
+          "donor_canonical_score_change": -0.0002663135528564453,
+          "donor_shuffled_margin_change": -0.0001404285430908203,
+          "donor_shuffled_margin_drop": 0.0001404285430908203,
+          "answer_start_js_baseline": 0.49308541417121887,
+          "answer_start_js_donor_erased": 0.4924890398979187,
+          "answer_start_js_both_erased": 0.49636828899383545,
+          "answer_start_js_reduction_donor_only": 0.0005963742733001709,
+          "answer_start_js_reduction_both": -0.003282874822616577
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -1.7079789638519287,
+          "canonical_candidate_margin_change": 0.032322272658348083,
+          "donor_candidate_minus_canonical_margin": 0.9245332852005959,
+          "donor_candidate_margin_change": -0.00024361908435821533,
+          "donor_candidate_margin_drop": 0.00024361908435821533,
+          "donor_candidate_score_change": -0.0004927664995193481,
+          "donor_canonical_score_change": -0.0002491474151611328,
+          "donor_shuffled_margin_change": 0.01630997657775879,
+          "donor_shuffled_margin_drop": -0.01630997657775879,
+          "answer_start_js_baseline": 0.49308541417121887,
+          "answer_start_js_donor_erased": 0.4927378296852112,
+          "answer_start_js_both_erased": 0.48974743485450745,
+          "answer_start_js_reduction_donor_only": 0.00034758448600769043,
+          "answer_start_js_reduction_both": 0.0033379793167114258
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -1.7910855636000633,
+          "canonical_candidate_margin_change": -0.05078432708978653,
+          "donor_candidate_minus_canonical_margin": 0.9246246218681335,
+          "donor_candidate_margin_change": -0.00015228241682052612,
+          "donor_candidate_margin_drop": 0.00015228241682052612,
+          "donor_candidate_score_change": -0.00029259175062179565,
+          "donor_canonical_score_change": -0.00014030933380126953,
+          "donor_shuffled_margin_change": 0.0015441179275512695,
+          "donor_shuffled_margin_drop": -0.0015441179275512695,
+          "answer_start_js_baseline": 0.49308541417121887,
+          "answer_start_js_donor_erased": 0.49302011728286743,
+          "answer_start_js_both_erased": 0.4989951252937317,
+          "answer_start_js_reduction_donor_only": 6.529688835144043e-05,
+          "answer_start_js_reduction_both": -0.005909711122512817
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -1.7385368347167969,
+          "canonical_candidate_margin_change": 0.0017644017934799194,
+          "donor_candidate_minus_canonical_margin": 0.9248448014259338,
+          "donor_candidate_margin_change": 6.789714097976685e-05,
+          "donor_candidate_margin_drop": -6.789714097976685e-05,
+          "donor_candidate_score_change": 3.213435411453247e-05,
+          "donor_canonical_score_change": -3.5762786865234375e-05,
+          "donor_shuffled_margin_change": 0.0010027885437011719,
+          "donor_shuffled_margin_drop": -0.0010027885437011719,
+          "answer_start_js_baseline": 0.49308541417121887,
+          "answer_start_js_donor_erased": 0.4930705428123474,
+          "answer_start_js_both_erased": 0.4931330382823944,
+          "answer_start_js_reduction_donor_only": 1.4871358871459961e-05,
+          "answer_start_js_reduction_both": -4.762411117553711e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -1.7403012365102768,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.9247769042849541,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.49308541417121887,
+        "answer_start_js_donor_erased": 0.49308541417121887,
+        "answer_start_js_both_erased": 0.49308541417121887,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_13447",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "Denmark",
+      "canonical_answer": "Helle Thorning-Schmidt",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|sfq_4771",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -5.335783811286092,
+        "donor_candidate_minus_canonical_margin": 1.3479972314089537,
+        "donor_shuffled_minus_canonical_margin": -3.5760996341705322,
+        "answer_start_js": 0.6802698373794556
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -5.336316986940801,
+        "canonical_candidate_margin_change": -0.0005331756547093391,
+        "donor_candidate_minus_canonical_margin": 1.3476857375353575,
+        "donor_candidate_margin_change": -0.0003114938735961914,
+        "donor_candidate_margin_drop": 0.0003114938735961914,
+        "donor_candidate_score_change": -0.000316619873046875,
+        "donor_canonical_score_change": -5.125999450683594e-06,
+        "donor_shuffled_margin_change": -0.020070195198059082,
+        "donor_shuffled_margin_drop": 0.020070195198059082,
+        "answer_start_js_baseline": 0.6802698373794556,
+        "answer_start_js_donor_erased": 0.6799747347831726,
+        "answer_start_js_both_erased": 0.6797890663146973,
+        "answer_start_js_reduction_donor_only": 0.000295102596282959,
+        "answer_start_js_reduction_both": 0.0004807710647583008
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -5.304917908273637,
+        "canonical_candidate_margin_change": 0.03086590301245451,
+        "donor_candidate_minus_canonical_margin": 1.3386111911386251,
+        "donor_candidate_margin_change": -0.009386040270328522,
+        "donor_candidate_margin_drop": 0.009386040270328522,
+        "donor_candidate_score_change": -0.0005386844277381897,
+        "donor_canonical_score_change": 0.008847355842590332,
+        "donor_shuffled_margin_change": -0.011320710182189941,
+        "donor_shuffled_margin_drop": 0.011320710182189941,
+        "answer_start_js_baseline": 0.6802698373794556,
+        "answer_start_js_donor_erased": 0.6798645257949829,
+        "answer_start_js_both_erased": 0.6796021461486816,
+        "answer_start_js_reduction_donor_only": 0.00040531158447265625,
+        "answer_start_js_reduction_both": 0.0006676912307739258
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -5.335886441171169,
+          "canonical_candidate_margin_change": -0.0001026298850774765,
+          "donor_candidate_minus_canonical_margin": 1.3566120937466621,
+          "donor_candidate_margin_change": 0.008614862337708473,
+          "donor_candidate_margin_drop": -0.008614862337708473,
+          "donor_candidate_score_change": 4.1369348764419556e-06,
+          "donor_canonical_score_change": -0.008610725402832031,
+          "donor_shuffled_margin_change": -0.0012598037719726562,
+          "donor_shuffled_margin_drop": 0.0012598037719726562,
+          "answer_start_js_baseline": 0.6802698373794556,
+          "answer_start_js_donor_erased": 0.6802860498428345,
+          "answer_start_js_both_erased": 0.6802629232406616,
+          "answer_start_js_reduction_donor_only": -1.621246337890625e-05,
+          "answer_start_js_reduction_both": 6.9141387939453125e-06
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -5.336196347139776,
+          "canonical_candidate_margin_change": -0.0004125358536839485,
+          "donor_candidate_minus_canonical_margin": 1.3479904662817717,
+          "donor_candidate_margin_change": -6.765127182006836e-06,
+          "donor_candidate_margin_drop": 6.765127182006836e-06,
+          "donor_candidate_score_change": 7.370114326477051e-05,
+          "donor_canonical_score_change": 8.046627044677734e-05,
+          "donor_shuffled_margin_change": -0.01950681209564209,
+          "donor_shuffled_margin_drop": 0.01950681209564209,
+          "answer_start_js_baseline": 0.6802698373794556,
+          "answer_start_js_donor_erased": 0.6802895665168762,
+          "answer_start_js_both_erased": 0.6801123023033142,
+          "answer_start_js_reduction_donor_only": -1.9729137420654297e-05,
+          "answer_start_js_reduction_both": 0.00015753507614135742
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -5.336172332987189,
+          "canonical_candidate_margin_change": -0.0003885217010974884,
+          "donor_candidate_minus_canonical_margin": 1.356604415923357,
+          "donor_candidate_margin_change": 0.008607184514403343,
+          "donor_candidate_margin_drop": -0.008607184514403343,
+          "donor_candidate_score_change": 1.3863667845726013e-05,
+          "donor_canonical_score_change": -0.008593320846557617,
+          "donor_shuffled_margin_change": 0.0005834102630615234,
+          "donor_shuffled_margin_drop": -0.0005834102630615234,
+          "answer_start_js_baseline": 0.6802698373794556,
+          "answer_start_js_donor_erased": 0.6802986860275269,
+          "answer_start_js_both_erased": 0.6800979375839233,
+          "answer_start_js_reduction_donor_only": -2.8848648071289062e-05,
+          "answer_start_js_reduction_both": 0.00017189979553222656
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -5.336077976971865,
+          "canonical_candidate_margin_change": -0.0002941656857728958,
+          "donor_candidate_minus_canonical_margin": 1.35792232491076,
+          "donor_candidate_margin_change": 0.00992509350180626,
+          "donor_candidate_margin_drop": -0.00992509350180626,
+          "donor_candidate_score_change": 0.0013463161885738373,
+          "donor_canonical_score_change": -0.008578777313232422,
+          "donor_shuffled_margin_change": -0.005242824554443359,
+          "donor_shuffled_margin_drop": 0.005242824554443359,
+          "answer_start_js_baseline": 0.6802698373794556,
+          "answer_start_js_donor_erased": 0.6803253889083862,
+          "answer_start_js_both_erased": 0.6802895665168762,
+          "answer_start_js_reduction_donor_only": -5.555152893066406e-05,
+          "answer_start_js_reduction_both": -1.9729137420654297e-05
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -5.336452378891408,
+          "canonical_candidate_margin_change": -0.000668567605316639,
+          "donor_candidate_minus_canonical_margin": 1.3579124212265015,
+          "donor_candidate_margin_change": 0.009915189817547798,
+          "donor_candidate_margin_drop": -0.009915189817547798,
+          "donor_candidate_score_change": 0.001339869573712349,
+          "donor_canonical_score_change": -0.00857532024383545,
+          "donor_shuffled_margin_change": -0.0012155771255493164,
+          "donor_shuffled_margin_drop": 0.0012155771255493164,
+          "answer_start_js_baseline": 0.6802698373794556,
+          "answer_start_js_donor_erased": 0.6803280711174011,
+          "answer_start_js_both_erased": 0.6800696849822998,
+          "answer_start_js_reduction_donor_only": -5.823373794555664e-05,
+          "answer_start_js_reduction_both": 0.00020015239715576172
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -5.335783811286092,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 1.3479972314089537,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.6802698373794556,
+        "answer_start_js_donor_erased": 0.6802698373794556,
+        "answer_start_js_both_erased": 0.6802698373794556,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_4771",
+      "split": "validation",
+      "label": "HCE",
+      "candidate_answer": "La Fanciulla del West",
+      "canonical_answer": "Gianni Schicchi",
+      "shuffled_candidate_sample_id": "llama31|TriviaQA|jp_4141",
+      "baseline": {
+        "canonical_candidate_minus_canonical_margin": -0.5247255563735962,
+        "donor_candidate_minus_canonical_margin": 0.10536599159240723,
+        "donor_shuffled_minus_canonical_margin": -3.6582749485969543,
+        "answer_start_js": 0.17491678893566132
+      },
+      "true_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.5298921540379524,
+        "canonical_candidate_margin_change": -0.005166597664356232,
+        "donor_candidate_minus_canonical_margin": 0.105441153049469,
+        "donor_candidate_margin_change": 7.516145706176758e-05,
+        "donor_candidate_margin_drop": -7.516145706176758e-05,
+        "donor_candidate_score_change": 0.00914299488067627,
+        "donor_canonical_score_change": 0.009067833423614502,
+        "donor_shuffled_margin_change": 0.005716979503631592,
+        "donor_shuffled_margin_drop": -0.005716979503631592,
+        "answer_start_js_baseline": 0.17491678893566132,
+        "answer_start_js_donor_erased": 0.17002660036087036,
+        "answer_start_js_both_erased": 0.17173190414905548,
+        "answer_start_js_reduction_donor_only": 0.004890188574790955,
+        "answer_start_js_reduction_both": 0.003184884786605835
+      },
+      "unrelated_direction_erasure": {
+        "canonical_candidate_minus_canonical_margin": -0.5337727442383766,
+        "canonical_candidate_margin_change": -0.009047187864780426,
+        "donor_candidate_minus_canonical_margin": 0.10809454321861267,
+        "donor_candidate_margin_change": 0.0027285516262054443,
+        "donor_candidate_margin_drop": -0.0027285516262054443,
+        "donor_candidate_score_change": 0.002690553665161133,
+        "donor_canonical_score_change": -3.7997961044311523e-05,
+        "donor_shuffled_margin_change": 0.014144271612167358,
+        "donor_shuffled_margin_drop": -0.014144271612167358,
+        "answer_start_js_baseline": 0.17491678893566132,
+        "answer_start_js_donor_erased": 0.17420139908790588,
+        "answer_start_js_both_erased": 0.17616140842437744,
+        "answer_start_js_reduction_donor_only": 0.0007153898477554321,
+        "answer_start_js_reduction_both": -0.0012446194887161255
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_candidate_minus_canonical_margin": -0.5374911054968834,
+          "canonical_candidate_margin_change": -0.012765549123287201,
+          "donor_candidate_minus_canonical_margin": 0.10793012380599976,
+          "donor_candidate_margin_change": 0.0025641322135925293,
+          "donor_candidate_margin_drop": -0.0025641322135925293,
+          "donor_candidate_score_change": 0.002642989158630371,
+          "donor_canonical_score_change": 7.88569450378418e-05,
+          "donor_shuffled_margin_change": 0.02390366792678833,
+          "donor_shuffled_margin_drop": -0.02390366792678833,
+          "answer_start_js_baseline": 0.17491678893566132,
+          "answer_start_js_donor_erased": 0.1747698336839676,
+          "answer_start_js_both_erased": 0.175784170627594,
+          "answer_start_js_reduction_donor_only": 0.00014695525169372559,
+          "answer_start_js_reduction_both": -0.0008673816919326782
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.5330918803811073,
+          "canonical_candidate_margin_change": -0.008366324007511139,
+          "donor_candidate_minus_canonical_margin": 0.10833355784416199,
+          "donor_candidate_margin_change": 0.0029675662517547607,
+          "donor_candidate_margin_drop": -0.0029675662517547607,
+          "donor_candidate_score_change": 0.0025635361671447754,
+          "donor_canonical_score_change": -0.00040403008460998535,
+          "donor_shuffled_margin_change": 0.007690340280532837,
+          "donor_shuffled_margin_drop": -0.007690340280532837,
+          "answer_start_js_baseline": 0.17491678893566132,
+          "answer_start_js_donor_erased": 0.17414507269859314,
+          "answer_start_js_both_erased": 0.17445483803749084,
+          "answer_start_js_reduction_donor_only": 0.0007717162370681763,
+          "answer_start_js_reduction_both": 0.0004619508981704712
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.5338826552033424,
+          "canonical_candidate_margin_change": -0.009157098829746246,
+          "donor_candidate_minus_canonical_margin": 0.1083589494228363,
+          "donor_candidate_margin_change": 0.002992957830429077,
+          "donor_candidate_margin_drop": -0.002992957830429077,
+          "donor_candidate_score_change": 0.0020800232887268066,
+          "donor_canonical_score_change": -0.0009129345417022705,
+          "donor_shuffled_margin_change": 0.01202896237373352,
+          "donor_shuffled_margin_drop": -0.01202896237373352,
+          "answer_start_js_baseline": 0.17491678893566132,
+          "answer_start_js_donor_erased": 0.17421486973762512,
+          "answer_start_js_both_erased": 0.17640408873558044,
+          "answer_start_js_reduction_donor_only": 0.0007019191980361938,
+          "answer_start_js_reduction_both": -0.0014872997999191284
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.5285591557621956,
+          "canonical_candidate_margin_change": -0.0038335993885993958,
+          "donor_candidate_minus_canonical_margin": 0.10519935190677643,
+          "donor_candidate_margin_change": -0.00016663968563079834,
+          "donor_candidate_margin_drop": 0.00016663968563079834,
+          "donor_candidate_score_change": 0.00031863152980804443,
+          "donor_canonical_score_change": 0.0004852712154388428,
+          "donor_shuffled_margin_change": 0.01181378960609436,
+          "donor_shuffled_margin_drop": -0.01181378960609436,
+          "answer_start_js_baseline": 0.17491678893566132,
+          "answer_start_js_donor_erased": 0.17479655146598816,
+          "answer_start_js_both_erased": 0.1746254861354828,
+          "answer_start_js_reduction_donor_only": 0.00012023746967315674,
+          "answer_start_js_reduction_both": 0.00029130280017852783
+        },
+        {
+          "canonical_candidate_minus_canonical_margin": -0.5373412370681763,
+          "canonical_candidate_margin_change": -0.012615680694580078,
+          "donor_candidate_minus_canonical_margin": 0.10312934219837189,
+          "donor_candidate_margin_change": -0.0022366493940353394,
+          "donor_candidate_margin_drop": 0.0022366493940353394,
+          "donor_candidate_score_change": -0.001911655068397522,
+          "donor_canonical_score_change": 0.0003249943256378174,
+          "donor_shuffled_margin_change": 0.02619573473930359,
+          "donor_shuffled_margin_drop": -0.02619573473930359,
+          "answer_start_js_baseline": 0.17491678893566132,
+          "answer_start_js_donor_erased": 0.17495885491371155,
+          "answer_start_js_both_erased": 0.1769765019416809,
+          "answer_start_js_reduction_donor_only": -4.2065978050231934e-05,
+          "answer_start_js_reduction_both": -0.0020597130060195923
+        }
+      ],
+      "exact_noop": {
+        "canonical_candidate_minus_canonical_margin": -0.5247255563735962,
+        "canonical_candidate_margin_change": 0.0,
+        "donor_candidate_minus_canonical_margin": 0.10536599159240723,
+        "donor_candidate_margin_change": 0.0,
+        "donor_candidate_margin_drop": 0.0,
+        "donor_candidate_score_change": 0.0,
+        "donor_canonical_score_change": 0.0,
+        "donor_shuffled_margin_change": 0.0,
+        "donor_shuffled_margin_drop": 0.0,
+        "answer_start_js_baseline": 0.17491678893566132,
+        "answer_start_js_donor_erased": 0.17491678893566132,
+        "answer_start_js_both_erased": 0.17491678893566132,
+        "answer_start_js_reduction_donor_only": 0.0,
+        "answer_start_js_reduction_both": 0.0
+      }
+    }
+  ],
+  "validation_hcc_summary": {
+    "n": 30,
+    "true_canonical_sequence_score_change_mean": 0.0003357033245265484,
+    "true_canonical_sequence_score_change_p05": -0.00538669228553772,
+    "true_answer_start_kl_mean": 0.0001959542126561094,
+    "true_answer_start_js_mean": 4.908124647056885e-05,
+    "random_direction_sequence_score_change_mean": -0.00026030852925032374,
+    "unrelated_direction_sequence_score_change_mean": -0.0003888315831621488,
+    "max_abs_noop_sequence_score_change": 0.0
+  },
+  "validation_hcc_records": [
+    {
+      "sample_id": "llama31|TriviaQA|bb_1967",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "George Soros",
+      "baseline_canonical_sequence_score": -0.002453447552397847,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.002442830242216587,
+        "canonical_sequence_score_change": 1.0617310181260109e-05,
+        "answer_start_kl_from_baseline": 8.289103448078095e-07,
+        "answer_start_js_from_baseline": 2.1762200219654915e-07
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.0024430679623037577,
+        "canonical_sequence_score_change": 1.0379590094089508e-05,
+        "answer_start_kl_from_baseline": 2.388934035479906e-06,
+        "answer_start_js_from_baseline": 6.458373036366538e-07
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.002434407128021121,
+          "canonical_sequence_score_change": 1.904042437672615e-05,
+          "answer_start_kl_from_baseline": 1.0801126109072356e-06,
+          "answer_start_js_from_baseline": 3.1532857747151866e-07
+        },
+        {
+          "canonical_sequence_score": -0.002448761835694313,
+          "canonical_sequence_score_change": 4.685716703534126e-06,
+          "answer_start_kl_from_baseline": 5.91923935644445e-07,
+          "answer_start_js_from_baseline": 1.436510217445175e-07
+        },
+        {
+          "canonical_sequence_score": -0.002507839584723115,
+          "canonical_sequence_score_change": -5.439203232526779e-05,
+          "answer_start_kl_from_baseline": 7.101974915713072e-06,
+          "answer_start_js_from_baseline": 1.8224961877422174e-06
+        },
+        {
+          "canonical_sequence_score": -0.0024577185977250338,
+          "canonical_sequence_score_change": -4.2710453271865845e-06,
+          "answer_start_kl_from_baseline": 1.1749058330678963e-06,
+          "answer_start_js_from_baseline": 2.359886650538101e-07
+        },
+        {
+          "canonical_sequence_score": -0.0024648376274853945,
+          "canonical_sequence_score_change": -1.1390075087547302e-05,
+          "answer_start_kl_from_baseline": 1.5130679003050318e-06,
+          "answer_start_js_from_baseline": 3.602358447096776e-07
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.002453447552397847,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_3440",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Blessed.",
+      "baseline_canonical_sequence_score": -0.12896384298801422,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.12879450619220734,
+        "canonical_sequence_score_change": 0.00016933679580688477,
+        "answer_start_kl_from_baseline": 2.7402560590417124e-05,
+        "answer_start_js_from_baseline": 6.831183782196604e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.13291731476783752,
+        "canonical_sequence_score_change": -0.003953471779823303,
+        "answer_start_kl_from_baseline": 0.0009296369389630854,
+        "answer_start_js_from_baseline": 0.00023621213040314615
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.12888628244400024,
+          "canonical_sequence_score_change": 7.756054401397705e-05,
+          "answer_start_kl_from_baseline": 3.494310294627212e-05,
+          "answer_start_js_from_baseline": 8.730011359148193e-06
+        },
+        {
+          "canonical_sequence_score": -0.1272021234035492,
+          "canonical_sequence_score_change": 0.0017617195844650269,
+          "answer_start_kl_from_baseline": 0.0003885206824634224,
+          "answer_start_js_from_baseline": 9.55716532189399e-05
+        },
+        {
+          "canonical_sequence_score": -0.12720806896686554,
+          "canonical_sequence_score_change": 0.0017557740211486816,
+          "answer_start_kl_from_baseline": 0.0003750469768419862,
+          "answer_start_js_from_baseline": 9.208139817928895e-05
+        },
+        {
+          "canonical_sequence_score": -0.12866859138011932,
+          "canonical_sequence_score_change": 0.00029525160789489746,
+          "answer_start_kl_from_baseline": 2.203458279836923e-05,
+          "answer_start_js_from_baseline": 5.626930033031385e-06
+        },
+        {
+          "canonical_sequence_score": -0.12878632545471191,
+          "canonical_sequence_score_change": 0.00017751753330230713,
+          "answer_start_kl_from_baseline": 1.38052319016424e-05,
+          "answer_start_js_from_baseline": 3.527867647790117e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.12896384298801422,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_8498",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Pantheon.",
+      "baseline_canonical_sequence_score": -0.10475872457027435,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.1099887490272522,
+        "canonical_sequence_score_change": -0.005230024456977844,
+        "answer_start_kl_from_baseline": 0.0008529557380825281,
+        "answer_start_js_from_baseline": 0.00021706422558054328
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.10830338299274445,
+        "canonical_sequence_score_change": -0.0035446584224700928,
+        "answer_start_kl_from_baseline": 0.00084376783343032,
+        "answer_start_js_from_baseline": 0.00021470035426318645
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.10996764898300171,
+          "canonical_sequence_score_change": -0.005208924412727356,
+          "answer_start_kl_from_baseline": 0.000845080881845206,
+          "answer_start_js_from_baseline": 0.00021500789443962276
+        },
+        {
+          "canonical_sequence_score": -0.10828717797994614,
+          "canonical_sequence_score_change": -0.0035284534096717834,
+          "answer_start_kl_from_baseline": 0.0008369461284019053,
+          "answer_start_js_from_baseline": 0.000212933387956582
+        },
+        {
+          "canonical_sequence_score": -0.10994600504636765,
+          "canonical_sequence_score_change": -0.005187280476093292,
+          "answer_start_kl_from_baseline": 0.0008364471141248941,
+          "answer_start_js_from_baseline": 0.0002128124178852886
+        },
+        {
+          "canonical_sequence_score": -0.10993953794240952,
+          "canonical_sequence_score_change": -0.005180813372135162,
+          "answer_start_kl_from_baseline": 0.0008344514644704759,
+          "answer_start_js_from_baseline": 0.0002122130390489474
+        },
+        {
+          "canonical_sequence_score": -0.10993418097496033,
+          "canonical_sequence_score_change": -0.005175456404685974,
+          "answer_start_kl_from_baseline": 0.0008348351693712175,
+          "answer_start_js_from_baseline": 0.00021237788314465433
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.10475872457027435,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2892",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Bruno Mars",
+      "baseline_canonical_sequence_score": -0.002750474028289318,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.0024974739644676447,
+        "canonical_sequence_score_change": 0.0002530000638216734,
+        "answer_start_kl_from_baseline": 5.064352444605902e-05,
+        "answer_start_js_from_baseline": 1.2416663594194688e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.002452470362186432,
+        "canonical_sequence_score_change": 0.0002980036661028862,
+        "answer_start_kl_from_baseline": 5.4713920690119267e-05,
+        "answer_start_js_from_baseline": 1.3338272765395232e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.0027613488491624594,
+          "canonical_sequence_score_change": -1.0874820873141289e-05,
+          "answer_start_kl_from_baseline": 1.1309847423035535e-06,
+          "answer_start_js_from_baseline": 2.337221474135731e-07
+        },
+        {
+          "canonical_sequence_score": -0.002449668012559414,
+          "canonical_sequence_score_change": 0.0003008060157299042,
+          "answer_start_kl_from_baseline": 5.5206353863468394e-05,
+          "answer_start_js_from_baseline": 1.35071841214085e-05
+        },
+        {
+          "canonical_sequence_score": -0.0027637153398245573,
+          "canonical_sequence_score_change": -1.324131153523922e-05,
+          "answer_start_kl_from_baseline": 1.533310069135041e-06,
+          "answer_start_js_from_baseline": 3.7251544426908367e-07
+        },
+        {
+          "canonical_sequence_score": -0.0024471827782690525,
+          "canonical_sequence_score_change": 0.0003032912500202656,
+          "answer_start_kl_from_baseline": 5.614092879113741e-05,
+          "answer_start_js_from_baseline": 1.3680320989806205e-05
+        },
+        {
+          "canonical_sequence_score": -0.0024454863741993904,
+          "canonical_sequence_score_change": 0.0003049876540899277,
+          "answer_start_kl_from_baseline": 5.677090666722506e-05,
+          "answer_start_js_from_baseline": 1.3859333193977363e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.002750474028289318,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_1021",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "The Battle of Omdurman.",
+      "baseline_canonical_sequence_score": -0.1427898108959198,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.14274927973747253,
+        "canonical_sequence_score_change": 4.0531158447265625e-05,
+        "answer_start_kl_from_baseline": 4.1446332943451125e-06,
+        "answer_start_js_from_baseline": 1.023155505208706e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.13922780752182007,
+        "canonical_sequence_score_change": 0.0035620033740997314,
+        "answer_start_kl_from_baseline": 7.957420166349038e-06,
+        "answer_start_js_from_baseline": 1.972825657503563e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.13976183533668518,
+          "canonical_sequence_score_change": 0.003027975559234619,
+          "answer_start_kl_from_baseline": 6.181740445754258e-06,
+          "answer_start_js_from_baseline": 1.584034748702834e-06
+        },
+        {
+          "canonical_sequence_score": -0.13864891231060028,
+          "canonical_sequence_score_change": 0.004140898585319519,
+          "answer_start_kl_from_baseline": 4.140170858590864e-06,
+          "answer_start_js_from_baseline": 9.475393767388596e-07
+        },
+        {
+          "canonical_sequence_score": -0.1459559053182602,
+          "canonical_sequence_score_change": -0.003166094422340393,
+          "answer_start_kl_from_baseline": 0.001493446878157556,
+          "answer_start_js_from_baseline": 0.00037686992436647415
+        },
+        {
+          "canonical_sequence_score": -0.13912874460220337,
+          "canonical_sequence_score_change": 0.0036610662937164307,
+          "answer_start_kl_from_baseline": 7.756050763418898e-06,
+          "answer_start_js_from_baseline": 1.8750703247860656e-06
+        },
+        {
+          "canonical_sequence_score": -0.13912169635295868,
+          "canonical_sequence_score_change": 0.0036681145429611206,
+          "answer_start_kl_from_baseline": 1.716353108349722e-05,
+          "answer_start_js_from_baseline": 4.2848632801906206e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.1427898108959198,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_1607",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Pluto.",
+      "baseline_canonical_sequence_score": -0.10725852102041245,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.11917024105787277,
+        "canonical_sequence_score_change": -0.011911720037460327,
+        "answer_start_kl_from_baseline": 3.162606662954204e-05,
+        "answer_start_js_from_baseline": 7.973550054884981e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.10742013156414032,
+        "canonical_sequence_score_change": -0.00016161054372787476,
+        "answer_start_kl_from_baseline": 3.114775972790085e-05,
+        "answer_start_js_from_baseline": 7.838423698558472e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.11916183680295944,
+          "canonical_sequence_score_change": -0.011903315782546997,
+          "answer_start_kl_from_baseline": 3.0404225981328636e-05,
+          "answer_start_js_from_baseline": 7.669296792300884e-06
+        },
+        {
+          "canonical_sequence_score": -0.10743440687656403,
+          "canonical_sequence_score_change": -0.0001758858561515808,
+          "answer_start_kl_from_baseline": 3.236241536797024e-05,
+          "answer_start_js_from_baseline": 8.193464964278974e-06
+        },
+        {
+          "canonical_sequence_score": -0.11919205635786057,
+          "canonical_sequence_score_change": -0.01193353533744812,
+          "answer_start_kl_from_baseline": 3.2923166145337746e-05,
+          "answer_start_js_from_baseline": 8.331946446560323e-06
+        },
+        {
+          "canonical_sequence_score": -0.11917473375797272,
+          "canonical_sequence_score_change": -0.011916212737560272,
+          "answer_start_kl_from_baseline": 3.222281884518452e-05,
+          "answer_start_js_from_baseline": 8.150240319082513e-06
+        },
+        {
+          "canonical_sequence_score": -0.1191612109541893,
+          "canonical_sequence_score_change": -0.011902689933776855,
+          "answer_start_kl_from_baseline": 2.945875166915357e-05,
+          "answer_start_js_from_baseline": 7.515700872318121e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.10725852102041245,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_2848",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Sax Rohmer",
+      "baseline_canonical_sequence_score": -0.13156375288963318,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.12838570773601532,
+        "canonical_sequence_score_change": 0.003178045153617859,
+        "answer_start_kl_from_baseline": 3.91790081266663e-06,
+        "answer_start_js_from_baseline": 1.1266151886957232e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.13611553609371185,
+        "canonical_sequence_score_change": -0.004551783204078674,
+        "answer_start_kl_from_baseline": 0.0014866727869957685,
+        "answer_start_js_from_baseline": 0.0003752277116291225
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.136263906955719,
+          "canonical_sequence_score_change": -0.004700154066085815,
+          "answer_start_kl_from_baseline": 0.001488905749283731,
+          "answer_start_js_from_baseline": 0.0003756950027309358
+        },
+        {
+          "canonical_sequence_score": -0.13999968767166138,
+          "canonical_sequence_score_change": -0.008435934782028198,
+          "answer_start_kl_from_baseline": 0.0016093585873022676,
+          "answer_start_js_from_baseline": 0.0004052288131788373
+        },
+        {
+          "canonical_sequence_score": -0.12449734658002853,
+          "canonical_sequence_score_change": 0.007066406309604645,
+          "answer_start_kl_from_baseline": 0.0005753461155109107,
+          "answer_start_js_from_baseline": 0.00014107732567936182
+        },
+        {
+          "canonical_sequence_score": -0.126178577542305,
+          "canonical_sequence_score_change": 0.005385175347328186,
+          "answer_start_kl_from_baseline": 0.0005525341839529574,
+          "answer_start_js_from_baseline": 0.00013549266441259533
+        },
+        {
+          "canonical_sequence_score": -0.12866243720054626,
+          "canonical_sequence_score_change": 0.002901315689086914,
+          "answer_start_kl_from_baseline": 6.818366273364518e-06,
+          "answer_start_js_from_baseline": 1.7751153791323304e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.13156375288963318,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3968",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Chinook.",
+      "baseline_canonical_sequence_score": -0.11002814769744873,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.10044734925031662,
+        "canonical_sequence_score_change": 0.00958079844713211,
+        "answer_start_kl_from_baseline": 0.0006682713865302503,
+        "answer_start_js_from_baseline": 0.00016480201156809926
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.10740399360656738,
+        "canonical_sequence_score_change": 0.0026241540908813477,
+        "answer_start_kl_from_baseline": 0.00014036310312803835,
+        "answer_start_js_from_baseline": 3.559553806553595e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.10269446671009064,
+          "canonical_sequence_score_change": 0.007333680987358093,
+          "answer_start_kl_from_baseline": 7.603272388223559e-05,
+          "answer_start_js_from_baseline": 1.918519046739675e-05
+        },
+        {
+          "canonical_sequence_score": -0.10250163078308105,
+          "canonical_sequence_score_change": 0.007526516914367676,
+          "answer_start_kl_from_baseline": 9.211516953655519e-06,
+          "answer_start_js_from_baseline": 2.2703125068801455e-06
+        },
+        {
+          "canonical_sequence_score": -0.11000321805477142,
+          "canonical_sequence_score_change": 2.492964267730713e-05,
+          "answer_start_kl_from_baseline": 2.517064058338292e-05,
+          "answer_start_js_from_baseline": 6.2199169406085275e-06
+        },
+        {
+          "canonical_sequence_score": -0.10686051845550537,
+          "canonical_sequence_score_change": 0.0031676292419433594,
+          "answer_start_kl_from_baseline": 6.164071237435564e-06,
+          "answer_start_js_from_baseline": 1.5258110579452477e-06
+        },
+        {
+          "canonical_sequence_score": -0.10238178819417953,
+          "canonical_sequence_score_change": 0.0076463595032691956,
+          "answer_start_kl_from_baseline": 0.00015273771714419127,
+          "answer_start_js_from_baseline": 3.803055005846545e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.11002814769744873,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_397",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Conductor.",
+      "baseline_canonical_sequence_score": -0.09102293103933334,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.09088345617055893,
+        "canonical_sequence_score_change": 0.00013947486877441406,
+        "answer_start_kl_from_baseline": 9.802857675822452e-05,
+        "answer_start_js_from_baseline": 2.4396242224611342e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.09077683091163635,
+        "canonical_sequence_score_change": 0.00024610012769699097,
+        "answer_start_kl_from_baseline": 0.00010965054389089346,
+        "answer_start_js_from_baseline": 2.7150414098287e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.09116940200328827,
+          "canonical_sequence_score_change": -0.00014647096395492554,
+          "answer_start_kl_from_baseline": 2.5907220333465375e-05,
+          "answer_start_js_from_baseline": 6.518947884615045e-06
+        },
+        {
+          "canonical_sequence_score": -0.09103204309940338,
+          "canonical_sequence_score_change": -9.112060070037842e-06,
+          "answer_start_kl_from_baseline": 1.213114501297241e-06,
+          "answer_start_js_from_baseline": 3.0308967780001694e-07
+        },
+        {
+          "canonical_sequence_score": -0.09103360772132874,
+          "canonical_sequence_score_change": -1.0676681995391846e-05,
+          "answer_start_kl_from_baseline": 1.714271661512612e-06,
+          "answer_start_js_from_baseline": 3.322008410577837e-07
+        },
+        {
+          "canonical_sequence_score": -0.09098295867443085,
+          "canonical_sequence_score_change": 3.997236490249634e-05,
+          "answer_start_kl_from_baseline": 8.261074071924668e-06,
+          "answer_start_js_from_baseline": 2.0176760244794423e-06
+        },
+        {
+          "canonical_sequence_score": -0.09116899222135544,
+          "canonical_sequence_score_change": -0.00014606118202209473,
+          "answer_start_kl_from_baseline": 2.5166487830574624e-05,
+          "answer_start_js_from_baseline": 6.440852303057909e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.09102293103933334,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3553",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "T.E. Lawrence.",
+      "baseline_canonical_sequence_score": -0.13131164014339447,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.13152794539928436,
+        "canonical_sequence_score_change": -0.00021630525588989258,
+        "answer_start_kl_from_baseline": 5.546532406697224e-07,
+        "answer_start_js_from_baseline": 1.570804784023494e-07
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.13152651488780975,
+        "canonical_sequence_score_change": -0.0002148747444152832,
+        "answer_start_kl_from_baseline": 5.77593823436473e-07,
+        "answer_start_js_from_baseline": 8.749770330496176e-08
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.12970928847789764,
+          "canonical_sequence_score_change": 0.0016023516654968262,
+          "answer_start_kl_from_baseline": 4.755128202305059e-07,
+          "answer_start_js_from_baseline": 8.391205597035878e-08
+        },
+        {
+          "canonical_sequence_score": -0.1355312317609787,
+          "canonical_sequence_score_change": -0.0042195916175842285,
+          "answer_start_kl_from_baseline": 0.0010807125363498926,
+          "answer_start_js_from_baseline": 0.00027389905881136656
+        },
+        {
+          "canonical_sequence_score": -0.1328958123922348,
+          "canonical_sequence_score_change": -0.001584172248840332,
+          "answer_start_kl_from_baseline": 9.197764256896335e-07,
+          "answer_start_js_from_baseline": 1.9277067053735664e-07
+        },
+        {
+          "canonical_sequence_score": -0.12990479171276093,
+          "canonical_sequence_score_change": 0.001406848430633545,
+          "answer_start_kl_from_baseline": 4.989282160750008e-07,
+          "answer_start_js_from_baseline": 1.3245707464193401e-07
+        },
+        {
+          "canonical_sequence_score": -0.13131381571292877,
+          "canonical_sequence_score_change": -2.175569534301758e-06,
+          "answer_start_kl_from_baseline": 4.500428474329965e-07,
+          "answer_start_js_from_baseline": 9.986667492967172e-08
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.13131164014339447,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_4235",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Bull's-Eye",
+      "baseline_canonical_sequence_score": -0.11594140529632568,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.11598457396030426,
+        "canonical_sequence_score_change": -4.316866397857666e-05,
+        "answer_start_kl_from_baseline": 9.265944754588418e-06,
+        "answer_start_js_from_baseline": 2.3926072572066914e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.11863499134778976,
+        "canonical_sequence_score_change": -0.002693586051464081,
+        "answer_start_kl_from_baseline": 2.4149045202648267e-05,
+        "answer_start_js_from_baseline": 5.987248641758924e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.11602331697940826,
+          "canonical_sequence_score_change": -8.191168308258057e-05,
+          "answer_start_kl_from_baseline": 8.696257282281294e-06,
+          "answer_start_js_from_baseline": 2.072511506412411e-06
+        },
+        {
+          "canonical_sequence_score": -0.11021199077367783,
+          "canonical_sequence_score_change": 0.005729414522647858,
+          "answer_start_kl_from_baseline": 1.720782347547356e-05,
+          "answer_start_js_from_baseline": 4.337021891842596e-06
+        },
+        {
+          "canonical_sequence_score": -0.11583501100540161,
+          "canonical_sequence_score_change": 0.00010639429092407227,
+          "answer_start_kl_from_baseline": 2.2670235921395943e-05,
+          "answer_start_js_from_baseline": 5.5271093515329994e-06
+        },
+        {
+          "canonical_sequence_score": -0.11867165565490723,
+          "canonical_sequence_score_change": -0.002730250358581543,
+          "answer_start_kl_from_baseline": 6.85877057549078e-06,
+          "answer_start_js_from_baseline": 1.7468033775003278e-06
+        },
+        {
+          "canonical_sequence_score": -0.11592555046081543,
+          "canonical_sequence_score_change": 1.5854835510253906e-05,
+          "answer_start_kl_from_baseline": 9.625900020182598e-06,
+          "answer_start_js_from_baseline": 2.3815564418327995e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.11594140529632568,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5124",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Russell Crowe.",
+      "baseline_canonical_sequence_score": -0.07941442728042603,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.0794147402048111,
+        "canonical_sequence_score_change": -3.129243850708008e-07,
+        "answer_start_kl_from_baseline": 5.970354521878107e-08,
+        "answer_start_js_from_baseline": 6.850984846096253e-08
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.07943267375230789,
+        "canonical_sequence_score_change": -1.8246471881866455e-05,
+        "answer_start_kl_from_baseline": 5.682873506884789e-06,
+        "answer_start_js_from_baseline": 1.547063902762602e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.0794021412730217,
+          "canonical_sequence_score_change": 1.2286007404327393e-05,
+          "answer_start_kl_from_baseline": -7.870111318197814e-08,
+          "answer_start_js_from_baseline": 3.689384087124381e-08
+        },
+        {
+          "canonical_sequence_score": -0.07941354066133499,
+          "canonical_sequence_score_change": 8.866190910339355e-07,
+          "answer_start_kl_from_baseline": 1.0268408345837088e-07,
+          "answer_start_js_from_baseline": 1.865524623667625e-08
+        },
+        {
+          "canonical_sequence_score": -0.07939238846302032,
+          "canonical_sequence_score_change": 2.2038817405700684e-05,
+          "answer_start_kl_from_baseline": 2.943252184195444e-06,
+          "answer_start_js_from_baseline": 6.799418770242482e-07
+        },
+        {
+          "canonical_sequence_score": -0.0794021338224411,
+          "canonical_sequence_score_change": 1.2293457984924316e-05,
+          "answer_start_kl_from_baseline": -1.860382781160297e-08,
+          "answer_start_js_from_baseline": 3.5490721472797304e-08
+        },
+        {
+          "canonical_sequence_score": -0.07941479980945587,
+          "canonical_sequence_score_change": -3.725290298461914e-07,
+          "answer_start_kl_from_baseline": 1.2872706633970665e-07,
+          "answer_start_js_from_baseline": 2.8677021646217327e-08
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.07941442728042603,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5502",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Prometheus.",
+      "baseline_canonical_sequence_score": -0.03000630810856819,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.029268581420183182,
+        "canonical_sequence_score_change": 0.0007377266883850098,
+        "answer_start_kl_from_baseline": 0.00013924171798862517,
+        "answer_start_js_from_baseline": 3.398491389816627e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.026800116524100304,
+        "canonical_sequence_score_change": 0.003206191584467888,
+        "answer_start_kl_from_baseline": 0.00010561934323050082,
+        "answer_start_js_from_baseline": 2.576913175289519e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.029442718252539635,
+          "canonical_sequence_score_change": 0.0005635898560285568,
+          "answer_start_kl_from_baseline": 0.00010748228669399396,
+          "answer_start_js_from_baseline": 2.6216588594252244e-05
+        },
+        {
+          "canonical_sequence_score": -0.029452955350279808,
+          "canonical_sequence_score_change": 0.0005533527582883835,
+          "answer_start_kl_from_baseline": 0.00010506787657504901,
+          "answer_start_js_from_baseline": 2.5581895897630602e-05
+        },
+        {
+          "canonical_sequence_score": -0.030019544064998627,
+          "canonical_sequence_score_change": -1.323595643043518e-05,
+          "answer_start_kl_from_baseline": 2.663368377398001e-06,
+          "answer_start_js_from_baseline": 6.78380729368655e-07
+        },
+        {
+          "canonical_sequence_score": -0.029449094086885452,
+          "canonical_sequence_score_change": 0.0005572140216827393,
+          "answer_start_kl_from_baseline": 0.00010477626346983016,
+          "answer_start_js_from_baseline": 2.5581897716620006e-05
+        },
+        {
+          "canonical_sequence_score": -0.02925874851644039,
+          "canonical_sequence_score_change": 0.0007475595921278,
+          "answer_start_kl_from_baseline": 0.00013989483704790473,
+          "answer_start_js_from_baseline": 3.4191099985037e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.03000630810856819,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6748",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Leeds.",
+      "baseline_canonical_sequence_score": -0.027743227779865265,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.027747560292482376,
+        "canonical_sequence_score_change": -4.332512617111206e-06,
+        "answer_start_kl_from_baseline": 2.150748059648322e-07,
+        "answer_start_js_from_baseline": 3.4730476272670785e-08
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.02774844691157341,
+        "canonical_sequence_score_change": -5.219131708145142e-06,
+        "answer_start_kl_from_baseline": 5.676849923474947e-07,
+        "answer_start_js_from_baseline": 1.5913656170596369e-07
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.02775004506111145,
+          "canonical_sequence_score_change": -6.817281246185303e-06,
+          "answer_start_kl_from_baseline": 6.742615710209066e-07,
+          "answer_start_js_from_baseline": 1.6268549529740994e-07
+        },
+        {
+          "canonical_sequence_score": -0.027784571051597595,
+          "canonical_sequence_score_change": -4.134327173233032e-05,
+          "answer_start_kl_from_baseline": 7.231387371575693e-06,
+          "answer_start_js_from_baseline": 1.804260136850644e-06
+        },
+        {
+          "canonical_sequence_score": -0.027700169011950493,
+          "canonical_sequence_score_change": 4.3058767914772034e-05,
+          "answer_start_kl_from_baseline": 8.947128662839532e-06,
+          "answer_start_js_from_baseline": 2.1952000679448247e-06
+        },
+        {
+          "canonical_sequence_score": -0.027792952954769135,
+          "canonical_sequence_score_change": -4.972517490386963e-05,
+          "answer_start_kl_from_baseline": 2.2825068413112604e-07,
+          "answer_start_js_from_baseline": 3.1658906607390236e-08
+        },
+        {
+          "canonical_sequence_score": -0.027743879705667496,
+          "canonical_sequence_score_change": -6.51925802230835e-07,
+          "answer_start_kl_from_baseline": 2.6671546038414817e-07,
+          "answer_start_js_from_baseline": 5.391820678823933e-08
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.027743227779865265,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8379",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Bleak House.",
+      "baseline_canonical_sequence_score": -0.09818928688764572,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.09803521633148193,
+        "canonical_sequence_score_change": 0.00015407055616378784,
+        "answer_start_kl_from_baseline": 9.466021583648399e-05,
+        "answer_start_js_from_baseline": 2.3421203877660446e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.10776937007904053,
+        "canonical_sequence_score_change": -0.009580083191394806,
+        "answer_start_kl_from_baseline": 7.303124584723264e-05,
+        "answer_start_js_from_baseline": 1.7964990547625348e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.10826203972101212,
+          "canonical_sequence_score_change": -0.010072752833366394,
+          "answer_start_kl_from_baseline": 7.868277316447347e-05,
+          "answer_start_js_from_baseline": 2.0096355001442134e-05
+        },
+        {
+          "canonical_sequence_score": -0.09818726778030396,
+          "canonical_sequence_score_change": 2.0191073417663574e-06,
+          "answer_start_kl_from_baseline": 1.1858276138809742e-06,
+          "answer_start_js_from_baseline": 3.075540746522165e-07
+        },
+        {
+          "canonical_sequence_score": -0.10800293833017349,
+          "canonical_sequence_score_change": -0.009813651442527771,
+          "answer_start_kl_from_baseline": 1.2455191154003842e-06,
+          "answer_start_js_from_baseline": 3.200853484486288e-07
+        },
+        {
+          "canonical_sequence_score": -0.09891437739133835,
+          "canonical_sequence_score_change": -0.000725090503692627,
+          "answer_start_kl_from_baseline": 0.0003732637851499021,
+          "answer_start_js_from_baseline": 9.692306775832549e-05
+        },
+        {
+          "canonical_sequence_score": -0.10800039023160934,
+          "canonical_sequence_score_change": -0.009811103343963623,
+          "answer_start_kl_from_baseline": 1.4283424434324843e-06,
+          "answer_start_js_from_baseline": 3.1084246643331426e-07
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.09818928688764572,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_270",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Carry On Up the Khyber.",
+      "baseline_canonical_sequence_score": -0.06664422154426575,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.06663540750741959,
+        "canonical_sequence_score_change": 8.814036846160889e-06,
+        "answer_start_kl_from_baseline": 1.734843317535706e-05,
+        "answer_start_js_from_baseline": 4.378402991278563e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.06631646305322647,
+        "canonical_sequence_score_change": 0.0003277584910392761,
+        "answer_start_kl_from_baseline": 2.8315431336523034e-05,
+        "answer_start_js_from_baseline": 7.024372280284297e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.06588540226221085,
+          "canonical_sequence_score_change": 0.0007588192820549011,
+          "answer_start_kl_from_baseline": 2.6895106202573515e-05,
+          "answer_start_js_from_baseline": 6.665507498837542e-06
+        },
+        {
+          "canonical_sequence_score": -0.06662283092737198,
+          "canonical_sequence_score_change": 2.139061689376831e-05,
+          "answer_start_kl_from_baseline": 2.595164187368937e-05,
+          "answer_start_js_from_baseline": 6.571043741132598e-06
+        },
+        {
+          "canonical_sequence_score": -0.0667479857802391,
+          "canonical_sequence_score_change": -0.00010376423597335815,
+          "answer_start_kl_from_baseline": 1.9219660316593945e-05,
+          "answer_start_js_from_baseline": 4.919245384371607e-06
+        },
+        {
+          "canonical_sequence_score": -0.06610427051782608,
+          "canonical_sequence_score_change": 0.0005399510264396667,
+          "answer_start_kl_from_baseline": 2.6566316591924988e-05,
+          "answer_start_js_from_baseline": 6.595199920411687e-06
+        },
+        {
+          "canonical_sequence_score": -0.06636391580104828,
+          "canonical_sequence_score_change": 0.00028030574321746826,
+          "answer_start_kl_from_baseline": 3.7737040656793397e-06,
+          "answer_start_js_from_baseline": 8.464519396511605e-07
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.06664422154426575,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_2661",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "David Berkowitz.",
+      "baseline_canonical_sequence_score": -0.08378568291664124,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.08403313159942627,
+        "canonical_sequence_score_change": -0.0002474486827850342,
+        "answer_start_kl_from_baseline": 6.0562058934010565e-05,
+        "answer_start_js_from_baseline": 1.5512487152591348e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.09254559129476547,
+        "canonical_sequence_score_change": -0.008759908378124237,
+        "answer_start_kl_from_baseline": 4.03915100832819e-06,
+        "answer_start_js_from_baseline": 1.0411421271783183e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.08401616662740707,
+          "canonical_sequence_score_change": -0.00023048371076583862,
+          "answer_start_kl_from_baseline": 6.0863527323817834e-05,
+          "answer_start_js_from_baseline": 1.5535160855506547e-05
+        },
+        {
+          "canonical_sequence_score": -0.09258163720369339,
+          "canonical_sequence_score_change": -0.008795954287052155,
+          "answer_start_kl_from_baseline": 2.8148515411885455e-06,
+          "answer_start_js_from_baseline": 7.940778914417024e-07
+        },
+        {
+          "canonical_sequence_score": -0.0837920606136322,
+          "canonical_sequence_score_change": -6.377696990966797e-06,
+          "answer_start_kl_from_baseline": 3.6214223086972197e-07,
+          "answer_start_js_from_baseline": 1.337077435437095e-07
+        },
+        {
+          "canonical_sequence_score": -0.09255587309598923,
+          "canonical_sequence_score_change": -0.008770190179347992,
+          "answer_start_kl_from_baseline": 3.344075594213791e-06,
+          "answer_start_js_from_baseline": 9.075937441593851e-07
+        },
+        {
+          "canonical_sequence_score": -0.08397816121578217,
+          "canonical_sequence_score_change": -0.00019247829914093018,
+          "answer_start_kl_from_baseline": 4.472348155104555e-05,
+          "answer_start_js_from_baseline": 1.1521075066411868e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.08378568291664124,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_12650",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Tennessee Williams.",
+      "baseline_canonical_sequence_score": -0.059063538908958435,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.05364750325679779,
+        "canonical_sequence_score_change": 0.0054160356521606445,
+        "answer_start_kl_from_baseline": 0.0002469473984092474,
+        "answer_start_js_from_baseline": 6.4162552007474e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.059701886028051376,
+        "canonical_sequence_score_change": -0.0006383471190929413,
+        "answer_start_kl_from_baseline": 0.00029041102970950305,
+        "answer_start_js_from_baseline": 7.5583862781059e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.05928982421755791,
+          "canonical_sequence_score_change": -0.00022628530859947205,
+          "answer_start_kl_from_baseline": 5.4195585107663646e-05,
+          "answer_start_js_from_baseline": 1.3841883628629148e-05
+        },
+        {
+          "canonical_sequence_score": -0.05907068029046059,
+          "canonical_sequence_score_change": -7.141381502151489e-06,
+          "answer_start_kl_from_baseline": -9.787299859453924e-09,
+          "answer_start_js_from_baseline": 1.8332229956286028e-08
+        },
+        {
+          "canonical_sequence_score": -0.05335864797234535,
+          "canonical_sequence_score_change": 0.005704890936613083,
+          "answer_start_kl_from_baseline": 6.766476872144267e-05,
+          "answer_start_js_from_baseline": 1.7345570086035877e-05
+        },
+        {
+          "canonical_sequence_score": -0.05929836630821228,
+          "canonical_sequence_score_change": -0.00023482739925384521,
+          "answer_start_kl_from_baseline": 5.416279600467533e-05,
+          "answer_start_js_from_baseline": 1.384937968396116e-05
+        },
+        {
+          "canonical_sequence_score": -0.053136568516492844,
+          "canonical_sequence_score_change": 0.005926970392465591,
+          "answer_start_kl_from_baseline": 1.3755370673607104e-05,
+          "answer_start_js_from_baseline": 3.5172488423995674e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.059063538908958435,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_1794",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "The Sunday Post.",
+      "baseline_canonical_sequence_score": -0.07998640835285187,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.08141960203647614,
+        "canonical_sequence_score_change": -0.0014331936836242676,
+        "answer_start_kl_from_baseline": -1.8689397052185086e-07,
+        "answer_start_js_from_baseline": 2.1068576216975998e-08
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.08143088221549988,
+        "canonical_sequence_score_change": -0.0014444738626480103,
+        "answer_start_kl_from_baseline": 1.7892085679704905e-07,
+        "answer_start_js_from_baseline": 3.470842457886647e-08
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.0789736658334732,
+          "canonical_sequence_score_change": 0.0010127425193786621,
+          "answer_start_kl_from_baseline": 2.170627624309418e-07,
+          "answer_start_js_from_baseline": 9.232373088252643e-08
+        },
+        {
+          "canonical_sequence_score": -0.0812741219997406,
+          "canonical_sequence_score_change": -0.001287713646888733,
+          "answer_start_kl_from_baseline": 5.4330157581716776e-05,
+          "answer_start_js_from_baseline": 1.3355248484003823e-05
+        },
+        {
+          "canonical_sequence_score": -0.08252234756946564,
+          "canonical_sequence_score_change": -0.0025359392166137695,
+          "answer_start_kl_from_baseline": 1.9546638441170217e-07,
+          "answer_start_js_from_baseline": 2.7546430914071607e-08
+        },
+        {
+          "canonical_sequence_score": -0.08124490827322006,
+          "canonical_sequence_score_change": -0.0012584999203681946,
+          "answer_start_kl_from_baseline": 5.027501174481586e-06,
+          "answer_start_js_from_baseline": 1.2842588148487266e-06
+        },
+        {
+          "canonical_sequence_score": -0.08114472776651382,
+          "canonical_sequence_score_change": -0.0011583194136619568,
+          "answer_start_kl_from_baseline": 5.30030629306566e-05,
+          "answer_start_js_from_baseline": 1.300854728469858e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.07998640835285187,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10705",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Jura.",
+      "baseline_canonical_sequence_score": -0.13391482830047607,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.13074716925621033,
+        "canonical_sequence_score_change": 0.003167659044265747,
+        "answer_start_kl_from_baseline": 0.0005623418837785721,
+        "answer_start_js_from_baseline": 0.00013803603360429406
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.1305149346590042,
+        "canonical_sequence_score_change": 0.003399893641471863,
+        "answer_start_kl_from_baseline": 0.0005956589593552053,
+        "answer_start_js_from_baseline": 0.00014628542703576386
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.139741450548172,
+          "canonical_sequence_score_change": -0.005826622247695923,
+          "answer_start_kl_from_baseline": 0.0009264865657314658,
+          "answer_start_js_from_baseline": 0.00023520286777056754
+        },
+        {
+          "canonical_sequence_score": -0.12180408835411072,
+          "canonical_sequence_score_change": 0.012110739946365356,
+          "answer_start_kl_from_baseline": 0.0005592472734861076,
+          "answer_start_js_from_baseline": 0.000137271243147552
+        },
+        {
+          "canonical_sequence_score": -0.1363210678100586,
+          "canonical_sequence_score_change": -0.0024062395095825195,
+          "answer_start_kl_from_baseline": 0.00041969091398641467,
+          "answer_start_js_from_baseline": 0.00010699263657443225
+        },
+        {
+          "canonical_sequence_score": -0.13622987270355225,
+          "canonical_sequence_score_change": -0.002315044403076172,
+          "answer_start_kl_from_baseline": 0.00039988409844227135,
+          "answer_start_js_from_baseline": 0.00010204952559433877
+        },
+        {
+          "canonical_sequence_score": -0.13075116276741028,
+          "canonical_sequence_score_change": 0.003163665533065796,
+          "answer_start_kl_from_baseline": 0.0005594576941803098,
+          "answer_start_js_from_baseline": 0.00013741155271418393
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.13391482830047607,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16888",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Buckinghamshire.",
+      "baseline_canonical_sequence_score": -0.04107361659407616,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.041005466133356094,
+        "canonical_sequence_score_change": 6.815046072006226e-05,
+        "answer_start_kl_from_baseline": 2.6954275256230176e-08,
+        "answer_start_js_from_baseline": 3.448842278430675e-08
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.04108899459242821,
+        "canonical_sequence_score_change": -1.537799835205078e-05,
+        "answer_start_kl_from_baseline": 5.008690550312167e-06,
+        "answer_start_js_from_baseline": 1.3317234106580145e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.04107246920466423,
+          "canonical_sequence_score_change": 1.1473894119262695e-06,
+          "answer_start_kl_from_baseline": 5.646182543728173e-08,
+          "answer_start_js_from_baseline": 5.7482431259359146e-08
+        },
+        {
+          "canonical_sequence_score": -0.04105474427342415,
+          "canonical_sequence_score_change": 1.8872320652008057e-05,
+          "answer_start_kl_from_baseline": -7.627417630828859e-08,
+          "answer_start_js_from_baseline": 2.3330798626375326e-08
+        },
+        {
+          "canonical_sequence_score": -0.04107263311743736,
+          "canonical_sequence_score_change": 9.834766387939453e-07,
+          "answer_start_kl_from_baseline": 2.7400008661970787e-07,
+          "answer_start_js_from_baseline": 3.136725013064279e-08
+        },
+        {
+          "canonical_sequence_score": -0.04107397794723511,
+          "canonical_sequence_score_change": -3.6135315895080566e-07,
+          "answer_start_kl_from_baseline": -2.907324159195923e-08,
+          "answer_start_js_from_baseline": 7.121257361575317e-09
+        },
+        {
+          "canonical_sequence_score": -0.041053660213947296,
+          "canonical_sequence_score_change": 1.9956380128860474e-05,
+          "answer_start_kl_from_baseline": 2.139479136076261e-07,
+          "answer_start_js_from_baseline": 2.11658921500657e-08
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.04107361659407616,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_189",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "St. Bartholomew's Day.",
+      "baseline_canonical_sequence_score": -0.0701640248298645,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.06586320698261261,
+        "canonical_sequence_score_change": 0.004300817847251892,
+        "answer_start_kl_from_baseline": 0.001696610590443015,
+        "answer_start_js_from_baseline": 0.0004208359750919044
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.06578218936920166,
+        "canonical_sequence_score_change": 0.004381835460662842,
+        "answer_start_kl_from_baseline": 0.0018217333126813173,
+        "answer_start_js_from_baseline": 0.0004509745049290359
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.06574705243110657,
+          "canonical_sequence_score_change": 0.004416972398757935,
+          "answer_start_kl_from_baseline": 0.001695862622000277,
+          "answer_start_js_from_baseline": 0.0004206488956697285
+        },
+        {
+          "canonical_sequence_score": -0.06246497109532356,
+          "canonical_sequence_score_change": 0.007699053734540939,
+          "answer_start_kl_from_baseline": 0.006625395268201828,
+          "answer_start_js_from_baseline": 0.001627638004720211
+        },
+        {
+          "canonical_sequence_score": -0.06599318981170654,
+          "canonical_sequence_score_change": 0.004170835018157959,
+          "answer_start_kl_from_baseline": 0.0016669903416186571,
+          "answer_start_js_from_baseline": 0.0004133674083277583
+        },
+        {
+          "canonical_sequence_score": -0.07022136449813843,
+          "canonical_sequence_score_change": -5.733966827392578e-05,
+          "answer_start_kl_from_baseline": 6.676581847386842e-07,
+          "answer_start_js_from_baseline": 1.438006052012497e-07
+        },
+        {
+          "canonical_sequence_score": -0.0659392774105072,
+          "canonical_sequence_score_change": 0.0042247474193573,
+          "answer_start_kl_from_baseline": 0.001666950760409236,
+          "answer_start_js_from_baseline": 0.0004133267211727798
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.0701640248298645,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_20405",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Nirvana.",
+      "baseline_canonical_sequence_score": -0.12334305047988892,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.11198954284191132,
+        "canonical_sequence_score_change": 0.0113535076379776,
+        "answer_start_kl_from_baseline": 1.737123398015683e-06,
+        "answer_start_js_from_baseline": 4.086212470610917e-07
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.11199595779180527,
+        "canonical_sequence_score_change": 0.011347092688083649,
+        "answer_start_kl_from_baseline": 2.0935151496814797e-06,
+        "answer_start_js_from_baseline": 5.280001573737536e-07
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.1233474537730217,
+          "canonical_sequence_score_change": -4.403293132781982e-06,
+          "answer_start_kl_from_baseline": 3.891580490744673e-06,
+          "answer_start_js_from_baseline": 9.68073436524719e-07
+        },
+        {
+          "canonical_sequence_score": -0.11199980974197388,
+          "canonical_sequence_score_change": 0.011343240737915039,
+          "answer_start_kl_from_baseline": 3.689915047289105e-06,
+          "answer_start_js_from_baseline": 9.80804315986461e-07
+        },
+        {
+          "canonical_sequence_score": -0.11198924481868744,
+          "canonical_sequence_score_change": 0.011353805661201477,
+          "answer_start_kl_from_baseline": 5.810521997773321e-06,
+          "answer_start_js_from_baseline": 1.4603691624870407e-06
+        },
+        {
+          "canonical_sequence_score": -0.12334588915109634,
+          "canonical_sequence_score_change": -2.8386712074279785e-06,
+          "answer_start_kl_from_baseline": 3.9983433453016914e-06,
+          "answer_start_js_from_baseline": 9.826915174926398e-07
+        },
+        {
+          "canonical_sequence_score": -0.12334471940994263,
+          "canonical_sequence_score_change": -1.6689300537109375e-06,
+          "answer_start_kl_from_baseline": 4.021359472972108e-06,
+          "answer_start_js_from_baseline": 1.0311880487279268e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.12334305047988892,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22467",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "1960s",
+      "baseline_canonical_sequence_score": -0.05312369018793106,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.0586385652422905,
+        "canonical_sequence_score_change": -0.005514875054359436,
+        "answer_start_kl_from_baseline": 0.0008832885650917888,
+        "answer_start_js_from_baseline": 0.0002242231130367145
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.058627646416425705,
+        "canonical_sequence_score_change": -0.005503956228494644,
+        "answer_start_kl_from_baseline": 0.000882473774254322,
+        "answer_start_js_from_baseline": 0.0002239963796455413
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.053309015929698944,
+          "canonical_sequence_score_change": -0.0001853257417678833,
+          "answer_start_kl_from_baseline": 1.1882619219250046e-05,
+          "answer_start_js_from_baseline": 3.040483306904207e-06
+        },
+        {
+          "canonical_sequence_score": -0.055091314017772675,
+          "canonical_sequence_score_change": -0.0019676238298416138,
+          "answer_start_kl_from_baseline": 0.0003457225684542209,
+          "answer_start_js_from_baseline": 8.798410271992907e-05
+        },
+        {
+          "canonical_sequence_score": -0.05906863510608673,
+          "canonical_sequence_score_change": -0.00594494491815567,
+          "answer_start_kl_from_baseline": 0.0009638371993787587,
+          "answer_start_js_from_baseline": 0.0002446967992000282
+        },
+        {
+          "canonical_sequence_score": -0.059012409299612045,
+          "canonical_sequence_score_change": -0.0058887191116809845,
+          "answer_start_kl_from_baseline": 0.0009637355105951428,
+          "answer_start_js_from_baseline": 0.0002446940343361348
+        },
+        {
+          "canonical_sequence_score": -0.05319034680724144,
+          "canonical_sequence_score_change": -6.665661931037903e-05,
+          "answer_start_kl_from_baseline": 1.3102656339469831e-05,
+          "answer_start_js_from_baseline": 3.2992829801514745e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.05312369018793106,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_25534",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Norman Mailer.",
+      "baseline_canonical_sequence_score": -0.09605888277292252,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.09603586792945862,
+        "canonical_sequence_score_change": 2.3014843463897705e-05,
+        "answer_start_kl_from_baseline": 5.33965794602409e-06,
+        "answer_start_js_from_baseline": 1.318013801210327e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.09607063978910446,
+        "canonical_sequence_score_change": -1.17570161819458e-05,
+        "answer_start_kl_from_baseline": 7.552191163995303e-06,
+        "answer_start_js_from_baseline": 1.9621106730483007e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.09605240076780319,
+          "canonical_sequence_score_change": 6.4820051193237305e-06,
+          "answer_start_kl_from_baseline": 1.0879912224481814e-05,
+          "answer_start_js_from_baseline": 2.7702931220119353e-06
+        },
+        {
+          "canonical_sequence_score": -0.09692014753818512,
+          "canonical_sequence_score_change": -0.0008612647652626038,
+          "answer_start_kl_from_baseline": 0.0002587097114883363,
+          "answer_start_js_from_baseline": 6.588124961126596e-05
+        },
+        {
+          "canonical_sequence_score": -0.09605081379413605,
+          "canonical_sequence_score_change": 8.068978786468506e-06,
+          "answer_start_kl_from_baseline": 3.4618412882991834e-06,
+          "answer_start_js_from_baseline": 8.26173163659405e-07
+        },
+        {
+          "canonical_sequence_score": -0.09592608362436295,
+          "canonical_sequence_score_change": 0.0001327991485595703,
+          "answer_start_kl_from_baseline": 4.013907891931012e-05,
+          "answer_start_js_from_baseline": 9.864161256700754e-06
+        },
+        {
+          "canonical_sequence_score": -0.09602025896310806,
+          "canonical_sequence_score_change": 3.8623809814453125e-05,
+          "answer_start_kl_from_baseline": 6.800258233852219e-06,
+          "answer_start_js_from_baseline": 1.7200932234118227e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.09605888277292252,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_6607",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Aconcagua.",
+      "baseline_canonical_sequence_score": -0.04433349147439003,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.04435968026518822,
+        "canonical_sequence_score_change": -2.6188790798187256e-05,
+        "answer_start_kl_from_baseline": 5.0894518608401995e-06,
+        "answer_start_js_from_baseline": 1.3193148333812132e-06
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.04428008943796158,
+        "canonical_sequence_score_change": 5.340203642845154e-05,
+        "answer_start_kl_from_baseline": 2.4807306999719003e-06,
+        "answer_start_js_from_baseline": 6.440683932851243e-07
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.04430240020155907,
+          "canonical_sequence_score_change": 3.1091272830963135e-05,
+          "answer_start_kl_from_baseline": 1.8235473362437915e-06,
+          "answer_start_js_from_baseline": 4.6817646648378286e-07
+        },
+        {
+          "canonical_sequence_score": -0.0443120039999485,
+          "canonical_sequence_score_change": 2.148747444152832e-05,
+          "answer_start_kl_from_baseline": 2.7475086881167954e-06,
+          "answer_start_js_from_baseline": 7.102040058271086e-07
+        },
+        {
+          "canonical_sequence_score": -0.04434336721897125,
+          "canonical_sequence_score_change": -9.875744581222534e-06,
+          "answer_start_kl_from_baseline": 1.314049654865812e-06,
+          "answer_start_js_from_baseline": 4.0724424366089806e-07
+        },
+        {
+          "canonical_sequence_score": -0.04451541230082512,
+          "canonical_sequence_score_change": -0.0001819208264350891,
+          "answer_start_kl_from_baseline": 1.2242456932654022e-06,
+          "answer_start_js_from_baseline": 3.67285167612863e-07
+        },
+        {
+          "canonical_sequence_score": -0.04433362931013107,
+          "canonical_sequence_score_change": -1.3783574104309082e-07,
+          "answer_start_kl_from_baseline": 1.4212500900612213e-06,
+          "answer_start_js_from_baseline": 4.967847075931786e-07
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.04433349147439003,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_720",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Yellowstone National Park.",
+      "baseline_canonical_sequence_score": -0.05414317920804024,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.05410480499267578,
+        "canonical_sequence_score_change": 3.837421536445618e-05,
+        "answer_start_kl_from_baseline": -1.2607642929651774e-08,
+        "answer_start_js_from_baseline": 3.129636638732336e-08
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.05231456086039543,
+        "canonical_sequence_score_change": 0.001828618347644806,
+        "answer_start_kl_from_baseline": 4.686404508902342e-08,
+        "answer_start_js_from_baseline": 7.706965732268145e-09
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.054104696959257126,
+          "canonical_sequence_score_change": 3.848224878311157e-05,
+          "answer_start_kl_from_baseline": -9.126792122060579e-08,
+          "answer_start_js_from_baseline": 2.8189095502284545e-09
+        },
+        {
+          "canonical_sequence_score": -0.052348922938108444,
+          "canonical_sequence_score_change": 0.0017942562699317932,
+          "answer_start_kl_from_baseline": -5.5316149882855825e-08,
+          "answer_start_js_from_baseline": 7.848967698009801e-09
+        },
+        {
+          "canonical_sequence_score": -0.052318014204502106,
+          "canonical_sequence_score_change": 0.0018251650035381317,
+          "answer_start_kl_from_baseline": -1.4633161526944605e-07,
+          "answer_start_js_from_baseline": 2.2543957811649307e-09
+        },
+        {
+          "canonical_sequence_score": -0.05231595039367676,
+          "canonical_sequence_score_change": 0.0018272288143634796,
+          "answer_start_kl_from_baseline": 1.2621887890418293e-07,
+          "answer_start_js_from_baseline": 3.249112978664925e-08
+        },
+        {
+          "canonical_sequence_score": -0.058663733303546906,
+          "canonical_sequence_score_change": -0.004520554095506668,
+          "answer_start_kl_from_baseline": 2.815318111970555e-08,
+          "answer_start_js_from_baseline": 3.171916773681005e-08
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.05414317920804024,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_819",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Rodgers and Hammerstein.",
+      "baseline_canonical_sequence_score": -0.09647219628095627,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.09715087711811066,
+        "canonical_sequence_score_change": -0.0006786808371543884,
+        "answer_start_kl_from_baseline": 0.0002413713518762961,
+        "answer_start_js_from_baseline": 6.149220280349255e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.09722214937210083,
+        "canonical_sequence_score_change": -0.0007499530911445618,
+        "answer_start_kl_from_baseline": 0.0002640388556756079,
+        "answer_start_js_from_baseline": 6.729995948262513e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.09696676582098007,
+          "canonical_sequence_score_change": -0.0004945695400238037,
+          "answer_start_kl_from_baseline": 0.00017936206131707877,
+          "answer_start_js_from_baseline": 4.566387724480592e-05
+        },
+        {
+          "canonical_sequence_score": -0.09643422067165375,
+          "canonical_sequence_score_change": 3.797560930252075e-05,
+          "answer_start_kl_from_baseline": 5.321915068634553e-06,
+          "answer_start_js_from_baseline": 1.2934011692777858e-06
+        },
+        {
+          "canonical_sequence_score": -0.09696239233016968,
+          "canonical_sequence_score_change": -0.0004901960492134094,
+          "answer_start_kl_from_baseline": 0.00017794287123251706,
+          "answer_start_js_from_baseline": 4.525021722656675e-05
+        },
+        {
+          "canonical_sequence_score": -0.09720289707183838,
+          "canonical_sequence_score_change": -0.0007307007908821106,
+          "answer_start_kl_from_baseline": 0.00025838249712251127,
+          "answer_start_js_from_baseline": 6.584704533452168e-05
+        },
+        {
+          "canonical_sequence_score": -0.09644822776317596,
+          "canonical_sequence_score_change": 2.3968517780303955e-05,
+          "answer_start_kl_from_baseline": 2.530346864659805e-05,
+          "answer_start_js_from_baseline": 6.437968295358587e-06
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.09647219628095627,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_3026",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "The Great Barrier Reef.",
+      "baseline_canonical_sequence_score": -0.12593744695186615,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.12957094609737396,
+        "canonical_sequence_score_change": -0.0036334991455078125,
+        "answer_start_kl_from_baseline": 0.0001755215780576691,
+        "answer_start_js_from_baseline": 4.462086144485511e-05
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.1270567625761032,
+        "canonical_sequence_score_change": -0.0011193156242370605,
+        "answer_start_kl_from_baseline": 0.00027278944617137313,
+        "answer_start_js_from_baseline": 6.944120832486078e-05
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.12635564804077148,
+          "canonical_sequence_score_change": -0.00041820108890533447,
+          "answer_start_kl_from_baseline": 8.445383718935773e-05,
+          "answer_start_js_from_baseline": 2.1466377802425995e-05
+        },
+        {
+          "canonical_sequence_score": -0.12857629358768463,
+          "canonical_sequence_score_change": -0.0026388466358184814,
+          "answer_start_kl_from_baseline": 2.865294118237216e-05,
+          "answer_start_js_from_baseline": 7.418606401188299e-06
+        },
+        {
+          "canonical_sequence_score": -0.12640506029129028,
+          "canonical_sequence_score_change": -0.0004676133394241333,
+          "answer_start_kl_from_baseline": 0.00011060988617828116,
+          "answer_start_js_from_baseline": 2.8181373636471108e-05
+        },
+        {
+          "canonical_sequence_score": -0.1293376088142395,
+          "canonical_sequence_score_change": -0.003400161862373352,
+          "answer_start_kl_from_baseline": 0.0001268984779017046,
+          "answer_start_js_from_baseline": 3.231388836866245e-05
+        },
+        {
+          "canonical_sequence_score": -0.12644045054912567,
+          "canonical_sequence_score_change": -0.0005030035972595215,
+          "answer_start_kl_from_baseline": 8.696445729583502e-05,
+          "answer_start_js_from_baseline": 2.210827369708568e-05
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.12593744695186615,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_3935",
+      "split": "validation",
+      "label": "HCC",
+      "canonical_answer": "Jamaica.",
+      "baseline_canonical_sequence_score": -0.12964734435081482,
+      "true_direction_erasure": {
+        "canonical_sequence_score": -0.12927646934986115,
+        "canonical_sequence_score_change": 0.0003708750009536743,
+        "answer_start_kl_from_baseline": 8.2422639025026e-07,
+        "answer_start_js_from_baseline": 1.3264740061913471e-07
+      },
+      "unrelated_direction_erasure": {
+        "canonical_sequence_score": -0.12963110208511353,
+        "canonical_sequence_score_change": 1.6242265701293945e-05,
+        "answer_start_kl_from_baseline": 1.0899805602093693e-05,
+        "answer_start_js_from_baseline": 2.7534661057870835e-06
+      },
+      "random_direction_erasures": [
+        {
+          "canonical_sequence_score": -0.12880989909172058,
+          "canonical_sequence_score_change": 0.0008374452590942383,
+          "answer_start_kl_from_baseline": 3.567198064047261e-06,
+          "answer_start_js_from_baseline": 8.961238791016513e-07
+        },
+        {
+          "canonical_sequence_score": -0.12932489812374115,
+          "canonical_sequence_score_change": 0.00032244622707366943,
+          "answer_start_kl_from_baseline": 3.7335860270104604e-06,
+          "answer_start_js_from_baseline": 9.240834515367169e-07
+        },
+        {
+          "canonical_sequence_score": -0.12888799607753754,
+          "canonical_sequence_score_change": 0.0007593482732772827,
+          "answer_start_kl_from_baseline": 8.416974196734373e-06,
+          "answer_start_js_from_baseline": 2.048396709142253e-06
+        },
+        {
+          "canonical_sequence_score": -0.12895865738391876,
+          "canonical_sequence_score_change": 0.0006886869668960571,
+          "answer_start_kl_from_baseline": 3.6441497286432423e-06,
+          "answer_start_js_from_baseline": 9.153598057309864e-07
+        },
+        {
+          "canonical_sequence_score": -0.12965521216392517,
+          "canonical_sequence_score_change": -7.867813110351562e-06,
+          "answer_start_kl_from_baseline": 3.759249239010387e-06,
+          "answer_start_js_from_baseline": 8.844882586345193e-07
+        }
+      ],
+      "exact_noop": {
+        "canonical_sequence_score": -0.12964734435081482,
+        "canonical_sequence_score_change": 0.0,
+        "answer_start_kl_from_baseline": 0.0,
+        "answer_start_js_from_baseline": 0.0
+      }
+    }
+  ],
+  "elapsed_seconds": 10.029459714889526
+}

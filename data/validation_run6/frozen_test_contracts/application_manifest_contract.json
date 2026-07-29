@@ -1,0 +1,83 @@
+{
+  "allowed_class_strata": [
+    "HCC",
+    "HCE"
+  ],
+  "allowed_record_fields": [
+    "class_stratum",
+    "dataset",
+    "fact_key_sha256",
+    "model",
+    "pair_id",
+    "sample_id",
+    "split"
+  ],
+  "allowed_splits": [
+    "fresh_locked_test",
+    "locked",
+    "locked_test"
+  ],
+  "cohort_kind": "frozen_test",
+  "forbidden_supervision_tokens": [
+    "automatic_label",
+    "correct",
+    "correctness",
+    "failure_type",
+    "gold",
+    "gold_alias",
+    "gold_aliases",
+    "label",
+    "quality_category",
+    "review_reason",
+    "review_status"
+  ],
+  "locked_accessed": false,
+  "note": "This public contract describes future authorized access; it contains no frozen-test rows or features.",
+  "positive_class": "HCE",
+  "prediction_guarantees": {
+    "class_stratum_used_for_prediction": false,
+    "layer_selection_performed": false,
+    "output_locked_accessed": true,
+    "refit_performed": false,
+    "threshold_search_performed": false
+  },
+  "required_feature_roles_by_cell": {
+    "llama31|TriviaQA": [
+      "behavioral",
+      "candidate",
+      "nli",
+      "persistence"
+    ],
+    "mistral7|TriviaQA": [
+      "behavioral",
+      "candidate",
+      "nli",
+      "persistence"
+    ],
+    "nemo12|PopQA": [
+      "behavioral",
+      "candidate",
+      "nli",
+      "persistence"
+    ],
+    "qwen14|PopQA": [
+      "behavioral",
+      "candidate",
+      "nli",
+      "persistence"
+    ],
+    "qwen8|TriviaQA": [
+      "behavioral",
+      "candidate",
+      "nli",
+      "persistence"
+    ]
+  },
+  "required_positions": [
+    "prompt_end",
+    "first_answer",
+    "mean_answer"
+  ],
+  "schema_version": "one-confidence-mosaic-v1-frozen-application-v1",
+  "selected_method": "learned_gate_no_phenotype"
+}

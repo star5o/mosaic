@@ -1,0 +1,15 @@
+{
+  "schema_version": "one-confidence-mosaic-v1-run6-frozen-mitigation-artifacts-v1",
+  "authorization_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_mitigation_authorized.json",
+  "authorization_sha256": "45f7502078c960199b83a67a603db896efd8021da355ed200767e7224fd4f7eb",
+  "runtime_benchmark_sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb",
+  "outputs": {
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_frozen_decisions_run6.json": "70b8b893134ba86249141ac45969b43003e882b9fa21664285639a8eb71097ce",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_decision_freeze_run6.json": "3163c1e0e6b1e166d4b7d6b6f1ec65fa7bbfaaacb9e1bced668510231d179532",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_mitigation_locked_run6.json": "7264f5cf88ad56750523da896d0c6b61e6e11bf740df9c8a56163d3edfc610cc",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_mitigation_locked_run6.csv": "c8b2319c743f792f8a0fda8e55155bc1c3931b0412efde26fceed14bb3359ca0",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_frozen_outcomes_run6.json": "7fb460be015615c2a7c722add3deee387bf983f35c29c99d6cc7d4858b1dca99",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_cost_locked_run6.json": "947f1e02c5577e0e61aa0b62e08dcb99423ac145a935b4607d1db77e33faf741",
+    "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_cost_locked_run6.csv": "51f22d00417bc7d7a2e771ae7a34b110ad431746d25cab4e6b4dc97675992322"
+  }
+}

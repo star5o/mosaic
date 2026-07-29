@@ -1,0 +1,46 @@
+{
+  "schema_version": "one-confidence-mosaic-v1-frozen-result-compile-manifest-v1",
+  "created_date": "2026-07-29",
+  "purpose": "compile the single authorized Run6 frozen-test application without fitting, threshold search, or layer selection",
+  "positive_class": "HCE",
+  "selected_run": "one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization",
+  "selected_method": "learned_gate_no_phenotype",
+  "locked_rows": 654,
+  "locked_pairs": 327,
+  "scored_methods_per_cell": 18,
+  "unavailable_methods": {
+    "pale": "unavailable_no_frozen_faithful_implementation"
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026072912,
+    "interval": "percentile 95%",
+    "unit": "connected fact/question groups preserving complete HCE/HCC matched pairs"
+  },
+  "frozen_guarantees": {
+    "refit_performed": false,
+    "threshold_search_performed": false,
+    "layer_selection_performed": false,
+    "locked_result_used_for_selection": false,
+    "application_count": 1
+  },
+  "application_authorization": {
+    "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_application_authorized.json",
+    "sha256": "9d98b96664e41b3c30b783f6f7dac34f43d4d15b5dc94470dfa2d5834958d3e8"
+  },
+  "compiler": {
+    "path": "experiments/hallucination/compile_one_confidence_mosaic_v1_frozen_results.py",
+    "sha256": "f16038c5ee298e61a2d02f4467109c90ee895bf3a6714de4edaca4cce0d038c9"
+  },
+  "test": {
+    "path": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_frozen_results.py",
+    "sha256": "b47a1b6f132a4ba8fdc4378189c4bd137a9bc89c4ce65a7c6fc2728825e87fa2",
+    "result": "28 passed across compiler, frozen application, and locked evaluation tests"
+  },
+  "outputs": {
+    "table_main_detection.json": "1a1517f05dcc99299e19cf333f193607b088e71ebd380c08695060f56c7d5c1f",
+    "table_main_detection.csv": "1b0bacf819b6163f336e67f37375e1732cd745645820eb8ad9b330cd8f1f4fa3",
+    "frozen_test_bootstrap.json": "3bdc00d77822cc4debbd43f05f0ce9541b203f8bb13f5a420938b6df7b1bb733",
+    "frozen_test_bootstrap.csv": "bf0507490e18dcbfff060dd9fca533d38a139ddcfaf8718e0a42b4658ca23b04"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "rows": [
+    {
+      "aggregation": "cell",
+      "cell": "mistral7|TriviaQA",
+      "split": "validation",
+      "phenotype": "behavioral_recoverable",
+      "count": 3,
+      "TP": 3,
+      "FN": 0,
+      "recall": 1.0,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "mistral7|TriviaQA",
+      "split": "validation",
+      "phenotype": "assessed_persistent",
+      "count": 12,
+      "TP": 9,
+      "FN": 3,
+      "recall": 0.75,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "mistral7|TriviaQA",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 60,
+      "TP": 31,
+      "FN": 29,
+      "recall": 0.5166666666666667,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "mistral7|TriviaQA",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 75,
+      "FP": 7,
+      "TN": 68,
+      "fpr": 0.09333333333333334,
+      "interpretation": "matched high-confidence-correct control"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen8|TriviaQA",
+      "split": "validation",
+      "phenotype": "behavioral_recoverable",
+      "count": 5,
+      "TP": 4,
+      "FN": 1,
+      "recall": 0.8,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen8|TriviaQA",
+      "split": "validation",
+      "phenotype": "assessed_persistent",
+      "count": 5,
+      "TP": 5,
+      "FN": 0,
+      "recall": 1.0,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen8|TriviaQA",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 80,
+      "TP": 49,
+      "FN": 31,
+      "recall": 0.6125,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen8|TriviaQA",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 90,
+      "FP": 9,
+      "TN": 81,
+      "fpr": 0.1,
+      "interpretation": "matched high-confidence-correct control"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "llama31|TriviaQA",
+      "split": "validation",
+      "phenotype": "behavioral_recoverable",
+      "count": 7,
+      "TP": 7,
+      "FN": 0,
+      "recall": 1.0,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "llama31|TriviaQA",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 46,
+      "TP": 12,
+      "FN": 34,
+      "recall": 0.2608695652173913,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "llama31|TriviaQA",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 53,
+      "FP": 5,
+      "TN": 48,
+      "fpr": 0.09433962264150944,
+      "interpretation": "matched high-confidence-correct control"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen14|PopQA",
+      "split": "validation",
+      "phenotype": "behavioral_recoverable",
+      "count": 3,
+      "TP": 3,
+      "FN": 0,
+      "recall": 1.0,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen14|PopQA",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 55,
+      "TP": 18,
+      "FN": 37,
+      "recall": 0.32727272727272727,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "qwen14|PopQA",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 58,
+      "FP": 3,
+      "TN": 55,
+      "fpr": 0.05172413793103448,
+      "interpretation": "matched high-confidence-correct control"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "nemo12|PopQA",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 52,
+      "TP": 21,
+      "FN": 31,
+      "recall": 0.40384615384615385,
+      "interpretation": "descriptive HCE-stratum recall; phenotype never used to select this detector"
+    },
+    {
+      "aggregation": "cell",
+      "cell": "nemo12|PopQA",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 52,
+      "FP": 5,
+      "TN": 47,
+      "fpr": 0.09615384615384616,
+      "interpretation": "matched high-confidence-correct control"
+    },
+    {
+      "aggregation": "macro",
+      "cell": "macro_5_eligible_cells",
+      "split": "validation",
+      "phenotype": "HCC_control",
+      "count": 328,
+      "fpr": 0.08711018801194467,
+      "interpretation": "equal-cell mean across cells containing this stratum"
+    },
+    {
+      "aggregation": "macro",
+      "cell": "macro_2_eligible_cells",
+      "split": "validation",
+      "phenotype": "assessed_persistent",
+      "count": 17,
+      "recall": 0.875,
+      "interpretation": "equal-cell mean across cells containing this stratum"
+    },
+    {
+      "aggregation": "macro",
+      "cell": "macro_4_eligible_cells",
+      "split": "validation",
+      "phenotype": "behavioral_recoverable",
+      "count": 18,
+      "recall": 0.95,
+      "interpretation": "equal-cell mean across cells containing this stratum"
+    },
+    {
+      "aggregation": "macro",
+      "cell": "macro_5_eligible_cells",
+      "split": "validation",
+      "phenotype": "unassessed_HCE",
+      "count": 293,
+      "recall": 0.42423102260058787,
+      "interpretation": "equal-cell mean across cells containing this stratum"
+    }
+  ]
+}

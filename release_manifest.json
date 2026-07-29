@@ -1,0 +1,2394 @@
+{
+  "schema_version": "one-confidence-mosaic-github-release-v1",
+  "scientific_status": "limited_and_negative_closure",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "38b361eceaf0e55e4f08034c23b533053652839b810d3baec32d92f058cdeb63",
+      "size_bytes": 111,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "README.md",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "c739cb7b69dd5eb7d36ec4e83d509f6942adf8f251bf785365ace842e52c62a8",
+      "size_bytes": 2403,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "configs/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/feature_manifest.json",
+      "source_sha256": "b1486c4dc97a14aa74e62368e7f731a019388770018f492850e712bff244ed4d",
+      "release_sha256": "b1486c4dc97a14aa74e62368e7f731a019388770018f492850e712bff244ed4d",
+      "size_bytes": 22233,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "configs/final_thresholds.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/final_thresholds.json",
+      "source_sha256": "fc448c35cb855100258db4523eb33d2f92a9f8e2b8ad45e8d965a5c12b0fb842",
+      "release_sha256": "fc448c35cb855100258db4523eb33d2f92a9f8e2b8ad45e8d965a5c12b0fb842",
+      "size_bytes": 3375,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "configs/model_provenance.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/model_checkpoints/index.json",
+      "source_sha256": "0d2478fc1add85726ef108b4558ca7de9c0075af951e19a1060d41627159ac36",
+      "release_sha256": "0d2478fc1add85726ef108b4558ca7de9c0075af951e19a1060d41627159ac36",
+      "size_bytes": 2592,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "configs/protocol.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/protocol.json",
+      "source_sha256": "eb50ccd3a7f19e7347a40121e186dc996b83f19470535c93e4535bdd9dbe73ef",
+      "release_sha256": "eb50ccd3a7f19e7347a40121e186dc996b83f19470535c93e4535bdd9dbe73ef",
+      "size_bytes": 5455,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "configs/protocol_public_freeze_addendum.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/protocol_public_freeze_addendum.json",
+      "source_sha256": "d3a1c5d03a383590745acad7202dc21eb9e58b11e3af0f02e2109609c5782652",
+      "release_sha256": "d3a1c5d03a383590745acad7202dc21eb9e58b11e3af0f02e2109609c5782652",
+      "size_bytes": 1539,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/evaluation_freeze_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/evaluation_freeze_manifest.json",
+      "source_sha256": "ecad98a41082c64339fcf0837e7537d70c893f2850727c1cea56a112ee2064a4",
+      "release_sha256": "ecad98a41082c64339fcf0837e7537d70c893f2850727c1cea56a112ee2064a4",
+      "size_bytes": 20924,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-inside-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-inside-eval-k4.json",
+      "source_sha256": "c37e1718cf28ce6c459bef049e7e9c321483138c15fc625c92fabc8f05dc8e2a",
+      "release_sha256": "c37e1718cf28ce6c459bef049e7e9c321483138c15fc625c92fabc8f05dc8e2a",
+      "size_bytes": 66947,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-inside-k4.json",
+      "source_sha256": "d4ba5c1027ca0bbfdc4db9524bd0bab6d01015b761075c8f40158516dfd6b118",
+      "release_sha256": "d4ba5c1027ca0bbfdc4db9524bd0bab6d01015b761075c8f40158516dfd6b118",
+      "size_bytes": 116667,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-feature-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-feature-scores.json",
+      "source_sha256": "5e5ea883ba071d42302067c0c42c1fe858fb371877197fce8b08928dd2bef316",
+      "release_sha256": "5e5ea883ba071d42302067c0c42c1fe858fb371877197fce8b08928dd2bef316",
+      "size_bytes": 71032,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-frozen-matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-frozen-matrix.json",
+      "source_sha256": "9cdfc34ec1a66e8ae9a206f9476a7571c0f9cf04954207c679a5f528a9718a81",
+      "release_sha256": "9cdfc34ec1a66e8ae9a206f9476a7571c0f9cf04954207c679a5f528a9718a81",
+      "size_bytes": 356167,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-inside-k4.json",
+      "source_sha256": "3b150adbf33063f3570a8bfd5fd05aeb4144d3a255d76bf35fbef04f8c1dfdb5",
+      "release_sha256": "3b150adbf33063f3570a8bfd5fd05aeb4144d3a255d76bf35fbef04f8c1dfdb5",
+      "size_bytes": 37464,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-los-eval.json",
+      "source_sha256": "6228328341fe931d2114d7100eb5f2fd6cedfe220e36a5ef45ccbbbd4e6d689a",
+      "release_sha256": "6228328341fe931d2114d7100eb5f2fd6cedfe220e36a5ef45ccbbbd4e6d689a",
+      "size_bytes": 18607,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-mosaic-v0.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-mosaic-v0.json",
+      "source_sha256": "49d0bd2061d2951d1bef1c0cd2ac2f23b6c986635bba25c45bb2f858c63bb8e6",
+      "release_sha256": "49d0bd2061d2951d1bef1c0cd2ac2f23b6c986635bba25c45bb2f858c63bb8e6",
+      "size_bytes": 124960,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-paraphrase-panel.jsonl",
+      "source_sha256": "416d581b6ac95486cda4ca293d605f0ef93a38b12d5eab518eed2174d447d72e",
+      "release_sha256": "416d581b6ac95486cda4ca293d605f0ef93a38b12d5eab518eed2174d447d72e",
+      "size_bytes": 49370,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-paraphrase-scores.json",
+      "source_sha256": "85cf7d5a7eb6ed3c7c815c6787e45d44725b9f5e2e3740b0eb62cf33d8fc95c7",
+      "release_sha256": "85cf7d5a7eb6ed3c7c815c6787e45d44725b9f5e2e3740b0eb62cf33d8fc95c7",
+      "size_bytes": 37855,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-ptrue.json",
+      "source_sha256": "51640b2ce0e792575446478d368fbe8045094c13a19b2f273c6b35d0b82c936c",
+      "release_sha256": "51640b2ce0e792575446478d368fbe8045094c13a19b2f273c6b35d0b82c936c",
+      "size_bytes": 33936,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-samples-k4.jsonl",
+      "source_sha256": "8312883f53b7d0627c95f06194917b87129c9abdc3e571bfc396d10d12a32bfe",
+      "release_sha256": "8312883f53b7d0627c95f06194917b87129c9abdc3e571bfc396d10d12a32bfe",
+      "size_bytes": 35720,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-locked-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-locked-sampling-scores-k4.json",
+      "source_sha256": "bd537319a3d9c29634c756747f2549d1726c0c7f4e2da8cb273abb3cb4f1c34d",
+      "release_sha256": "bd537319a3d9c29634c756747f2549d1726c0c7f4e2da8cb273abb3cb4f1c34d",
+      "size_bytes": 46708,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-los-eval.json",
+      "source_sha256": "87a47caf44438ca5c457da19a15fc2f5acb02e7f29204648003f26ec3838df42",
+      "release_sha256": "87a47caf44438ca5c457da19a15fc2f5acb02e7f29204648003f26ec3838df42",
+      "size_bytes": 57782,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-paraphrase-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-paraphrase-eval.json",
+      "source_sha256": "b38a00a53625ab178524ccd505a7d198f3f3aebb5b1bc7dec95d908006713297",
+      "release_sha256": "b38a00a53625ab178524ccd505a7d198f3f3aebb5b1bc7dec95d908006713297",
+      "size_bytes": 60941,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-paraphrase-panel.jsonl",
+      "source_sha256": "7b28a8dc924a2ec63f6a3f41a0706e13aab2662bcb774638a400833e8324f464",
+      "release_sha256": "7b28a8dc924a2ec63f6a3f41a0706e13aab2662bcb774638a400833e8324f464",
+      "size_bytes": 153609,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-paraphrase-scores.json",
+      "source_sha256": "6f7e0acf76d6217c45758d29055694f4de4880f75d546c2d15ae6f34f26b482d",
+      "release_sha256": "6f7e0acf76d6217c45758d29055694f4de4880f75d546c2d15ae6f34f26b482d",
+      "size_bytes": 117546,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-ptrue-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-ptrue-eval.json",
+      "source_sha256": "f7b298eb6cd080b84024c4715cd9cf899fb95a10fff7e145c38a51759bfad8dc",
+      "release_sha256": "f7b298eb6cd080b84024c4715cd9cf899fb95a10fff7e145c38a51759bfad8dc",
+      "size_bytes": 67448,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-ptrue.json",
+      "source_sha256": "a6573bd7f1a48cda0dd199427bfa18b516045cee24204475025d3d5016a44414",
+      "release_sha256": "a6573bd7f1a48cda0dd199427bfa18b516045cee24204475025d3d5016a44414",
+      "size_bytes": 106006,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-public-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-public-eval.json",
+      "source_sha256": "2ecda8df8907dd9e024dbc0909dcdfe682cac598d084c71d91d7f75e2dc5a924",
+      "release_sha256": "2ecda8df8907dd9e024dbc0909dcdfe682cac598d084c71d91d7f75e2dc5a924",
+      "size_bytes": 267755,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-samples-k4.jsonl",
+      "source_sha256": "52a54d335c3a0fdb49ac60c4d3159b663a5db7a376247ad83609bf415396cddc",
+      "release_sha256": "52a54d335c3a0fdb49ac60c4d3159b663a5db7a376247ad83609bf415396cddc",
+      "size_bytes": 110894,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-sampling-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-sampling-eval-k4.json",
+      "source_sha256": "08c4b8440e8abe37230f6b8bc80fb08a5c6f76dc62e0e35beeeea95106152587",
+      "release_sha256": "08c4b8440e8abe37230f6b8bc80fb08a5c6f76dc62e0e35beeeea95106152587",
+      "size_bytes": 122809,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/llama31-triviaqa-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-sampling-scores-k4.json",
+      "source_sha256": "b8f76170d78438cf580a16a1008efdfa5e650a3d92e96440c42f6a7ede0db4f0",
+      "release_sha256": "b8f76170d78438cf580a16a1008efdfa5e650a3d92e96440c42f6a7ede0db4f0",
+      "size_bytes": 144122,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_access_audit.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_access_audit.json",
+      "source_sha256": "64f43252229d51bbe3b929beef0d7c3cfd1b9b14c3826b333384a5139c6fc9a7",
+      "release_sha256": "64f43252229d51bbe3b929beef0d7c3cfd1b9b14c3826b333384a5139c6fc9a7",
+      "size_bytes": 541,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_bootstrap_ci.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_bootstrap_ci.json",
+      "source_sha256": "9cabe449260fc5490b128ba45ea03368fd43d6fe302a047cda32ab868c501019",
+      "release_sha256": "9cabe449260fc5490b128ba45ea03368fd43d6fe302a047cda32ab868c501019",
+      "size_bytes": 41389,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_fp_fn_ids.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_fp_fn_ids.json",
+      "source_sha256": "74ee43716682156be4bb9d0ed62a7c9db57349c47e5c3625c0a8f561f5268228",
+      "release_sha256": "74ee43716682156be4bb9d0ed62a7c9db57349c47e5c3625c0a8f561f5268228",
+      "size_bytes": 172564,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_materialization_correction.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_materialization_correction.json",
+      "source_sha256": "2cf59436f37e4262ac80b67d62109b6e3ccfddfdc5609b400f3c333a6df3bf2a",
+      "release_sha256": "2cf59436f37e4262ac80b67d62109b6e3ccfddfdc5609b400f3c333a6df3bf2a",
+      "size_bytes": 983,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_matrix.csv",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_matrix.csv",
+      "source_sha256": "460cdb6af951860da160d4819911bf11351595820f6ce605cef9de4b7bfcaf9d",
+      "release_sha256": "460cdb6af951860da160d4819911bf11351595820f6ce605cef9de4b7bfcaf9d",
+      "size_bytes": 15558,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_matrix.json",
+      "source_sha256": "3b606864c3987583b0182748b0dc49c45b00173c05b7d33975d3372b884e81e6",
+      "release_sha256": "3b606864c3987583b0182748b0dc49c45b00173c05b7d33975d3372b884e81e6",
+      "size_bytes": 45428,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/locked_runtime_benchmark.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+      "source_sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb",
+      "release_sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb",
+      "size_bytes": 1838360,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/minimal_mosaic_public.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/minimal_mosaic_public.json",
+      "source_sha256": "348e114280a59880fe7deac334f826951422cd17b57316c7c1e79fc0ba51f76b",
+      "release_sha256": "348e114280a59880fe7deac334f826951422cd17b57316c7c1e79fc0ba51f76b",
+      "size_bytes": 2621775,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-inside-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-inside-eval-k4.json",
+      "source_sha256": "b831429236d63eeb5212b778708672418014a33fbb9b9b0a7fd1db811ef13de2",
+      "release_sha256": "b831429236d63eeb5212b778708672418014a33fbb9b9b0a7fd1db811ef13de2",
+      "size_bytes": 91841,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-inside-k4.json",
+      "source_sha256": "4b2a7eb2055e62e65b41ccd01bcf1039046d3cce6273fe6cfaca231418c8c3de",
+      "release_sha256": "4b2a7eb2055e62e65b41ccd01bcf1039046d3cce6273fe6cfaca231418c8c3de",
+      "size_bytes": 161259,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-feature-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-feature-scores.json",
+      "source_sha256": "954eb6d258fd2f1e67bf5400be03ff63561c9adf95b9f1d8aa07fedd7941bbc9",
+      "release_sha256": "954eb6d258fd2f1e67bf5400be03ff63561c9adf95b9f1d8aa07fedd7941bbc9",
+      "size_bytes": 91895,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-frozen-matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-frozen-matrix.json",
+      "source_sha256": "57e2e93d7deb9b8a2026ad82cca19710c45179052ab6c8881254a08d91bdaaf4",
+      "release_sha256": "57e2e93d7deb9b8a2026ad82cca19710c45179052ab6c8881254a08d91bdaaf4",
+      "size_bytes": 458410,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-inside-k4.json",
+      "source_sha256": "16ff6068ddca5d01c1c0f9b2b8b038ff0e25528c4e1649922031c97eea9595ac",
+      "release_sha256": "16ff6068ddca5d01c1c0f9b2b8b038ff0e25528c4e1649922031c97eea9595ac",
+      "size_bytes": 48548,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-los-eval.json",
+      "source_sha256": "e912da75c6b90b34d15387541f6e65f814a78a6b09d28061cca1de9f0f347c7e",
+      "release_sha256": "e912da75c6b90b34d15387541f6e65f814a78a6b09d28061cca1de9f0f347c7e",
+      "size_bytes": 23933,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-mosaic-v0.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-mosaic-v0.json",
+      "source_sha256": "db3557e963b05f6894b00d081ffa4268743f21b8bcdc53fa3ce0116d39ad22f8",
+      "release_sha256": "db3557e963b05f6894b00d081ffa4268743f21b8bcdc53fa3ce0116d39ad22f8",
+      "size_bytes": 160731,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-paraphrase-panel.jsonl",
+      "source_sha256": "58bba1a1d7e6245769ce8d8f81a7ff5612501f408fc365b32cd677edf20fdd36",
+      "release_sha256": "58bba1a1d7e6245769ce8d8f81a7ff5612501f408fc365b32cd677edf20fdd36",
+      "size_bytes": 62198,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-paraphrase-scores.json",
+      "source_sha256": "05b7463c9d8c1b6b51104d37db13cf4f78bdae20ffa3f2bbe5f69102e85ad6cb",
+      "release_sha256": "05b7463c9d8c1b6b51104d37db13cf4f78bdae20ffa3f2bbe5f69102e85ad6cb",
+      "size_bytes": 47944,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-ptrue.json",
+      "source_sha256": "644e584009d1f3da681e668de8ac2d03cb8891ee232646502c8a2dea91c9b89f",
+      "release_sha256": "644e584009d1f3da681e668de8ac2d03cb8891ee232646502c8a2dea91c9b89f",
+      "size_bytes": 43993,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-samples-k4.jsonl",
+      "source_sha256": "22042f06515f673d20d4933356a3d6aeacb2ef0acf15f5eb2d98c3b3eec89b71",
+      "release_sha256": "22042f06515f673d20d4933356a3d6aeacb2ef0acf15f5eb2d98c3b3eec89b71",
+      "size_bytes": 42419,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-locked-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-locked-sampling-scores-k4.json",
+      "source_sha256": "3450e3773b1578a89f013797303dc23aa0a681f6745e22a9ece90621c46ed29d",
+      "release_sha256": "3450e3773b1578a89f013797303dc23aa0a681f6745e22a9ece90621c46ed29d",
+      "size_bytes": 57674,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-los-eval.json",
+      "source_sha256": "fdb33520b2df4923832af70b4d7882af1f39cee05beaee09aaeb282dbcfa842c",
+      "release_sha256": "fdb33520b2df4923832af70b4d7882af1f39cee05beaee09aaeb282dbcfa842c",
+      "size_bytes": 79463,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-paraphrase-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-paraphrase-eval.json",
+      "source_sha256": "bbb8738c34407919c58b6c794548796cd7cbc04499407631bbf5fc3069518da4",
+      "release_sha256": "bbb8738c34407919c58b6c794548796cd7cbc04499407631bbf5fc3069518da4",
+      "size_bytes": 83888,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-paraphrase-panel.jsonl",
+      "source_sha256": "49e1c54ddb2bb39ac402f5cddbba3f77ec7775f8a6ecf64feb202ff205ec8e5f",
+      "release_sha256": "49e1c54ddb2bb39ac402f5cddbba3f77ec7775f8a6ecf64feb202ff205ec8e5f",
+      "size_bytes": 205519,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-paraphrase-scores.json",
+      "source_sha256": "c3c6803dcfb9562b86cf0fa0426be5a12e32cf9aadba58cb813d4842b3d5ed6b",
+      "release_sha256": "c3c6803dcfb9562b86cf0fa0426be5a12e32cf9aadba58cb813d4842b3d5ed6b",
+      "size_bytes": 158105,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-ptrue-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-ptrue-eval.json",
+      "source_sha256": "91dd04f178b7f6dcf9077efa472486321bfffba17f0448610ae4a5eb176cb6d2",
+      "release_sha256": "91dd04f178b7f6dcf9077efa472486321bfffba17f0448610ae4a5eb176cb6d2",
+      "size_bytes": 93111,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-ptrue.json",
+      "source_sha256": "0ace028744edad5fc7f9c89e749d9875f9deab8bbb6317773653074cc52360d9",
+      "release_sha256": "0ace028744edad5fc7f9c89e749d9875f9deab8bbb6317773653074cc52360d9",
+      "size_bytes": 146603,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-public-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-public-eval.json",
+      "source_sha256": "bfbd6ddbb7d9fe9d00e8fc9c27bd047c3ec831a5d216ba6d86a7e1b3090148c3",
+      "release_sha256": "bfbd6ddbb7d9fe9d00e8fc9c27bd047c3ec831a5d216ba6d86a7e1b3090148c3",
+      "size_bytes": 369464,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-samples-k4.jsonl",
+      "source_sha256": "7a2301261b2e07fe6b8e25c836720da73e8fca300dbdf9bba0dd41e91879ec37",
+      "release_sha256": "7a2301261b2e07fe6b8e25c836720da73e8fca300dbdf9bba0dd41e91879ec37",
+      "size_bytes": 140731,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-sampling-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-sampling-eval-k4.json",
+      "source_sha256": "2b0c5690041ac01df8cd26948375fc6a3485c162b549935caea847b7f15f5b83",
+      "release_sha256": "2b0c5690041ac01df8cd26948375fc6a3485c162b549935caea847b7f15f5b83",
+      "size_bytes": 168281,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/mistral7-triviaqa-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-sampling-scores-k4.json",
+      "source_sha256": "0d1f44deb08182294bf3ea76a6041010e0a69b615333a89ba10a6bcdc1d5db7f",
+      "release_sha256": "0d1f44deb08182294bf3ea76a6041010e0a69b615333a89ba10a6bcdc1d5db7f",
+      "size_bytes": 191096,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-inside-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-inside-eval-k4.json",
+      "source_sha256": "dbe1d65e3a4061ceaa74658b542c3ad4e55cab5eabe13a1521f6c01dfa824c58",
+      "release_sha256": "dbe1d65e3a4061ceaa74658b542c3ad4e55cab5eabe13a1521f6c01dfa824c58",
+      "size_bytes": 76987,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-inside-k4.json",
+      "source_sha256": "f9dc1fd7d880de0ba1d5ffe8aecc51b72157439b42e55fe9237b998e3ef8414b",
+      "release_sha256": "f9dc1fd7d880de0ba1d5ffe8aecc51b72157439b42e55fe9237b998e3ef8414b",
+      "size_bytes": 134972,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-feature-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-feature-scores.json",
+      "source_sha256": "0e8ee9f43f857cfcad05dece0fa3033590859e89a3f6cd31ea66cde407e253f3",
+      "release_sha256": "0e8ee9f43f857cfcad05dece0fa3033590859e89a3f6cd31ea66cde407e253f3",
+      "size_bytes": 62401,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-frozen-matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-frozen-matrix.json",
+      "source_sha256": "2ec01cbb7c39a6df866de2fa3715f9c7ccd284ff0f64a6ad8f1851fea1cd78fb",
+      "release_sha256": "2ec01cbb7c39a6df866de2fa3715f9c7ccd284ff0f64a6ad8f1851fea1cd78fb",
+      "size_bytes": 313026,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-inside-k4.json",
+      "source_sha256": "b60f215f0b45e9e7ea81fcc37e8850d73667040f4601d460deab7e6f79339381",
+      "release_sha256": "b60f215f0b45e9e7ea81fcc37e8850d73667040f4601d460deab7e6f79339381",
+      "size_bytes": 33223,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-los-eval.json",
+      "source_sha256": "4097505201d24d8bcb67e196e6e27623aa0cd9f8661d5e2dd35da51123e2411b",
+      "release_sha256": "4097505201d24d8bcb67e196e6e27623aa0cd9f8661d5e2dd35da51123e2411b",
+      "size_bytes": 16342,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-mosaic-v0.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-mosaic-v0.json",
+      "source_sha256": "4f6e999010d2354ac39aeb4c8f2c6ff3a34cc6f7799f3ec1d36043bb0894efc2",
+      "release_sha256": "4f6e999010d2354ac39aeb4c8f2c6ff3a34cc6f7799f3ec1d36043bb0894efc2",
+      "size_bytes": 109712,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-paraphrase-panel.jsonl",
+      "source_sha256": "1b5c43cd29dbc551e2592f6a4c7f930018f8dde3ce8c682b345ef9f48e5cb29e",
+      "release_sha256": "1b5c43cd29dbc551e2592f6a4c7f930018f8dde3ce8c682b345ef9f48e5cb29e",
+      "size_bytes": 42612,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-paraphrase-scores.json",
+      "source_sha256": "a7eeb936cf7a255b71c4edb37f4ff4fef62e30d9b07d6aeb0eb24bbed3406a19",
+      "release_sha256": "a7eeb936cf7a255b71c4edb37f4ff4fef62e30d9b07d6aeb0eb24bbed3406a19",
+      "size_bytes": 32605,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-ptrue.json",
+      "source_sha256": "9e039694bd2a3d02e29373007f756d94b5d87eaf45da8f6ae49aa779ce830cbc",
+      "release_sha256": "9e039694bd2a3d02e29373007f756d94b5d87eaf45da8f6ae49aa779ce830cbc",
+      "size_bytes": 29984,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-samples-k4.jsonl",
+      "source_sha256": "32dfaf8030ba7015960c831f2e867b43ce6714ca586f2be28d97d852ba5322b2",
+      "release_sha256": "32dfaf8030ba7015960c831f2e867b43ce6714ca586f2be28d97d852ba5322b2",
+      "size_bytes": 29274,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-locked-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-locked-sampling-scores-k4.json",
+      "source_sha256": "b1da59d367d91ceee2a7c7baf5eedd418366087b22707e97ca2157ddc1fc6ad8",
+      "release_sha256": "b1da59d367d91ceee2a7c7baf5eedd418366087b22707e97ca2157ddc1fc6ad8",
+      "size_bytes": 39755,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-los-eval.json",
+      "source_sha256": "ffbe8a7a2dd3cf27420f193c638fd040733b4bcb2196250510d6483edfb78c00",
+      "release_sha256": "ffbe8a7a2dd3cf27420f193c638fd040733b4bcb2196250510d6483edfb78c00",
+      "size_bytes": 66060,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-paraphrase-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-paraphrase-eval.json",
+      "source_sha256": "f11598c73adb15f70fb665b49e7b71d595b57919eacae14d7e4c4d3252cb4db7",
+      "release_sha256": "f11598c73adb15f70fb665b49e7b71d595b57919eacae14d7e4c4d3252cb4db7",
+      "size_bytes": 69734,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-paraphrase-panel.jsonl",
+      "source_sha256": "45b1ac887e26c4c4da585c011903860b0c63b13db9bf66818f9604a749efd4ac",
+      "release_sha256": "45b1ac887e26c4c4da585c011903860b0c63b13db9bf66818f9604a749efd4ac",
+      "size_bytes": 173395,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-paraphrase-scores.json",
+      "source_sha256": "3e92db7e9dbb47010db3b60b8cc48b96ba59d985e7bd15247adeeee11a062860",
+      "release_sha256": "3e92db7e9dbb47010db3b60b8cc48b96ba59d985e7bd15247adeeee11a062860",
+      "size_bytes": 132052,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-ptrue-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-ptrue-eval.json",
+      "source_sha256": "781f00af4ae02569c0bffb926a14095dc0558377f0c7b24a992d6222bc20c6d7",
+      "release_sha256": "781f00af4ae02569c0bffb926a14095dc0558377f0c7b24a992d6222bc20c6d7",
+      "size_bytes": 77283,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-ptrue.json",
+      "source_sha256": "a7113a1c1e8efc4ab82983c7b32d96906c8548e36c884761f95763ea9b16fcec",
+      "release_sha256": "a7113a1c1e8efc4ab82983c7b32d96906c8548e36c884761f95763ea9b16fcec",
+      "size_bytes": 122339,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-public-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-public-eval.json",
+      "source_sha256": "6e497a6fa137f34627da473ae406225de3289e48037362cdaee9bdd0090a56e7",
+      "release_sha256": "6e497a6fa137f34627da473ae406225de3289e48037362cdaee9bdd0090a56e7",
+      "size_bytes": 308332,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-samples-k4.jsonl",
+      "source_sha256": "7e02e5645b9cce317f33e038aaf1bd795a178b91abb666caae2b4adc0325c2ba",
+      "release_sha256": "7e02e5645b9cce317f33e038aaf1bd795a178b91abb666caae2b4adc0325c2ba",
+      "size_bytes": 119699,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-sampling-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-sampling-eval-k4.json",
+      "source_sha256": "59a5acf8a7ce3d9f049c9ac18b40b230244a15d05b4d4b679fbd080f74e7ed86",
+      "release_sha256": "59a5acf8a7ce3d9f049c9ac18b40b230244a15d05b4d4b679fbd080f74e7ed86",
+      "size_bytes": 140070,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/nemo12-popqa-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-sampling-scores-k4.json",
+      "source_sha256": "bbade2d6e12378e56b3116eedb99f28024ee605202c756ec5fd3c0a08074fb2c",
+      "release_sha256": "bbade2d6e12378e56b3116eedb99f28024ee605202c756ec5fd3c0a08074fb2c",
+      "size_bytes": 162105,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-inside-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-inside-eval-k4.json",
+      "source_sha256": "076e96364e9c5bb94945f9b312634994299434fd3988b135c670761761a12a0b",
+      "release_sha256": "076e96364e9c5bb94945f9b312634994299434fd3988b135c670761761a12a0b",
+      "size_bytes": 74536,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-inside-k4.json",
+      "source_sha256": "200d347c74a882802d6bffaa05da65dcd4816ab22962f1cac69896254accf231",
+      "release_sha256": "200d347c74a882802d6bffaa05da65dcd4816ab22962f1cac69896254accf231",
+      "size_bytes": 129134,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-feature-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-feature-scores.json",
+      "source_sha256": "1fd7ae8d69215c690800f653e6ecf4cc3756c281c01d2f23410228b4393b6bfb",
+      "release_sha256": "1fd7ae8d69215c690800f653e6ecf4cc3756c281c01d2f23410228b4393b6bfb",
+      "size_bytes": 66812,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-frozen-matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-frozen-matrix.json",
+      "source_sha256": "aa52bc7ab534400ab0e71cfc4ecda3536049494ef7c9b2bbdd70a93913b7449f",
+      "release_sha256": "aa52bc7ab534400ab0e71cfc4ecda3536049494ef7c9b2bbdd70a93913b7449f",
+      "size_bytes": 334832,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-inside-k4.json",
+      "source_sha256": "14c4c6083470970ff5e74fe5789db516c7511ae94ebdfd5300020607fc61a962",
+      "release_sha256": "14c4c6083470970ff5e74fe5789db516c7511ae94ebdfd5300020607fc61a962",
+      "size_bytes": 35005,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-los-eval.json",
+      "source_sha256": "afa7e0f4756d15161a3259bcfccf53b23d98ce951dfb282a0053756ef391d064",
+      "release_sha256": "afa7e0f4756d15161a3259bcfccf53b23d98ce951dfb282a0053756ef391d064",
+      "size_bytes": 17442,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-mosaic-v0.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-mosaic-v0.json",
+      "source_sha256": "85876d4763f200d6ce897febebeeb51a7b03e034847e432d26d00483bf3ad165",
+      "release_sha256": "85876d4763f200d6ce897febebeeb51a7b03e034847e432d26d00483bf3ad165",
+      "size_bytes": 117264,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-paraphrase-panel.jsonl",
+      "source_sha256": "4c12733056a22f7a8736828a177446e6eaf5d662ba648aae4b064a7c4103a221",
+      "release_sha256": "4c12733056a22f7a8736828a177446e6eaf5d662ba648aae4b064a7c4103a221",
+      "size_bytes": 45710,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-paraphrase-scores.json",
+      "source_sha256": "de047023ef3adf942ed0bdaaf4c6a7e48c228490bf2c8457ecdbce6d923a4395",
+      "release_sha256": "de047023ef3adf942ed0bdaaf4c6a7e48c228490bf2c8457ecdbce6d923a4395",
+      "size_bytes": 35004,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-ptrue.json",
+      "source_sha256": "d34bdd8880a29d2dbe7621879979c5bdc3a60abba83c10ca18ae7b95269c5898",
+      "release_sha256": "d34bdd8880a29d2dbe7621879979c5bdc3a60abba83c10ca18ae7b95269c5898",
+      "size_bytes": 31008,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-samples-k4.jsonl",
+      "source_sha256": "90b70bda5a38cb93a95871119f2782d8e4f68fb5d7ea12380c0a31b40ee1e39e",
+      "release_sha256": "90b70bda5a38cb93a95871119f2782d8e4f68fb5d7ea12380c0a31b40ee1e39e",
+      "size_bytes": 31227,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-locked-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-locked-sampling-scores-k4.json",
+      "source_sha256": "474c1127e1d1f776bb157769d8392973dd971cd5442cb849c6201d919127a238",
+      "release_sha256": "474c1127e1d1f776bb157769d8392973dd971cd5442cb849c6201d919127a238",
+      "size_bytes": 42541,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-los-eval.json",
+      "source_sha256": "92690024116a21d5be5d85c70bf3eb22dc859be8955e7e7c774bf8fb857e2240",
+      "release_sha256": "92690024116a21d5be5d85c70bf3eb22dc859be8955e7e7c774bf8fb857e2240",
+      "size_bytes": 64064,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-paraphrase-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-paraphrase-eval.json",
+      "source_sha256": "e6fe545ee3108f33b161bd081a63590ab2ecfd6a7253472186b350e7bea581a6",
+      "release_sha256": "e6fe545ee3108f33b161bd081a63590ab2ecfd6a7253472186b350e7bea581a6",
+      "size_bytes": 67716,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-paraphrase-panel.jsonl",
+      "source_sha256": "1421721bf86fa032bbc312f805eafc8aa23f45a90b39d131a2bc636ff48e9b28",
+      "release_sha256": "1421721bf86fa032bbc312f805eafc8aa23f45a90b39d131a2bc636ff48e9b28",
+      "size_bytes": 166526,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-paraphrase-scores.json",
+      "source_sha256": "18f17d27a560265c6d1176c8fe9a74d10ead674c918d17253169e5b51486d21f",
+      "release_sha256": "18f17d27a560265c6d1176c8fe9a74d10ead674c918d17253169e5b51486d21f",
+      "size_bytes": 126806,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-ptrue-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-ptrue-eval.json",
+      "source_sha256": "56e86b93596ef88df98a9d9f1213308357755be644c44be87d566f1a4f9cf48b",
+      "release_sha256": "56e86b93596ef88df98a9d9f1213308357755be644c44be87d566f1a4f9cf48b",
+      "size_bytes": 75540,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-ptrue.json",
+      "source_sha256": "57b5bc0199e5e90c22e376a31ec262c8f9b280840b3ed9223e2aab2feb55bc56",
+      "release_sha256": "57b5bc0199e5e90c22e376a31ec262c8f9b280840b3ed9223e2aab2feb55bc56",
+      "size_bytes": 114203,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-public-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-public-eval.json",
+      "source_sha256": "aba2eaebd7c734e69054f136c286fe911bf7a150204e4a79f58fa6e92900c6f2",
+      "release_sha256": "aba2eaebd7c734e69054f136c286fe911bf7a150204e4a79f58fa6e92900c6f2",
+      "size_bytes": 299772,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-samples-k4.jsonl",
+      "source_sha256": "6482c07822ff56c68f46215017062e09938890bc94a010100c2bda61c018fe88",
+      "release_sha256": "6482c07822ff56c68f46215017062e09938890bc94a010100c2bda61c018fe88",
+      "size_bytes": 114266,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-sampling-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-sampling-eval-k4.json",
+      "source_sha256": "76ea415f0a4aecfe48eeba53018d80097835598e0e1b010a462f7ff743fa1b18",
+      "release_sha256": "76ea415f0a4aecfe48eeba53018d80097835598e0e1b010a462f7ff743fa1b18",
+      "size_bytes": 135601,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen14-popqa-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-sampling-scores-k4.json",
+      "source_sha256": "a3b1674824be63997a7155ce6fccac6536926742cb89fd4ca046657019325b4f",
+      "release_sha256": "a3b1674824be63997a7155ce6fccac6536926742cb89fd4ca046657019325b4f",
+      "size_bytes": 156574,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-inside-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-inside-eval-k4.json",
+      "source_sha256": "fa2078ada0b4f04ff3408fe844d35a78b686ee0502f40e828f0167bbfd3e6186",
+      "release_sha256": "fa2078ada0b4f04ff3408fe844d35a78b686ee0502f40e828f0167bbfd3e6186",
+      "size_bytes": 109479,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-inside-k4.json",
+      "source_sha256": "9a03921531092c0d2a571b7f931cfcedb945e39eac3d4d10f07f5dd2aaa6416d",
+      "release_sha256": "9a03921531092c0d2a571b7f931cfcedb945e39eac3d4d10f07f5dd2aaa6416d",
+      "size_bytes": 189718,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-feature-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-feature-scores.json",
+      "source_sha256": "727e9de87ed55cc804aee071575e40b433f955c12651d9c162d6e9f163bc6f46",
+      "release_sha256": "727e9de87ed55cc804aee071575e40b433f955c12651d9c162d6e9f163bc6f46",
+      "size_bytes": 72423,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-frozen-matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-frozen-matrix.json",
+      "source_sha256": "01e0f59856c9f5ad51b2242574a3a3a859b117fe86404f68bf24b17e58e01166",
+      "release_sha256": "83564b0f01042713d1ca69ca29da075e66e0e5536b7b55dfca357d6c6b7c193a",
+      "size_bytes": 362312,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-inside-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-inside-k4.json",
+      "source_sha256": "aa5d73e8944803f01889b205ad093816a684f07fe319db9cf5de88dc7609feca",
+      "release_sha256": "aa5d73e8944803f01889b205ad093816a684f07fe319db9cf5de88dc7609feca",
+      "size_bytes": 37745,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-los-eval.json",
+      "source_sha256": "2eff5858ce6418c69dd3b2d65cae7e8f36e338f03f12db1ef3be4ac4d63888ab",
+      "release_sha256": "2eff5858ce6418c69dd3b2d65cae7e8f36e338f03f12db1ef3be4ac4d63888ab",
+      "size_bytes": 18799,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-mosaic-v0.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-mosaic-v0.json",
+      "source_sha256": "7a2113361e41949e2a89706a5b4e99c68d8cd56c9216124aaffc7a90863c05b6",
+      "release_sha256": "57d0a470bf25658eddfe10f5b9dfb439956d89eec4cff19cd8294f40957ad65a",
+      "size_bytes": 127016,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-paraphrase-panel.jsonl",
+      "source_sha256": "38f4704b21b94316245a5098b4d4416531c787f5fc4aeb181a0d9782ec1c8a6e",
+      "release_sha256": "38f4704b21b94316245a5098b4d4416531c787f5fc4aeb181a0d9782ec1c8a6e",
+      "size_bytes": 49148,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-paraphrase-scores.json",
+      "source_sha256": "2cb9ff5a685c68f6362e5c8b1a8acec7556c970b4a4c5d69ccb317f946d75f93",
+      "release_sha256": "2cb9ff5a685c68f6362e5c8b1a8acec7556c970b4a4c5d69ccb317f946d75f93",
+      "size_bytes": 37688,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-ptrue.json",
+      "source_sha256": "d9d77c4e08f1717d5b4eb23415c84c309f76e7b529a21fd7348036e69aa39cab",
+      "release_sha256": "d9d77c4e08f1717d5b4eb23415c84c309f76e7b529a21fd7348036e69aa39cab",
+      "size_bytes": 32403,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-samples-k4.jsonl",
+      "source_sha256": "4753187e70c32333cd6a8a3e2d461accddc7de4126b7ace79dec88d86c11c0ba",
+      "release_sha256": "4753187e70c32333cd6a8a3e2d461accddc7de4126b7ace79dec88d86c11c0ba",
+      "size_bytes": 33853,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-locked-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-locked-sampling-scores-k4.json",
+      "source_sha256": "56e5980daa33ab439ad9398f4969d058a8bdcc41d0600b0ce9a959021ff8ffb0",
+      "release_sha256": "56e5980daa33ab439ad9398f4969d058a8bdcc41d0600b0ce9a959021ff8ffb0",
+      "size_bytes": 45718,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-los-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-los-eval.json",
+      "source_sha256": "7e67fc9e6829e22a20ebc56bac6318e9a62b12de6e85f744c9ff841e490ac99e",
+      "release_sha256": "7e67fc9e6829e22a20ebc56bac6318e9a62b12de6e85f744c9ff841e490ac99e",
+      "size_bytes": 94045,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-paraphrase-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-paraphrase-eval.json",
+      "source_sha256": "450d2adb8f511d83fda5e037c52dac3952fe8e423c26ccab8e04707461fe313c",
+      "release_sha256": "450d2adb8f511d83fda5e037c52dac3952fe8e423c26ccab8e04707461fe313c",
+      "size_bytes": 99708,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-paraphrase-panel.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-paraphrase-panel.jsonl",
+      "source_sha256": "e8a0c40d1172b7bc72a977ccfa9fa7cd433e9a104ff9afa6e5851bfe4733ffc3",
+      "release_sha256": "e8a0c40d1172b7bc72a977ccfa9fa7cd433e9a104ff9afa6e5851bfe4733ffc3",
+      "size_bytes": 245742,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-paraphrase-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-paraphrase-scores.json",
+      "source_sha256": "afd73fbe0723a28470d77a57df62d62c0baa1394138c356911ccc35d8b887765",
+      "release_sha256": "afd73fbe0723a28470d77a57df62d62c0baa1394138c356911ccc35d8b887765",
+      "size_bytes": 187522,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-ptrue-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-ptrue-eval.json",
+      "source_sha256": "dbed38ce80070f556c337a6d30a9e9e03dea44fdebfc76fc51aadb21d23c0253",
+      "release_sha256": "dbed38ce80070f556c337a6d30a9e9e03dea44fdebfc76fc51aadb21d23c0253",
+      "size_bytes": 110970,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-ptrue.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-ptrue.json",
+      "source_sha256": "96b22b6e10c126d5d461e95c3d54a33b5b3cf7abc7372da581acf7425728a39c",
+      "release_sha256": "96b22b6e10c126d5d461e95c3d54a33b5b3cf7abc7372da581acf7425728a39c",
+      "size_bytes": 163540,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-public-eval.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-public-eval.json",
+      "source_sha256": "7b49ae76dba8a7c8d58d06db08d9e054822f8c93a9aada3a861110d4df2dc273",
+      "release_sha256": "7b49ae76dba8a7c8d58d06db08d9e054822f8c93a9aada3a861110d4df2dc273",
+      "size_bytes": 439524,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-samples-k4.jsonl",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-samples-k4.jsonl",
+      "source_sha256": "a647332e6b603309dfd75efc476697b3a132d1b3ef9b5a3edb4bc38a4eaf50fa",
+      "release_sha256": "a647332e6b603309dfd75efc476697b3a132d1b3ef9b5a3edb4bc38a4eaf50fa",
+      "size_bytes": 170202,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-sampling-eval-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-sampling-eval-k4.json",
+      "source_sha256": "cfa83d62c351a2bd906448df6e002506cdcfd3ca2fbcb595172dcaf3e5424f5d",
+      "release_sha256": "cfa83d62c351a2bd906448df6e002506cdcfd3ca2fbcb595172dcaf3e5424f5d",
+      "size_bytes": 199774,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/qwen8-triviaqa-sampling-scores-k4.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-sampling-scores-k4.json",
+      "source_sha256": "2edfa98d047b7ca486446d915c4ed3e87a9e72ae89dba9a268c69d7539376f33",
+      "release_sha256": "2edfa98d047b7ca486446d915c4ed3e87a9e72ae89dba9a268c69d7539376f33",
+      "size_bytes": 229193,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/sequence_confidence_public.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/sequence_confidence_public.json",
+      "source_sha256": "8f4a0037e192091fb79b2cf859fb206cbd5e94038f1b3dc8d8b4ef35213e0bfc",
+      "release_sha256": "8f4a0037e192091fb79b2cf859fb206cbd5e94038f1b3dc8d8b4ef35213e0bfc",
+      "size_bytes": 480687,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/validation_bootstrap_ci.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/validation_bootstrap_ci.json",
+      "source_sha256": "cb978c815c5394d668c3b13328a594c70219d5fa5d21c21376b31eddf77fd9b6",
+      "release_sha256": "cb978c815c5394d668c3b13328a594c70219d5fa5d21c21376b31eddf77fd9b6",
+      "size_bytes": 42861,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/validation_matrix.csv",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/validation_matrix.csv",
+      "source_sha256": "0181feb3e69187b6bd5431d81dc50fef36329a0c6ce2bc8ffb79205830c966bb",
+      "release_sha256": "0181feb3e69187b6bd5431d81dc50fef36329a0c6ce2bc8ffb79205830c966bb",
+      "size_bytes": 19317,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/baselines/validation_matrix.json",
+      "source": "experiments/hallucination/results/one_confidence_five_model_eval/validation_matrix.json",
+      "source_sha256": "a0aaed14c25792680610704b20074ba1a31def5aa2e345ed7e40e9bd2f577c24",
+      "release_sha256": "a0aaed14c25792680610704b20074ba1a31def5aa2e345ed7e40e9bd2f577c24",
+      "size_bytes": 46561,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/frozen_application_materialization.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/frozen_application_materialization.json",
+      "source_sha256": "02240a85a56e92f318e0db749408c4e74b44e13eeb4da8b19b52581d526ed4ed",
+      "release_sha256": "02240a85a56e92f318e0db749408c4e74b44e13eeb4da8b19b52581d526ed4ed",
+      "size_bytes": 1833,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/llama31-triviaqa-frozen-application.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/llama31-triviaqa-frozen-application.json",
+      "source_sha256": "5bfa67c094f050fa2ab8f94bb723e97eadc435693da858014b85bf1d62a77501",
+      "release_sha256": "5bfa67c094f050fa2ab8f94bb723e97eadc435693da858014b85bf1d62a77501",
+      "size_bytes": 49193,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/mistral7-triviaqa-frozen-application.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/mistral7-triviaqa-frozen-application.json",
+      "source_sha256": "182bfd7316a908d752d37b2ab050b9e32b055cdc927414d8e8b449a89e0826f7",
+      "release_sha256": "182bfd7316a908d752d37b2ab050b9e32b055cdc927414d8e8b449a89e0826f7",
+      "size_bytes": 61589,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/nemo12-popqa-frozen-application.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/nemo12-popqa-frozen-application.json",
+      "source_sha256": "58735c849f72d2d1acd696043b4b399ce55ebc78a598b0feaa102a8bcde708f2",
+      "release_sha256": "58735c849f72d2d1acd696043b4b399ce55ebc78a598b0feaa102a8bcde708f2",
+      "size_bytes": 43758,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/qwen14-popqa-frozen-application.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/qwen14-popqa-frozen-application.json",
+      "source_sha256": "67f040e15fe6794509472590831022b82221c44bc7ddb1302304628d34e9c265",
+      "release_sha256": "67f040e15fe6794509472590831022b82221c44bc7ddb1302304628d34e9c265",
+      "size_bytes": 46291,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/applications/qwen8-triviaqa-frozen-application.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_application_run6/qwen8-triviaqa-frozen-application.json",
+      "source_sha256": "40ca0b891b33b4f387faabe0d94e30ba3d75574f8f6b47371288643da6012621",
+      "release_sha256": "40ca0b891b33b4f387faabe0d94e30ba3d75574f8f6b47371288643da6012621",
+      "size_bytes": 49739,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/artifact_sha256.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/artifact_sha256.json",
+      "source_sha256": "4f2b1489b236ea1cb65bf5e0dda580229991f68666a8a3fb92efd4abba63c023",
+      "release_sha256": "4f2b1489b236ea1cb65bf5e0dda580229991f68666a8a3fb92efd4abba63c023",
+      "size_bytes": 1813,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/mitigation_decision_freeze_run6.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_decision_freeze_run6.json",
+      "source_sha256": "3163c1e0e6b1e166d4b7d6b6f1ec65fa7bbfaaacb9e1bced668510231d179532",
+      "release_sha256": "3163c1e0e6b1e166d4b7d6b6f1ec65fa7bbfaaacb9e1bced668510231d179532",
+      "size_bytes": 622,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/mitigation_frozen_decisions_run6.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_frozen_decisions_run6.json",
+      "source_sha256": "70b8b893134ba86249141ac45969b43003e882b9fa21664285639a8eb71097ce",
+      "release_sha256": "70b8b893134ba86249141ac45969b43003e882b9fa21664285639a8eb71097ce",
+      "size_bytes": 1314950,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/mitigation_frozen_outcomes_run6.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/mitigation_frozen_outcomes_run6.json",
+      "source_sha256": "7fb460be015615c2a7c722add3deee387bf983f35c29c99d6cc7d4858b1dca99",
+      "release_sha256": "7fb460be015615c2a7c722add3deee387bf983f35c29c99d6cc7d4858b1dca99",
+      "size_bytes": 1336637,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/table_cost_locked_run6.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_cost_locked_run6.csv",
+      "source_sha256": "51f22d00417bc7d7a2e771ae7a34b110ad431746d25cab4e6b4dc97675992322",
+      "release_sha256": "51f22d00417bc7d7a2e771ae7a34b110ad431746d25cab4e6b4dc97675992322",
+      "size_bytes": 7929,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/table_cost_locked_run6.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_cost_locked_run6.json",
+      "source_sha256": "947f1e02c5577e0e61aa0b62e08dcb99423ac145a935b4607d1db77e33faf741",
+      "release_sha256": "947f1e02c5577e0e61aa0b62e08dcb99423ac145a935b4607d1db77e33faf741",
+      "size_bytes": 31986,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/table_mitigation_locked_run6.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_mitigation_locked_run6.csv",
+      "source_sha256": "c8b2319c743f792f8a0fda8e55155bc1c3931b0412efde26fceed14bb3359ca0",
+      "release_sha256": "c8b2319c743f792f8a0fda8e55155bc1c3931b0412efde26fceed14bb3359ca0",
+      "size_bytes": 10115,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/mitigation/table_mitigation_locked_run6.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_mitigation_run6/table_mitigation_locked_run6.json",
+      "source_sha256": "7264f5cf88ad56750523da896d0c6b61e6e11bf740df9c8a56163d3edfc610cc",
+      "release_sha256": "7264f5cf88ad56750523da896d0c6b61e6e11bf740df9c8a56163d3edfc610cc",
+      "size_bytes": 42204,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/scores/llama31-triviaqa-frozen-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_scores_run6/llama31-triviaqa-frozen-scores.json",
+      "source_sha256": "c8f09460aa7552daa3d8dbc2463f5c6173e49889d98885329554bd208e645539",
+      "release_sha256": "c8f09460aa7552daa3d8dbc2463f5c6173e49889d98885329554bd208e645539",
+      "size_bytes": 40533,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/scores/mistral7-triviaqa-frozen-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_scores_run6/mistral7-triviaqa-frozen-scores.json",
+      "source_sha256": "b7f1e32558d12a2bed6ad8002213d4f6659c5e449e8cd862762c99f5e96bbee9",
+      "release_sha256": "b7f1e32558d12a2bed6ad8002213d4f6659c5e449e8cd862762c99f5e96bbee9",
+      "size_bytes": 51679,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/scores/nemo12-popqa-frozen-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_scores_run6/nemo12-popqa-frozen-scores.json",
+      "source_sha256": "432cdbfd83b82718e569f5bf136079b2927824c368a01c968c1be6180612b302",
+      "release_sha256": "432cdbfd83b82718e569f5bf136079b2927824c368a01c968c1be6180612b302",
+      "size_bytes": 35882,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/scores/qwen14-popqa-frozen-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_scores_run6/qwen14-popqa-frozen-scores.json",
+      "source_sha256": "f4a278203ac79faf0d45070b87cdb0cd49c433e3c0bcfcc8042d775fada50bd3",
+      "release_sha256": "f4a278203ac79faf0d45070b87cdb0cd49c433e3c0bcfcc8042d775fada50bd3",
+      "size_bytes": 38209,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/frozen/scores/qwen8-triviaqa-frozen-scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_scores_run6/qwen8-triviaqa-frozen-scores.json",
+      "source_sha256": "c77a8920add02fa41299ce4903c966aa1c057d36f5a8a67d044e539f6e4a2a49",
+      "release_sha256": "c77a8920add02fa41299ce4903c966aa1c057d36f5a8a67d044e539f6e4a2a49",
+      "size_bytes": 41180,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/labels/case_studies.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/case_studies.json",
+      "source_sha256": "fc5a6de76485362aa031c3c7a5b5abfec9690911c6bf19eb847c344398e12cb8",
+      "release_sha256": "fc5a6de76485362aa031c3c7a5b5abfec9690911c6bf19eb847c344398e12cb8",
+      "size_bytes": 44082,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/labels/phenotype_labels.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/phenotype_labels.json",
+      "source_sha256": "b7c7dee4f812d5ea48dafff490c242349243b5f2c55a6cdb282b3058c40c1d42",
+      "release_sha256": "b7c7dee4f812d5ea48dafff490c242349243b5f2c55a6cdb282b3058c40c1d42",
+      "size_bytes": 1380604,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/labels/phenotype_labels_frozen_test.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/phenotype_labels_frozen_test.json",
+      "source_sha256": "59866b0a9d305b390bf9c2f52e6ed49566620e19e0e89101ead0285d1c555e0b",
+      "release_sha256": "59866b0a9d305b390bf9c2f52e6ed49566620e19e0e89101ead0285d1c555e0b",
+      "size_bytes": 443061,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/llama31-triviaqa-public-mechanism-erasure.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/llama31-triviaqa-public-mechanism-erasure.json",
+      "source_sha256": "b53c0285c1dcaa23b070b4bd1a742fcc002330bdf719b0e3d532516a15a82159",
+      "release_sha256": "c9f15380669ccb940f460a0b67d9aa786a44a4fb9a5d3c40a6f3c6296ea12548",
+      "size_bytes": 135889,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/llama31-triviaqa-public-mechanism-patch-manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/llama31-triviaqa-public-mechanism-patch-manifest.json",
+      "source_sha256": "7baca9ee8142dc9f03cf015d964af023eb5707da9828df0f69efa79440efb3a3",
+      "release_sha256": "7baca9ee8142dc9f03cf015d964af023eb5707da9828df0f69efa79440efb3a3",
+      "size_bytes": 126413,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/llama31-triviaqa-public-mechanism-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/llama31-triviaqa-public-mechanism-patching.json",
+      "source_sha256": "d07458fdd8cbce57ed57a46bb91e967af0ce17209d69110780ee082b756a8705",
+      "release_sha256": "915723babb9d928e535de1e0b8cb3342239fddc2b0057fdc0fbf28f28fefeb39",
+      "size_bytes": 280947,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/mistral7-triviaqa-public-mechanism-erasure.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mistral7-triviaqa-public-mechanism-erasure.json",
+      "source_sha256": "ad0e2d4badc4a55debb1a2551b86091abf04508ea8581708437916a987423467",
+      "release_sha256": "6362a965623b99d5eeadfcd62a52dec1714d653c32f2c62a1c1c2a15a35c06d3",
+      "size_bytes": 122168,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/mistral7-triviaqa-public-mechanism-patch-manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mistral7-triviaqa-public-mechanism-patch-manifest.json",
+      "source_sha256": "857d5fbb7eaf22f9aed7daa2e163cb7d67f53a9c02350011da6f52eec2c95412",
+      "release_sha256": "857d5fbb7eaf22f9aed7daa2e163cb7d67f53a9c02350011da6f52eec2c95412",
+      "size_bytes": 139101,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/mistral7-triviaqa-public-mechanism-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mistral7-triviaqa-public-mechanism-patching.json",
+      "source_sha256": "66f16723940153519b9baaee7e7586912646f7bce5617a01f24b4937c978f0fd",
+      "release_sha256": "5280efd0a667ef450cccdfd49e9df0455902e16200037f95090929dffc6e21ad",
+      "size_bytes": 261532,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/mistral7-triviaqa-public-nonbehavioral-candidate-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mistral7-triviaqa-public-nonbehavioral-candidate-patching.json",
+      "source_sha256": "c4415a5fe262d35734ffee4d29e061b9a09dff483e9ca9a6b8412a866f6cdd65",
+      "release_sha256": "1abed2115377dce634159b278ba70b9d7c3dcea774f77eb516057daae9ffe000",
+      "size_bytes": 401860,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/nemo12-popqa-public-mechanism-patch-manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/nemo12-popqa-public-mechanism-patch-manifest.json",
+      "source_sha256": "e0bdd837bdd5f7325879c7c0f0de30e5f5e84ac4c8e4c5994128735a920b94c0",
+      "release_sha256": "e0bdd837bdd5f7325879c7c0f0de30e5f5e84ac4c8e4c5994128735a920b94c0",
+      "size_bytes": 190086,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/qwen14-popqa-public-mechanism-erasure.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen14-popqa-public-mechanism-erasure.json",
+      "source_sha256": "a04810dbb9191a5475ebad5d7e9f980e3972b8f5a0fcd467115ec81c582c4d50",
+      "release_sha256": "8c049fdc5e5e76ae80d41b7a76a9cbc805f0d962cbaf7aa9e2072f080b7c156c",
+      "size_bytes": 140646,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/qwen14-popqa-public-mechanism-patch-manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen14-popqa-public-mechanism-patch-manifest.json",
+      "source_sha256": "ddea87e9e8e533e1db8c540a100927e482ef85457036ae115debd2a6cc47d930",
+      "release_sha256": "ddea87e9e8e533e1db8c540a100927e482ef85457036ae115debd2a6cc47d930",
+      "size_bytes": 178929,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/qwen14-popqa-public-mechanism-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen14-popqa-public-mechanism-patching.json",
+      "source_sha256": "6f1e9a33cca41fb0ae0cf71b7828a1c61f803ad8d298d449f632ec54292e7f8f",
+      "release_sha256": "3e019155aea72bf5da8b77b68bc7fed8bc9caa140b6db33af9402c1f2f860d63",
+      "size_bytes": 234736,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/qwen8-triviaqa-public-mechanism-erasure.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen8-triviaqa-public-mechanism-erasure.json",
+      "source_sha256": "97e367c97d79271a56c44752a21036214246a490ee62d725a70f1869a538928a",
+      "release_sha256": "3c69ae2bac8e6c11e1cebc9611db24bdcb413f8c737c1844b7427f33240bd4b0",
+      "size_bytes": 196516,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/qwen8-triviaqa-public-mechanism-patch-manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen8-triviaqa-public-mechanism-patch-manifest.json",
+      "source_sha256": "b1ef80e39f6e093d310e8d3bd3886153fd606707434ca7030c894114e5541e6a",
+      "release_sha256": "b1ef80e39f6e093d310e8d3bd3886153fd606707434ca7030c894114e5541e6a",
+      "size_bytes": 235971,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/mechanism/qwen8-triviaqa-public-mechanism-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen8-triviaqa-public-mechanism-patching.json",
+      "source_sha256": "dead816e67688f73849900c7a73b12e0d75eaeaf75e94731c03ab141d6b91364",
+      "release_sha256": "47738c486d48f2f40b8cb79a5ea21c8e15f9a153b3c6e46cda56354de7b17af8",
+      "size_bytes": 311164,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/mechanism/qwen8-triviaqa-public-nonbehavioral-candidate-patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/qwen8-triviaqa-public-nonbehavioral-candidate-patching.json",
+      "source_sha256": "360ba508cf8bb37a79de1f234f199385871596285243a3a0935d66e3a294d653",
+      "release_sha256": "8eca22901361976225761282f6fa00c30fd06b0c1acd4af42e3de9849f20983d",
+      "size_bytes": 275309,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/validation_run6/artifact_sha256.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/artifact_sha256.json",
+      "source_sha256": "00477e4f8d797d72b62e34f25dd926e8c1d7491dfea2077abc5e65e7e9ba6198",
+      "release_sha256": "00477e4f8d797d72b62e34f25dd926e8c1d7491dfea2077abc5e65e7e9ba6198",
+      "size_bytes": 3084,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/authorizations/run6_application_authorized.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_application_authorized.json",
+      "source_sha256": "9d98b96664e41b3c30b783f6f7dac34f43d4d15b5dc94470dfa2d5834958d3e8",
+      "release_sha256": "9d98b96664e41b3c30b783f6f7dac34f43d4d15b5dc94470dfa2d5834958d3e8",
+      "size_bytes": 3427,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/authorizations/run6_materialization_authorized.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_materialization_authorized.json",
+      "source_sha256": "67d8f0a82bf7ed476052369b856649b2af06ff283eac712f272e9c1c70390425",
+      "release_sha256": "67d8f0a82bf7ed476052369b856649b2af06ff283eac712f272e9c1c70390425",
+      "size_bytes": 8598,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/authorizations/run6_mitigation_authorized.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_mitigation_authorized.json",
+      "source_sha256": "45f7502078c960199b83a67a603db896efd8021da355ed200767e7224fd4f7eb",
+      "release_sha256": "45f7502078c960199b83a67a603db896efd8021da355ed200767e7224fd4f7eb",
+      "size_bytes": 7783,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/authorizations/run6_source_generation_authorized.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/authorizations/run6_source_generation_authorized.json",
+      "source_sha256": "e3aa9c241a82ab9efcf76c263e32379a47b1671075db47121f4fc4e166610472",
+      "release_sha256": "8e62faf63630f1647dec2fc917957f49c11b7d379d830a30fdbe2f0faff5b7b7",
+      "size_bytes": 11904,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/validation_run6/frozen_test_application_plan.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/frozen_test_application_plan.json",
+      "source_sha256": "06ec5ca86320f3a1eaa238d12c9ac75dc246344aed3966c582d82b9a2ee8bc3d",
+      "release_sha256": "06ec5ca86320f3a1eaa238d12c9ac75dc246344aed3966c582d82b9a2ee8bc3d",
+      "size_bytes": 77694,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/frozen_test_contracts/application_authorization_template.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/frozen_test_contracts/application_authorization_template.json",
+      "source_sha256": "61f300cdbecef1c14cbbe54a7ddfe9e31bfc41ebb5cd049a15717a16d1033aa5",
+      "release_sha256": "61f300cdbecef1c14cbbe54a7ddfe9e31bfc41ebb5cd049a15717a16d1033aa5",
+      "size_bytes": 2779,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/frozen_test_contracts/application_manifest_contract.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/frozen_test_contracts/application_manifest_contract.json",
+      "source_sha256": "44b2c663e6b13f7eb6266a7867b18dd362840f1f0ad5e563f832a8775e382700",
+      "release_sha256": "44b2c663e6b13f7eb6266a7867b18dd362840f1f0ad5e563f832a8775e382700",
+      "size_bytes": 1732,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/frozen_test_contracts/contract_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/frozen_test_contracts/contract_manifest.json",
+      "source_sha256": "c33adca99c7c9f23e4eaccdba438d6a4c8dd7ebef8ab9efa03d90efe62a4aad7",
+      "release_sha256": "c33adca99c7c9f23e4eaccdba438d6a4c8dd7ebef8ab9efa03d90efe62a4aad7",
+      "size_bytes": 1201,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/frozen_test_contracts/source_authorization_template.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/frozen_test_contracts/source_authorization_template.json",
+      "source_sha256": "2b5948d69b345fc281f27318700be45b5b2fec5712ff3a92b0ce687a43850972",
+      "release_sha256": "2b5948d69b345fc281f27318700be45b5b2fec5712ff3a92b0ce687a43850972",
+      "size_bytes": 5088,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/input_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/input_manifest.json",
+      "source_sha256": "89042528cf3e7630af4aa973ad467477c165f58b560f00364857f1edf14fe2e2",
+      "release_sha256": "659d14256dceddac53f7bbafca874ed9f62a26bed09188a3e58cf84b22858c30",
+      "size_bytes": 10377,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/validation_run6/llama31-triviaqa/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/feature_manifest.json",
+      "source_sha256": "a7f7d8e2adfd8e0ce8c08abc88283d1175cdcacca2c89580cd640974da350af1",
+      "release_sha256": "a7f7d8e2adfd8e0ce8c08abc88283d1175cdcacca2c89580cd640974da350af1",
+      "size_bytes": 11603,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/llama31-triviaqa/fold_map.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/fold_map.json",
+      "source_sha256": "7877d7e5dfc66c36ef6fa502d9c2c1bd8a4ed3d02706a311cc81ebd3e27eb6dc",
+      "release_sha256": "7877d7e5dfc66c36ef6fa502d9c2c1bd8a4ed3d02706a311cc81ebd3e27eb6dc",
+      "size_bytes": 3251943,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/llama31-triviaqa/public_scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/public_scores.json",
+      "source_sha256": "e586ee719a0d64b5ad6d79c1b88464a039c9f7c20830aced2038a67c0ea88a2e",
+      "release_sha256": "e586ee719a0d64b5ad6d79c1b88464a039c9f7c20830aced2038a67c0ea88a2e",
+      "size_bytes": 839029,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/llama31-triviaqa/threshold_candidates.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/threshold_candidates.json",
+      "source_sha256": "c3c72beb14658317357dad5a04163b584143ad277eff34b163d4ec778bf03054",
+      "release_sha256": "c3c72beb14658317357dad5a04163b584143ad277eff34b163d4ec778bf03054",
+      "size_bytes": 1048119,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/mistral7-triviaqa/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/feature_manifest.json",
+      "source_sha256": "5b5bcc6a3418bd23bab0869a777fa9a1d2b9b8523f370823b325a58f66d669be",
+      "release_sha256": "5b5bcc6a3418bd23bab0869a777fa9a1d2b9b8523f370823b325a58f66d669be",
+      "size_bytes": 11610,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/mistral7-triviaqa/fold_map.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/fold_map.json",
+      "source_sha256": "e0bd7d9940cf73c1e6b5b6459e0f206499778135382fca07dd0d4846cb6ff840",
+      "release_sha256": "e0bd7d9940cf73c1e6b5b6459e0f206499778135382fca07dd0d4846cb6ff840",
+      "size_bytes": 4424664,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/mistral7-triviaqa/public_scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/public_scores.json",
+      "source_sha256": "b23a7f8f3bda2f1f6f926665f94844f093a6ce975a63b1300fec94feede03228",
+      "release_sha256": "b23a7f8f3bda2f1f6f926665f94844f093a6ce975a63b1300fec94feede03228",
+      "size_bytes": 1151705,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/mistral7-triviaqa/threshold_candidates.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/threshold_candidates.json",
+      "source_sha256": "2f4fe8fbe200d9c8675842e61e3a29b74260929e234a070274e41ce661234069",
+      "release_sha256": "2f4fe8fbe200d9c8675842e61e3a29b74260929e234a070274e41ce661234069",
+      "size_bytes": 1411735,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/nemo12-popqa/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/feature_manifest.json",
+      "source_sha256": "42ebebd07463c305c78c84ee95a9f968cc6a50884d932ae7b646065c6299a482",
+      "release_sha256": "42ebebd07463c305c78c84ee95a9f968cc6a50884d932ae7b646065c6299a482",
+      "size_bytes": 11577,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/nemo12-popqa/fold_map.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/fold_map.json",
+      "source_sha256": "fc5536234b086ee385f0bd3b6f39a7cad9f8c85800f30e101e70ab7d48a6da04",
+      "release_sha256": "fc5536234b086ee385f0bd3b6f39a7cad9f8c85800f30e101e70ab7d48a6da04",
+      "size_bytes": 3926933,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/nemo12-popqa/public_scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/public_scores.json",
+      "source_sha256": "77136ee86751b9ad91800a6a5633e6a3b68535b2a69be03fc68aa69cf25b2b98",
+      "release_sha256": "77136ee86751b9ad91800a6a5633e6a3b68535b2a69be03fc68aa69cf25b2b98",
+      "size_bytes": 975137,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/nemo12-popqa/threshold_candidates.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/threshold_candidates.json",
+      "source_sha256": "0cab17b23ea24dc19536f8e62bfa71cf1bc37918d0ee0090b4df072acbfff0d4",
+      "release_sha256": "0cab17b23ea24dc19536f8e62bfa71cf1bc37918d0ee0090b4df072acbfff0d4",
+      "size_bytes": 1207042,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen14-popqa/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/feature_manifest.json",
+      "source_sha256": "5f1a22871ed1e953bf87787039a5565e393ce02923b03ab95dd9595df40c58dd",
+      "release_sha256": "5f1a22871ed1e953bf87787039a5565e393ce02923b03ab95dd9595df40c58dd",
+      "size_bytes": 11577,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen14-popqa/fold_map.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/fold_map.json",
+      "source_sha256": "9985ecf5d97cd1f15500946e8db33d6c2f90b357d870feb8f7ece6c1487b6763",
+      "release_sha256": "9985ecf5d97cd1f15500946e8db33d6c2f90b357d870feb8f7ece6c1487b6763",
+      "size_bytes": 3642409,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen14-popqa/public_scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/public_scores.json",
+      "source_sha256": "cdae83952229cd78c2364136c537ae95a95c4c260088211aa2abab029c5150f8",
+      "release_sha256": "cdae83952229cd78c2364136c537ae95a95c4c260088211aa2abab029c5150f8",
+      "size_bytes": 932339,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen14-popqa/threshold_candidates.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/threshold_candidates.json",
+      "source_sha256": "d59ffab012c7fccbc935cf4d6fc91216f91211de95d326100e18b0ab52543ad4",
+      "release_sha256": "98756ee3f16e32fc1216a58f6163d08737e410a3a558ca43a6a0db4600df8a81",
+      "size_bytes": 1155606,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/validation_run6/qwen8-triviaqa/feature_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/feature_manifest.json",
+      "source_sha256": "8c04edcb5cacdc901a1002156487fc8da730b7ec6f7a81cb99baf66ebdf4faaf",
+      "release_sha256": "8c04edcb5cacdc901a1002156487fc8da730b7ec6f7a81cb99baf66ebdf4faaf",
+      "size_bytes": 11590,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen8-triviaqa/fold_map.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/fold_map.json",
+      "source_sha256": "1eed0ea4a9bb2f764be0c4f859b50f76811064fbb38a92c645657ae79fae80bc",
+      "release_sha256": "1eed0ea4a9bb2f764be0c4f859b50f76811064fbb38a92c645657ae79fae80bc",
+      "size_bytes": 5260317,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen8-triviaqa/public_scores.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/public_scores.json",
+      "source_sha256": "14fd37b283274353c7343d26a31379bc6c656e3e4d415f3f73daad1706697abf",
+      "release_sha256": "14fd37b283274353c7343d26a31379bc6c656e3e4d415f3f73daad1706697abf",
+      "size_bytes": 1380870,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "data/validation_run6/qwen8-triviaqa/threshold_candidates.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/threshold_candidates.json",
+      "source_sha256": "32cd9a30e5814b71e049025a132273c46230ae93a4c297ff4b7fc1b9f69fef90",
+      "release_sha256": "1f9b32ca4dfd3d642e0bd9be8459d5c83cab42712b57e1789a9ce7f0ea010516",
+      "size_bytes": 1721034,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "data/validation_run6/run_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/run_manifest.json",
+      "source_sha256": "d18b8f0caad208f87d2321937ab978dbfbff507b784c94599477809db8d7c573",
+      "release_sha256": "d18b8f0caad208f87d2321937ab978dbfbff507b784c94599477809db8d7c573",
+      "size_bytes": 23410,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "source": "research_work/ONE_CONFIDENCE_MECHANISM_METHOD_CLOSURE_20260729.md",
+      "source_sha256": "241a15afbb989b7cfa075059e983bc17922e1429d96e232404019a870e59e3d2",
+      "release_sha256": "241a15afbb989b7cfa075059e983bc17922e1429d96e232404019a870e59e3d2",
+      "size_bytes": 13879,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "external_artifacts.json",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "3e7172814e1a02d61a0877ffcb0ccbfbeda6ee50b3ad60e1986d3b19746d0406",
+      "size_bytes": 8304,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "pyproject.toml",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "794cf91c6d41943a6e18b4dabba48e68c6751b67eb3dafadd0402f822f3ba048",
+      "size_bytes": 86,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "requirements.txt",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "ff8ab47a423e56435f672a14f394740d5d1ae32390f32bbc43b28a131a85767c",
+      "size_bytes": 178,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/behavioral_features.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/behavioral_features.json",
+      "source_sha256": "d089944180d911865c9cdeca34d392a3c4432c1406142980973a333d0638cd15",
+      "release_sha256": "d089944180d911865c9cdeca34d392a3c4432c1406142980973a333d0638cd15",
+      "size_bytes": 19563,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/closure_completion_audit.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/closure_completion_audit.json",
+      "source_sha256": "8fefb3d599347662f1ed95d7c7df9b9874cc2644366b9310bf8570411cad6fc8",
+      "release_sha256": "8fefb3d599347662f1ed95d7c7df9b9874cc2644366b9310bf8570411cad6fc8",
+      "size_bytes": 3156,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/figure_layer_patching.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/figure_layer_patching.csv",
+      "source_sha256": "4ea0f4b3c2c96d2aa56a935a9243c13fc591fac2caa571c3c8171a67004fa5f3",
+      "release_sha256": "4ea0f4b3c2c96d2aa56a935a9243c13fc591fac2caa571c3c8171a67004fa5f3",
+      "size_bytes": 10772,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/figure_layer_patching.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/figure_layer_patching.json",
+      "source_sha256": "77e95c204e8f20b8ab46c44f6b5af9d8d0b002a87199c95e1462213442246245",
+      "release_sha256": "77e95c204e8f20b8ab46c44f6b5af9d8d0b002a87199c95e1462213442246245",
+      "size_bytes": 24597,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/figure_risk_coverage.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/figure_risk_coverage.csv",
+      "source_sha256": "6c14852b80234923569dc2672fd3749f9183300300eb491aa231a97851c1db81",
+      "release_sha256": "6c14852b80234923569dc2672fd3749f9183300300eb491aa231a97851c1db81",
+      "size_bytes": 6876,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/figure_risk_coverage.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/figure_risk_coverage.json",
+      "source_sha256": "4e770d2b59024cdcc3e97a5e6df9ecb940b01409601d57df141d2458ad5b5f21",
+      "release_sha256": "4e770d2b59024cdcc3e97a5e6df9ecb940b01409601d57df141d2458ad5b5f21",
+      "size_bytes": 18589,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/frozen_closure_integrity_report.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_closure_integrity_report.json",
+      "source_sha256": "427d008350f166b75292df937a3eb696bfd51666c71f1c14044eb1c9f47868d9",
+      "release_sha256": "427d008350f166b75292df937a3eb696bfd51666c71f1c14044eb1c9f47868d9",
+      "size_bytes": 1479,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/frozen_results_compile_manifest.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_results_compile_manifest.json",
+      "source_sha256": "4228bcfb423fb6709b7300146153a23d3e79c175095f6f66b82e5479a6ea0d4e",
+      "release_sha256": "4228bcfb423fb6709b7300146153a23d3e79c175095f6f66b82e5479a6ea0d4e",
+      "size_bytes": 2184,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/frozen_test_bootstrap.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_bootstrap.csv",
+      "source_sha256": "bf0507490e18dcbfff060dd9fca533d38a139ddcfaf8718e0a42b4658ca23b04",
+      "release_sha256": "bf0507490e18dcbfff060dd9fca533d38a139ddcfaf8718e0a42b4658ca23b04",
+      "size_bytes": 23386,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/frozen_test_bootstrap.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_bootstrap.json",
+      "source_sha256": "3bdc00d77822cc4debbd43f05f0ce9541b203f8bb13f5a420938b6df7b1bb733",
+      "release_sha256": "3bdc00d77822cc4debbd43f05f0ce9541b203f8bb13f5a420938b6df7b1bb733",
+      "size_bytes": 36798,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/internal_features.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/internal_features.json",
+      "source_sha256": "7e49ffd74ac6703df28da1d4c6cd1aedcefbda5e590f9775c424c5f8a3021bba",
+      "release_sha256": "7e49ffd74ac6703df28da1d4c6cd1aedcefbda5e590f9775c424c5f8a3021bba",
+      "size_bytes": 39967,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/llama_mechanism_verdict.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/llama_mechanism_verdict.json",
+      "source_sha256": "b754fc715058f33c7dadfc52d9def5360ea4d1ab2b458577ec4acee15f35abaa",
+      "release_sha256": "b754fc715058f33c7dadfc52d9def5360ea4d1ab2b458577ec4acee15f35abaa",
+      "size_bytes": 10126,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/mechanism_control_verdict.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_control_verdict.json",
+      "source_sha256": "4ba50c427efd6a999073f25c50e90b8259f914fe45768b47bc44b72e4211661a",
+      "release_sha256": "4ba50c427efd6a999073f25c50e90b8259f914fe45768b47bc44b72e4211661a",
+      "size_bytes": 6515,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/mechanism_erasure_results.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_erasure_results.json",
+      "source_sha256": "b76703d3f64af26d3a56250ca2c029bab494339adfc109760eb063ecacdec11e",
+      "release_sha256": "b76703d3f64af26d3a56250ca2c029bab494339adfc109760eb063ecacdec11e",
+      "size_bytes": 36008,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/mechanism_evidence_audit.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_evidence_audit.json",
+      "source_sha256": "8d38a3c2097ad9ac31dbb29f630bb50c49f6a21f231d307b49f55dbb4f13c069",
+      "release_sha256": "8d38a3c2097ad9ac31dbb29f630bb50c49f6a21f231d307b49f55dbb4f13c069",
+      "size_bytes": 7143,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/mechanism_patch_results.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_patch_results.json",
+      "source_sha256": "fcce2b46941d5cc3e82eac36cff02c71055b4efd590be6c9101f26914e3cc0c0",
+      "release_sha256": "fcce2b46941d5cc3e82eac36cff02c71055b4efd590be6c9101f26914e3cc0c0",
+      "size_bytes": 120139,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/public_validation_integrity_report.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/public_validation_integrity_report.json",
+      "source_sha256": "2ed061ee9075d250ec9b580863fee4b12fcba448c7b2d4d871ebc4451f9b8e36",
+      "release_sha256": "2ed061ee9075d250ec9b580863fee4b12fcba448c7b2d4d871ebc4451f9b8e36",
+      "size_bytes": 17072,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/safe_wrapper_patch_verdict.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/safe_wrapper_patch_verdict.json",
+      "source_sha256": "87d639b14df1f52a571a0e606a5b8dbef657ba5a46d7787c11c39e55a951be03",
+      "release_sha256": "87d639b14df1f52a571a0e606a5b8dbef657ba5a46d7787c11c39e55a951be03",
+      "size_bytes": 5100,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_ablation.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_ablation.csv",
+      "source_sha256": "91871c9c3094bb9912eb9fff8ceaa3aebfe4f7203214d39c4de9bdcac9736cd4",
+      "release_sha256": "91871c9c3094bb9912eb9fff8ceaa3aebfe4f7203214d39c4de9bdcac9736cd4",
+      "size_bytes": 11128,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_ablation.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_ablation.json",
+      "source_sha256": "931517e3757f7c669a37a1acb2f4d9450333cb56df6f4f01993d97b2ddf32e6c",
+      "release_sha256": "931517e3757f7c669a37a1acb2f4d9450333cb56df6f4f01993d97b2ddf32e6c",
+      "size_bytes": 28919,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_cost.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_cost.csv",
+      "source_sha256": "084cb3653a317cc7eb33482958fad7975ec9ab0adb571da26d98084309d93e3b",
+      "release_sha256": "084cb3653a317cc7eb33482958fad7975ec9ab0adb571da26d98084309d93e3b",
+      "size_bytes": 10381,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_cost.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_cost.json",
+      "source_sha256": "4ce2b79d2fc2db22478380d83f78aba50f129d328e57882f485f22008cd6ab68",
+      "release_sha256": "4ce2b79d2fc2db22478380d83f78aba50f129d328e57882f485f22008cd6ab68",
+      "size_bytes": 80879,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_detection_by_phenotype.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_detection_by_phenotype.csv",
+      "source_sha256": "9ed3936605dbf45fe4e5753d3d0407c94c7c8d0fb493967de529d6ba9152b17a",
+      "release_sha256": "9ed3936605dbf45fe4e5753d3d0407c94c7c8d0fb493967de529d6ba9152b17a",
+      "size_bytes": 4859,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_detection_by_phenotype.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_detection_by_phenotype.json",
+      "source_sha256": "f690f771902525da2a27c06797f2e5575ee2ea7cdab355188b4d074de2f758ef",
+      "release_sha256": "f690f771902525da2a27c06797f2e5575ee2ea7cdab355188b4d074de2f758ef",
+      "size_bytes": 12937,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_detection_by_phenotype_legacy_public_validation.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_detection_by_phenotype_legacy_public_validation.json",
+      "source_sha256": "347ba5200b2dc7e7c3f2c753b0ff1f4d5de2588072a48d906fda69ee5984b08e",
+      "release_sha256": "347ba5200b2dc7e7c3f2c753b0ff1f4d5de2588072a48d906fda69ee5984b08e",
+      "size_bytes": 6118,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_main_detection.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_main_detection.csv",
+      "source_sha256": "1b0bacf819b6163f336e67f37375e1732cd745645820eb8ad9b330cd8f1f4fa3",
+      "release_sha256": "1b0bacf819b6163f336e67f37375e1732cd745645820eb8ad9b330cd8f1f4fa3",
+      "size_bytes": 31404,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_main_detection.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_main_detection.json",
+      "source_sha256": "1a1517f05dcc99299e19cf333f193607b088e71ebd380c08695060f56c7d5c1f",
+      "release_sha256": "1a1517f05dcc99299e19cf333f193607b088e71ebd380c08695060f56c7d5c1f",
+      "size_bytes": 72137,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_main_detection_validation.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_main_detection_validation.csv",
+      "source_sha256": "c68e3f7c6369c65702ce1bee8e6186493b4c4ecae7eff8800dbc589b6bc251b0",
+      "release_sha256": "c68e3f7c6369c65702ce1bee8e6186493b4c4ecae7eff8800dbc589b6bc251b0",
+      "size_bytes": 2734,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_main_detection_validation.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_main_detection_validation.json",
+      "source_sha256": "a73145a658682150688e704dedb56ae93f1a541f6f868c0f35abdf82f0cbe3c7",
+      "release_sha256": "a73145a658682150688e704dedb56ae93f1a541f6f868c0f35abdf82f0cbe3c7",
+      "size_bytes": 5824,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_mechanism_controls.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_mechanism_controls.csv",
+      "source_sha256": "6163ad9877e74bf0d537cc77a3918d4d41b21de46732068d22ca0b4507b3ee7f",
+      "release_sha256": "6163ad9877e74bf0d537cc77a3918d4d41b21de46732068d22ca0b4507b3ee7f",
+      "size_bytes": 62117,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_mechanism_controls.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_mechanism_controls.json",
+      "source_sha256": "b915883a6206a0e19ad14bc08b2bc8b32ca6ebf53b99bb91613c1d6ee499d520",
+      "release_sha256": "b915883a6206a0e19ad14bc08b2bc8b32ca6ebf53b99bb91613c1d6ee499d520",
+      "size_bytes": 146085,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_mitigation.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_mitigation.csv",
+      "source_sha256": "74ad0245afa038a9c8d6d585b2454669d51553f4838e18469ff66e449765d52c",
+      "release_sha256": "74ad0245afa038a9c8d6d585b2454669d51553f4838e18469ff66e449765d52c",
+      "size_bytes": 20890,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/table_mitigation.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/table_mitigation.json",
+      "source_sha256": "d92fb7ae88d5ccc311eadbcd7e45340356e6fcf95b12c74df788b7c346c79aa8",
+      "release_sha256": "d92fb7ae88d5ccc311eadbcd7e45340356e6fcf95b12c74df788b7c346c79aa8",
+      "size_bytes": 89629,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "results/final/validation_search.csv",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/validation_search.csv",
+      "source_sha256": "d820c68405bdb3747c4024e2500134d3abeb8be1f0bff37bbc0dda5f844cb891",
+      "release_sha256": "f418c5720710d14c789037f5944905cadcc12c09c0e0120df20c7d50a065e289",
+      "size_bytes": 43068,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "results/final/validation_search.json",
+      "source": "experiments/hallucination/results/one_confidence_mosaic_v1/validation_search.json",
+      "source_sha256": "5ac9cf9d445671cc46b5efa49cf04ef00d1e5d47cd2db11f33d7691a31aa7d02",
+      "release_sha256": "8e78e8fc886f08df20135c72fa161fdac3ba565b952b6fe17f6c4487733b477c",
+      "size_bytes": 735345,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "src/analyze_one_confidence_mechanism_patching.py",
+      "source": "experiments/hallucination/analyze_one_confidence_mechanism_patching.py",
+      "source_sha256": "d819f3701f43fb6eb9a8347d5a366a59be4ef26a030b1dc12c8b23624e734701",
+      "release_sha256": "d819f3701f43fb6eb9a8347d5a366a59be4ef26a030b1dc12c8b23624e734701",
+      "size_bytes": 7709,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/apply_one_confidence_los_checkpoint.py",
+      "source": "experiments/hallucination/apply_one_confidence_los_checkpoint.py",
+      "source_sha256": "d4bb1cf40dc6c1929051aa114bb98a35546c1284645f9da10843c2aca447a0f3",
+      "release_sha256": "d4bb1cf40dc6c1929051aa114bb98a35546c1284645f9da10843c2aca447a0f3",
+      "size_bytes": 3143,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/apply_one_confidence_mosaic_v1_frozen_checkpoint.py",
+      "source": "experiments/hallucination/apply_one_confidence_mosaic_v1_frozen_checkpoint.py",
+      "source_sha256": "b5100f91b3b35a00cc6a6cdd0c4c099fc97e1c00960f0002b6c06411ae648503",
+      "release_sha256": "b5100f91b3b35a00cc6a6cdd0c4c099fc97e1c00960f0002b6c06411ae648503",
+      "size_bytes": 19076,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/audit_one_confidence_mechanism_evidence.py",
+      "source": "experiments/hallucination/audit_one_confidence_mechanism_evidence.py",
+      "source_sha256": "fcb9be12da3a45633d0bef74ffd6a4ce13c15da597044d68cf779bb778f5d573",
+      "release_sha256": "fcb9be12da3a45633d0bef74ffd6a4ce13c15da597044d68cf779bb778f5d573",
+      "size_bytes": 9840,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/audit_one_confidence_question_equivalence.py",
+      "source": "experiments/hallucination/audit_one_confidence_question_equivalence.py",
+      "source_sha256": "6d774812c51f1ce6e506ce80fcb8db8a7b8483bb4288145902ba9b45376a77dc",
+      "release_sha256": "6d774812c51f1ce6e506ce80fcb8db8a7b8483bb4288145902ba9b45376a77dc",
+      "size_bytes": 35257,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/bootstrap_one_confidence_validation.py",
+      "source": "experiments/hallucination/bootstrap_one_confidence_validation.py",
+      "source_sha256": "fdf1fa11053313611fd47faa80bbcc950e4e6ed144b2da39521383cc9673955f",
+      "release_sha256": "fdf1fa11053313611fd47faa80bbcc950e4e6ed144b2da39521383cc9673955f",
+      "size_bytes": 4545,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/build_one_confidence_internal_trajectory.py",
+      "source": "experiments/hallucination/build_one_confidence_internal_trajectory.py",
+      "source_sha256": "e04bfcd77ca806bff10ff0add17f25469ee80b4f04225b117a608954b65acf1c",
+      "release_sha256": "e04bfcd77ca806bff10ff0add17f25469ee80b4f04225b117a608954b65acf1c",
+      "size_bytes": 7046,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/build_one_confidence_mechanism_patch_manifest.py",
+      "source": "experiments/hallucination/build_one_confidence_mechanism_patch_manifest.py",
+      "source_sha256": "be5d64213488677fa1616d1aba06e995c8bdb025752084658eda5ac4ceed4e0c",
+      "release_sha256": "be5d64213488677fa1616d1aba06e995c8bdb025752084658eda5ac4ceed4e0c",
+      "size_bytes": 13714,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/build_one_confidence_strict_partial_phenotypes.py",
+      "source": "experiments/hallucination/build_one_confidence_strict_partial_phenotypes.py",
+      "source_sha256": "393db86ce663ead1f2af7edad4257f2c35fb4fe77bc2da7b4650543f1bb09231",
+      "release_sha256": "393db86ce663ead1f2af7edad4257f2c35fb4fe77bc2da7b4650543f1bb09231",
+      "size_bytes": 7034,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mechanism_controls.py",
+      "source": "experiments/hallucination/compile_one_confidence_mechanism_controls.py",
+      "source_sha256": "75d344da3d3723fab5a5fc9f701d3b0c233a0c9e85bbf634a5d5edf77c8c259d",
+      "release_sha256": "75d344da3d3723fab5a5fc9f701d3b0c233a0c9e85bbf634a5d5edf77c8c259d",
+      "size_bytes": 24950,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_ablation_delivery.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_ablation_delivery.py",
+      "source_sha256": "6320665d516e4d742d57b229609cd720fbf231b40fabab34584eaa7da4f3541d",
+      "release_sha256": "6320665d516e4d742d57b229609cd720fbf231b40fabab34584eaa7da4f3541d",
+      "size_bytes": 5728,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_artifact_manifest.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_artifact_manifest.py",
+      "source_sha256": "930033d18b36f8a539dc1314d222bb62ae5c12f44c40b8ca45145d678415fea2",
+      "release_sha256": "930033d18b36f8a539dc1314d222bb62ae5c12f44c40b8ca45145d678415fea2",
+      "size_bytes": 6922,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_final_delivery.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_final_delivery.py",
+      "source_sha256": "62450d9b94d30d51421c27c7f97d4eb16332b5af967b5d6fb76724583a41e2af",
+      "release_sha256": "62450d9b94d30d51421c27c7f97d4eb16332b5af967b5d6fb76724583a41e2af",
+      "size_bytes": 6909,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_frozen_closure.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_frozen_closure.py",
+      "source_sha256": "cae69029546f1dacc380703563e5fac54441e31c5a5634d4eb880ab6e226d4a7",
+      "release_sha256": "cae69029546f1dacc380703563e5fac54441e31c5a5634d4eb880ab6e226d4a7",
+      "size_bytes": 31539,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_frozen_cost.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_frozen_cost.py",
+      "source_sha256": "c84f608edb11c4b92735327d7040fc5aac1ea9e90b10680f712e85fdfeaa80cb",
+      "release_sha256": "c84f608edb11c4b92735327d7040fc5aac1ea9e90b10680f712e85fdfeaa80cb",
+      "size_bytes": 10339,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/compile_one_confidence_mosaic_v1_frozen_results.py",
+      "source": "experiments/hallucination/compile_one_confidence_mosaic_v1_frozen_results.py",
+      "source_sha256": "f16038c5ee298e61a2d02f4467109c90ee895bf3a6714de4edaca4cce0d038c9",
+      "release_sha256": "f16038c5ee298e61a2d02f4467109c90ee895bf3a6714de4edaca4cce0d038c9",
+      "size_bytes": 33344,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/evaluate_one_confidence_five_model.py",
+      "source": "experiments/hallucination/evaluate_one_confidence_five_model.py",
+      "source_sha256": "423b48fe433baf574d377fe7a94ad65f782b4d99c7c201394dea2884ebae104d",
+      "release_sha256": "423b48fe433baf574d377fe7a94ad65f782b4d99c7c201394dea2884ebae104d",
+      "size_bytes": 4284,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/evaluate_one_confidence_frozen_mitigation_run6.py",
+      "source": "experiments/hallucination/evaluate_one_confidence_frozen_mitigation_run6.py",
+      "source_sha256": "659afc2603aa0f08b2f2e8438d98b71c5dc979d3c2d9dc4f1a2654abc1391205",
+      "release_sha256": "659afc2603aa0f08b2f2e8438d98b71c5dc979d3c2d9dc4f1a2654abc1391205",
+      "size_bytes": 26428,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/evaluate_one_confidence_minimal_mosaic.py",
+      "source": "experiments/hallucination/evaluate_one_confidence_minimal_mosaic.py",
+      "source_sha256": "b4a36d833ddc75a3a9d470db0de289487039dcf19bab19027e51418deab1b7b2",
+      "release_sha256": "b4a36d833ddc75a3a9d470db0de289487039dcf19bab19027e51418deab1b7b2",
+      "size_bytes": 4732,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/evaluate_one_confidence_mosaic_v1_nested_public.py",
+      "source": "experiments/hallucination/evaluate_one_confidence_mosaic_v1_nested_public.py",
+      "source_sha256": "ec16e9f2558e1484f2f0d2d34b7d5412ff8b5ffaefad729b77205d2e139f51a6",
+      "release_sha256": "ec16e9f2558e1484f2f0d2d34b7d5412ff8b5ffaefad729b77205d2e139f51a6",
+      "size_bytes": 69699,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/evaluate_one_confidence_public_mitigation.py",
+      "source": "experiments/hallucination/evaluate_one_confidence_public_mitigation.py",
+      "source_sha256": "42e05a3d551a58cdb3aa40d83fe3f9b2d5395eeaa6f64ae6e028b5914fa1ffa8",
+      "release_sha256": "42e05a3d551a58cdb3aa40d83fe3f9b2d5395eeaa6f64ae6e028b5914fa1ffa8",
+      "size_bytes": 34793,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/extract_one_confidence_answer_start_features.py",
+      "source": "experiments/hallucination/extract_one_confidence_answer_start_features.py",
+      "source_sha256": "e268dd14d09671b87e1ae9ca1a4cb9f0a152c3fba314a63f1f410aa1c2a91742",
+      "release_sha256": "e268dd14d09671b87e1ae9ca1a4cb9f0a152c3fba314a63f1f410aa1c2a91742",
+      "size_bytes": 9229,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/extract_one_confidence_candidate_sequence_trajectory.py",
+      "source": "experiments/hallucination/extract_one_confidence_candidate_sequence_trajectory.py",
+      "source_sha256": "e549348a5a1521e9910249109256764dbed25c63d52471b3433910a0e45924d7",
+      "release_sha256": "e549348a5a1521e9910249109256764dbed25c63d52471b3433910a0e45924d7",
+      "size_bytes": 42554,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/extract_one_confidence_corrected_panel_features.py",
+      "source": "experiments/hallucination/extract_one_confidence_corrected_panel_features.py",
+      "source_sha256": "3ed6b022d1519d0c6d35bf64c41ae650d1a6815d5a3250ccc9a8affbfdc9addd",
+      "release_sha256": "3ed6b022d1519d0c6d35bf64c41ae650d1a6815d5a3250ccc9a8affbfdc9addd",
+      "size_bytes": 25589,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/extract_one_confidence_los_features.py",
+      "source": "experiments/hallucination/extract_one_confidence_los_features.py",
+      "source_sha256": "23242a1555eef8d0b2dd32b994d7f44a4d6bd2b53dcd827e28026ed8debc2d56",
+      "release_sha256": "23242a1555eef8d0b2dd32b994d7f44a4d6bd2b53dcd827e28026ed8debc2d56",
+      "size_bytes": 3984,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/extract_one_confidence_natural_paraphrase_features.py",
+      "source": "experiments/hallucination/extract_one_confidence_natural_paraphrase_features.py",
+      "source_sha256": "53aa61d3891d0de88f7fb2b202a12579a18b4d7e04c5a78dbed74d280a04d440",
+      "release_sha256": "53aa61d3891d0de88f7fb2b202a12579a18b4d7e04c5a78dbed74d280a04d440",
+      "size_bytes": 15887,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/fit_one_confidence_los_net.py",
+      "source": "experiments/hallucination/fit_one_confidence_los_net.py",
+      "source_sha256": "daf69d412882c78b2c954758f1b4c1aca725ea47fad7a467a68dfc89f0bf1be9",
+      "release_sha256": "daf69d412882c78b2c954758f1b4c1aca725ea47fad7a467a68dfc89f0bf1be9",
+      "size_bytes": 4502,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/make_one_confidence_mosaic_v1_nested_public_config.py",
+      "source": "experiments/hallucination/make_one_confidence_mosaic_v1_nested_public_config.py",
+      "source_sha256": "67d3053a91485f05eac72055698c96eb5249902846b32c7b810cfedb8dd12eda",
+      "release_sha256": "67d3053a91485f05eac72055698c96eb5249902846b32c7b810cfedb8dd12eda",
+      "size_bytes": 10216,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/materialize_one_confidence_frozen_run6_aux_sources.py",
+      "source": "experiments/hallucination/materialize_one_confidence_frozen_run6_aux_sources.py",
+      "source_sha256": "dbd223d13d6fcc14319fde2129298a263d081b574c9e64aafb686655644d885c",
+      "release_sha256": "dbd223d13d6fcc14319fde2129298a263d081b574c9e64aafb686655644d885c",
+      "size_bytes": 7442,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/model_loading.py",
+      "source": "experiments/hallucination/model_loading.py",
+      "source_sha256": "2e06991c3a15bea69888bdde669c8bbb59cdf4f2664eedd5932332ff072069f2",
+      "release_sha256": "2e06991c3a15bea69888bdde669c8bbb59cdf4f2664eedd5932332ff072069f2",
+      "size_bytes": 1357,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/one_confidence_frozen_source_access.py",
+      "source": "experiments/hallucination/one_confidence_frozen_source_access.py",
+      "source_sha256": "db301e56dcb49aa3e2c4c689b074a8f827a193eb855dc487ce4f7074eb5ddeca",
+      "release_sha256": "db301e56dcb49aa3e2c4c689b074a8f827a193eb855dc487ce4f7074eb5ddeca",
+      "size_bytes": 6802,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/run_one_confidence_mechanism_erasure.py",
+      "source": "experiments/hallucination/run_one_confidence_mechanism_erasure.py",
+      "source_sha256": "42d1a2e10922253a27f86af3667d3b184fc5ed365710b0cdd9a9726d3176c0d9",
+      "release_sha256": "42d1a2e10922253a27f86af3667d3b184fc5ed365710b0cdd9a9726d3176c0d9",
+      "size_bytes": 36251,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/run_one_confidence_mechanism_patching.py",
+      "source": "experiments/hallucination/run_one_confidence_mechanism_patching.py",
+      "source_sha256": "95f0bee1bf932847cbb7a48ec6059d9ce139a490b0b0f07e76708a67027508d4",
+      "release_sha256": "95f0bee1bf932847cbb7a48ec6059d9ce139a490b0b0f07e76708a67027508d4",
+      "size_bytes": 38567,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_corrected_panel_nli.py",
+      "source": "experiments/hallucination/score_one_confidence_corrected_panel_nli.py",
+      "source_sha256": "46d2ffb4bc05ff0a104c769c818e6e0a23d11709ec7dee68e293150290b0376d",
+      "release_sha256": "46d2ffb4bc05ff0a104c769c818e6e0a23d11709ec7dee68e293150290b0376d",
+      "size_bytes": 9915,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_inside.py",
+      "source": "experiments/hallucination/score_one_confidence_inside.py",
+      "source_sha256": "7be13bbfb54267a13ff2570620349ef6c1a0719c2312a8edb6d3373b242c4c3a",
+      "release_sha256": "7be13bbfb54267a13ff2570620349ef6c1a0719c2312a8edb6d3373b242c4c3a",
+      "size_bytes": 2986,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_natural_panel_nli.py",
+      "source": "experiments/hallucination/score_one_confidence_natural_panel_nli.py",
+      "source_sha256": "94040432f3e5e2e884bcafec30c2604b080f4632a1d671fe03cf8eb108369067",
+      "release_sha256": "94040432f3e5e2e884bcafec30c2604b080f4632a1d671fe03cf8eb108369067",
+      "size_bytes": 3632,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_nli_candidate_margins.py",
+      "source": "experiments/hallucination/score_one_confidence_nli_candidate_margins.py",
+      "source_sha256": "eb423149e03115e252293c3045aca54f5e0a8ac61a80f335d097da1f63b2f467",
+      "release_sha256": "eb423149e03115e252293c3045aca54f5e0a8ac61a80f335d097da1f63b2f467",
+      "size_bytes": 12127,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_paraphrase_panel.py",
+      "source": "experiments/hallucination/score_one_confidence_paraphrase_panel.py",
+      "source_sha256": "6d492132e1ee59a9dbbddd65476d4490a8d98933e0f022fc11c821be42441e97",
+      "release_sha256": "6d492132e1ee59a9dbbddd65476d4490a8d98933e0f022fc11c821be42441e97",
+      "size_bytes": 1569,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_ptrue.py",
+      "source": "experiments/hallucination/score_one_confidence_ptrue.py",
+      "source_sha256": "ae62503b03c29032593915365cc352fb704ba8a144cc7d6b9a16a3a64afc18ab",
+      "release_sha256": "ae62503b03c29032593915365cc352fb704ba8a144cc7d6b9a16a3a64afc18ab",
+      "size_bytes": 2647,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/score_one_confidence_sampling.py",
+      "source": "experiments/hallucination/score_one_confidence_sampling.py",
+      "source_sha256": "3d27be321f09284bf73232a7493c4d3c46a4ef106049189ec610ebd9ee2e16c3",
+      "release_sha256": "3d27be321f09284bf73232a7493c4d3c46a4ef106049189ec610ebd9ee2e16c3",
+      "size_bytes": 3487,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "src/verify_one_confidence_mosaic_v1_frozen_closure.py",
+      "source": "experiments/hallucination/verify_one_confidence_mosaic_v1_frozen_closure.py",
+      "source_sha256": "904c091d357cafb9d261a0e86453e4e49c3a12452b05810cb499f833bbf33129",
+      "release_sha256": "904c091d357cafb9d261a0e86453e4e49c3a12452b05810cb499f833bbf33129",
+      "size_bytes": 9780,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_apply_one_confidence_mosaic_v1_frozen_checkpoint.py",
+      "source": "experiments/hallucination/test_apply_one_confidence_mosaic_v1_frozen_checkpoint.py",
+      "source_sha256": "f7c68479dbf591faab1d48e4dd0610b5460a8fc213e488fd5309be2c8e65db11",
+      "release_sha256": "f7c68479dbf591faab1d48e4dd0610b5460a8fc213e488fd5309be2c8e65db11",
+      "size_bytes": 13051,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_audit_one_confidence_question_equivalence.py",
+      "source": "experiments/hallucination/test_audit_one_confidence_question_equivalence.py",
+      "source_sha256": "4f6e8341a88085df827d3a6efb9bed77c030b002accec8c8eb86659a92b2af65",
+      "release_sha256": "4f6e8341a88085df827d3a6efb9bed77c030b002accec8c8eb86659a92b2af65",
+      "size_bytes": 7205,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mechanism_controls.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mechanism_controls.py",
+      "source_sha256": "ae05bd28977544e984990061fc0ca6e2f0da07ab7126d44d6221351e5a8ba3d3",
+      "release_sha256": "ae05bd28977544e984990061fc0ca6e2f0da07ab7126d44d6221351e5a8ba3d3",
+      "size_bytes": 6618,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mosaic_v1_ablation_delivery.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_ablation_delivery.py",
+      "source_sha256": "a0e32f26f9fc76169375c8460ba663ebc92971e3a0e21264a810c91b83e422eb",
+      "release_sha256": "a0e32f26f9fc76169375c8460ba663ebc92971e3a0e21264a810c91b83e422eb",
+      "size_bytes": 2683,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mosaic_v1_artifact_manifest.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_artifact_manifest.py",
+      "source_sha256": "e7857f258d882ef03e8a3e355d026dc36a99b3a0cda627edac34d624e6c2f572",
+      "release_sha256": "e7857f258d882ef03e8a3e355d026dc36a99b3a0cda627edac34d624e6c2f572",
+      "size_bytes": 1452,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mosaic_v1_final_delivery.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_final_delivery.py",
+      "source_sha256": "38a5c836faa911295ada8c5e903ce96486b5b0e6907874e48c2e97e5f691d3d0",
+      "release_sha256": "38a5c836faa911295ada8c5e903ce96486b5b0e6907874e48c2e97e5f691d3d0",
+      "size_bytes": 3120,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mosaic_v1_frozen_closure.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_frozen_closure.py",
+      "source_sha256": "a834a0bd74ebcf3c53be323b0f1e97f0bcef86fb8a44b5d64a92a7c0c6172942",
+      "release_sha256": "a834a0bd74ebcf3c53be323b0f1e97f0bcef86fb8a44b5d64a92a7c0c6172942",
+      "size_bytes": 5724,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_compile_one_confidence_mosaic_v1_frozen_cost.py",
+      "source": "experiments/hallucination/test_compile_one_confidence_mosaic_v1_frozen_cost.py",
+      "source_sha256": "1a94364eaba0c646cecef4048e3096cb7d00c5b9b5f144083bdba36052f48b1b",
+      "release_sha256": "1a94364eaba0c646cecef4048e3096cb7d00c5b9b5f144083bdba36052f48b1b",
+      "size_bytes": 3339,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_evaluate_one_confidence_five_model.py",
+      "source": "experiments/hallucination/test_evaluate_one_confidence_five_model.py",
+      "source_sha256": "ef834d200db012eaf319ca4db06799039399091d98cafee1aef911bd317f3bf0",
+      "release_sha256": "ef834d200db012eaf319ca4db06799039399091d98cafee1aef911bd317f3bf0",
+      "size_bytes": 646,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_evaluate_one_confidence_frozen_mitigation_run6.py",
+      "source": "experiments/hallucination/test_evaluate_one_confidence_frozen_mitigation_run6.py",
+      "source_sha256": "51b21c30b1a6025b9dc216067bf297d9c843ccb8e8b9a1052433adb80b9a3718",
+      "release_sha256": "51b21c30b1a6025b9dc216067bf297d9c843ccb8e8b9a1052433adb80b9a3718",
+      "size_bytes": 5146,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_evaluate_one_confidence_mosaic_v1_nested_public.py",
+      "source": "experiments/hallucination/test_evaluate_one_confidence_mosaic_v1_nested_public.py",
+      "source_sha256": "8ec9b97fd41fa766bf08717e53f242801a28d7019d4e095ca38091219b8568b0",
+      "release_sha256": "8ec9b97fd41fa766bf08717e53f242801a28d7019d4e095ca38091219b8568b0",
+      "size_bytes": 17716,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_evaluate_one_confidence_public_mitigation.py",
+      "source": "experiments/hallucination/test_evaluate_one_confidence_public_mitigation.py",
+      "source_sha256": "7090a37b199ed7fe71e20e3985c579cb1c363336949efb631ffa6e0a0d884ba2",
+      "release_sha256": "7090a37b199ed7fe71e20e3985c579cb1c363336949efb631ffa6e0a0d884ba2",
+      "size_bytes": 7983,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_extract_one_confidence_candidate_sequence_trajectory.py",
+      "source": "experiments/hallucination/test_extract_one_confidence_candidate_sequence_trajectory.py",
+      "source_sha256": "4efdeb7e33cadba66e47e8de22987cd3545c4b0a47b490c57373dc299c0dfaf4",
+      "release_sha256": "4efdeb7e33cadba66e47e8de22987cd3545c4b0a47b490c57373dc299c0dfaf4",
+      "size_bytes": 8735,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_one_confidence_frozen_source_access.py",
+      "source": "experiments/hallucination/test_one_confidence_frozen_source_access.py",
+      "source_sha256": "6dba52d982f25089eec1d9dc8efe2b53b40cbc3cad9c83e6da5422348daa0c1c",
+      "release_sha256": "6dba52d982f25089eec1d9dc8efe2b53b40cbc3cad9c83e6da5422348daa0c1c",
+      "size_bytes": 6518,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_one_confidence_mechanism_erasure.py",
+      "source": "experiments/hallucination/test_one_confidence_mechanism_erasure.py",
+      "source_sha256": "bfd6a4a21b001ed033615d596a1f2eb53e619820dbd2521003f3c73d654381c3",
+      "release_sha256": "bfd6a4a21b001ed033615d596a1f2eb53e619820dbd2521003f3c73d654381c3",
+      "size_bytes": 7016,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_one_confidence_mechanism_patching.py",
+      "source": "experiments/hallucination/test_one_confidence_mechanism_patching.py",
+      "source_sha256": "0d760b53a7f8b82328480f7b72e0d64dcfa2fb8b62002090158319f9dbb88e0e",
+      "release_sha256": "0d760b53a7f8b82328480f7b72e0d64dcfa2fb8b62002090158319f9dbb88e0e",
+      "size_bytes": 5805,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tests/test_release_data.py",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "fb6ddaefdcbe83c904a6f5c65fb342c325f537fc5b9edb0796f5049cc516122d",
+      "size_bytes": 1855,
+      "path_provenance_sanitized": false
+    },
+    {
+      "path": "tools/build_release.py",
+      "source": "experiments/hallucination/export_one_confidence_mosaic_github.py",
+      "source_sha256": "4d00aff8ed0092407d22906f4bed44c55f2d236aebfcee3134ebfb540317b368",
+      "release_sha256": "2585cb28d54490310d5dcba0d82c7f911f554d3c572c443a6d0b9717b93bee14",
+      "size_bytes": 20571,
+      "path_provenance_sanitized": true
+    },
+    {
+      "path": "tools/verify_release.py",
+      "source": null,
+      "source_sha256": null,
+      "release_sha256": "11bf72e70cefa2422e480d71cdc150ef796d5fc48bf273a19375921d2b183a96",
+      "size_bytes": 1306,
+      "path_provenance_sanitized": false
+    }
+  ],
+  "file_count": 298,
+  "total_size_bytes": 61513660,
+  "path_only_sanitization": true,
+  "labels_or_numeric_results_modified": false
+}

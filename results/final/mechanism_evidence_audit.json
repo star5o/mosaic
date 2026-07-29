@@ -1,0 +1,185 @@
+{
+  "schema_version": "one-confidence-mosaic-v1-mechanism-evidence-audit-v1",
+  "scope": "public development/validation mechanism analysis only",
+  "public_only": true,
+  "locked_accessed": false,
+  "fresh_accessed": false,
+  "controls": {
+    "aggregate_rows": 167,
+    "required_controls_present": [
+      "exact_noop",
+      "random_layer_true_patch",
+      "random_direction",
+      "unrelated_fact",
+      "shuffled_candidate",
+      "reverse_patch",
+      "HCC_DAMAGE"
+    ]
+  },
+  "cell_verdicts": [
+    {
+      "cell": "mistral7|TriviaQA",
+      "tested": true,
+      "selected_layer": 28,
+      "patch_validation_hce": 4,
+      "patch_control_adjusted_effect": 0.29339159473602194,
+      "patch_control_adjusted_positive": true,
+      "erasure_validation_hce": 4,
+      "erasure_control_adjusted_drop": -0.03897534388670465,
+      "erasure_control_adjusted_positive": false,
+      "bidirectional_support": false,
+      "verdict": "no_bidirectional_support"
+    },
+    {
+      "cell": "qwen8|TriviaQA",
+      "tested": true,
+      "selected_layer": 26,
+      "patch_validation_hce": 5,
+      "patch_control_adjusted_effect": -1.099042651616037,
+      "patch_control_adjusted_positive": false,
+      "erasure_validation_hce": 5,
+      "erasure_control_adjusted_drop": -0.1190724905114621,
+      "erasure_control_adjusted_positive": false,
+      "bidirectional_support": false,
+      "verdict": "no_bidirectional_support"
+    },
+    {
+      "cell": "llama31|TriviaQA",
+      "tested": true,
+      "selected_layer": 28,
+      "patch_validation_hce": 7,
+      "patch_control_adjusted_effect": -0.2021218596381091,
+      "patch_control_adjusted_positive": false,
+      "erasure_validation_hce": 7,
+      "erasure_control_adjusted_drop": -0.0027602461831910266,
+      "erasure_control_adjusted_positive": false,
+      "bidirectional_support": false,
+      "verdict": "no_bidirectional_support"
+    },
+    {
+      "cell": "qwen14|PopQA",
+      "tested": true,
+      "selected_layer": 35,
+      "patch_validation_hce": 3,
+      "patch_control_adjusted_effect": 0.5100208562410747,
+      "patch_control_adjusted_positive": true,
+      "erasure_validation_hce": 3,
+      "erasure_control_adjusted_drop": -0.04926193095986189,
+      "erasure_control_adjusted_positive": false,
+      "bidirectional_support": false,
+      "verdict": "no_bidirectional_support"
+    },
+    {
+      "cell": "nemo12|PopQA",
+      "tested": false,
+      "selected_layer": null,
+      "patch_validation_hce": 0,
+      "patch_control_adjusted_effect": null,
+      "patch_control_adjusted_positive": false,
+      "erasure_validation_hce": 0,
+      "erasure_control_adjusted_drop": null,
+      "erasure_control_adjusted_positive": false,
+      "bidirectional_support": false,
+      "verdict": "not_run"
+    }
+  ],
+  "mechanism_summary": {
+    "tested_cells": 4,
+    "patch_control_adjusted_positive_cells": [
+      "mistral7|TriviaQA",
+      "qwen14|PopQA"
+    ],
+    "erasure_control_adjusted_positive_cells": [],
+    "bidirectional_supported_cells": [],
+    "validation_hce_with_patch_and_erasure": 19,
+    "shared_candidate_specific_mechanism_supported": false,
+    "verdict": "Across Mistral, Qwen8, and Llama, no cell has both control-adjusted patch and erasure support. Llama's development-localized layer fails validation controls and changes 0/7 HCE generations to the candidate. The evidence supports prompt-conditioned perturbability, not a shared candidate-specific causal mechanism."
+  },
+  "phenotype_coverage_public_validation": {
+    "total_hce": 328,
+    "counts": {
+      "behavioral_recoverable": 18,
+      "assessed_persistent": 17,
+      "unassessed_HCE": 293,
+      "HCC_control": 328
+    },
+    "fractions_of_hce": {
+      "behavioral_recoverable": 0.054878048780487805,
+      "internal_competitive": 0.0,
+      "assessed_persistent": 0.051829268292682924,
+      "unassessed_HCE": 0.8932926829268293
+    },
+    "by_cell": {
+      "mistral7|TriviaQA": {
+        "behavioral_recoverable": 3,
+        "assessed_persistent": 12,
+        "unassessed_HCE": 60,
+        "HCC_control": 75
+      },
+      "qwen8|TriviaQA": {
+        "behavioral_recoverable": 5,
+        "assessed_persistent": 5,
+        "unassessed_HCE": 80,
+        "HCC_control": 90
+      },
+      "llama31|TriviaQA": {
+        "behavioral_recoverable": 7,
+        "unassessed_HCE": 46,
+        "HCC_control": 53
+      },
+      "qwen14|PopQA": {
+        "behavioral_recoverable": 3,
+        "unassessed_HCE": 55,
+        "HCC_control": 58
+      },
+      "nemo12|PopQA": {
+        "unassessed_HCE": 52,
+        "HCC_control": 52
+      }
+    },
+    "overlap": {
+      "behavioral_and_causal_internal": 0,
+      "behavioral_and_assessed_persistent": 0,
+      "causal_internal_and_assessed_persistent": 0
+    },
+    "detector_macro_descriptive": {
+      "HCC_control": {
+        "eligible_cells": 5,
+        "recall_or_fpr": 0.08711018801194467
+      },
+      "assessed_persistent": {
+        "eligible_cells": 2,
+        "recall_or_fpr": 0.875
+      },
+      "behavioral_recoverable": {
+        "eligible_cells": 4,
+        "recall_or_fpr": 0.95
+      },
+      "unassessed_HCE": {
+        "eligible_cells": 5,
+        "recall_or_fpr": 0.42423102260058787
+      }
+    },
+    "interpretation": "Phenotypes are partial observational/causal-assessment strata. Unassessed HCE must not be relabeled persistent."
+  },
+  "supported_claims": [
+    "Some HCE show fixed-panel behavioral recovery or disagreement.",
+    "Late-state interventions can perturb candidate competition in limited public subsets.",
+    "Run6 internal trajectory features retain observational detection signal after confidence matching.",
+    "The tested rank-one candidate direction fails bidirectional causal validation."
+  ],
+  "unsupported_claims": [
+    "A shared prompt-conditioned answer-selection circuit is validated across models.",
+    "Internal/output mismatch is a causally established pathway rather than an observational detector signal.",
+    "ACE/LEACE-style erasure validates the proposed direction.",
+    "Current mechanism evidence supports full-cohort STEER mitigation."
+  ],
+  "source_sha256": {
+    "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_control_verdict.json": "4ba50c427efd6a999073f25c50e90b8259f914fe45768b47bc44b72e4211661a",
+    "experiments/hallucination/results/one_confidence_mosaic_v1/table_mechanism_controls.json": "b915883a6206a0e19ad14bc08b2bc8b32ca6ebf53b99bb91613c1d6ee499d520",
+    "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_patch_results.json": "fcce2b46941d5cc3e82eac36cff02c71055b4efd590be6c9101f26914e3cc0c0",
+    "experiments/hallucination/results/one_confidence_mosaic_v1/mechanism_erasure_results.json": "b76703d3f64af26d3a56250ca2c029bab494339adfc109760eb063ecacdec11e",
+    "experiments/hallucination/results/one_confidence_mosaic_v1/phenotype_labels.json": "b7c7dee4f812d5ea48dafff490c242349243b5f2c55a6cdb282b3058c40c1d42",
+    "experiments/hallucination/results/one_confidence_mosaic_v1/table_detection_by_phenotype_legacy_public_validation.json": "347ba5200b2dc7e7c3f2c753b0ff1f4d5de2588072a48d906fda69ee5984b08e"
+  }
+}

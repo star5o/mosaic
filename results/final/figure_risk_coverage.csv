@@ -1,0 +1,37 @@
+aggregation,cell,split,answer_coverage,actual_coverage,answered,abstained,hce_answered,hcc_answered,selective_accuracy,selective_error_rate,metric_aggregation,selection_rule
+cell,mistral7|TriviaQA,retrospective_frozen_test,0.5,0.5,81,81,18,63,0.7777777777777778,0.2222222222222222,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,mistral7|TriviaQA,retrospective_frozen_test,0.6,0.5987654320987654,97,65,30,67,0.6907216494845361,0.30927835051546393,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,mistral7|TriviaQA,retrospective_frozen_test,0.7,0.6975308641975309,113,49,43,70,0.6194690265486725,0.38053097345132747,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,mistral7|TriviaQA,retrospective_frozen_test,0.8,0.8024691358024691,130,32,54,76,0.5846153846153846,0.41538461538461535,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,mistral7|TriviaQA,retrospective_frozen_test,0.9,0.9012345679012346,146,16,67,79,0.541095890410959,0.45890410958904104,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,mistral7|TriviaQA,retrospective_frozen_test,1.0,1.0,162,0,81,81,0.5,0.5,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,0.5,0.5,65,65,12,53,0.8153846153846154,0.18461538461538463,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,0.6,0.6,78,52,21,57,0.7307692307692307,0.2692307692307693,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,0.7,0.7,91,39,30,61,0.6703296703296703,0.3296703296703297,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,0.8,0.8,104,26,41,63,0.6057692307692307,0.3942307692307693,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,0.9,0.9,117,13,53,64,0.5470085470085471,0.45299145299145294,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen8|TriviaQA,retrospective_frozen_test,1.0,1.0,130,0,65,65,0.5,0.5,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,0.5,0.5,63,63,13,50,0.7936507936507936,0.2063492063492064,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,0.6,0.6031746031746031,76,50,21,55,0.7236842105263158,0.2763157894736842,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,0.7,0.6984126984126984,88,38,29,59,0.6704545454545454,0.3295454545454546,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,0.8,0.8015873015873016,101,25,40,61,0.6039603960396039,0.39603960396039606,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,0.9,0.8968253968253969,113,13,50,63,0.5575221238938053,0.4424778761061947,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,llama31|TriviaQA,retrospective_frozen_test,1.0,1.0,126,0,63,63,0.5,0.5,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,0.5,0.5,61,61,18,43,0.7049180327868853,0.29508196721311475,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,0.6,0.5983606557377049,73,49,24,49,0.6712328767123288,0.3287671232876712,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,0.7,0.6967213114754098,85,37,30,55,0.6470588235294118,0.3529411764705882,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,0.8,0.8032786885245902,98,24,42,56,0.5714285714285714,0.4285714285714286,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,0.9,0.9016393442622951,110,12,52,58,0.5272727272727272,0.4727272727272728,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,qwen14|PopQA,retrospective_frozen_test,1.0,1.0,122,0,61,61,0.5,0.5,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,0.5,0.5,57,57,18,39,0.6842105263157895,0.3157894736842105,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,0.6,0.5964912280701754,68,46,23,45,0.6617647058823529,0.3382352941176471,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,0.7,0.7017543859649122,80,34,31,49,0.6125,0.38749999999999996,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,0.8,0.7982456140350878,91,23,36,55,0.6043956043956044,0.39560439560439564,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,0.9,0.9035087719298246,103,11,47,56,0.5436893203883495,0.4563106796116505,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+cell,nemo12|PopQA,retrospective_frozen_test,1.0,1.0,114,0,57,57,0.5,0.5,cell,answer the lowest frozen Run6-risk rows; ties break by sample_id
+macro,macro_5_cells,retrospective_frozen_test,0.5,0.5,327,327,79,248,0.7551883491831723,0.24481165081682765,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro
+macro,macro_5_cells,retrospective_frozen_test,0.6,0.5993583838162497,392,262,119,273,0.6956345346749528,0.30436546532504716,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro
+macro,macro_5_cells,retrospective_frozen_test,0.7,0.6988838520101103,457,197,163,294,0.6439624131724601,0.35603758682753994,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro
+macro,macro_5_cells,retrospective_frozen_test,0.8,0.8011161479898897,524,130,213,311,0.594033837449679,0.40596616255032103,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro
+macro,macro_5_cells,retrospective_frozen_test,0.9,0.9006416161837503,589,65,269,320,0.5433177217948776,0.4566822782051224,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro
+macro,macro_5_cells,retrospective_frozen_test,1.0,1.0,654,0,327,327,0.5,0.5,equal-cell mean for rates; pooled sum for counts,per-cell lowest frozen Run6 risk followed by equal-cell macro

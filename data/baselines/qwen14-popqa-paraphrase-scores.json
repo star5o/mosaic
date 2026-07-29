@@ -1,0 +1,5811 @@
+{
+  "schema_version": "one-confidence-fixed-paraphrase-nli-v1",
+  "cell": "qwen14|PopQA",
+  "templates": [
+    "{q}",
+    "Give the shortest factual answer to this question: {q}",
+    "Identify only the entity or value requested here: {q}",
+    "Without explanation, answer this question: {q}"
+  ],
+  "nli_model": "microsoft/deberta-large-mnli",
+  "records": [
+    {
+      "sample_id": "qwen14|PopQA|1000825",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen King",
+        "Stephen King",
+        "Stephen King",
+        "Stephen King"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1001548",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1014081",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1020335",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kerman",
+        "Kerman",
+        "Kerman",
+        "Kerman"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1022989",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Texas",
+        "Texas",
+        "Texas",
+        "Texas"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1049793",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1059548",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1081675",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peru",
+        "Peru",
+        "Peru",
+        "Peru"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1110634",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pat Barker",
+        "Pat Barker",
+        "Pat Barker",
+        "Pat Barker"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1111661",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Field hockey",
+        "Field hockey",
+        "field hockey",
+        "Field hockey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1114521",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Russia",
+        "Russia",
+        "Russia",
+        "Russia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1123859",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ann Cleeves",
+        "Ann Cleeves",
+        "Ann Cleeves",
+        "Ann Cleeves"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1130523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1146794",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Elie Wiesel",
+        "Elie Wiesel",
+        "Elie Wiesel",
+        "Elie Wiesel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1148060",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1186467",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sarah Dessen",
+        "Sarah Dessen",
+        "Sarah Dessen",
+        "Sarah Dessen"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1192195",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rome",
+        "Rome",
+        "Rome",
+        "Rome"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1196428",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Norway",
+        "Norway",
+        "Norway",
+        "Norway"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1198269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ontario",
+        "Ontario",
+        "Ontario",
+        "Ontario"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1200458",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ian McEwan",
+        "Ian McEwan",
+        "Ian McEwan",
+        "Ian McEwan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1201284",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Antibes",
+        "Antibes",
+        "Antibes",
+        "Antibes"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1202978",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1207013",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Martin Scorsese",
+        "Martin Scorsese",
+        "Martin Scorsese",
+        "Martin Scorsese"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1230066",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "K-pop",
+        "K-pop",
+        "K-pop",
+        "K-pop"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1246258",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ice hockey",
+        "Ice hockey",
+        "Ice hockey",
+        "Ice hockey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1281223",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Latvia",
+        "Latvia",
+        "Latvia",
+        "Latvia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1292989",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1303276",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dhule",
+        "Dhule",
+        "Dhule",
+        "Dhule"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1305822",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1323264",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kubrick",
+        "Stanley Kubrick",
+        "Stanley Kubrick",
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|133487",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sophocles",
+        "Sophocles",
+        "Sophocles",
+        "Sophocles"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1336616",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Germany",
+        "Germany",
+        "Germany",
+        "Germany"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1402531",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George M. Cohan",
+        "George M. Cohan",
+        "George M. Cohan",
+        "George M. Cohan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1402952",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1416177",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|14171",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|144090",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Comedy",
+        "Comedy",
+        "Comedy",
+        "Comedy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1444653",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sweden",
+        "Sweden",
+        "Sweden",
+        "Sweden"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1447265",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1482020",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jon Favreau",
+        "Jon Favreau",
+        "Jon Favreau",
+        "Jon Favreau"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1487881",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Minnesota",
+        "Minnesota",
+        "Minnesota",
+        "Minnesota"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1518691",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oliver Sacks",
+        "Oliver Sacks",
+        "Oliver Sacks",
+        "Oliver Sacks"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1528899",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1549592",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Agatha Christie",
+        "Agatha Christie",
+        "Agatha Christie",
+        "Agatha Christie"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1571718",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|15805",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tripoli",
+        "Tripoli",
+        "Tripoli",
+        "Tripoli"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1580995",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1582998",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1587765",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1594309",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Politician",
+        "Politician",
+        "Politician",
+        "Politician"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1601192",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Baseball",
+        "Baseball",
+        "Baseball",
+        "Baseball"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1611776",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tuscany",
+        "Tuscany",
+        "Tuscany",
+        "Tuscany"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1627734",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Romania",
+        "Romania",
+        "Romania",
+        "Romania"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1638077",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Martin",
+        "George Martin",
+        "George Martin",
+        "George Martin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1649838",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Bowie",
+        "David Bowie",
+        "David Bowie",
+        "David Bowie"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1659966",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Historical drama",
+        "Historical drama",
+        "Historical drama",
+        "Historical drama"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1660153",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Egypt",
+        "Egypt",
+        "Egypt",
+        "Egypt"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1660625",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vincenzo Natali",
+        "Vincenzo Natali",
+        "Vincenzo Natali",
+        "Vincenzo Natali"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1677824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John I of Portugal",
+        "John I of Portugal",
+        "John I of Portugal",
+        "John I of Portugal"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1683241",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Roger Waters",
+        "Roger Waters",
+        "Roger Waters",
+        "Roger Waters"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1683421",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Epictetus",
+        "Epictetus",
+        "Epictetus",
+        "Epictetus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|168423",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Waco",
+        "Waco",
+        "Waco",
+        "Waco"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1706241",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Scientology",
+        "Scientology",
+        "Scientology",
+        "Scientology"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1722399",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1726045",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1726340",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Argentina",
+        "Argentina",
+        "Argentina",
+        "Argentina"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1729733",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Basketball",
+        "Basketball",
+        "Basketball",
+        "Basketball"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1737166",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1739387",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Estonia",
+        "Estonia",
+        "Estonia",
+        "Estonia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1746468",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1751617",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Wyler",
+        "William Wyler",
+        "William Wyler",
+        "William Wyler"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1753742",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1763729",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Baku",
+        "Baku",
+        "Baku",
+        "Baku"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1770493",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Andorra la Vella",
+        "Andorra la Vella",
+        "Andorra la Vella",
+        "Andorra la Vella"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1785792",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1786832",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1788690",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Durham",
+        "Durham",
+        "Durham",
+        "Durham"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1789286",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lincoln",
+        "Lincoln",
+        "Lincoln",
+        "Lincoln"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1790890",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tindouf",
+        "Tindouf",
+        "Tindouf",
+        "Tindouf"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1800453",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Prince Andrew of Greece and Denmark",
+        "Prince Andrew of Greece and Denmark",
+        "Prince Andrew of Greece and Denmark",
+        "Prince Andrew of Greece and Denmark"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1802180",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canterbury",
+        "Canterbury",
+        "Canterbury",
+        "Canterbury"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1808767",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "AC/DC",
+        "AC/DC",
+        "AC/DC",
+        "AC/DC"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1810004",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1818595",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Florida",
+        "Florida",
+        "Florida",
+        "Florida"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1820953",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Garth Ennis",
+        "Garth Ennis",
+        "Garth Ennis",
+        "Garth Ennis"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1823075",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Georgia",
+        "Georgia",
+        "Georgia",
+        "Georgia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1823768",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edward III",
+        "Edward III",
+        "Edward III",
+        "Edward III"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|184142",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1853189",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Belgium",
+        "Belgium",
+        "Belgium",
+        "Belgium"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1862399",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1866419",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|189068",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Stallman",
+        "Richard Stallman",
+        "Richard Stallman",
+        "Richard Stallman"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1902925",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "North Macedonia",
+        "North Macedonia",
+        "North Macedonia",
+        "North Macedonia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1918483",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1931430",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jóhann Jóhannsson",
+        "Jóhann Jóhannsson",
+        "Jóhann Jóhannsson",
+        "Jóhann Jóhannsson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1932836",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herodotus",
+        "Herodotus",
+        "Herodotus",
+        "Herodotus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1936197",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Columbia",
+        "Columbia",
+        "Columbia",
+        "Columbia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1946555",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football (soccer)",
+        "Football (soccer)",
+        "Football (soccer)",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|195002",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ruijin",
+        "Ruijin",
+        "Ruijin",
+        "Ruijin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|19518",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Africa",
+        "Africa",
+        "Africa",
+        "Africa"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1956088",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vietnam",
+        "Vietnam",
+        "Vietnam",
+        "Vietnam"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1961411",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Seattle",
+        "Seattle",
+        "Seattle",
+        "Seattle"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|199412",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean Raspail",
+        "Jean Raspail",
+        "Jean Raspail",
+        "Jean Raspail"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2015316",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robert Jordan",
+        "Robert Jordan",
+        "Robert Jordan",
+        "Robert Jordan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2022959",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cycling",
+        "Cycling",
+        "Cycling",
+        "Cycling"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|20250",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lilongwe",
+        "Lilongwe",
+        "Lilongwe",
+        "Lilongwe"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2038373",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2049010",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Bernard Shaw",
+        "George Bernard Shaw",
+        "George Bernard Shaw",
+        "George Bernard Shaw"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2049787",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henry III",
+        "Henry III",
+        "Henry III",
+        "Henry III"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2059485",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Slovenia",
+        "Slovenia",
+        "Slovenia",
+        "Slovenia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2065688",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gotham City",
+        "Gotham City",
+        "Gotham City",
+        "Gotham City"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2070124",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dublin",
+        "Dublin",
+        "Dublin",
+        "Dublin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|20781",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2096935",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Slovenia",
+        "Slovenia",
+        "Slovenia",
+        "Slovenia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2100090",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Serbia",
+        "Serbia",
+        "Serbia",
+        "Serbia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2106548",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2113325",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|215156",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2197462",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Mitchell",
+        "David Mitchell",
+        "David Mitchell",
+        "David Mitchell"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2235290",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Qatar",
+        "Qatar",
+        "Qatar",
+        "Qatar"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2250993",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "poet",
+        "poet",
+        "poet",
+        "poet"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2259208",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Comedy",
+        "Comedy",
+        "Comedy",
+        "Comedy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2266361",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2281843",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jacques Derrida",
+        "Jacques Derrida",
+        "Jacques Derrida",
+        "Jacques Derrida"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2350255",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Scott Z. Burns",
+        "Scott Z. Burns",
+        "Scott Z. Burns",
+        "Scott Z. Burns"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2366583",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2413157",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Catholicism",
+        "Catholicism",
+        "Catholicism",
+        "Catholicism"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2431203",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Country",
+        "Country",
+        "Country",
+        "Country"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2438406",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Perth",
+        "Perth",
+        "Perth",
+        "Perth"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2490569",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Magazine",
+        "Magazine",
+        "Magazine",
+        "Magazine"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2493472",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2527173",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Belgorod Oblast",
+        "Belgorod Oblast",
+        "Belgorod Oblast",
+        "Belgorod Oblast"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2533106",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jane Austen",
+        "Jane Austen",
+        "Jane Austen",
+        "Jane Austen"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2534092",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ajaccio",
+        "Ajaccio",
+        "Ajaccio",
+        "Ajaccio"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2535927",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|254163",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rugby",
+        "Rugby",
+        "Rugby",
+        "Rugby"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2567382",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2599603",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nils Torvalds",
+        "Nils Torvalds",
+        "Nils Torvalds",
+        "Nils Torvalds"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2612485",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Heraklion",
+        "Heraklion",
+        "Heraklion",
+        "Heraklion"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2630915",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|265754",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "San Juan",
+        "San Juan",
+        "San Juan",
+        "San Juan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2658183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2674978",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2691042",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philippines",
+        "Philippines",
+        "Philippines",
+        "Philippines"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2695965",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herodotus",
+        "Herodotus",
+        "Herodotus",
+        "Herodotus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2742977",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Cameron",
+        "James Cameron",
+        "James Cameron",
+        "James Cameron"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2750484",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Africa",
+        "South Africa",
+        "South Africa",
+        "South Africa"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2755911",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean Toomer",
+        "Jean Toomer",
+        "Jean Toomer",
+        "Jean Toomer"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2774098",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Islam",
+        "Islam",
+        "Islam",
+        "Islam"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2797818",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Science fiction",
+        "Science fiction",
+        "Science fiction",
+        "Science fiction"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|282508",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Albert Camus",
+        "Albert Camus",
+        "Albert Camus",
+        "Albert Camus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2826142",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2833179",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Techno",
+        "Techno",
+        "Techno",
+        "Techno"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2849913",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bangladesh",
+        "Bangladesh",
+        "Bangladesh",
+        "Bangladesh"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2850847",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rwanda",
+        "Rwanda",
+        "Rwanda",
+        "Rwanda"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|286654",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2878364",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Frideric Handel",
+        "George Frideric Handel",
+        "George Frideric Handel",
+        "George Frideric Handel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2892102",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2898290",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Magadha",
+        "Magadha",
+        "Magadha",
+        "Magadha"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2899839",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bern",
+        "Bern",
+        "Bern",
+        "Bern"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2921077",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Molokovo",
+        "Molokovo",
+        "Molokovo",
+        "Molokovo"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2948870",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robert Kiyosaki",
+        "Robert Kiyosaki",
+        "Robert Kiyosaki",
+        "Robert Kiyosaki"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2953719",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|297952",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Springfield",
+        "Springfield",
+        "Springfield",
+        "Springfield"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3004455",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Malaysia",
+        "Malaysia",
+        "Malaysia",
+        "Malaysia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3011411",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Beach soccer",
+        "Beach soccer",
+        "Beach soccer",
+        "Beach soccer"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3014897",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen Daldry",
+        "Stephen Daldry",
+        "Stephen Daldry",
+        "Stephen Daldry"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3024446",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3033691",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Red",
+        "Red",
+        "Red",
+        "Red"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3034815",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3044665",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3048391",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Table tennis",
+        "Table tennis",
+        "Table tennis",
+        "Table tennis"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3073493",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3078422",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mehmed II",
+        "Mehmed II",
+        "Mehmed II",
+        "Mehmed II"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|308234",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brian Wilson",
+        "Brian Wilson",
+        "Brian Wilson",
+        "Brian Wilson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3084025",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Quincy Jones",
+        "Quincy Jones",
+        "Quincy Jones",
+        "Quincy Jones"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3087446",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Williams",
+        "John Williams",
+        "John Williams",
+        "John Williams"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3113390",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3141012",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Switzerland",
+        "Switzerland",
+        "Switzerland",
+        "Switzerland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3149447",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Orwell",
+        "George Orwell",
+        "George Orwell",
+        "George Orwell"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3169996",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3191297",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Johann Strauss II",
+        "Johann Strauss II",
+        "Johann Strauss II",
+        "Johann Strauss II"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3202083",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mathieu Kassovitz",
+        "Mathieu Kassovitz",
+        "Mathieu Kassovitz",
+        "Mathieu Kassovitz"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3207197",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John D. Rockefeller Jr.",
+        "John D. Rockefeller Jr.",
+        "John D. Rockefeller Jr.",
+        "John D. Rockefeller Jr."
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3221878",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Board game",
+        "Board game",
+        "Board game",
+        "Board game"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276960",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276962",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3290608",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lewis Carroll",
+        "Lewis Carroll",
+        "Lewis Carroll",
+        "Lewis Carroll"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3313057",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "First-person shooter",
+        "First-person shooter",
+        "First-person shooter",
+        "First-person shooter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3313089",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3316731",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Asif Kapadia",
+        "Asif Kapadia",
+        "Asif Kapadia",
+        "Asif Kapadia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3405500",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3415081",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "New Zealand",
+        "New Zealand",
+        "New Zealand",
+        "New Zealand"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|34246",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Windhoek",
+        "Windhoek",
+        "Windhoek",
+        "Windhoek"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3427269",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "MMORPG",
+        "MMORPG",
+        "MMORPG",
+        "MMORPG"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3448351",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|351663",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William II of the Netherlands",
+        "William II of the Netherlands",
+        "William II of the Netherlands",
+        "William II of the Netherlands"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|353985",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stans",
+        "Stans",
+        "Stans",
+        "Stans"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|356006",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Marigot",
+        "Marigot",
+        "Marigot",
+        "Marigot"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3588340",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Jackson",
+        "Michael Jackson",
+        "Michael Jackson",
+        "Michael Jackson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3635640",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rugby",
+        "Rugby",
+        "Rugby",
+        "Rugby"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|367189",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bellinzona",
+        "Bellinzona",
+        "Bellinzona",
+        "Bellinzona"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|373418",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football (soccer)",
+        "Football (soccer)",
+        "Football (soccer)",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753768",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Armenia",
+        "Armenia",
+        "Armenia",
+        "Armenia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753788",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ohio",
+        "Ohio",
+        "Ohio",
+        "Ohio"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753833",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3773632",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Thomas Paine",
+        "Thomas Paine",
+        "Thomas Paine",
+        "Thomas Paine"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|381474",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Politician",
+        "Politician",
+        "Politician",
+        "Politician"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3817483",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3824884",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3886077",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Thomas Jefferson",
+        "Thomas Jefferson",
+        "Thomas Jefferson",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3897677",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Florence",
+        "Florence",
+        "Florence",
+        "Florence"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3980472",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pop",
+        "Pop",
+        "Pop",
+        "Pop"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3998967",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actor",
+        "Actor",
+        "Actor",
+        "Actor"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4003566",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Netherlands",
+        "Netherlands",
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|401127",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tim Berners-Lee",
+        "Tim Berners-Lee",
+        "Tim Berners-Lee",
+        "Tim Berners-Lee"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4012395",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4078079",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4169456",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sitcom",
+        "Sitcom",
+        "Sitcom",
+        "Sitcom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4182134",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Azerbaijan",
+        "Azerbaijan",
+        "Azerbaijan",
+        "Azerbaijan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4185439",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Germany",
+        "Germany",
+        "Germany",
+        "Germany"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4202811",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4240400",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4249573",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4280000",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Baroque",
+        "Baroque",
+        "Baroque",
+        "Baroque"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321247",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321258",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321260",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ireland",
+        "Ireland",
+        "Ireland",
+        "Ireland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4442437",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Milton Friedman",
+        "Milton Friedman",
+        "Milton Friedman",
+        "Milton Friedman"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4469423",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4544622",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4549280",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Maurice Ravel",
+        "Maurice Ravel",
+        "Maurice Ravel",
+        "Maurice Ravel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4549284",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Maurice Ravel",
+        "Maurice Ravel",
+        "Maurice Ravel",
+        "Maurice Ravel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4552598",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ernest Hemingway",
+        "Ernest Hemingway",
+        "Ernest Hemingway",
+        "Ernest Hemingway"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4588933",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4591269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Latvia",
+        "Latvia",
+        "Latvia",
+        "Latvia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4686489",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4732699",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4740507",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Helsinki",
+        "Helsinki",
+        "Helsinki",
+        "Helsinki"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4783073",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|485119",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ruben Östlund",
+        "Ruben Östlund",
+        "Ruben Östlund",
+        "Ruben Östlund"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|490816",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bundibugyo",
+        "Bundibugyo",
+        "Bundibugyo",
+        "Bundibugyo"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4933597",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4966824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peru",
+        "Peru",
+        "Peru",
+        "Peru"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4966829",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peru",
+        "Peru",
+        "Peru",
+        "Peru"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4987163",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bruce Wayne",
+        "Bruce Wayne",
+        "Bruce Wayne",
+        "Bruce Wayne"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|500387",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "New York",
+        "New York",
+        "New York",
+        "New York"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5026418",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Taylor Swift",
+        "Taylor Swift",
+        "Taylor Swift",
+        "Taylor Swift"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5054345",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Casimir IV Jagiellon",
+        "Casimir IV Jagiellon",
+        "Casimir IV Jagiellon",
+        "Casimir IV Jagiellon"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5080809",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Darryl F. Zanuck",
+        "Darryl F. Zanuck",
+        "Darryl F. Zanuck",
+        "Darryl F. Zanuck"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5089423",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5112830",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5123807",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5135377",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5185183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Graham",
+        "Paul Graham",
+        "Paul Graham",
+        "Paul Graham"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5241281",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aristotle",
+        "Aristotle",
+        "Aristotle",
+        "Aristotle"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5246998",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5302153",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Middelburg",
+        "Middelburg",
+        "Middelburg",
+        "Middelburg"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5313876",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|531441",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Snooker",
+        "Snooker",
+        "Snooker",
+        "Snooker"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|543535",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lorne Michaels",
+        "Lorne Michaels",
+        "Lorne Michaels",
+        "Lorne Michaels"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5459362",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Food",
+        "Food",
+        "Food",
+        "Food"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5467293",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Europe",
+        "Europe",
+        "Europe",
+        "Europe"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5472576",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aristotle",
+        "Aristotle",
+        "Aristotle",
+        "Aristotle"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5481425",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5493611",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Auburn",
+        "David Auburn",
+        "David Auburn",
+        "David Auburn"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5524839",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Switzerland",
+        "Switzerland",
+        "Switzerland",
+        "Switzerland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5563657",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John",
+        "John",
+        "John",
+        "John"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5576523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Augusta",
+        "Augusta",
+        "Augusta",
+        "Augusta"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5586876",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5616890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John G. Avildsen",
+        "John G. Avildsen",
+        "John G. Avildsen",
+        "John G. Avildsen"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|567269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robert Altman",
+        "Robert Altman",
+        "Robert Altman",
+        "Robert Altman"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5696015",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5716672",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5717470",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|57303",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Miles Davis",
+        "Miles Davis",
+        "Miles Davis",
+        "Miles Davis"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5731048",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5783022",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5783749",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wiltshire",
+        "Wiltshire",
+        "Wiltshire",
+        "Wiltshire"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5815002",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ann Dunham",
+        "Ann Dunham",
+        "Ann Dunham",
+        "Ann Dunham"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|58303",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mogadishu",
+        "Mogadishu",
+        "Mogadishu",
+        "Mogadishu"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5860263",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5864218",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kingston",
+        "Kingston",
+        "Kingston",
+        "Kingston"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5866070",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5910730",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pyotr Ilyich Tchaikovsky",
+        "Pyotr Ilyich Tchaikovsky",
+        "Pyotr Ilyich Tchaikovsky",
+        "Pyotr Ilyich Tchaikovsky"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5924909",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Albert Camus",
+        "Albert Camus",
+        "Albert Camus",
+        "Albert Camus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5926906",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|593981",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "London",
+        "London",
+        "London",
+        "London"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|596053",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ceres",
+        "Ceres",
+        "Ceres",
+        "Ceres"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5965034",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Simon",
+        "David Simon",
+        "David Simon",
+        "David Simon"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|601740",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pop",
+        "Pop",
+        "Pop",
+        "Pop"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6051351",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6078726",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Game engine",
+        "Game engine",
+        "Game engine",
+        "Game engine"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6081578",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jason Reitman",
+        "Jason Reitman",
+        "Jason Reitman",
+        "Jason Reitman"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6099166",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Russia",
+        "Russia",
+        "Russia",
+        "Russia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6118835",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Romania",
+        "Romania",
+        "Romania",
+        "Romania"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6138181",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|614789",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christianity",
+        "Christianity",
+        "Christianity",
+        "Christianity"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|614930",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6154838",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philippines",
+        "Philippines",
+        "Philippines",
+        "Philippines"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6205535",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6251634",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6261308",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Belarus",
+        "Belarus",
+        "Belarus",
+        "Belarus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6265173",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tallahassee",
+        "Tallahassee",
+        "Tallahassee",
+        "Tallahassee"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6273545",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Salem",
+        "Salem",
+        "Salem",
+        "Salem"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6275770",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Card game",
+        "Card game",
+        "Card game",
+        "Card game"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6290863",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Akure",
+        "Akure",
+        "Akure",
+        "Akure"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6304231",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rock",
+        "Rock",
+        "Rock",
+        "Rock"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6310879",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6318750",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Buddhism",
+        "Buddhism",
+        "Buddhism",
+        "Buddhism"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6330613",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dushanbe",
+        "Dushanbe",
+        "Dushanbe",
+        "Dushanbe"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6355626",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hanoi",
+        "Hanoi",
+        "Hanoi",
+        "Hanoi"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6363270",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon",
+        "Philip II of Macedon"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6395335",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rock",
+        "Rock",
+        "Rock",
+        "Rock"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6401520",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bashkortostan",
+        "Bashkortostan",
+        "Bashkortostan",
+        "Bashkortostan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6405452",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rian Johnson",
+        "Rian Johnson",
+        "Rian Johnson",
+        "Rian Johnson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6423457",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Malaysia",
+        "Malaysia",
+        "Malaysia",
+        "Malaysia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6468445",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|647040",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6503286",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6552986",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|672890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Karl Marx",
+        "Karl Marx",
+        "Karl Marx",
+        "Karl Marx"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|707881",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|77228",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Roland Emmerich",
+        "Roland Emmerich",
+        "Roland Emmerich",
+        "Roland Emmerich"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|789817",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|791541",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Parvati",
+        "Parvati",
+        "Parvati",
+        "Parvati"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|806866",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isabel Wilkerson",
+        "Isabel Wilkerson",
+        "Isabel Wilkerson",
+        "Isabel Wilkerson"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|88774",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|901152",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cricket",
+        "Cricket",
+        "Cricket",
+        "Cricket"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|987936",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Teramo",
+        "Teramo",
+        "Teramo",
+        "Teramo"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1181122",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Judaism",
+        "Judaism",
+        "Judaism",
+        "Judaism"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|119179",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1211753",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Saxony-Anhalt",
+        "Saxony-Anhalt",
+        "Saxony-Anhalt",
+        "Saxony-Anhalt"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1243604",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Germany",
+        "Germany",
+        "Germany",
+        "Germany"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|128717",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Czech Republic",
+        "Czech Republic",
+        "Czech Republic",
+        "Czech Republic"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1340076",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1385147",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1406197",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Himachal Pradesh",
+        "Himachal Pradesh",
+        "Himachal Pradesh",
+        "Himachal Pradesh"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1461108",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alternative rock",
+        "Alternative rock",
+        "Alternative rock",
+        "Alternative rock"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1488536",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lin-Manuel Miranda",
+        "Lin-Manuel Miranda",
+        "Lin-Manuel Miranda",
+        "Lin-Manuel Miranda"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1495476",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Frideric Handel",
+        "George Frideric Handel",
+        "George Frideric Handel",
+        "George Frideric Handel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1594698",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ireland",
+        "Ireland",
+        "Ireland",
+        "Ireland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1760362",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1770178",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herodotus",
+        "Herodotus",
+        "Herodotus",
+        "Herodotus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1830536",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sarah Koenig",
+        "Sarah Koenig",
+        "Sarah Koenig",
+        "Sarah Koenig"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1864117",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bob Marley",
+        "Bob Marley",
+        "Bob Marley",
+        "Bob Marley"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1874399",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1887736",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1889250",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pomorie",
+        "Pomorie",
+        "Pomorie",
+        "Pomorie"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1905981",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Screenwriter",
+        "Screenwriter",
+        "Screenwriter",
+        "Screenwriter"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1924437",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Game engine",
+        "Game engine",
+        "Game engine",
+        "Game engine"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1926471",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Taitung City",
+        "Taitung City",
+        "Taitung City",
+        "Taitung City"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1948261",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Funen",
+        "Funen",
+        "Funen",
+        "Funen"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1950413",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Algeria",
+        "Algeria",
+        "Algeria",
+        "Algeria"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1951267",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1974597",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Strasbourg",
+        "Strasbourg",
+        "Strasbourg",
+        "Strasbourg"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1977383",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philosophy",
+        "Philosophy",
+        "Philosophy",
+        "Philosophy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1980847",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alfonso Cuarón",
+        "Alfonso Cuarón",
+        "Alfonso Cuarón",
+        "Alfonso Cuarón"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1981390",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean Grey",
+        "Jean Grey",
+        "Jean Grey",
+        "Jean Grey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2003646",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Rodgers",
+        "Richard Rodgers",
+        "Richard Rodgers",
+        "Richard Rodgers"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2025404",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Slovakia",
+        "Slovakia",
+        "Slovakia",
+        "Slovakia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2032651",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|21770",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Israel",
+        "Israel",
+        "Israel",
+        "Israel"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2218396",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|223560",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Action-adventure",
+        "Action-adventure",
+        "Action-adventure",
+        "Action-adventure"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2237951",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2284594",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|258682",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shimla",
+        "Shimla",
+        "Shimla",
+        "Shimla"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2621885",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2651226",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Queensland",
+        "Queensland",
+        "Queensland",
+        "Queensland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2658151",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Copenhagen",
+        "Copenhagen",
+        "Copenhagen",
+        "Copenhagen"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2702620",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Algeria",
+        "Algeria",
+        "Algeria",
+        "Algeria"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2782790",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2785560",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|282751",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hanoi",
+        "Hanoi",
+        "Hanoi",
+        "Hanoi"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2838214",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wes Craven",
+        "Wes Craven",
+        "Wes Craven",
+        "Wes Craven"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|287919",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aarau",
+        "Aarau",
+        "Aarau",
+        "Aarau"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2942700",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actor",
+        "Actor",
+        "Actor",
+        "Actor"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2965793",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cronus",
+        "Cronus",
+        "Cronus",
+        "Cronus"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2986246",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Mann",
+        "Michael Mann",
+        "Michael Mann",
+        "Michael Mann"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3004507",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henry III of England",
+        "Henry III of England",
+        "Henry III of England",
+        "Henry III of England"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3038698",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Porto Velho",
+        "Porto Velho",
+        "Porto Velho",
+        "Porto Velho"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3064464",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3073298",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Zebedee",
+        "Zebedee",
+        "Zebedee",
+        "Zebedee"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|307811",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lucerne",
+        "Lucerne",
+        "Lucerne",
+        "Lucerne"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3099941",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Corrientes City",
+        "Corrientes City",
+        "Corrientes City",
+        "Corrientes City"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276946",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3311112",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3319861",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|33474",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Galt MacDermot",
+        "Galt MacDermot",
+        "Galt MacDermot",
+        "Galt MacDermot"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3379536",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Daft Punk",
+        "Daft Punk",
+        "Daft Punk",
+        "Daft Punk"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3467867",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ann Patchett",
+        "Ann Patchett",
+        "Ann Patchett",
+        "Ann Patchett"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3553137",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Piedmont",
+        "Piedmont",
+        "Piedmont",
+        "Piedmont"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3629767",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tennessee Williams",
+        "Tennessee Williams",
+        "Tennessee Williams",
+        "Tennessee Williams"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3709607",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3963711",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|401366",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sitcom",
+        "Sitcom",
+        "Sitcom",
+        "Sitcom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4077985",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kielce",
+        "Kielce",
+        "Kielce",
+        "Kielce"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4094476",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Gershwin",
+        "George Gershwin",
+        "George Gershwin",
+        "George Gershwin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4100770",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|412759",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Russia",
+        "Russia",
+        "Russia",
+        "Russia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4304705",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nigeria",
+        "Nigeria",
+        "Nigeria",
+        "Nigeria"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4309143",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4325726",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Comedy",
+        "Comedy",
+        "Comedy",
+        "Comedy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4452989",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|450155",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4521313",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|456429",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4607987",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Arab Emirates",
+        "United Arab Emirates",
+        "United Arab Emirates",
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4712406",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|471853",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4767525",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen King",
+        "Stephen King",
+        "Stephen King",
+        "Stephen King"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4807954",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actress",
+        "Actress",
+        "Actress",
+        "Actress"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4889221",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4938904",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Simulation / Strategy",
+        "Simulation",
+        "Simulation / Business / Transportation",
+        "Simulation / Strategy"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4994752",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Amsterdam",
+        "Amsterdam",
+        "Amsterdam",
+        "Amsterdam"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5154865",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "John Beaufort",
+        "John Beaufort",
+        "John Beaufort",
+        "John Beaufort, 1st Duke of Somerset"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5172941",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Austria",
+        "Austria",
+        "Austria",
+        "Austria"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5175831",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Honiara",
+        "Honiara",
+        "Honiara",
+        "Honiara"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5189715",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nobuo Uematsu",
+        "Nobuo Uematsu",
+        "Nobuo Uematsu",
+        "Nobuo Uematsu"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5483327",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Assam",
+        "Assam",
+        "Assam",
+        "Assam"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5634223",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5785289",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Williams",
+        "John Williams",
+        "John Williams",
+        "John Williams"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5816105",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5909630",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sam Peckinpah",
+        "Sam Peckinpah",
+        "Sam Peckinpah",
+        "Sam Peckinpah"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5918515",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5945953",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charles Darwin",
+        "Charles Darwin",
+        "Charles Darwin",
+        "Charles Darwin"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5964543",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "L. Frank Baum",
+        "L. Frank Baum",
+        "L. Frank Baum",
+        "L. Frank Baum"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6044354",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6082176",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6083018",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cairo",
+        "Cairo",
+        "Cairo",
+        "Cairo"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6094597",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6251694",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|629369",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vivaldi",
+        "Vivaldi",
+        "Vivaldi",
+        "Vivaldi"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6300318",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Darren Aronofsky",
+        "Darren Aronofsky",
+        "Darren Aronofsky",
+        "Darren Aronofsky"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6302842",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Quentin Tarantino",
+        "Quentin Tarantino",
+        "Quentin Tarantino",
+        "Quentin Tarantino"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6312040",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Colombia",
+        "Colombia",
+        "Argentina",
+        "Colombia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6340616",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Red and white",
+        "Red and white",
+        "Red and white",
+        "Red and white"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6341002",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Uganda"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6345556",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Video game",
+        "Video game",
+        "Video game platform",
+        "Video game"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6414929",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football (soccer)"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6447955",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6469182",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6534377",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6554942",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|988268",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Card game",
+        "Card game",
+        "Card game",
+        "Card game"
+      ]
+    }
+  ]
+}

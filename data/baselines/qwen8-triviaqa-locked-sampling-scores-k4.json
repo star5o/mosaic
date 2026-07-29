@@ -1,0 +1,2219 @@
+{
+  "schema_version": "one-confidence-nli-sampling-scores-v1",
+  "cell": "qwen8|TriviaQA",
+  "K": 4,
+  "nli_model": "microsoft/deberta-large-mnli",
+  "clustering": "greedy bidirectional entailment",
+  "records": [
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6987",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "photography"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_1916",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "South Sudan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2245",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "bruise"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2552",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "5"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_14351",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bahrain"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_9448",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "18"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3166",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Kinshasa"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1509",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bocce Ball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8614",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Coffee"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1847",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Robert De Niro"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_8232",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Hair"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2502",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Canberra"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2290",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Rye whiskey"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2646",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "spermaceti"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_4371",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jonathan Swift"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_4255",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tennessee"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1630",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bobby Fischer"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1252",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mary Poppins Returns"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9678",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Salix"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1304",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Margate"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8316",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Apple Inc."
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1634",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bruce Wayne"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3854",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "USS Constitution"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_264",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "China"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_2605",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Martin Luther King Jr."
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3490",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Rio de Janeiro"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_7903",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "James A. Van Allen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11076",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Camille Pissarro"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2772",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "François Hollande"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11651",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Benvenuto Cellini"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tb_1235",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Haitian Revolution"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_12528",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Henry Moore"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_19559",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Clara"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13254",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Wyoming"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_4395",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Phil Spector"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14017",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1986"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_3990",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John Constable"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14815",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Louis Daguerre"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3108",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Flush"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5209",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Audrey Hepburn"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_10151",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Liverpool"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_594",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1929"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13000",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Paul Dukas"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6121",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Malachi"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_547",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Schleswig-Holstein"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6925",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Blowin' in the Wind"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4082",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Novak Djokovic"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7432",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "X-Men: First Class"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1210",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Northern Hemisphere"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7834",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Dublin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5022",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "David Balfour"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_9968",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "River Tay"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5321",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1968 Mexico City Olympics"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3343",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States of America"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_14",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Angela Merkel"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_4717",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1969"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_3591",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "a water clock"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5752",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "blue and red"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3858",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Grand Canyon"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_7813",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Edward de Vere, 18th Earl of Oxford"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9675",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Game of Thrones"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8254",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "3"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5188",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bill Clinton"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9190",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Van"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1525",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "cross-dresser"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9573",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "18"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8879",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Meerkat"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_2473",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Diving"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_7650",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "jester"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_316",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1962"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_7164",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Typhoid fever"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2992",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "a car"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2559",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Little John"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11437",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bob Dylan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10645",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alan Turing"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11908",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "30"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_17020",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Dubai"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12057",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1985"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11750",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Austria"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12586",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "32"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14570",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tarantula"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12817",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Australian Open"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_2867",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Biathlon"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14687",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "dowry"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3296",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "George I"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8423",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Napoleon Bonaparte"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_186",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Gertrude"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_256",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1921"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_2514",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_2718",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "The Red King"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20455",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Igor Stravinsky"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_3127",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Switzerland"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_1524",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Winston Churchill"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_6403",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "undersurface"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8517",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Australia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10443",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Marmaduke, Earl of Bunkerton"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20251",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Manzanares River"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_16187",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Seamus Heaney"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2836",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "ethology"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20731",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tess of the d'Urbervilles"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5165",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Maruti Suzuki"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_21241",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mediterranean Avenue"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5157",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "George Lucas"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_23303",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Cain"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9198",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "alpha"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24375",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sylviidae"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3513",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "W. S. Gilbert and Arthur Sullivan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_25914",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Antimony"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10466",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alexander the Great"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_26227",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1956"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3131",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "vote"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3278",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bernard Schwarz"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_984",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Yuri Gagarin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3346",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Austria"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_2502",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pigeon"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5388",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "M1"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24100",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Friends"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6152",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "The Wall Street Journal"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2106",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "gums"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9523",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Seychelles"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5523",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pennine Way"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9722",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ireland"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_1547",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Benjamin Franklin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2580",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Austria"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13292",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jane Seymour"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_2482",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "E.T. the Extra-Terrestrial"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10472",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ironsides"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4170",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "1994"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_880",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Enemy at the Gates"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_51",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Vickers-Armstrongs"
+      ],
+      "original_support": 1.0
+    }
+  ]
+}

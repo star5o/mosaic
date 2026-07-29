@@ -1,0 +1,5362 @@
+{
+  "schema_version": "one-confidence-inside-eigenscore-v1",
+  "cell": "qwen14|PopQA",
+  "implementation_status": "approximate",
+  "paper_formula": "middle-layer last-token KxK covariance logdet, alpha=0.001",
+  "differences": "K=4 equal budget instead of K=10; feature clipping disabled",
+  "layer_index": 20,
+  "records": [
+    {
+      "sample_id": "qwen14|PopQA|1000825",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -11.971966743469238,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.012041617184877396,
+        132397.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1001548",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.769067287445068,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0025021436158567667,
+        0.006768441293388605,
+        102831.3046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1014081",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.117047309875488,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0030771512538194656,
+        72035.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1020335",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.4995445013046265,
+      "eigenvalues": [
+        0.001059488975442946,
+        0.001953125,
+        0.010796794667840004,
+        111148.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1022989",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.8247443437576294,
+      "eigenvalues": [
+        0.001169657683931291,
+        0.001953125,
+        0.0041381847113370895,
+        71531.2578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1049793",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.1702359914779663,
+      "eigenvalues": [
+        0.0009959349408745766,
+        0.002741744974628091,
+        0.02857320010662079,
+        118816.03125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1059548",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.93713903427124,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.005723056849092245,
+        79542.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1081675",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.541642189025879,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        83599.9453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1110634",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -11.87131118774414,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.01804308220744133,
+        132162.828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1111661",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.02487850189209,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.003018096787855029,
+        106187.40625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1114521",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.433586120605469,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007146975258365273,
+        0.0023404688108712435,
+        72964.859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1123859",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -17.336490631103516,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        5.818428638199036e-12,
+        131409.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1130523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -17.754741668701172,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        143501.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1146794",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -17.76253318786621,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        139097.59375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1148060",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.02009391784668,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.003982229623943567,
+        82033.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1186467",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.594289779663086,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.014899016357958317,
+        120408.7421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1192195",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.859497547149658,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002192504471167922,
+        0.006000093184411526,
+        92200.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1196428",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.56146240234375,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        77228.21875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1198269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.764490127563477,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002833536360412836,
+        0.007380830589681864,
+        84809.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1200458",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -11.93270492553711,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.013734768144786358,
+        135814.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1201284",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.6116042137146,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.003983146045356989,
+        0.007290897890925407,
+        112579.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1202978",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.0310888290405273,
+      "eigenvalues": [
+        0.00023690583475399762,
+        0.0019531254656612873,
+        0.009019400924444199,
+        70982.9140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1207013",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.188255786895752,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0018084533512592316,
+        0.001953125,
+        92189.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1230066",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.3280205726623535,
+      "eigenvalues": [
+        5.5254662584047765e-05,
+        0.001714034122414887,
+        0.008921575732529163,
+        106901.5234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1246258",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.123467445373535,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.0025650933384895325,
+        84224.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1281223",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.893980026245117,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0011120422277599573,
+        0.010618227533996105,
+        89486.296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1292989",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.5932430028915405,
+      "eigenvalues": [
+        0.0017880884697660804,
+        0.001953125,
+        0.006820451468229294,
+        71667.3203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1303276",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.733484745025635,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.010326330550014973,
+        99554.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1305822",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.289151668548584,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014741811901330948,
+        0.0019531247671693563,
+        75538.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1323264",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.760847091674805,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001484376727603376,
+        0.01037021353840828,
+        116916.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|133487",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.132564544677734,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.002722855657339096,
+        76508.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1336616",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.614862084388733,
+      "eigenvalues": [
+        0.001639400259591639,
+        0.0019531248835846782,
+        0.006814608816057444,
+        71753.1640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1402531",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.2584420442581177,
+      "eigenvalues": [
+        0.0019531246507540345,
+        0.003077001543715596,
+        0.008619907312095165,
+        125748.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1402952",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.928508758544922,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0057800281792879105,
+        81524.3203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1416177",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.891879916191101,
+      "eigenvalues": [
+        0.0009143168572336435,
+        0.001953125,
+        0.0040377345867455006,
+        71697.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|14171",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6584326028823853,
+      "eigenvalues": [
+        0.001953125,
+        0.002701480407267809,
+        0.0033381697721779346,
+        74673.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|144090",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.686581134796143,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.013288063928484917,
+        93331.2109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1444653",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.249007701873779,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017588817281648517,
+        0.001953125,
+        74339.15625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1447265",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.758022427558899,
+      "eigenvalues": [
+        0.0006357894744724035,
+        0.0019531252328306437,
+        0.006629518233239651,
+        107269.6171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1482020",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.7891669273376465,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.008963564410805702,
+        91790.6015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1487881",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.597478985786438,
+      "eigenvalues": [
+        0.0016490365378558636,
+        0.0019531248835846782,
+        0.007019649725407362,
+        74236.7265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1518691",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.745318412780762,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0010215543443337083,
+        0.01209492702037096,
+        154994.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1528899",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.243186116218567,
+      "eigenvalues": [
+        0.0019531245343387127,
+        0.004847750533372164,
+        0.008419410325586796,
+        86858.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1549592",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.8404974937438965,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006337057799100876,
+        105735.7578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1571718",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.939054012298584,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004701600875705481,
+        96084.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|15805",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.979963302612305,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007713363156653941,
+        0.008553666062653065,
+        113544.6171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1580995",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.1680845022201538,
+      "eigenvalues": [
+        0.0019531246507540345,
+        0.0047590951435267925,
+        0.013885382562875748,
+        72446.4609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1582998",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.020377159118652,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0039952704682946205,
+        81673.0703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1587765",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6071609258651733,
+      "eigenvalues": [
+        0.0014340683119371533,
+        0.001953125,
+        0.007352224085479975,
+        78407.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1594309",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.819382190704346,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.008171009831130505,
+        89230.46875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1601192",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.913743495941162,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0055700852535665035,
+        89743.90625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1611776",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8160353899002075,
+      "eigenvalues": [
+        0.0011545565212145448,
+        0.0019531248835846782,
+        0.004194500390440226,
+        74028.3515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1627734",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.648722171783447,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.01815236173570156,
+        79492.0859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1638077",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.3651021718978882,
+      "eigenvalues": [
+        0.0014304177602753043,
+        0.0019531252328306437,
+        0.01357488613575697,
+        112110.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1649838",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.799140453338623,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.006597423925995827,
+        119834.015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1659966",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.3983383178710938,
+      "eigenvalues": [
+        6.611643038922921e-05,
+        0.0019531248835846782,
+        0.005929569713771343,
+        89042.453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1660153",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6480767726898193,
+      "eigenvalues": [
+        0.001953125,
+        0.002840491244569421,
+        0.003323592245578766,
+        74347.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1660625",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.904695987701416,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.004005241673439741,
+        129406.3046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1677824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.108569145202637,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002336131641641259,
+        0.0028065715450793505,
+        68308.8828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1683241",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.539362907409668,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.018106454983353615,
+        123424.0859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1683421",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.033914566040039,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.009454004466533661,
+        131623.46875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|168423",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.50764274597168,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        95778.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1706241",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.5144853591918945,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.003234884236007929,
+        0.011961826123297215,
+        124601.609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1722399",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8298755884170532,
+      "eigenvalues": [
+        0.0011511623160913587,
+        0.0019531248835846782,
+        0.004126593470573425,
+        71403.9609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1726045",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.8687809705734253,
+      "eigenvalues": [
+        0.0011343684745952487,
+        0.001953125,
+        0.0033824073616415262,
+        75663.1640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1726340",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.646673202514648,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.01822538860142231,
+        79825.0546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1729733",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.890244007110596,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001101875095628202,
+        0.010612012818455696,
+        91725.296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1737166",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.851673603057861,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.007672163657844067,
+        83517.28125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1739387",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.352723121643066,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007796720019541681,
+        0.0033902355935424566,
+        63807.3203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1746468",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.057042598724365,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014932658523321152,
+        0.005019709933549166,
+        73425.1640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1751617",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.749340534210205,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.008277439512312412,
+        116565.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1753742",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.821901798248291,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.006156940013170242,
+        117232.7109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1763729",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.143123149871826,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001767684705555439,
+        0.001953125,
+        112976.96875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1770493",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.3257840871810913,
+      "eigenvalues": [
+        0.0009419958223588765,
+        0.001953125,
+        0.02525961771607399,
+        107070.84375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1785792",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.850893974304199,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0021644632797688246,
+        0.006130353547632694,
+        94611.2890625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1786832",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.577000617980957,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        72574.1953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1788690",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.6006070375442505,
+      "eigenvalues": [
+        0.0010781536111608148,
+        0.001346450299024582,
+        0.010222391225397587,
+        111695.90625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1789286",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.3846435546875,
+      "eigenvalues": [
+        0.001953125,
+        0.0024376618675887585,
+        0.008195471949875355,
+        100774.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1790890",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.45352041721344,
+      "eigenvalues": [
+        0.0003996914019808173,
+        0.0019531248835846782,
+        0.03050534427165985,
+        125356.0234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1800453",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.3268723487854,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0029260381124913692,
+        65454.359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1802180",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.914088249206543,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016504538943991065,
+        0.0057384115643799305,
+        102944.7265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1808767",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.696716785430908,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0018974979175254703,
+        0.0105748251080513,
+        115919.78125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1810004",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.5720127820968628,
+      "eigenvalues": [
+        0.0016274473164230585,
+        0.0019531248835846782,
+        0.0077347406186163425,
+        75587.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1818595",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6791454553604126,
+      "eigenvalues": [
+        0.001953125,
+        0.002589111216366291,
+        0.0032714721746742725,
+        73181.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1820953",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -10.766887664794922,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        2.0037203840583828e-10,
+        0.007176900748163462,
+        137475.953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1823075",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.450283050537109,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007247523753903806,
+        0.0019531252328306437,
+        80651.625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1823768",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.947407245635986,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.004054388031363487,
+        107761.1171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|184142",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.942799091339111,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0060027423314750195,
+        74138.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1853189",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.616600036621094,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.004975841846317053,
+        0.007597154006361961,
+        84775.40625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1862399",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.340741157531738,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0010743001475930214,
+        0.001953125,
+        84327.90625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1866419",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.801327228546143,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0031981084030121565,
+        0.005387627985328436,
+        88836.9140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|189068",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.826242923736572,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006084554363042116,
+        116585.125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1902925",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.475030899047852,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        109124.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1918483",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.057407855987549,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0037173551972955465,
+        75694.3515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1931430",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.2909425497055054,
+      "eigenvalues": [
+        0.0019531245343387127,
+        0.0028017808217555285,
+        0.00832686759531498,
+        125532.9375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1932836",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.103765964508057,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.002732246182858944,
+        85554.9375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1936197",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.842432498931885,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006827635690569878,
+        97381.6640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1946555",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.264589309692383,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.00484445272013545,
+        50718.94140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|195002",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.833286762237549,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006075935438275337,
+        113506.7421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|19518",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.3276551961898804,
+      "eigenvalues": [
+        0.0019531247671693563,
+        0.0033738065976649523,
+        0.009225169196724892,
+        81246.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1956088",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.598217964172363,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0022112501319497824,
+        0.020029032602906227,
+        77879.640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1961411",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.953385353088379,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0018258714117109776,
+        0.005673074629157782,
+        80434.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|199412",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.789125442504883,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.007695130538195372,
+        106938.6640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2015316",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.965790271759033,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.0031617493368685246,
+        128388.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2022959",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.110856056213379,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.002589252544566989,
+        87755.171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|20250",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.840721607208252,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.006518278270959854,
+        102703.6953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2038373",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.672379493713379,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.01706502214074135,
+        76922.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2049010",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.952767372131348,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0036433585919439793,
+        117374.7734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2049787",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.519748210906982,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0037502339109778404,
+        0.011995237320661545,
+        104947.203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2059485",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.002464294433594,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0022890304680913687,
+        0.004483360331505537,
+        66714.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2065688",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.4830896854400635,
+      "eigenvalues": [
+        0.0019531254656612873,
+        0.002751822816208005,
+        0.0066213347017765045,
+        74526.9296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2070124",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.087257385253906,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0027232870925217867,
+        91695.8046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|20781",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.978055953979492,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017288308590650558,
+        0.005600906442850828,
+        77958.8046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2096935",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.9254255294799805,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.003178743179887533,
+        0.004543349612504244,
+        64516.640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2100090",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.092583656311035,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0027433265931904316,
+        89107.3046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2106548",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.986371994018555,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.005388698074966669,
+        69376.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2113325",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.984431743621826,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.005210598465055227,
+        72307.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|215156",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.5405993461608887,
+      "eigenvalues": [
+        0.001953125,
+        0.0025128161069005728,
+        0.00603144196793437,
+        71185.7578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2197462",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.831581115722656,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006802149582654238,
+        102082.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2235290",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.5042115449905396,
+      "eigenvalues": [
+        0.0018234610324725509,
+        0.0019531248835846782,
+        0.007447656709700823,
+        91890.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2250993",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.735767364501953,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.01176075916737318,
+        86618.1328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2259208",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.9147820472717285,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.005582273472100496,
+        89176.75
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2266361",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.487017035484314,
+      "eigenvalues": [
+        0.0019506209064275026,
+        0.0019531248835846782,
+        0.007774671074002981,
+        88145.796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2281843",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.165855407714844,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0008187544881366193,
+        0.003118142718449235,
+        139503.328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2350255",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.812585353851318,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002429888816550374,
+        0.00554681895300746,
+        108566.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2366583",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.1702359914779663,
+      "eigenvalues": [
+        0.0009959349408745766,
+        0.002741744974628091,
+        0.02857320010662079,
+        118816.03125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2413157",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.147976398468018,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0027276375330984592,
+        71808.484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2431203",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8442593812942505,
+      "eigenvalues": [
+        0.0006305240676738322,
+        0.0017325110966339707,
+        0.005804326850920916,
+        98642.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2438406",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.6768492460250854,
+      "eigenvalues": [
+        0.001043741125613451,
+        0.001122829969972372,
+        0.01002188865095377,
+        104029.9609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2490569",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.731584072113037,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531246507540345,
+        0.010660625994205475,
+        97169.0234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2493472",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.915406703948975,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.00382990762591362,
+        129655.4296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2527173",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.861512660980225,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0024053596425801516,
+        0.006037371698766947,
+        82852.046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2533106",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.898842811584473,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006782459560781717,
+        78228.484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2534092",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.93798828125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005475759506225586,
+        82852.6796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2535927",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.6285430192947388,
+      "eigenvalues": [
+        0.0013864424545317888,
+        0.0019531248835846782,
+        0.007183237001299858,
+        76204.2265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|254163",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.803345680236816,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.007543953601270914,
+        103050.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2567382",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.770701885223389,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.011603055521845818,
+        76345.671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2599603",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.880195140838623,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.006826958619058132,
+        83737.3828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2612485",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.729709148406982,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0084519749507308,
+        123483.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2630915",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.998856544494629,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005092397797852755,
+        69837.3359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|265754",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.3932640552520752,
+      "eigenvalues": [
+        0.0019531254656612873,
+        0.002376118442043662,
+        0.008068944327533245,
+        101446.640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2658183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.954589366912842,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001782963052392006,
+        0.0056829084642231464,
+        81833.0234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2674978",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.10430383682251,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.002921678591519594,
+        79835.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2691042",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.793313026428223,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0031116530299186707,
+        0.00647318409755826,
+        78468.90625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2695965",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.937979698181152,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002821172820404172,
+        0.003669421188533306,
+        85598.75
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2742977",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.367006301879883,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0026982759591192007,
+        121681.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2750484",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.53431510925293,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0022463672794401646,
+        74848.515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2755911",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.078006744384766,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.007413233630359173,
+        140716.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2774098",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.870326995849609,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.007393680978566408,
+        80432.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2797818",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.523004531860352,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        90070.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|282508",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.309041023254395,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0029706074856221676,
+        139367.359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2826142",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.992302417755127,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004694141447544098,
+        77775.125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2833179",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.761918544769287,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.007975402288138866,
+        115043.3046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2849913",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.676199913024902,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.015428797341883183,
+        83789.78125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2850847",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.982802867889404,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004766437225043774,
+        79561.84375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|286654",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.1578216552734375,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.002714593894779682,
+        69367.453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2878364",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.374885559082031,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0027128090150654316,
+        117274.4296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2892102",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.749972343444824,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.009215566329658031,
+        104434.6953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2898290",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.925628185272217,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005753811448812485,
+        82844.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2899839",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.840543746948242,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.007840518839657307,
+        85444.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2921077",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.920729160308838,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0020453024189919233,
+        0.005751974415034056,
+        80702.6796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2948870",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -11.933000564575195,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.010583783499896526,
+        176041.375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2953719",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.826935768127441,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.007346111815422773,
+        96296.375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|297952",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.30590295791626,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0010048763360828161,
+        0.001953125,
+        103634.5
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3004455",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.098944664001465,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0027945078909397125,
+        85277.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3011411",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -0.9810950756072998,
+      "eigenvalues": [
+        0.0019531252328306437,
+        0.004476313944905996,
+        0.02035011351108551,
+        111031.4765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3014897",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.027310371398926,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0025642593391239643,
+        123771.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3024446",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.991284370422363,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0051674796268343925,
+        70939.3359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3033691",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.83187198638916,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0021990372333675623,
+        0.006441896315664053,
+        95626.109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3034815",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.895679473876953,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.007044654339551926,
+        76276.28125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3044665",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.905801773071289,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0022371455561369658,
+        0.006116719916462898,
+        73651.515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3048391",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.851391792297363,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0024749573785811663,
+        0.005150236189365387,
+        98292.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3073493",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.574071884155273,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        73429.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3078422",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.964814186096191,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001963474554941058,
+        0.003573833266273141,
+        113427.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|308234",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.093504905700684,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.007228337228298187,
+        135641.34375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3084025",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.4897661209106445,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0037289096508175135,
+        0.014167161658406258,
+        100752.859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3087446",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.843684196472168,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005974982865154743,
+        110722.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3113390",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -2.021742343902588,
+      "eigenvalues": [
+        0.00035163070424459875,
+        0.001953125,
+        0.0059013511054217815,
+        75876.171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3141012",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.543996810913086,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        82816.328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3149447",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.324689269065857,
+      "eigenvalues": [
+        0.0017288374947384,
+        0.001953125,
+        0.011917675845324993,
+        124194.7734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3169996",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.533879280090332,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        86236.7578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3191297",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.060924053192139,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014750133268535137,
+        0.0048980205319821835,
+        75006.9765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3202083",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.769713878631592,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002445919904857874,
+        0.005965756252408028,
+        119040.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3207197",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -2.7538578510284424,
+      "eigenvalues": [
+        8.317839092342183e-05,
+        0.0009765625,
+        0.0034010466188192368,
+        59529.9375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3221878",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.040030479431152,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017670615343376994,
+        0.004407698754221201,
+        75639.9140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276960",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6051393747329712,
+      "eigenvalues": [
+        0.0018508307402953506,
+        0.001953125,
+        0.0065719932317733765,
+        68516.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276962",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6051393747329712,
+      "eigenvalues": [
+        0.0018508307402953506,
+        0.001953125,
+        0.0065719932317733765,
+        68516.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3290608",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -11.705510139465332,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        3.945364868140899e-12,
+        0.007755354978144169,
+        151271.96875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3313057",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.7227325439453125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531246507540345,
+        0.011498263105750084,
+        93337.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3313089",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.959599018096924,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.005579798948019743,
+        74574.515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3316731",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.7715253829956055,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.00677655590698123,
+        130291.71875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3405500",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.969347953796387,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017792843282222748,
+        0.005620989948511124,
+        78152.8671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3415081",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.0975823402404785,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0027255790773779154,
+        87911.8671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|34246",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.6844563484191895,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.011515171267092228,
+        108620.046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3427269",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.910328388214111,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006088749039918184,
+        83228.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3448351",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6444753408432007,
+      "eigenvalues": [
+        0.0013656062074005604,
+        0.001953125,
+        0.007464915048331022,
+        69851.1484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|351663",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.1077497005462646,
+      "eigenvalues": [
+        0.0019531248835846782,
+        0.005093500949442387,
+        0.01505097933113575,
+        79493.3125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|353985",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.883495330810547,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001950093894265592,
+        0.006019572727382183,
+        93869.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|356006",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.369160652160645,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.003221202874556184,
+        101052.9609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3588340",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.587631702423096,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.01616177335381508,
+        113996.8359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3635640",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.770210266113281,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002474276116117835,
+        0.006776482332497835,
+        103392.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|367189",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.0240044593811035,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.002727204468101263,
+        117925.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|373418",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.568592071533203,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0014476031064987183,
+        50310.703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753768",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.141499996185303,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0030520965810865164,
+        65859.015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753788",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.126577854156494,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0008801178773865104,
+        0.006430008914321661,
+        73639.890625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3753833",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.284566879272461,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0015269317664206028,
+        0.001953125,
+        74278.390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3773632",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.5152003765106201,
+      "eigenvalues": [
+        0.0010461725760251284,
+        0.001669173245318234,
+        0.010419021360576153,
+        128202.1875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|381474",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.5163472890853882,
+      "eigenvalues": [
+        0.0017755645094439387,
+        0.001953125,
+        0.007409500889480114,
+        90360.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3817483",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.087146282196045,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0033900837879627943,
+        73692.71875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3824884",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.9244232177734375,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006608476862311363,
+        72479.359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3886077",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.7204042673110962,
+      "eigenvalues": [
+        0.0006988411187194288,
+        0.0019531248835846782,
+        0.006758692674338818,
+        111270.578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3897677",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.864431381225586,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016673500649631023,
+        0.008069497533142567,
+        88386.7734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3980472",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.0520148277282715,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.0034535489976406097,
+        83252.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3998967",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.532598495483398,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        86679.5234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4003566",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.5163557529449463,
+      "eigenvalues": [
+        0.0019531248835846782,
+        0.0026346270460635424,
+        0.006029954180121422,
+        74826.7265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|401127",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6391047239303589,
+      "eigenvalues": [
+        0.0016058889450505376,
+        0.001953125,
+        0.004500281065702438,
+        100669.578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4012395",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.042754650115967,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016742117004469037,
+        0.004191021900624037,
+        83052.234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4078079",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.758022427558899,
+      "eigenvalues": [
+        0.0006357894744724035,
+        0.0019531252328306437,
+        0.006629518233239651,
+        107269.6171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4169456",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.773531913757324,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001558035146445036,
+        0.009291981346905231,
+        118163.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4182134",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.518414497375488,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0014105683658272028,
+        63107.7578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4185439",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.082479476928711,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016410712851211429,
+        0.00414634495973587,
+        73060.0546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4202811",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.964355945587158,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005518089979887009,
+        73987.1484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4240400",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.1912150382995605,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.002200987422838807,
+        74856.96875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4249573",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.721844673156738,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.008668702095746994,
+        124244.3125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4280000",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.7720025777816772,
+      "eigenvalues": [
+        0.0005805836408399045,
+        0.0019531248835846782,
+        0.006682105362415314,
+        110206.71875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321247",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.298771381378174,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009106296929530799,
+        0.001953125,
+        117669.46875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321258",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.4086257219314575,
+      "eigenvalues": [
+        0.0012450768845155835,
+        0.001953125,
+        0.011855028569698334,
+        123918.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4321260",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.126384735107422,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0023366915993392467,
+        91383.9765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4442437",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.851624965667725,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005882094614207745,
+        108954.9765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4469423",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.0629119873046875,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014925043797120452,
+        0.00501446146517992,
+        71833.4453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4544622",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.995368957519531,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004680014215409756,
+        77058.859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4549280",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.480069160461426,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        106947.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4549284",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.480069160461426,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        106947.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4552598",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.941067695617676,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005506847053766251,
+        81376.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4588933",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.935687065124512,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0020184183958917856,
+        0.005803877022117376,
+        76339.2578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4591269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.872634410858154,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.0071457186713814735,
+        82458.375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4686489",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.259653091430664,
+      "eigenvalues": [
+        9.575242438586429e-05,
+        0.001953125,
+        0.008106754161417484,
+        78316.6640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4732699",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.9185391664505005,
+      "eigenvalues": [
+        0.0007925767567940056,
+        0.0019531248835846782,
+        0.004062754567712545,
+        73886.3203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4740507",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.912778854370117,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005872705020010471,
+        85448.7578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4783073",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.0562825202941895,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014860671944916248,
+        0.004970715846866369,
+        74734.8828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|485119",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -11.690135955810547,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.034183748066425323,
+        143990.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|490816",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.905818462371826,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005431989673525095,
+        94989.4296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4933597",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.781646728515625,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002491237362846732,
+        0.00668980460613966,
+        99367.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4966824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.880399703979492,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002019023522734642,
+        0.006276761647313833,
+        88032.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4966829",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.880399703979492,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002019023522734642,
+        0.006276761647313833,
+        88032.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4987163",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.462837219238281,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        114578.875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|500387",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -2.236006498336792,
+      "eigenvalues": [
+        5.8541114412946627e-05,
+        0.0034563911613076925,
+        0.00815986655652523,
+        79048.0859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5026418",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.3204238414764404,
+      "eigenvalues": [
+        0.0019531245343387127,
+        0.0027684324886649847,
+        0.008424839936196804,
+        111599.828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5054345",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8286947011947632,
+      "eigenvalues": [
+        0.0014844054821878672,
+        0.0019531248835846782,
+        0.003203652799129486,
+        71664.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5080809",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.758299827575684,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.008161663077771664,
+        114056.828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5089423",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.992302417755127,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004694141447544098,
+        77775.125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5112830",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.713104724884033,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.014367072843015194,
+        77632.703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5123807",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.131341457366943,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.003082923823967576,
+        67904.5
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5135377",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.890041828155518,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.005528922192752361,
+        99403.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5185183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -17.75782012939453,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        141744.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5241281",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.0230913162231445,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0006884278263896704,
+        0.008455600589513779,
+        108302.2265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5246998",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.958616733551025,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005678433924913406,
+        73567.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5302153",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.906306266784668,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016635501524433494,
+        0.005783393979072571,
+        104543.9140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5313876",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.9400993585586548,
+      "eigenvalues": [
+        0.0007627864833921194,
+        0.001953125,
+        0.003987764939665794,
+        71752.9296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|531441",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.559472680091858,
+      "eigenvalues": [
+        0.0016409849049523473,
+        0.0019531252328306437,
+        0.007433127146214247,
+        82018.6328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|543535",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.729293346405029,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.009357172064483166,
+        111723.96875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5459362",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.884865164756775,
+      "eigenvalues": [
+        0.0009011495858430862,
+        0.001953125,
+        0.0040940833278000355,
+        73785.390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5467293",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.840574741363525,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.008283695206046104,
+        80863.2109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5472576",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.0230913162231445,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0006884278263896704,
+        0.008455600589513779,
+        108302.2265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5481425",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.106627464294434,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0020012722816318274,
+        115474.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5493611",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.546674728393555,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531238358467817,
+        0.017085427418351173,
+        127029.53125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5524839",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.272724151611328,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014735795557498932,
+        0.0019531247671693563,
+        80701.375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5563657",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.05729866027832,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0037227696739137173,
+        75617.109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5576523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -2.1160926818847656,
+      "eigenvalues": [
+        0.00015278521459549665,
+        0.0019531248835846782,
+        0.0064868745394051075,
+        108923.9140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5586876",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.859840393066406,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005825443658977747,
+        106458.015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5616890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.3684349060058594,
+      "eigenvalues": [
+        0.001953125,
+        0.00233830395154655,
+        0.007867523469030857,
+        116765.984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|567269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.639680862426758,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        3.485997948637909e-12,
+        0.00022419563902076334,
+        141146.953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5696015",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.5171672105789185,
+      "eigenvalues": [
+        0.0019531254656612873,
+        0.002629244467243552,
+        0.0060464986599981785,
+        74532.4765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5716672",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.7094240188598633,
+      "eigenvalues": [
+        0.001953125,
+        0.0025856923311948776,
+        0.0030812742188572884,
+        68926.9296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5717470",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.05137825012207,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.008847511373460293,
+        131157.234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|57303",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.2696737051010132,
+      "eigenvalues": [
+        0.001090529840439558,
+        0.001953125,
+        0.026213083416223526,
+        111548.8828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5731048",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.94093132019043,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004331251606345177,
+        103520.109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5783022",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.94425106048584,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0050165955908596516,
+        88198.5
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5783749",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.902109622955322,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005681934300810099,
+        92168.0859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5815002",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.661774635314941,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.011250264011323452,
+        121736.109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|58303",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.566625952720642,
+      "eigenvalues": [
+        0.0016155987977981567,
+        0.0019531248835846782,
+        0.007422510534524918,
+        81073.2578125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5860263",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.838112831115723,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.006473573390394449,
+        104497.734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5864218",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.397305488586426,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007129224250093102,
+        0.0019531252328306437,
+        101342.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5866070",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.2908222675323486,
+      "eigenvalues": [
+        0.001953125,
+        0.002949213143438101,
+        0.008612856268882751,
+        115353.015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5910730",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.486275672912598,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        104325.0234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5924909",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -17.755455017089844,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        143091.65625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5926906",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.6912994384765625,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002864489099010825,
+        0.007319266442209482,
+        113372.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|593981",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.23258638381958,
+      "eigenvalues": [
+        0.00010354715777793899,
+        0.001953125,
+        0.008210715837776661,
+        79680.3203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|596053",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.9083741903305054,
+      "eigenvalues": [
+        0.0002989478234667331,
+        0.001953125,
+        0.006883582565933466,
+        120413.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5965034",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.915063858032227,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.004100979305803776,
+        121251.3046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|601740",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.139685153961182,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0022380747832357883,
+        90467.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6051351",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.126984119415283,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.00287765939719975,
+        74027.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6078726",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.96159553527832,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004295763093978167,
+        96094.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6081578",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.785763263702393,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0013067791005596519,
+        0.009664664976298809,
+        128983.3359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6099166",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.068192005157471,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002028031973168254,
+        0.0035797215532511473,
+        72505.203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6118835",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.252139568328857,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001721142209134996,
+        0.001953125,
+        75023.40625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6138181",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.9509080648422241,
+      "eigenvalues": [
+        0.0003136217419523746,
+        0.001953125,
+        0.009058229625225067,
+        73577.6796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|614789",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.9576622247695923,
+      "eigenvalues": [
+        0.0004581713583320379,
+        0.0012367420131340623,
+        0.009167280979454517,
+        76497.0703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|614930",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.973283767700195,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001131495926529169,
+        0.008957196027040482,
+        75917.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6154838",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.823678493499756,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.008399680256843567,
+        85322.5390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6205535",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.6954874992370605,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.014916567131876945,
+        80232.0703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6251634",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8151060342788696,
+      "eigenvalues": [
+        0.0011382009834051132,
+        0.0019531248835846782,
+        0.004214448854327202,
+        75015.03125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6261308",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.815210819244385,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.007447967305779457,
+        99540.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6265173",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.587188243865967,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.016854900866746902,
+        109502.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6273545",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.479604721069336,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0005021888646297157,
+        0.0019531247671693563,
+        103514.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6275770",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.4751375913619995,
+      "eigenvalues": [
+        0.0019531245343387127,
+        0.0019999458454549313,
+        0.007798689417541027,
+        89878.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6290863",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.7972869873046875,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531246507540345,
+        0.007285505533218384,
+        109323.5625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6304231",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.041323661804199,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016953002195805311,
+        0.004245140589773655,
+        81438.359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6310879",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.825563430786133,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.003087925259023905,
+        0.004444675054401159,
+        101221.9296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6318750",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -7.018381118774414,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.003992366138845682,
+        82387.7890625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6330613",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.2532262802124023,
+      "eigenvalues": [
+        0.00010086320253321901,
+        0.001953125,
+        0.0062066963873803616,
+        99637.2890625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6355626",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.2912002801895142,
+      "eigenvalues": [
+        0.0017082361737266183,
+        0.001953125,
+        0.01774711161851883,
+        96504.875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6363270",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6051393747329712,
+      "eigenvalues": [
+        0.0018508307402953506,
+        0.001953125,
+        0.0065719932317733765,
+        68516.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6395335",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.87546968460083,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.006683081854134798,
+        87172.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6401520",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.843718528747559,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.008235033601522446,
+        80324.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6405452",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.3120396137237549,
+      "eigenvalues": [
+        0.0019531248835846782,
+        0.0027914263773709536,
+        0.008389174938201904,
+        114941.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6423457",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.802868843078613,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017076866934075952,
+        0.008830578997731209,
+        100881.0234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6468445",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.8289176225662231,
+      "eigenvalues": [
+        0.0011454446939751506,
+        0.0019531248835846782,
+        0.004135632421821356,
+        71878.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|647040",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.68183434009552,
+      "eigenvalues": [
+        0.001953125,
+        0.0025234753265976906,
+        0.00329597108066082,
+        73729.6171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6503286",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.535176277160645,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0022459980100393295,
+        74603.484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6552986",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.8690667152404785,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006980983540415764,
+        85617.5625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|672890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -7.286825656890869,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0011430982267484069,
+        0.001953125,
+        98327.265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|707881",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -8.664236068725586,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        4.982695372746093e-06,
+        0.0025078263133764267,
+        71108.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|77228",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -1.2205097675323486,
+      "eigenvalues": [
+        0.0019531248835846782,
+        0.005380831193178892,
+        0.005993357393890619,
+        120367.1484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|789817",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -12.5617036819458,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        77153.515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|791541",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -2.1040468215942383,
+      "eigenvalues": [
+        0.0001373764971503988,
+        0.001953125,
+        0.006841303315013647,
+        120535.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|806866",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -6.73567533493042,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0021865323651582003,
+        0.00709757674485445,
+        128253.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|88774",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -1.6904913187026978,
+      "eigenvalues": [
+        0.0011997176334261894,
+        0.001953125,
+        0.0071099866181612015,
+        69444.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|901152",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": -12.492042541503906,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        101945.921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|987936",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": -6.94069242477417,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004479167517274618,
+        100197.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1181122",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.913257598876953,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001888404251076281,
+        0.00584266846999526,
+        88661.7421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|119179",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.972907066345215,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005713194143027067,
+        69057.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1211753",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.841583728790283,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.006658890284597874,
+        100188.78125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1243604",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.852842807769775,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019144694088026881,
+        0.009215087629854679,
+        70606.6328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|128717",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.1390107870101929,
+      "eigenvalues": [
+        0.0019531246507540345,
+        0.003261060919612646,
+        0.020247219130396843,
+        81448.1953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1340076",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.868438243865967,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0061087110079824924,
+        98089.1953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1385147",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.5718141794204712,
+      "eigenvalues": [
+        0.0016214302740991116,
+        0.001953125,
+        0.0076401084661483765,
+        76869.0078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1406197",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.129708290100098,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531254656612873,
+        0.0028890748508274555,
+        72935.640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1461108",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -12.530661582946777,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.001953125,
+        87353.84375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1488536",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -2.201472282409668,
+      "eigenvalues": [
+        0.000123395977425389,
+        0.0019531248835846782,
+        0.006223095115274191,
+        99911.1484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1495476",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.764048099517822,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.007968971505761147,
+        114159.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1594698",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.1837025880813599,
+      "eigenvalues": [
+        0.001953125,
+        0.0027941223233938217,
+        0.018175633624196053,
+        88559.0390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1760362",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.2585577964782715,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017189447535201907,
+        0.001953125,
+        73215.34375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1770178",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.937979698181152,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002821172820404172,
+        0.003669421188533306,
+        85598.75
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1830536",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.4880242347717285,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.02384083904325962,
+        115105.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1864117",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.244476079940796,
+      "eigenvalues": [
+        0.001953125,
+        0.003160392167046666,
+        0.008698268793523312,
+        128297.953125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1874399",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.747023105621338,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.011716269887983799,
+        83119.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1887736",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.9813714027404785,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.004768837708979845,
+        79978.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1889250",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.865974426269531,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.006342985201627016,
+        95402.203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1905981",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.406956672668457,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.000677635835018009,
+        0.001953125,
+        102582.2734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1924437",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.96159553527832,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004295763093978167,
+        96094.5859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1926471",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -8.072036743164062,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        6.0047739680157974e-05,
+        0.001953125,
+        80948.7265625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1948261",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.676348686218262,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.003615153022110462,
+        0.005694319028407335,
+        122581.9609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1950413",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.1540656089782715,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0027984653133898973,
+        68306.90625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1951267",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -11.405375480651855,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        1.4410750370785763e-11,
+        0.007639460731297731,
+        139664.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1974597",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.3256407976150513,
+      "eigenvalues": [
+        0.0019100344507023692,
+        0.0019531246507540345,
+        0.013294676318764687,
+        100386.9453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1977383",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.863231658935547,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531245343387127,
+        0.00825454294681549,
+        74117.7734375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1980847",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.617627143859863,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.012619415298104286,
+        129489.5234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|1981390",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -2.9823689460754395,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.005332045257091522,
+        16749.89453125,
+        73822.3984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2003646",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.792830944061279,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006753617897629738,
+        120054.53125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2025404",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -12.78100872039795,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765625,
+        64182.1171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2032651",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.779457092285156,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0022866446524858475,
+        0.008989348076283932,
+        81273.6328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|21770",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.9527997970581055,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0023310116957873106,
+        0.004947046283632517,
+        72420.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2218396",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.027063369750977,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.003933572210371494,
+        80765.0390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|223560",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.103625774383545,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0025706107262521982,
+        90985.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2237951",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.794337749481201,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        8.807282574707642e-05,
+        0.0038293616380542517,
+        85483.203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2284594",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.505118727684021,
+      "eigenvalues": [
+        0.001820904202759266,
+        0.001953125,
+        0.007448345422744751,
+        91677.7109375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|258682",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.940096855163574,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0037095684092491865,
+        121272.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2621885",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.5354135036468506,
+      "eigenvalues": [
+        0.0019531247671693563,
+        0.0025548937264829874,
+        0.005774910096079111,
+        74656.1328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2651226",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.920980930328369,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0054090567864477634,
+        89778.609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2658151",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.8853429555892944,
+      "eigenvalues": [
+        0.00043070013634860516,
+        0.001953125,
+        0.006345235276967287,
+        99419.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2702620",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.913243293762207,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0020775990560650826,
+        0.005871578119695187,
+        80195.6328125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2782790",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.6007388830184937,
+      "eigenvalues": [
+        0.0014813572634011507,
+        0.0019531254656612873,
+        0.00725607480853796,
+        78911.4765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2785560",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.953627586364746,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0023406953550875187,
+        0.004940910264849663,
+        71971.359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|282751",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.4658491611480713,
+      "eigenvalues": [
+        0.0019531245343387127,
+        0.0020461617968976498,
+        0.007865373976528645,
+        90400.3515625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2838214",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.3075259923934937,
+      "eigenvalues": [
+        0.0008620871230959892,
+        0.0019531248835846782,
+        0.024536678567528725,
+        129568.0390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|287919",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.74732780456543,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0025789171922951937,
+        0.006880130618810654,
+        107067.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2942700",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.950131893157959,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.00283668446354568,
+        0.0036803563125431538,
+        80850.703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2965793",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.7801127433776855,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.006658350583165884,
+        128127.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|2986246",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.781639099121094,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.006669608410447836,
+        127132.5234375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3004507",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.527019739151001,
+      "eigenvalues": [
+        0.0014928850578144193,
+        0.0027523511089384556,
+        0.007657098583877087,
+        70713.296875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3038698",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.113996505737305,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016876854933798313,
+        0.002623453503474593,
+        98982.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3064464",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.978055953979492,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017288308590650558,
+        0.005600906442850828,
+        77958.8046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3073298",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.590101718902588,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.01737193949520588,
+        105012.8828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|307811",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.4719246625900269,
+      "eigenvalues": [
+        0.0004391473194118589,
+        0.001953125,
+        0.027480147778987885,
+        117664.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3099941",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.6404086351394653,
+      "eigenvalues": [
+        0.0004503828240558505,
+        0.001953125,
+        0.017961127683520317,
+        89469.09375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3276946",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.7974019050598145,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017020691884681582,
+        0.008764219470322132,
+        104234.8671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3311112",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.16727352142334,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0025251777842640877,
+        71804.0390625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3319861",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.082362651824951,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0035813467111438513,
+        71104.9453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|33474",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.762512683868408,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.007720658555626869,
+        118557.1171875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3379536",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -10.768343925476074,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        2.2252984177573154e-10,
+        0.006382801569998264,
+        138379.421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3467867",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.664898872375488,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0020752933342009783,
+        0.009992197155952454,
+        127392.6875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3553137",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.3523064851760864,
+      "eigenvalues": [
+        0.0008675186545588076,
+        0.001953125,
+        0.02497640997171402,
+        105745.96875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3629767",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.025594234466553,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0026513892225921154,
+        120528.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3709607",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.178874969482422,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.0022883268538862467,
+        75643.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|3963711",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.850862503051758,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.008002775721251965,
+        80327.0703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|401366",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.8351969718933105,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006275938358157873,
+        109053.015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4077985",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -12.352213859558105,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0032325899228453636,
+        107759.8046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4094476",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.6608270406723022,
+      "eigenvalues": [
+        0.0008787752594798803,
+        0.0020264533814042807,
+        0.00636117160320282,
+        114999.6796875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4100770",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.837514877319336,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006517899222671986,
+        104035.5703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|412759",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.964101791381836,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0018147341907024384,
+        0.005632204934954643,
+        78095.3671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4304705",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -12.543383598327637,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        83019.828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4309143",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.669960975646973,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0028133713640272617,
+        0.008349166251718998,
+        110209.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4325726",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.0443267822265625,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.003258412703871727,
+        90994.484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4452989",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.9660208225250244,
+      "eigenvalues": [
+        0.00044599443208426237,
+        0.0012376181548461318,
+        0.009164713323116302,
+        75969.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|450155",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.643298149108887,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.018345920369029045,
+        80378.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4521313",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.216133117675781,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531248835846782,
+        0.0020897008944302797,
+        71364.125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|456429",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.908581733703613,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.002109483117237687,
+        0.005885317921638489,
+        80281.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4607987",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.5811017751693726,
+      "eigenvalues": [
+        0.0015441193245351315,
+        0.001953125,
+        0.007270304020494223,
+        81729.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4712406",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.301055431365967,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014792541041970253,
+        0.0019531248835846782,
+        71778.640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|471853",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.067910194396973,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017033660551533103,
+        0.004303850699216127,
+        71881.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4767525",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -0.954139232635498,
+      "eigenvalues": [
+        0.001953125,
+        0.0039191716350615025,
+        0.023539308458566666,
+        122115.828125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4807954",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.031512260437012,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.0032973415218293667,
+        94649.5
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4889221",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.3072141408920288,
+      "eigenvalues": [
+        0.001953125,
+        0.002565949223935604,
+        0.014162993989884853,
+        75509.78125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4938904",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -3.408816337585449,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0015629841946065426,
+        9161.27734375,
+        83631.453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|4994752",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -7.114976406097412,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0013656092341989279,
+        0.004002463072538376,
+        79866.8203125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5154865",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.603448390960693,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0015954519622027874,
+        0.01917474903166294,
+        110413.4765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5172941",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.9419941902160645,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019882472697645426,
+        0.005681389942765236,
+        77196.3359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5175831",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.0806121826171875,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0005854704068042338,
+        0.00834441464394331,
+        102521.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5189715",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.1915265321731567,
+      "eigenvalues": [
+        0.0004909812705591321,
+        0.004883085377514362,
+        0.031550321727991104,
+        112549.3359375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5483327",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.927059173583984,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005798999220132828,
+        81730.1640625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5634223",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.973609924316406,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.004851062316447496,
+        81102.125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5785289",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.806352138519287,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001418391359038651,
+        0.00886010192334652,
+        119377.140625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5816105",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.973616123199463,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005225034896284342,
+        75295.4375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5909630",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -17.766206741333008,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        137069.046875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5918515",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -3.2632336616516113,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0044828904792666435,
+        6831.01025390625,
+        70006.671875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5945953",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.852767467498779,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.006230086553841829,
+        102399.765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|5964543",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -11.279731750488281,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        5.408062192513441e-11,
+        0.003541195299476385,
+        132710.859375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6044354",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.8310824632644653,
+      "eigenvalues": [
+        0.0010998734505847096,
+        0.001953125,
+        0.004163892008364201,
+        73707.53125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6082176",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.893909931182861,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.006908777169883251,
+        78328.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6083018",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.694550514221191,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.012761044315993786,
+        94136.5703125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6094597",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -1.5596377849578857,
+      "eigenvalues": [
+        0.0019531252328306437,
+        0.0024382362607866526,
+        0.005796349141746759,
+        70740.9765625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6251694",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.16132116317749,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531252328306437,
+        0.002503662835806608,
+        74165.984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|629369",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -17.200679779052734,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.668764920645057e-12,
+        136141.078125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6300318",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.618375778198242,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0032176473177969456,
+        0.00828272569924593,
+        119396.78125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6302842",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -17.754478454589844,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        143652.09375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6312040",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -12.777161598205566,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765623835846782,
+        65177.32421875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6340616",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -6.907827854156494,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005680452566593885,
+        90107.5546875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6341002",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -1.030643343925476,
+      "eigenvalues": [
+        0.001953125,
+        0.004207976628094912,
+        0.02561742067337036,
+        76957.40625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6345556",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.762325763702393,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.009370828047394753,
+        97752.6015625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6414929",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -2.4675889015197754,
+      "eigenvalues": [
+        5.041802432970144e-05,
+        0.001953125,
+        0.005914866924285889,
+        88735.609375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6447955",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": -7.082362651824951,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.0035813467111438513,
+        71104.9453125
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6469182",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.9727783203125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.005258247256278992,
+        75070.984375
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6534377",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.56686544418335,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0019531247671693563,
+        0.01717388443648815,
+        116570.1875
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|6554942",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.747023105621338,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001953125,
+        0.011716269887983799,
+        83119.0625
+      ]
+    },
+    {
+      "sample_id": "qwen14|PopQA|988268",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": -6.967018127441406,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0017813554732128978,
+        0.005629798397421837,
+        78669.5234375
+      ]
+    }
+  ]
+}

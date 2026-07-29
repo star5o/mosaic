@@ -1,0 +1,1570 @@
+{
+  "schema_version": "one-confidence-inside-eigenscore-v1",
+  "cell": "qwen8|TriviaQA",
+  "implementation_status": "approximate",
+  "paper_formula": "middle-layer last-token KxK covariance logdet, alpha=0.001",
+  "differences": "K=4 equal budget instead of K=10; feature clipping disabled",
+  "layer_index": 18,
+  "records": [
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6987",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.417913913726807,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765622671693563,
+        0.0030931695364415646,
+        43018.98046875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_1916",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.444014549255371,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0026090736500918865,
+        45944.6875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2245",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.5276546478271484,
+      "eigenvalues": [
+        0.00027295175823383033,
+        0.0009765625,
+        0.003167183604091406,
+        48145.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2552",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.702991485595703,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0015012114308774471,
+        28339.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_14351",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.319591045379639,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0016100642969831824,
+        0.0026937781367450953,
+        44397.98828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_9448",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.552440166473389,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0008824599790386856,
+        0.0026640782598406076,
+        32271.984375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3166",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.54284143447876,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0008978092228062451,
+        0.0021438058465719223,
+        40961.2890625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1509",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.519054889678955,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        0.0024744332768023014,
+        35882.9921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8614",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.905036926269531,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        39080.03125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1847",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.190707206726074,
+      "eigenvalues": [
+        0.0009765624417923391,
+        0.0013719815760850906,
+        0.0022846644278615713,
+        51107.07421875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_8232",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.2341132164001465,
+      "eigenvalues": [
+        0.0005293670110404491,
+        0.0009765625,
+        0.005012940149754286,
+        50745.62109375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2502",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.3107590675354,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0011272558476775885,
+        0.004442634992301464,
+        39833.55078125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2290",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.466901779174805,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.002739198971539736,
+        39933.75390625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2646",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.250945091247559,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765623253770173,
+        0.004446466453373432,
+        58358.46484375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_4371",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.347517490386963,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0012030813377350569,
+        0.0027125366032123566,
+        52769.68359375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_4255",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -12.89581298828125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765625,
+        40548.796875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1630",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.198380470275879,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001591379870660603,
+        0.0038277488201856613,
+        51335.16015625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1252",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.330775499343872,
+      "eigenvalues": [
+        0.00042144214967265725,
+        0.0009765626164153218,
+        0.0035556170623749495,
+        61048.51171875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9678",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.229403972625732,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009469917276874185,
+        0.005262352526187897,
+        55425.828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1304",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -12.886922836303711,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        42016.7734375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8316",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.811138153076172,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.001129502896219492,
+        24438.568359375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1634",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.253573894500732,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.004251866601407528,
+        60391.02734375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3854",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.64878249168396,
+      "eigenvalues": [
+        8.097478712443262e-05,
+        0.0009765624417923391,
+        0.005652718245983124,
+        56012.6328125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_264",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.769244909286499,
+      "eigenvalues": [
+        0.00010272722283843905,
+        0.0009765625,
+        0.004009404685348272,
+        38447.08203125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_2605",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.674489974975586,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0019736301619559526,
+        24159.0703125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3490",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -8.110428810119629,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.00016573898028582335,
+        0.0016432792181149125,
+        29895.560546875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_7903",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.539422988891602,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.002397786593064666,
+        68703.8359375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11076",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.408646583557129,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0021083378233015537,
+        65497.125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2772",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.3353590965271,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765627328306437,
+        0.003615635447204113,
+        51202.55859375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11651",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.5692975521087646,
+      "eigenvalues": [
+        0.00020371031132526696,
+        0.0009765624417923391,
+        0.0032541106920689344,
+        53153.01953125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tb_1235",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.460501194000244,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765627328306437,
+        0.0030077642295509577,
+        37311.1328125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_12528",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -1.5816367864608765,
+      "eigenvalues": [
+        0.0018664742819964886,
+        0.0019531248835846782,
+        0.006835362873971462,
+        71763.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_19559",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.648346900939941,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765623253770173,
+        0.001228882116265595,
+        43077.55859375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13254",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.160863876342773,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.001104573137126863,
+        0.009428706020116806,
+        34886.640625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_4395",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.216838359832764,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0013553877361118793,
+        0.0036018763203173876,
+        59494.19921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14017",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.5096116065979,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765622671693563,
+        0.0030117370188236237,
+        30616.23828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_3990",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.290400505065918,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.003641001880168915,
+        60863.43359375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14815",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -1.5913184881210327,
+      "eigenvalues": [
+        0.0018897837726399302,
+        0.001953125,
+        0.0066782087087631226,
+        69790.2109375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3108",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.2293548583984375,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.006297585554420948,
+        44921.05859375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5209",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.270280838012695,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765622089616954,
+        0.0037449027877300978,
+        64133.98046875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_10151",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.3898701667785645,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        0.0038673020899295807,
+        38492.15625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_594",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.442479133605957,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007916116155683994,
+        0.004850063938647509,
+        30678.2265625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13000",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.35977840423584,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        0.002924345200881362,
+        57415.15625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6121",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.334505558013916,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765622671693563,
+        0.003056572750210762,
+        60774.94921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_547",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.3946733474731445,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0010314398678019643,
+        0.00317737297154963,
+        43513.47265625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6925",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.243741035461426,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765627328306437,
+        0.004450659267604351,
+        60007.85546875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4082",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.4510817527771,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014518811367452145,
+        0.002325366484001279,
+        33707.28125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7432",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.148198366165161,
+      "eigenvalues": [
+        0.0006000877474434674,
+        0.0009765625,
+        0.00553453853353858,
+        57174.30859375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1210",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.0643277168273926,
+      "eigenvalues": [
+        0.0009765626164153218,
+        0.0015037300763651729,
+        0.004471882712095976,
+        39494.34765625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7834",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.520931720733643,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0020618168637156487,
+        42741.87890625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5022",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.318607330322266,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        0.0034779387060552835,
+        56918.6875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_9968",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.1009521484375,
+      "eigenvalues": [
+        0.0009765625,
+        0.0016029205871745944,
+        0.0031897115986794233,
+        44865.0859375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5321",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.372952461242676,
+      "eigenvalues": [
+        0.0009765625,
+        0.0012619760818779469,
+        0.0016545307589694858,
+        37011.22265625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3343",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -8.376093864440918,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        6.473390385508537e-05,
+        0.0015907268971204758,
+        27321.68359375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_14",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.471877574920654,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.001939438283443451,
+        55289.52734375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_4717",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.595986843109131,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0011019086232408881,
+        0.001829810324124992,
+        31613.1015625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_3591",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.237521648406982,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.00560369435697794,
+        48860.99609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5752",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.3371200561523438,
+      "eigenvalues": [
+        0.0008123548468574882,
+        0.0009765625,
+        0.003242533653974533,
+        33859.17578125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3858",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.824743270874023,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765625,
+        53881.35546875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_7813",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.238475799560547,
+      "eigenvalues": [
+        0.0008291327394545078,
+        0.0009765623835846782,
+        0.0036489551421254873,
+        43739.765625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9675",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.86004638671875,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765623835846782,
+        46785.44921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8254",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.882968902587891,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007515152683481574,
+        0.0009765624417923391,
+        27557.66015625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5188",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.35204553604126,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0011896101059392095,
+        0.0030403544660657644,
+        46758.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9190",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.724454402923584,
+      "eigenvalues": [
+        0.0006290028686635196,
+        0.0009765625,
+        0.0010701483115553856,
+        28141.109375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1525",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.435332298278809,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.003391372272744775,
+        36595.66796875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9573",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.6421942710876465,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0005219402955844998,
+        0.002773342654109001,
+        36603.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8879",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.875643730163574,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0011912031332030892,
+        36035.39453125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_2473",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.158039093017578,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765627328306437,
+        0.007787580601871014,
+        48318.1328125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_7650",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.402482032775879,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0010879856999963522,
+        0.0029867698904126883,
+        42535.01953125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_316",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.51906681060791,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0027359130326658487,
+        32451.953125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_7164",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.562266826629639,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0023325313813984394,
+        32023.5390625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2992",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.491091251373291,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.002736117457970977,
+        36291.71484375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2559",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.219790458679199,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0015248338459059596,
+        0.0041091167367994785,
+        45810.8828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11437",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.317456245422363,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.004304697271436453,
+        46199.1796875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10645",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.382110595703125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.003063047770410776,
+        50131.00390625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11908",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.628777980804443,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0020635861437767744,
+        27741.669921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_17020",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.885242462158203,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        42300.06640625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12057",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.727243900299072,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0012014703825116158,
+        32135.865234375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11750",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.801856994628906,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007955441251397133,
+        0.0009765625,
+        36009.8515625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12586",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": 1.2032910585403442,
+      "eigenvalues": [
+        0.0005160672008059919,
+        0.002796950051560998,
+        2707.106689453125,
+        31508.97265625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14570",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.655413627624512,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0012784332502633333,
+        40253.671875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12817",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.393064498901367,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.00310332328081131,
+        47359.23828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_2867",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.6341452598571777,
+      "eigenvalues": [
+        0.00011381662625353783,
+        0.0008673506672494113,
+        0.004580057226121426,
+        58715.16796875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14687",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.648138999938965,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.00125212746206671,
+        42313.01171875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3296",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.337639808654785,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0034365730825811625,
+        53381.2421875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8423",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.70478630065918,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0014424662804231048,
+        29282.703125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_186",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.840007781982422,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        50689.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_256",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.290717601776123,
+      "eigenvalues": [
+        0.0007537694182246923,
+        0.0012792992638424039,
+        0.003554022405296564,
+        30597.4375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_2514",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.478972434997559,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0024798200465738773,
+        42031.4921875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_2718",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.504607677459717,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0025690689217299223,
+        36617.265625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20455",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.815950393676758,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765625,
+        55810.203125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_3127",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.446221351623535,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.002798505127429962,
+        42458.24609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_1524",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.560064315795898,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0016102839726954699,
+        46797.25
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_6403",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.467065811157227,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0025170857552438974,
+        43429.0625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8517",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.964395523071289,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.00033569589140824974,
+        0.0011666022473946214,
+        37287.125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10443",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": 1.1200660467147827,
+      "eigenvalues": [
+        0.0007288502529263496,
+        0.0009765625,
+        3976.287841796875,
+        31184.423828125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20251",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.57211971282959,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.000744796241633594,
+        0.0024972709361463785,
+        37703.12109375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_16187",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.444069862365723,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.0020044951234012842,
+        59788.91796875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2836",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -1.9267950057983398,
+      "eigenvalues": [
+        0.0009765625,
+        0.0012259413488209248,
+        0.0069478838704526424,
+        54049.5703125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20731",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.481027603149414,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        0.0024672814179211855,
+        41899.09375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5165",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.8785715103149414,
+      "eigenvalues": [
+        3.0906776373740286e-05,
+        0.0017641596496105194,
+        0.00430027861148119,
+        42591.32421875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_21241",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.2739639282226562,
+      "eigenvalues": [
+        0.0007672154461033642,
+        0.0009765626164153218,
+        0.0036092596128582954,
+        41465.24609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5157",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.567198276519775,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0014860315714031458,
+        49283.6875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_23303",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.348776340484619,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0037457372527569532,
+        46841.49609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9198",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.613763809204102,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0014227292267605662,
+        42728.25
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24375",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.582705974578857,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0007459010230377316,
+        0.002504817908629775,
+        35977.66015625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3513",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.225046396255493,
+      "eigenvalues": [
+        0.000863432593178004,
+        0.0009765626164153218,
+        0.003704401198774576,
+        43656.80078125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_25914",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.55081844329834,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0017313981661573052,
+        45163.65625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10466",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.220337867736816,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765624417923391,
+        0.006813101004809141,
+        43047.09375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_26227",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.2884631156921387,
+      "eigenvalues": [
+        0.0009765625,
+        0.001102771027944982,
+        0.003239191137254238,
+        30332.638671875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3131",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.339481830596924,
+      "eigenvalues": [
+        0.0006399612175300717,
+        0.0009765625,
+        0.003912955988198519,
+        35281.35546875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3278",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.427240371704102,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0014733975986018777,
+        0.0024007651954889297,
+        35391.015625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_984",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.389477729797363,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.002834061160683632,
+        52608.27734375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3346",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.384814262390137,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009112668340094388,
+        0.004041512496769428,
+        40278.6484375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_2502",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.913923263549805,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765626164153218,
+        37715.30078125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5388",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.1273398399353027,
+      "eigenvalues": [
+        0.0009765623253770173,
+        0.0010916690807789564,
+        0.003965994343161583,
+        47674.8203125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24100",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -2.042606830596924,
+      "eigenvalues": [
+        0.0009200378553941846,
+        0.0009765625,
+        0.00655536912381649,
+        48031.4140625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6152",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.274693965911865,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765628492459655,
+        0.005820914637297392,
+        40538.83984375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2106",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.692136287689209,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009265623521059752,
+        0.0009765625,
+        47953.03125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9523",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.2610414028167725,
+      "eigenvalues": [
+        0.0008216158603318036,
+        0.0009765625,
+        0.003874370129778981,
+        37983.84765625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5523",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.414280891418457,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.002709391061216593,
+        49831.5078125
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9722",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -2.0717759132385254,
+      "eigenvalues": [
+        0.0009765623835846782,
+        0.0015469288919121027,
+        0.004417418967932463,
+        37723.98046875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_1547",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.227344512939453,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.005585655104368925,
+        51055.38671875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2580",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.271755218505859,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0058035897091031075,
+        41140.609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13292",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.40802001953125,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0021970297675579786,
+        63010.8984375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_2482",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.336348533630371,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.004501580260694027,
+        40963.07421875
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10472",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -12.889730453491211,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        9.999999960041972e-13,
+        0.0009765625,
+        41547.5234375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4170",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.688462257385254,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.0014785721432417631,
+        30495.15625
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_880",
+      "split": "locked",
+      "label": "HCC",
+      "risk_score": -7.278971195220947,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.004085380584001541,
+        56780.609375
+      ]
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_51",
+      "split": "locked",
+      "label": "HCE",
+      "risk_score": -7.405093669891357,
+      "eigenvalues": [
+        9.999999960041972e-13,
+        0.0009765625,
+        0.003575311042368412,
+        39176.09375
+      ]
+    }
+  ]
+}

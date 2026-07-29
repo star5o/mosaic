@@ -1,0 +1,5993 @@
+{
+  "schema_version": "one-confidence-fixed-paraphrase-nli-v1",
+  "cell": "nemo12|PopQA",
+  "templates": [
+    "{q}",
+    "Give the shortest factual answer to this question: {q}",
+    "Identify only the entity or value requested here: {q}",
+    "Without explanation, answer this question: {q}"
+  ],
+  "nli_model": "microsoft/deberta-large-mnli",
+  "records": [
+    {
+      "sample_id": "nemo12|PopQA|1000825",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen King",
+        "Stephen King",
+        "Stephen King",
+        "Stephen King"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1004840",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Spain",
+        "Spain",
+        "Spain",
+        "Spain"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1014081",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1014859",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oklahoma City",
+        "Oklahoma City",
+        "Oklahoma City",
+        "Oklahoma City"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1020236",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1049793",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1052154",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Denmark",
+        "Denmark",
+        "Denmark",
+        "Denmark"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1098931",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1111661",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Field Hockey",
+        "Field Hockey",
+        "Field Hockey",
+        "Field Hockey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1126308",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1130523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac",
+        "Jack Kerouac"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1143958",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1146794",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Elie Wiesel",
+        "Elie Wiesel",
+        "Elie Wiesel",
+        "Elie Wiesel"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1149680",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Karen Marie Moning",
+        "Karen Marie Moning",
+        "Karen Marie Moning",
+        "Karen Marie Moning"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1150596",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shusaku Endo",
+        "Shusaku Endo",
+        "Shusaku Endo",
+        "Shusaku Endo"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1160798",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1162082",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alexander Payne",
+        "Alexander Payne",
+        "Alexander Payne",
+        "Alexander Payne"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1163745",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Pelosi",
+        "Paul Pelosi",
+        "Paul Pelosi",
+        "Paul Pelosi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1164783",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Elmore Leonard",
+        "Elmore Leonard",
+        "Elmore Leonard",
+        "Elmore Leonard"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1182694",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.J. Abrams",
+        "J.J. Abrams",
+        "J.J. Abrams",
+        "J.J. Abrams"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1202712",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rome",
+        "Rome",
+        "Rome",
+        "Rome"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1232843",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Giacchino",
+        "Michael Giacchino",
+        "Michael Giacchino",
+        "Michael Giacchino"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1238204",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Duncan Jones",
+        "Duncan Jones",
+        "Duncan Jones",
+        "Duncan Jones"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1318614",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steve Martin",
+        "Steve Martin",
+        "Steve Martin",
+        "Steve Martin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1323193",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1323264",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kubrick",
+        "Stanley Kubrick",
+        "Stanley Kubrick",
+        "Stanley Kubrick"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1336616",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Germany",
+        "Germany",
+        "Germany",
+        "Germany"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1353687",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jim Sheridan",
+        "Jim Sheridan",
+        "Jim Sheridan",
+        "Jim Sheridan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1367064",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1402531",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George M. Cohan",
+        "George M. Cohan",
+        "George M. Cohan",
+        "George M. Cohan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1405024",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Madden",
+        "John Madden",
+        "John Madden",
+        "John Madden"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|14171",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1419351",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Montenegro",
+        "Montenegro",
+        "Montenegro",
+        "Montenegro"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1436355",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Abu Dhabi",
+        "Abu Dhabi",
+        "Abu Dhabi",
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|143788",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Marcus",
+        "David Marcus",
+        "David Marcus",
+        "David Marcus"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1446352",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shinto",
+        "Shinto",
+        "Shinto",
+        "Shinto"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1447840",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Inge",
+        "William Inge",
+        "William Inge",
+        "William Inge"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1473215",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eger",
+        "Eger",
+        "Eger",
+        "Eger"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1486222",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1496439",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ali Smith",
+        "Ali Smith",
+        "Ali Smith",
+        "Ali Smith"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1525",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1577478",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Black Metal",
+        "Black Metal",
+        "Black Metal",
+        "Black Metal"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1579959",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Islamabad",
+        "Islamabad",
+        "Islamabad",
+        "Islamabad"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1580995",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Portugal",
+        "Portugal",
+        "Portugal",
+        "Portugal"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1582998",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1627734",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1646788",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gnarls Barkley",
+        "Gnarls Barkley",
+        "Gnarls Barkley",
+        "Gnarls Barkley"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1649838",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Bowie",
+        "David Bowie",
+        "David Bowie",
+        "David Bowie"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1660153",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Egypt",
+        "Egypt",
+        "Egypt",
+        "Egypt"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1683089",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Reid Hoffman",
+        "Reid Hoffman",
+        "Reid Hoffman",
+        "Reid Hoffman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|168423",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Waco",
+        "Waco",
+        "Waco",
+        "Waco"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1685270",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brian Grazer",
+        "Brian Grazer",
+        "Brian Grazer",
+        "Brian Grazer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1691938",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ljubljana",
+        "Ljubljana",
+        "Ljubljana",
+        "Ljubljana"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1693978",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Chemist",
+        "Chemist",
+        "Chemist",
+        "Chemist"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1701001",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1705239",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sweden",
+        "Sweden",
+        "Sweden",
+        "Sweden"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1719327",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jim Carrey",
+        "Jim Carrey",
+        "Jim Carrey",
+        "Jim Carrey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1723024",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Helena",
+        "Helena",
+        "Helena",
+        "Helena"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1726045",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1726487",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Adah",
+        "Adah",
+        "Adah",
+        "Adah"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1730929",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Economist",
+        "Economist",
+        "Economist",
+        "Economist"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1737166",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1746468",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1782553",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1785792",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1788846",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Action",
+        "Action",
+        "Action",
+        "Action"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1789286",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lincoln",
+        "Lincoln",
+        "Lincoln",
+        "Lincoln"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1796951",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lone Scherfig",
+        "Lone Scherfig",
+        "Lone Scherfig",
+        "Lone Scherfig"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1802180",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Maidstone",
+        "Maidstone",
+        "Maidstone",
+        "Maidstone"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1808767",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "AC/DC",
+        "AC/DC",
+        "AC/DC",
+        "AC/DC"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1809418",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1813753",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Maria Carolina of Austria",
+        "Maria Carolina of Austria",
+        "Maria Carolina of Austria",
+        "Maria Carolina of Austria"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1818407",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Czech Republic",
+        "Czech Republic",
+        "Czech Republic",
+        "Czech Republic"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1820953",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Garth Ennis",
+        "Garth Ennis",
+        "Garth Ennis",
+        "Garth Ennis"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1843401",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sylvia Plath",
+        "Sylvia Plath",
+        "Sylvia Plath",
+        "Sylvia Plath"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1844051",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Menlo Park",
+        "Menlo Park",
+        "Menlo Park",
+        "Menlo Park"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1850153",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tim Kring",
+        "Tim Kring",
+        "Tim Kring",
+        "Tim Kring"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1866419",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|189068",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Stallman",
+        "Richard Stallman",
+        "Richard Stallman",
+        "Richard Stallman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1932836",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herodotus",
+        "Herodotus",
+        "Herodotus",
+        "Herodotus"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1939215",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yasunari Kawabata",
+        "Yasunari Kawabata",
+        "Yasunari Kawabata",
+        "Yasunari Kawabata"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1957390",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jason Fuchs",
+        "Jason Fuchs",
+        "Jason Fuchs",
+        "Jason Fuchs"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1958465",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Timur Bekmambetov",
+        "Timur Bekmambetov",
+        "Timur Bekmambetov",
+        "Timur Bekmambetov"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1961411",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Seattle",
+        "Seattle",
+        "Seattle",
+        "Seattle"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1967548",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean Genet",
+        "Jean Genet",
+        "Jean Genet",
+        "Jean Genet"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1976296",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Courtesan",
+        "Courtesan",
+        "Courtesan",
+        "Courtesan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1982186",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Neil Burger",
+        "Neil Burger",
+        "Neil Burger",
+        "Neil Burger"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1983309",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Seaton",
+        "George Seaton",
+        "George Seaton",
+        "George Seaton"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1985795",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Claude Lelouch",
+        "Claude Lelouch",
+        "Claude Lelouch",
+        "Claude Lelouch"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2018026",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ian Iqbal Rashid",
+        "Ian Iqbal Rashid",
+        "Ian Iqbal Rashid",
+        "Ian Iqbal Rashid"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2029828",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dale Wasserman",
+        "Dale Wasserman",
+        "Dale Wasserman",
+        "Dale Wasserman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2038373",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2043042",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actor",
+        "Actor",
+        "Actor",
+        "Actor"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2057039",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2063489",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Comedy",
+        "Comedy",
+        "Comedy",
+        "Comedy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|207602",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yuzo Koshiro",
+        "Yuzo Koshiro",
+        "Yuzo Koshiro",
+        "Yuzo Koshiro"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|20781",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin",
+        "Wisconsin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2087902",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Walter Lord",
+        "Walter Lord",
+        "Walter Lord",
+        "Walter Lord"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|209136",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peter Mayle",
+        "Peter Mayle",
+        "Peter Mayle",
+        "Peter Mayle"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2106548",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2107251",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gus Van Sant",
+        "Gus Van Sant",
+        "Gus Van Sant",
+        "Gus Van Sant"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2123773",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Harmonia",
+        "Harmonia",
+        "Harmonia",
+        "Harmonia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2140014",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Naha",
+        "Naha",
+        "Naha",
+        "Naha"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|215156",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2189871",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Fleischer",
+        "Richard Fleischer",
+        "Richard Fleischer",
+        "Richard Fleischer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2202563",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2209062",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tommy Wiseau",
+        "Tommy Wiseau",
+        "Tommy Wiseau",
+        "Tommy Wiseau"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2213079",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stralsund",
+        "Stralsund",
+        "Stralsund",
+        "Stralsund"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2213219",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2235290",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Qatar",
+        "Qatar",
+        "Qatar",
+        "Qatar"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|225259",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2254982",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Santiago",
+        "Santiago",
+        "Santiago",
+        "Santiago"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2258414",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steve Reich",
+        "Steve Reich",
+        "Steve Reich",
+        "Steve Reich"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2260298",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paleontologist",
+        "Paleontologist",
+        "Paleontologist",
+        "Paleontologist"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2281843",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jacques Derrida",
+        "Jacques Derrida",
+        "Jacques Derrida",
+        "Jacques Derrida"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2285017",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Country",
+        "Country",
+        "Country",
+        "Country"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2292083",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henan",
+        "Henan",
+        "Henan",
+        "Henan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2313878",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|233822",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Grisham",
+        "John Grisham",
+        "John Grisham",
+        "John Grisham"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2348074",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actor",
+        "Actor",
+        "Actor",
+        "Actor"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|235440",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Malcolm D. Lee",
+        "Malcolm D. Lee",
+        "Malcolm D. Lee",
+        "Malcolm D. Lee"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2366583",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2373462",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henry Fairfield Osborn",
+        "Henry Fairfield Osborn",
+        "Henry Fairfield Osborn",
+        "Henry Fairfield Osborn"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2381538",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean-Luc Godard",
+        "Jean-Luc Godard",
+        "Jean-Luc Godard",
+        "Jean-Luc Godard"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2431203",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Country",
+        "Country",
+        "Country",
+        "Country"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2440722",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Confucianism",
+        "Confucianism",
+        "Confucianism",
+        "Confucianism"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2450604",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Damien Chazelle",
+        "Damien Chazelle",
+        "Damien Chazelle",
+        "Damien Chazelle"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|245609",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aleister Crowley",
+        "Aleister Crowley",
+        "Aleister Crowley",
+        "Aleister Crowley"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2490554",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lawrence Mark",
+        "Lawrence Mark",
+        "Lawrence Mark",
+        "Lawrence Mark"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2490781",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Billy Wilder",
+        "Billy Wilder",
+        "Billy Wilder",
+        "Billy Wilder"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2493472",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2513496",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Merthyr Tydfil",
+        "Merthyr Tydfil",
+        "Merthyr Tydfil",
+        "Merthyr Tydfil"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2567382",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2584594",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alofi",
+        "Alofi",
+        "Alofi",
+        "Alofi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2630915",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2654545",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sam Taylor-Johnson",
+        "Sam Taylor-Johnson",
+        "Sam Taylor-Johnson",
+        "Sam Taylor-Johnson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2668336",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Errol Morris",
+        "Errol Morris",
+        "Errol Morris",
+        "Errol Morris"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2668563",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Croatia",
+        "Croatia",
+        "Croatia",
+        "Croatia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2674885",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gareth Evans",
+        "Gareth Evans",
+        "Gareth Evans",
+        "Gareth Evans"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2727132",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Donald Margulies",
+        "Donald Margulies",
+        "Donald Margulies",
+        "Donald Margulies"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2740658",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actress",
+        "Actress",
+        "Actress",
+        "Actress"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2742111",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2742977",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Cameron",
+        "James Cameron",
+        "James Cameron",
+        "James Cameron"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2798170",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ben Affleck",
+        "Ben Affleck",
+        "Ben Affleck",
+        "Ben Affleck"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2832739",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Granada",
+        "Granada",
+        "Granada",
+        "Granada"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2842700",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Barnwell",
+        "Barnwell",
+        "Barnwell",
+        "Barnwell"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2849913",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bangladesh",
+        "Bangladesh",
+        "Bangladesh",
+        "Bangladesh"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|287643",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Comedy",
+        "Comedy",
+        "Comedy",
+        "Comedy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2880301",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2885834",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Basketball",
+        "Basketball",
+        "Basketball",
+        "Basketball"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2889942",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Zambia",
+        "Zambia",
+        "Zambia",
+        "Zambia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2899611",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2919601",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dominican Republic",
+        "Dominican Republic",
+        "Dominican Republic",
+        "Dominican Republic"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|291988",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Donen",
+        "Stanley Donen",
+        "Stanley Donen",
+        "Stanley Donen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2923431",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hayao Miyazaki",
+        "Hayao Miyazaki",
+        "Hayao Miyazaki",
+        "Hayao Miyazaki"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2933196",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Madden",
+        "John Madden",
+        "John Madden",
+        "John Madden"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2941094",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater",
+        "Richard Linklater"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2953610",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Giuseppe Verdi",
+        "Giuseppe Verdi",
+        "Giuseppe Verdi",
+        "Giuseppe Verdi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2953980",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2972379",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Athens",
+        "Athens",
+        "Athens",
+        "Athens"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2994031",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nepal",
+        "Nepal",
+        "Nepal",
+        "Nepal"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3004068",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Michael McDonagh",
+        "John Michael McDonagh",
+        "John Michael McDonagh",
+        "John Michael McDonagh"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3014897",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen Daldry",
+        "Stephen Daldry",
+        "Stephen Daldry",
+        "Stephen Daldry"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3016956",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley R. Greenberg",
+        "Stanley R. Greenberg",
+        "Stanley R. Greenberg",
+        "Stanley R. Greenberg"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3030578",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ankara",
+        "Ankara",
+        "Ankara",
+        "Ankara"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|304012",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herisau",
+        "Herisau",
+        "Herisau",
+        "Herisau"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3044518",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Carlos Castaneda",
+        "Carlos Castaneda",
+        "Carlos Castaneda",
+        "Carlos Castaneda"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3049881",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Christian Petzold",
+        "Christian Petzold",
+        "Christian Petzold",
+        "Christian Petzold"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3069183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edward Gorey",
+        "Edward Gorey",
+        "Edward Gorey",
+        "Edward Gorey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3077288",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3101183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mendoza",
+        "Mendoza",
+        "Mendoza",
+        "Mendoza"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|315037",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Basel",
+        "Basel",
+        "Basel",
+        "Basel"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|315395",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henrik Ibsen",
+        "Henrik Ibsen",
+        "Henrik Ibsen",
+        "Henrik Ibsen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|316815",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jason Robert Brown",
+        "Jason Robert Brown",
+        "Jason Robert Brown",
+        "Jason Robert Brown"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|317149",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Ellroy",
+        "James Ellroy",
+        "James Ellroy",
+        "James Ellroy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3193125",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mikhail Kalashnikov",
+        "Mikhail Kalashnikov",
+        "Mikhail Kalashnikov",
+        "Mikhail Kalashnikov"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3270459",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Skopje",
+        "Skopje",
+        "Skopje",
+        "Skopje"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3290608",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lewis Carroll",
+        "Lewis Carroll",
+        "Lewis Carroll",
+        "Lewis Carroll"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3293853",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Camogie",
+        "Camogie",
+        "Camogie",
+        "Camogie"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3316731",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Asif Kapadia",
+        "Asif Kapadia",
+        "Asif Kapadia",
+        "Asif Kapadia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3362680",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kyrgyzstan",
+        "Kyrgyzstan",
+        "Kyrgyzstan",
+        "Kyrgyzstan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3368455",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Netherlands",
+        "Netherlands",
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3373198",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Germany",
+        "Germany",
+        "Germany",
+        "Germany"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3415081",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "New Zealand",
+        "New Zealand",
+        "New Zealand",
+        "New Zealand"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3426219",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Norway",
+        "Norway",
+        "Norway",
+        "Norway"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3432136",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Luc Besson",
+        "Luc Besson",
+        "Luc Besson",
+        "Luc Besson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3437069",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3493816",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rockville",
+        "Rockville",
+        "Rockville",
+        "Rockville"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3509583",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brian Koppelman",
+        "Brian Koppelman",
+        "Brian Koppelman",
+        "Brian Koppelman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3516339",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jonathan Glazer",
+        "Jonathan Glazer",
+        "Jonathan Glazer",
+        "Jonathan Glazer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3523268",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Blake",
+        "William Blake",
+        "William Blake",
+        "William Blake"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3539436",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rugby",
+        "Rugby",
+        "Rugby",
+        "Rugby"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3592185",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Samuel Beckett",
+        "Samuel Beckett",
+        "Samuel Beckett",
+        "Samuel Beckett"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|360559",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jeremy Brock",
+        "Jeremy Brock",
+        "Jeremy Brock",
+        "Jeremy Brock"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|361831",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Clint Eastwood",
+        "Clint Eastwood",
+        "Clint Eastwood",
+        "Clint Eastwood"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3620943",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Daniel Barnz",
+        "Daniel Barnz",
+        "Daniel Barnz",
+        "Daniel Barnz"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3719761",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ali ibn Abi Talib",
+        "Ali ibn Abi Talib",
+        "Ali ibn Abi Talib",
+        "Ali ibn Abi Talib"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|373418",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3773632",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Thomas Paine",
+        "Thomas Paine",
+        "Thomas Paine",
+        "Thomas Paine"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3803719",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Seltzer",
+        "David Seltzer",
+        "David Seltzer",
+        "David Seltzer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3806311",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Country",
+        "Country",
+        "Country",
+        "Country"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3846543",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Blake Crouch",
+        "Blake Crouch",
+        "Blake Crouch",
+        "Blake Crouch"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3886077",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Thomas Jefferson",
+        "Thomas Jefferson",
+        "Thomas Jefferson",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3924452",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brussels",
+        "Brussels",
+        "Brussels",
+        "Brussels"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|392466",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Laoag",
+        "Laoag",
+        "Laoag",
+        "Laoag"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3980533",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tommy Wiseau",
+        "Tommy Wiseau",
+        "Tommy Wiseau",
+        "Tommy Wiseau"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3998967",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Actor",
+        "Actor",
+        "Actor",
+        "Actor"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|401127",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tim Berners-Lee",
+        "Tim Berners-Lee",
+        "Tim Berners-Lee",
+        "Tim Berners-Lee"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4012395",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4165948",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Amsterdam",
+        "Amsterdam",
+        "Amsterdam",
+        "Amsterdam"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4172941",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Architect",
+        "Architect",
+        "Architect",
+        "Architect"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|419041",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Koepp",
+        "David Koepp",
+        "David Koepp",
+        "David Koepp"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4202811",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4202841",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Secemin",
+        "Secemin",
+        "Secemin",
+        "Secemin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4249573",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4281027",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan",
+        "M. Night Shyamalan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4321258",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4321617",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tacitus",
+        "Tacitus",
+        "Tacitus",
+        "Tacitus"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4329546",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Haneke",
+        "Michael Haneke",
+        "Michael Haneke",
+        "Michael Haneke"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4345863",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Photographer",
+        "Photographer",
+        "Photographer",
+        "Photographer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4363526",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Haneke",
+        "Michael Haneke",
+        "Michael Haneke",
+        "Michael Haneke"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|437612",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Plymouth",
+        "Plymouth",
+        "Plymouth",
+        "Plymouth"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4404593",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gavin O'Connor",
+        "Gavin O'Connor",
+        "Gavin O'Connor",
+        "Gavin O'Connor"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4419938",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Economist",
+        "Economist",
+        "Economist",
+        "Economist"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4460459",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Afghanistan",
+        "Afghanistan",
+        "Afghanistan",
+        "Afghanistan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4490640",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sam Esmail",
+        "Sam Esmail",
+        "Sam Esmail",
+        "Sam Esmail"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4490656",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sam Esmail",
+        "Sam Esmail",
+        "Sam Esmail",
+        "Sam Esmail"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4494358",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Emily Dickinson",
+        "Emily Dickinson",
+        "Emily Dickinson",
+        "Emily Dickinson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4501267",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Larnaca",
+        "Larnaca",
+        "Larnaca",
+        "Larnaca"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4514247",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4554434",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jazz",
+        "Jazz",
+        "Jazz",
+        "Jazz"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|458287",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jazz",
+        "Jazz",
+        "Jazz",
+        "Jazz"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4591269",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Latvia",
+        "Latvia",
+        "Latvia",
+        "Latvia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4612653",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pearl S. Buck",
+        "Pearl S. Buck",
+        "Pearl S. Buck",
+        "Pearl S. Buck"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4686489",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|470176",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pharrell Williams",
+        "Pharrell Williams",
+        "Pharrell Williams",
+        "Pharrell Williams"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|470300",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Action",
+        "Action",
+        "Action",
+        "Action"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4754864",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Andrew Niccol",
+        "Andrew Niccol",
+        "Andrew Niccol",
+        "Andrew Niccol"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4916721",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4939550",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4963133",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yuzo Koshiro",
+        "Yuzo Koshiro",
+        "Yuzo Koshiro",
+        "Yuzo Koshiro"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4966824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peru",
+        "Peru",
+        "Peru",
+        "Peru"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4966829",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peru",
+        "Peru",
+        "Peru",
+        "Peru"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4974600",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cole Porter",
+        "Cole Porter",
+        "Cole Porter",
+        "Cole Porter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4975631",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4977081",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4985526",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bruce Wayne",
+        "Bruce Wayne",
+        "Bruce Wayne",
+        "Bruce Wayne"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4998723",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joni Mitchell",
+        "Joni Mitchell",
+        "Joni Mitchell",
+        "Joni Mitchell"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4999192",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Singer",
+        "Singer",
+        "Singer",
+        "Singer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5026333",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Billie Eilish",
+        "Billie Eilish",
+        "Billie Eilish",
+        "Billie Eilish"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5026418",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Taylor Swift",
+        "Taylor Swift",
+        "Taylor Swift",
+        "Taylor Swift"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5047005",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "New York",
+        "New York",
+        "New York",
+        "New York"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|508352",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philippines",
+        "Philippines",
+        "Philippines",
+        "Philippines"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5097595",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steve Perry",
+        "Steve Perry",
+        "Steve Perry",
+        "Steve Perry"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|512415",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Keosauqua",
+        "Keosauqua",
+        "Keosauqua",
+        "Keosauqua"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5178521",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Andy Fickman",
+        "Andy Fickman",
+        "Andy Fickman",
+        "Andy Fickman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5185183",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Graham",
+        "Paul Graham",
+        "Paul Graham",
+        "Paul Graham"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5240651",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ingmar Bergman",
+        "Ingmar Bergman",
+        "Ingmar Bergman",
+        "Ingmar Bergman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5242947",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vladimir Nabokov",
+        "Vladimir Nabokov",
+        "Vladimir Nabokov",
+        "Vladimir Nabokov"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5246998",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|543535",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lorne Michaels",
+        "Lorne Michaels",
+        "Lorne Michaels",
+        "Lorne Michaels"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5452334",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Sarnoski",
+        "Michael Sarnoski",
+        "Michael Sarnoski",
+        "Michael Sarnoski"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5481425",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling",
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5547087",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paramaribo",
+        "Paramaribo",
+        "Paramaribo",
+        "Paramaribo"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5575241",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Architect",
+        "Architect",
+        "Architect",
+        "Architect"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5576523",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Augusta",
+        "Augusta",
+        "Augusta",
+        "Augusta"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5580851",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5613652",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Chicago",
+        "Chicago",
+        "Chicago",
+        "Chicago"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5614635",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov",
+        "Isaac Asimov"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5616890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John G. Avildsen",
+        "John G. Avildsen",
+        "John G. Avildsen",
+        "John G. Avildsen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|570749",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5717470",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro",
+        "Guillermo del Toro"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|57303",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Miles Davis",
+        "Miles Davis",
+        "Miles Davis",
+        "Miles Davis"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5731048",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5731264",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Adam Sandler",
+        "Adam Sandler",
+        "Adam Sandler",
+        "Adam Sandler"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5739385",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dr. Dre",
+        "Dr. Dre",
+        "Dr. Dre",
+        "Dr. Dre"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5776797",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Austria",
+        "Austria",
+        "Austria",
+        "Austria"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5783022",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5864218",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kingston",
+        "Kingston",
+        "Kingston",
+        "Kingston"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5874410",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vittorio De Sica",
+        "Vittorio De Sica",
+        "Vittorio De Sica",
+        "Vittorio De Sica"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5901293",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Finland",
+        "Finland",
+        "Finland",
+        "Finland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5905522",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Satoshi Kon",
+        "Satoshi Kon",
+        "Satoshi Kon",
+        "Satoshi Kon"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5913920",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eric Kripke",
+        "Eric Kripke",
+        "Eric Kripke",
+        "Eric Kripke"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5918656",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ari Folman",
+        "Ari Folman",
+        "Ari Folman",
+        "Ari Folman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5923376",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henry Adams",
+        "Henry Adams",
+        "Henry Adams",
+        "Henry Adams"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5925682",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Grant Morrison",
+        "Grant Morrison",
+        "Grant Morrison",
+        "Grant Morrison"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5926722",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jason Zada",
+        "Jason Zada",
+        "Jason Zada",
+        "Jason Zada"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5933806",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Gleick",
+        "James Gleick",
+        "James Gleick",
+        "James Gleick"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5934450",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Maybury",
+        "John Maybury",
+        "John Maybury",
+        "John Maybury"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5937083",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mark Pellington",
+        "Mark Pellington",
+        "Mark Pellington",
+        "Mark Pellington"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5949300",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Marcus Lemonis",
+        "Marcus Lemonis",
+        "Marcus Lemonis",
+        "Marcus Lemonis"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5960904",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tove Jansson",
+        "Tove Jansson",
+        "Tove Jansson",
+        "Tove Jansson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6028203",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steven Soderbergh",
+        "Steven Soderbergh",
+        "Steven Soderbergh",
+        "Steven Soderbergh"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6036343",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steve McQueen",
+        "Steve McQueen",
+        "Steve McQueen",
+        "Steve McQueen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6041536",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi",
+        "Tbilisi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6043400",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Anubhav Sinha",
+        "Anubhav Sinha",
+        "Anubhav Sinha",
+        "Anubhav Sinha"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|606889",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven",
+        "Ludwig van Beethoven"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6074502",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer",
+        "Stanley Kramer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6081578",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jason Reitman",
+        "Jason Reitman",
+        "Jason Reitman",
+        "Jason Reitman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6098623",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "San Salvador",
+        "San Salvador",
+        "San Salvador",
+        "San Salvador"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6161682",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hillary Clinton",
+        "Hillary Clinton",
+        "Hillary Clinton",
+        "Hillary Clinton"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6184067",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6257265",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wonthaggi",
+        "Wonthaggi",
+        "Wonthaggi",
+        "Wonthaggi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6265173",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tallahassee",
+        "Tallahassee",
+        "Tallahassee",
+        "Tallahassee"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6266131",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Cacoyannis",
+        "Michael Cacoyannis",
+        "Michael Cacoyannis",
+        "Michael Cacoyannis"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6269689",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Toluca",
+        "Toluca",
+        "Toluca",
+        "Toluca"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6273545",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Salem",
+        "Salem",
+        "Salem",
+        "Salem"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6291315",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kathmandu",
+        "Kathmandu",
+        "Kathmandu",
+        "Kathmandu"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6295277",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Puttnam",
+        "David Puttnam",
+        "David Puttnam",
+        "David Puttnam"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6320840",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom",
+        "United Kingdom"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6322925",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Damascus",
+        "Damascus",
+        "Damascus",
+        "Damascus"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6333469",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Clint Eastwood",
+        "Clint Eastwood",
+        "Clint Eastwood",
+        "Clint Eastwood"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6355626",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hanoi",
+        "Hanoi",
+        "Hanoi",
+        "Hanoi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6357746",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Switzerland",
+        "Switzerland",
+        "Switzerland",
+        "Switzerland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6367074",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Walter Hill",
+        "Walter Hill",
+        "Walter Hill",
+        "Walter Hill"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6382080",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Chess",
+        "Chess",
+        "Chess",
+        "Chess"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6399559",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bill Lancaster",
+        "Bill Lancaster",
+        "Bill Lancaster",
+        "Bill Lancaster"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6404382",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6405624",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Emma Thompson",
+        "Emma Thompson",
+        "Emma Thompson",
+        "Emma Thompson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6423457",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Malaysia",
+        "Malaysia",
+        "Malaysia",
+        "Malaysia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6464294",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Trishala",
+        "Trishala",
+        "Trishala",
+        "Trishala"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6468445",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6471223",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Herbert Ross",
+        "Herbert Ross",
+        "Herbert Ross",
+        "Herbert Ross"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6471900",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robert Frost",
+        "Robert Frost",
+        "Robert Frost",
+        "Robert Frost"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6476448",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jim Sheridan",
+        "Jim Sheridan",
+        "Jim Sheridan",
+        "Jim Sheridan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6490853",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6513436",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gitega",
+        "Gitega",
+        "Gitega",
+        "Gitega"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6515620",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Anglican",
+        "Anglican",
+        "Anglican",
+        "Anglican"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6533919",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Netherlands",
+        "Netherlands",
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6547647",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6549760",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Asmara",
+        "Asmara",
+        "Asmara",
+        "Asmara"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6552986",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Greece",
+        "Greece",
+        "Greece",
+        "Greece"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6559583",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Blake Edwards",
+        "Blake Edwards",
+        "Blake Edwards",
+        "Blake Edwards"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|664514",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lucknow",
+        "Lucknow",
+        "Lucknow",
+        "Lucknow"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|672890",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Karl Marx",
+        "Karl Marx",
+        "Karl Marx",
+        "Karl Marx"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|697234",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sam Peckinpah",
+        "Sam Peckinpah",
+        "Sam Peckinpah",
+        "Sam Peckinpah"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|719121",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "DeWitt Bodeen",
+        "DeWitt Bodeen",
+        "DeWitt Bodeen",
+        "DeWitt Bodeen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|731867",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dar es Salaam",
+        "Dar es Salaam",
+        "Dar es Salaam",
+        "Dar es Salaam"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|732205",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Leonard Nimoy",
+        "Leonard Nimoy",
+        "Leonard Nimoy",
+        "Leonard Nimoy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|766497",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Johann Georg Mozart",
+        "Johann Georg Mozart",
+        "Johann Georg Mozart",
+        "Johann Georg Mozart"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|76751",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Grunge",
+        "Grunge",
+        "Grunge",
+        "Grunge"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|770035",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|77398",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Philippines",
+        "Philippines",
+        "Philippines",
+        "Philippines"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|789817",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|793141",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jefferson City",
+        "Jefferson City",
+        "Jefferson City",
+        "Jefferson City"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|796480",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hou Hsiao-Hsien",
+        "Hou Hsiao-Hsien",
+        "Hou Hsiao-Hsien",
+        "Hou Hsiao-Hsien"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|801894",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Santo Domingo",
+        "Santo Domingo",
+        "Santo Domingo",
+        "Santo Domingo"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|806039",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Anirudh Ravichander",
+        "Anirudh Ravichander",
+        "Anirudh Ravichander",
+        "Anirudh Ravichander"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|806866",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isabel Wilkerson",
+        "Isabel Wilkerson",
+        "Isabel Wilkerson",
+        "Isabel Wilkerson"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|907670",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cremona",
+        "Cremona",
+        "Cremona",
+        "Cremona"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|950404",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jeff Smith",
+        "Jeff Smith",
+        "Jeff Smith",
+        "Jeff Smith"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|974262",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|977847",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Etan Cohen",
+        "Etan Cohen",
+        "Etan Cohen",
+        "Etan Cohen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|981550",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kavala",
+        "Kavala",
+        "Kavala",
+        "Kavala"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|997056",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven",
+        "Paul Verhoeven"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|999311",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Steve McQueen",
+        "Steve McQueen",
+        "Steve McQueen",
+        "Steve McQueen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1118624",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "East Berlin",
+        "East Berlin",
+        "East Berlin",
+        "East Berlin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1146607",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Basse-Terre",
+        "Basse-Terre",
+        "Basse-Terre",
+        "Basse-Terre"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1165631",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mamoudzou",
+        "Mamoudzou",
+        "Mamoudzou",
+        "Mamoudzou"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|119179",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1259497",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Quebec City",
+        "Quebec City",
+        "Quebec City",
+        "Quebec City"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1277504",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alex Gansa",
+        "Alex Gansa",
+        "Alex Gansa",
+        "Alex Gansa"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1334087",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nancy Meyers",
+        "Nancy Meyers",
+        "Nancy Meyers",
+        "Nancy Meyers"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1340076",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare",
+        "William Shakespeare"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1348054",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Netherlands",
+        "Netherlands",
+        "Netherlands",
+        "Netherlands"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1363357",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1366262",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peshawar",
+        "Peshawar",
+        "Peshawar",
+        "Peshawar"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|136945",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United States",
+        "United States",
+        "United States",
+        "United States"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1378543",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "White",
+        "White",
+        "White",
+        "White"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1402872",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Scott Rudin",
+        "Scott Rudin",
+        "Scott Rudin",
+        "Scott Rudin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1406197",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Himachal Pradesh",
+        "Himachal Pradesh",
+        "Himachal Pradesh",
+        "Himachal Pradesh"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1446983",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aveyron",
+        "Aveyron",
+        "Aveyron",
+        "Aveyron"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1475631",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Spain",
+        "Spain",
+        "Spain",
+        "Spain"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1518377",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shane Meadows",
+        "Shane Meadows",
+        "Shane Meadows",
+        "Shane Meadows"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1562438",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Marshall Islands",
+        "Marshall Islands",
+        "Marshall Islands",
+        "Marshall Islands"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1594698",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ireland",
+        "Ireland",
+        "Ireland",
+        "Ireland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1632209",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles",
+        "Orson Welles"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1686870",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Don Bluth",
+        "Don Bluth",
+        "Don Bluth",
+        "Don Bluth"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1728078",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1740588",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nuuk",
+        "Nuuk",
+        "Nuuk",
+        "Nuuk"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1864117",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bob Marley",
+        "Bob Marley",
+        "Bob Marley",
+        "Bob Marley"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1878539",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "France",
+        "France",
+        "France",
+        "France"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1950413",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Morocco",
+        "Morocco",
+        "Morocco",
+        "Morocco"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1953459",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Classical",
+        "Classical",
+        "Classical",
+        "Classical"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|1980847",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alfonso Cuarón",
+        "Alfonso Cuarón",
+        "Alfonso Cuarón",
+        "Alfonso Cuarón"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|200353",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Lewis",
+        "Michael Lewis",
+        "Michael Lewis",
+        "Michael Lewis"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2031175",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Crime",
+        "Crime",
+        "Crime",
+        "Crime"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2183288",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gore Verbinski",
+        "Gore Verbinski",
+        "Gore Verbinski",
+        "Gore Verbinski"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2259095",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2281513",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joseph",
+        "Joseph",
+        "Joseph",
+        "Joseph"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2342656",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rob Marshall",
+        "Rob Marshall",
+        "Rob Marshall",
+        "Rob Marshall"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2411849",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Garth Nix",
+        "Garth Nix",
+        "Garth Nix",
+        "Garth Nix"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2596450",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Lennon",
+        "John Lennon",
+        "John Lennon",
+        "John Lennon"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2621885",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Italy",
+        "Italy",
+        "Italy",
+        "Italy"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2651226",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Queensland",
+        "Queensland",
+        "Queensland",
+        "Queensland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2672513",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Ponsoldt",
+        "James Ponsoldt",
+        "James Ponsoldt",
+        "James Ponsoldt"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2673811",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Bay",
+        "Michael Bay",
+        "Michael Bay",
+        "Michael Bay"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2821000",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cayenne",
+        "Cayenne",
+        "Cayenne",
+        "Cayenne"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|282751",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hanoi",
+        "Hanoi",
+        "Hanoi",
+        "Hanoi"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|285106",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edgar Allan Poe",
+        "Edgar Allan Poe",
+        "Edgar Allan Poe",
+        "Edgar Allan Poe"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2860062",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stephen King",
+        "Stephen King",
+        "Stephen King",
+        "Stephen King"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2986246",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Mann",
+        "Michael Mann",
+        "Michael Mann",
+        "Michael Mann"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|2998233",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Koji Suzuki",
+        "Koji Suzuki",
+        "Koji Suzuki",
+        "Koji Suzuki"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3149189",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Brussels",
+        "Brussels",
+        "Brussels",
+        "Brussels"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3205785",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Paul Schrader",
+        "Paul Schrader",
+        "Paul Schrader",
+        "Paul Schrader"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3276946",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone",
+        "Oliver Stone"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|33474",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Galt MacDermot",
+        "Galt MacDermot",
+        "Galt MacDermot",
+        "Galt MacDermot"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3365474",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Muhammad",
+        "Muhammad",
+        "Muhammad",
+        "Muhammad"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|339503",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jazz",
+        "Jazz",
+        "Jazz",
+        "Jazz"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3473657",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Danny Rubin",
+        "Danny Rubin",
+        "Danny Rubin",
+        "Danny Rubin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3487405",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "William Blake",
+        "William Blake",
+        "William Blake",
+        "William Blake"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3527521",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joni Mitchell",
+        "Joni Mitchell",
+        "Joni Mitchell",
+        "Joni Mitchell"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3720231",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Graham Greene",
+        "Graham Greene",
+        "Graham Greene",
+        "Graham Greene"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3798686",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gnarls Barkley",
+        "Gnarls Barkley",
+        "Gnarls Barkley",
+        "Gnarls Barkley"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|3999864",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Indonesia",
+        "Indonesia",
+        "Indonesia",
+        "Indonesia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4083907",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4100770",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien",
+        "J.R.R. Tolkien"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4106590",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Norway",
+        "Norway",
+        "Norway",
+        "Norway"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|415310",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Niccolò Machiavelli",
+        "Niccolò Machiavelli",
+        "Niccolò Machiavelli",
+        "Niccolò Machiavelli"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4413154",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sally Potter",
+        "Sally Potter",
+        "Sally Potter",
+        "Sally Potter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4493551",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Elif Shafak",
+        "Elif Shafak",
+        "Elif Shafak",
+        "Elif Shafak"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4498733",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mike Fleiss",
+        "Mike Fleiss",
+        "Mike Fleiss",
+        "Mike Fleiss"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|450155",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4572720",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Panama",
+        "Panama",
+        "Panama",
+        "Panama"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4607987",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "United Arab Emirates",
+        "United Arab Emirates",
+        "United Arab Emirates",
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|471853",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "India",
+        "India",
+        "India",
+        "India"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4925200",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Switzerland",
+        "Switzerland",
+        "Switzerland",
+        "Switzerland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|494409",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter",
+        "John Carpenter"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4965470",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Marshall Islands",
+        "Marshall Islands",
+        "Marshall Islands",
+        "Marshall Islands"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|4975222",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5351097",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tennessee Williams",
+        "Tennessee Williams",
+        "Tennessee Williams",
+        "Tennessee Williams"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|542552",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Columbus",
+        "Columbus",
+        "Columbus",
+        "Columbus"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5479968",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ariana Grande",
+        "Ariana Grande",
+        "Ariana Grande",
+        "Ariana Grande"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5483327",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Assam",
+        "Assam",
+        "Assam",
+        "Assam"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5558190",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Golf",
+        "Golf",
+        "Golf",
+        "Golf"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|558463",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "F.W. Murnau",
+        "F.W. Murnau",
+        "F.W. Murnau",
+        "F.W. Murnau"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5634223",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Canada",
+        "Canada",
+        "Canada",
+        "Canada"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5679572",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Agatha Christie",
+        "Agatha Christie",
+        "Agatha Christie",
+        "Agatha Christie"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5720063",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Woody Allen",
+        "Woody Allen",
+        "Woody Allen",
+        "Woody Allen"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5757858",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shusaku Endo",
+        "Shusaku Endo",
+        "Shusaku Endo",
+        "Shusaku Endo"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5834003",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mary Roach",
+        "Mary Roach",
+        "Mary Roach",
+        "Mary Roach"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5917724",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Football",
+        "Football",
+        "Football",
+        "Football"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5930681",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Michael McDonagh",
+        "John Michael McDonagh",
+        "John Michael McDonagh",
+        "John Michael McDonagh"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|5945953",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charles Darwin",
+        "Charles Darwin",
+        "Charles Darwin",
+        "Charles Darwin"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6028497",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Ayer",
+        "David Ayer",
+        "David Ayer",
+        "David Ayer"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6035056",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joe Abercrombie",
+        "Joe Abercrombie",
+        "Joe Abercrombie",
+        "Joe Abercrombie"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6080906",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Epic Games",
+        "Epic Games",
+        "Epic Games",
+        "Epic Games"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6251694",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Poland",
+        "Poland",
+        "Poland",
+        "Poland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6256473",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stornoway",
+        "Stornoway",
+        "Stornoway",
+        "Stornoway"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6340564",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vientiane",
+        "Vientiane",
+        "Vientiane",
+        "Vientiane"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6359560",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Seoul",
+        "Seoul",
+        "Seoul",
+        "Seoul"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6366035",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Basketball",
+        "Basketball",
+        "Basketball",
+        "Basketball"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6447955",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turkey",
+        "Turkey",
+        "Turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6469182",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Australia",
+        "Australia",
+        "Australia",
+        "Australia"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|6533012",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robert Altman",
+        "Robert Altman",
+        "Robert Altman",
+        "Robert Altman"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|666331",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Finland",
+        "Finland",
+        "Finland",
+        "Finland"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|761251",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Topeka",
+        "Topeka",
+        "Topeka",
+        "Topeka"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|908987",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Korea",
+        "South Korea",
+        "South Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|96402",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joseph Smith",
+        "Joseph Smith",
+        "Joseph Smith",
+        "Joseph Smith"
+      ]
+    },
+    {
+      "sample_id": "nemo12|PopQA|988372",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Turin",
+        "Turin",
+        "Turin",
+        "Turin"
+      ]
+    }
+  ]
+}

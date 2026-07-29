@@ -1,0 +1,806 @@
+{
+  "schema_version": "one-confidence-los-net-locked-v1",
+  "cell": "qwen8|TriviaQA",
+  "implementation_status": "approximate_third_party_reproduction",
+  "checkpoint_validation_threshold": 0.5195136666297913,
+  "locked_threshold_selected": false,
+  "sequence_length_policy": "truncate_to_frozen_public_maxlen",
+  "frozen_maxlen": 13,
+  "locked_raw_maxlen": 11,
+  "truncated_rows": 0,
+  "metrics": {
+    "threshold": 0.5195136666297913,
+    "TP": 0,
+    "FN": 65,
+    "FP": 0,
+    "TN": 65,
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "fpr": 0.0,
+    "f1": 0.0,
+    "auroc": 0.5453254437869822
+  },
+  "records": [
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6987",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190287232398987
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_1916",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190272331237793
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2245",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190250277519226
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2552",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5189628005027771
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_14351",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190235376358032
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_9448",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3166",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192133188247681
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1509",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193637609481812
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8614",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189666748046875
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_1847",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193984508514404
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_8232",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189695358276367
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2502",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190276503562927
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2290",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.519212543964386
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2646",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193948149681091
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_4371",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_4255",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1630",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192103981971741
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1252",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193904638290405
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9678",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|dpql_1304",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190234184265137
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8316",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192107558250427
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_1634",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190236568450928
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3854",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192146301269531
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_264",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5189704298973083
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_2605",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194494128227234
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3490",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5192123651504517
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_7903",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194696187973022
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11076",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194567441940308
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_2772",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190263986587524
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_11651",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194493532180786
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tb_1235",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194000005722046
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_12528",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190281867980957
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_19559",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190244913101196
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13254",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190244317054749
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_4395",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192133188247681
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14017",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.519363284111023
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_3990",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192116498947144
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_14815",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193929076194763
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3108",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189735293388367
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5209",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194031000137329
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_10151",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189629197120667
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_594",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193781852722168
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13000",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5193919539451599
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6121",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190237164497375
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_547",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.519488513469696
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_6925",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194406509399414
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4082",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194568037986755
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7432",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194517374038696
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1210",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190236568450928
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_7834",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190252065658569
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5022",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5193983316421509
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_9968",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190292000770569
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5321",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.519432008266449
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3343",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194078683853149
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_14",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192108154296875
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_4717",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193913578987122
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_3591",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.51921147108078
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5752",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5192123055458069
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_3858",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190283060073853
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_7813",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190783143043518
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9675",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192108154296875
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8254",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5189622640609741
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_5188",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234184265137
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9190",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5189622640609741
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_1525",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5193929672241211
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9573",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190237760543823
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_8879",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192164778709412
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_2473",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190297961235046
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_7650",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190283060073853
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qf_316",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193657279014587
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bb_7164",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194042325019836
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2992",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190346837043762
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_2559",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190322995185852
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11437",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190293788909912
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10645",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190242528915405
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11908",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190238952636719
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_17020",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234184265137
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12057",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193914175033569
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_11750",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12586",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14570",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192185640335083
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_12817",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190299153327942
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_2867",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190324783325195
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_14687",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5192121267318726
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_3296",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190420150756836
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8423",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.519485354423523
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_186",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192155838012695
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_256",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193870067596436
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_2514",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5176959037780762
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_2718",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5192114114761353
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20455",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194479823112488
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_3127",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.519025444984436
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_1524",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192126035690308
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qz_6403",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190237760543823
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_8517",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189622640609741
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10443",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193913578987122
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20251",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194017887115479
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_16187",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193958878517151
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2836",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190262198448181
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_20731",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5179571509361267
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5165",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192115306854248
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_21241",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194479823112488
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_5157",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_23303",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190234780311584
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qb_9198",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189652442932129
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24375",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194577574729919
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3513",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5193134546279907
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_25914",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190247297286987
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_10466",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192108154296875
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_26227",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193913578987122
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_3131",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189636945724487
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3278",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5192167162895203
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qg_984",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5194482207298279
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_3346",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190238356590271
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|jp_2502",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192164778709412
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5388",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190192461013794
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_24100",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5189641118049622
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_6152",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193997621536255
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|bt_2106",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190235376358032
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9523",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193987488746643
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_5523",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5192331075668335
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|sfq_9722",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190338492393494
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_1547",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.519213080406189
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|tc_2580",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5190239548683167
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_13292",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5190289616584778
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_2482",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193221569061279
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|qw_10472",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.519210696220398
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_4170",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5193926692008972
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|odql_880",
+      "split": "locked",
+      "label": "HCC",
+      "score": 0.5193967819213867
+    },
+    {
+      "sample_id": "qwen8|TriviaQA|wh_51",
+      "split": "locked",
+      "label": "HCE",
+      "score": 0.5194908380508423
+    }
+  ]
+}

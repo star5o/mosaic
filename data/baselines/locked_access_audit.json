@@ -1,0 +1,15 @@
+{
+  "schema_version": "one-confidence-locked-access-audit-v1",
+  "freeze_manifest_sha256": "ecad98a41082c64339fcf0837e7537d70c893f2850727c1cea56a112ee2064a4",
+  "locked_index_sha256": "ab0786cf4654067cd8b533f2a250995ebd507fc4c605746ddc8525805bb7b9f1",
+  "records_materialized": 654,
+  "cells": {
+    "llama31|TriviaQA": 126,
+    "mistral7|TriviaQA": 162,
+    "nemo12|PopQA": 114,
+    "qwen14|PopQA": 122,
+    "qwen8|TriviaQA": 130
+  },
+  "detector_scores_present_in_input": false,
+  "access_reason": "post-freeze single locked evaluation"
+}

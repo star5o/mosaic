@@ -1,0 +1,152 @@
+{
+  "authorization_id": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+  "authorized": false,
+  "cells": {
+    "llama31|TriviaQA": {
+      "feature_sources": {
+        "behavioral": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "candidate": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "nli": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "persistence": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        }
+      },
+      "internal_states": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      },
+      "locked_index": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      }
+    },
+    "mistral7|TriviaQA": {
+      "feature_sources": {
+        "behavioral": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "candidate": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "nli": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "persistence": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        }
+      },
+      "internal_states": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      },
+      "locked_index": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      }
+    },
+    "nemo12|PopQA": {
+      "feature_sources": {
+        "behavioral": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "candidate": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "nli": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "persistence": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        }
+      },
+      "internal_states": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      },
+      "locked_index": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      }
+    },
+    "qwen14|PopQA": {
+      "feature_sources": {
+        "behavioral": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "candidate": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "nli": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "persistence": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        }
+      },
+      "internal_states": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      },
+      "locked_index": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      }
+    },
+    "qwen8|TriviaQA": {
+      "feature_sources": {
+        "behavioral": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "candidate": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "nli": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        },
+        "persistence": {
+          "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+          "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+        }
+      },
+      "internal_states": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      },
+      "locked_index": {
+        "path": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+        "sha256": "FILL_AFTER_EXPLICIT_AUTHORIZATION"
+      }
+    }
+  },
+  "issued_at": "FILL_AFTER_EXPLICIT_AUTHORIZATION",
+  "locked_access_acknowledged": false,
+  "one_shot": true,
+  "public_plan_sha256": "06ec5ca86320f3a1eaa238d12c9ac75dc246344aed3966c582d82b9a2ee8bc3d",
+  "purpose": "one_confidence_materialize_frozen_test_applications_once",
+  "schema_version": "one-confidence-mosaic-v1-frozen-test-source-authorization-v1"
+}

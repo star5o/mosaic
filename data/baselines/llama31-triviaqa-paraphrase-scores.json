@@ -1,0 +1,5057 @@
+{
+  "schema_version": "one-confidence-fixed-paraphrase-nli-v1",
+  "cell": "llama31|TriviaQA",
+  "templates": [
+    "{q}",
+    "Give the shortest factual answer to this question: {q}",
+    "Identify only the entity or value requested here: {q}",
+    "Without explanation, answer this question: {q}"
+  ],
+  "nli_model": "microsoft/deberta-large-mnli",
+  "records": [
+    {
+      "sample_id": "llama31|TriviaQA|bb_2541",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charadriiformes.",
+        "Charadriiformes.",
+        "Charadriiformes",
+        "Charadriiformes"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_4319",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lie detector.",
+        "Lie detector.",
+        "Lie detector.",
+        "Lie detector."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_4368",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hindi",
+        "Hindi",
+        "Hindi",
+        "Hindi"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_4598",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Flemington - Melbourne Cup \nGreyville - Durban July \nLongchamp - Prix de l'Arc de",
+        "Melbourne Cup, Durban July, and Prix de l'Arc de Triomphe.",
+        "Melbourne, Durban, and Paris.",
+        "Melbourne Cup, Durban July, and Prix de l'Arc de Triomphe."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_5336",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shaker instrument.",
+        "Shaker instrument.",
+        "Shaker instrument.",
+        "Shaker instrument."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_5384",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Swan.",
+        "Swan.",
+        "Swan.",
+        "Swan."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_5719",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Delilah.",
+        "Delilah.",
+        "Delilah",
+        "Delilah."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_6266",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "16 to 18",
+        "16 to 18",
+        "18 to 18",
+        "18 to 16"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_6336",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ireland.",
+        "Ireland.",
+        "Ireland.",
+        "Ireland."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_6583",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_6943",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yes.",
+        "Yes.",
+        "Gluteus medius, Gluteus maximus, and Piriformis.",
+        "Yes."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_77",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A dendogram is a diagram of a tree.",
+        "Tree.",
+        "Tree",
+        "A dendogram is a diagram of a tree."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_777",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_7837",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "47",
+        "47",
+        "47",
+        "47"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_7920",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sugarloaf Mountain.",
+        "Sugarloaf Mountain.",
+        "Sugarloaf Mountain.",
+        "Sugarloaf Mountain."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_8792",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "European Council",
+        "European Council.",
+        "European Council",
+        "European Council"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_9301",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peter II",
+        "Peter II",
+        "Peter II",
+        "Peter II"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2189",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Runaways",
+        "The Runaways",
+        "The Runaways",
+        "The Runaways"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_269",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Fawlty Towers",
+        "Fawlty Towers",
+        "Fawlty Towers",
+        "Fawlty Towers"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2875",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lincolnshire",
+        "Lincolnshire",
+        "Lincolnshire",
+        "Lincolnshire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2967",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ipswich.",
+        "Ipswich.",
+        "Ipswich",
+        "Ipswich."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2979",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Eurythmics",
+        "Eurythmics' Annie Lennox",
+        "Eurythmics",
+        "Eurythmics"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_3103",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Drum",
+        "Drum",
+        "Drum",
+        "Drum"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_3225",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stereophonics",
+        "Stereophonics",
+        "Stereophonics",
+        "Stereophonics"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_351",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Wild Bunch.",
+        "The Wild Bunch.",
+        "The Wild Bunch",
+        "The Wild Bunch"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_3522",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Yorkshire",
+        "Yorkshire",
+        "Surrey",
+        "Yorkshire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_45",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Savile Row",
+        "Savile Row",
+        "Savile Row",
+        "Savile Row"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_71",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A-ha",
+        "A-ha",
+        "A-ha",
+        "A-ha"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_1514",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The House of Lords.",
+        "The House of Lords.",
+        "House of Lords",
+        "The House of Lords."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_2028",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sulfur dioxide.",
+        "Sulfur dioxide.",
+        "Sulfur dioxide.",
+        "Sulfur dioxide."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_2695",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mongolia.",
+        "Mongolia.",
+        "Mongolia",
+        "Mongolia"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_2873",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Monotremes.",
+        "Monotremes.",
+        "Monotremes.",
+        "Monotremes."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_3015",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Photography.",
+        "Photography.",
+        "Photography.",
+        "Photography."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_3341",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dorset.",
+        "Dorset.",
+        "Dorset",
+        "Dorset"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_4237",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alexander Waverly",
+        "Alexander Waverly",
+        "Alexander Waverly",
+        "Alexander Waverly"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_455",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cato",
+        "Cato",
+        "Cato",
+        "Cato"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_4662",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dunny.",
+        "Dunny.",
+        "Dunny.",
+        "Dunny."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_5066",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Faeroes",
+        "Faeroes",
+        "Faeroes",
+        "Faeroes"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_5123",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mundungus Fletcher",
+        "Mundungus Fletcher",
+        "Mundungus Fletcher",
+        "Mundungus Fletcher"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_5543",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Whitney Houston",
+        "Whitney Houston",
+        "Whitney Houston",
+        "Whitney Houston"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_5704",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Athena.",
+        "Athena.",
+        "Athena.",
+        "Athena."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_5707",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ecdysis.",
+        "Ecdysis.",
+        "Ecdysis.",
+        "Ecdysis."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_6217",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ed White.",
+        "Ed White.",
+        "Ed White",
+        "Ed White."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_6290",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Voltaire",
+        "Voltaire.",
+        "Voltaire",
+        "Voltaire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_1126",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pablo Escobar.",
+        "Pablo Escobar.",
+        "Pablo Escobar",
+        "Pablo Escobar"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_1381",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michelin",
+        "Michelin.",
+        "Michelin",
+        "Michelin"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_1642",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "Glasses or contact lenses.",
+        "Glasses.",
+        "Glasses.",
+        "Glasses or contact lenses."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_1864",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Seashells.",
+        "Seashells.",
+        "Seashells.",
+        "Sesame seeds."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_1898",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "New York Stock Exchange (NYSE)",
+        "NASDAQ and NYSE.",
+        "New York Stock Exchange (NYSE)",
+        "New York Stock Exchange (NYSE)"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_2349",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Blue Ivy Carter",
+        "Blue Ivy",
+        "Blue Ivy Carter",
+        "Blue Ivy Carter"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_3129",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Genesis",
+        "Genesis",
+        "Genesis",
+        "Genesis"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_3304",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Collarbone.",
+        "Collarbone.",
+        "Collarbone.",
+        "Collarbone."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_3474",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Cosmos: A Spacetime Odyssey.",
+        "Cosmos.",
+        "Cosmos: A Spacetime Odyssey",
+        "Cosmos: A Spacetime Odyssey."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_4355",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Nikkei 225",
+        "Nikkei 225.",
+        "Nikkei",
+        "Nikkei 225"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_923",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Malaysia Airlines.",
+        "Malaysia Airlines.",
+        "Malaysia Airlines.",
+        "Malaysia Airlines."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_968",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Romeo and Juliet.",
+        "Romeo and Juliet.",
+        "Romeo and Juliet.",
+        "Romeo and Juliet."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10672",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Marseille",
+        "Marseille",
+        "Marseille",
+        "Marseille"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10682",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aumbry.",
+        "Aumbry.",
+        "Aumbry",
+        "Aumbry."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10738",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Venezuela.",
+        "Venezuela.",
+        "Venezuela",
+        "Venezuela"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10829",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Chatsworth House.",
+        "Chatsworth House.",
+        "Chatsworth House.",
+        "Chatsworth House."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10917",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kaftan",
+        "Kaftan.",
+        "Kaftan",
+        "Kaftan."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_11026",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Taiwan.",
+        "Taiwan.",
+        "Taiwan.",
+        "Taiwan."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_11056",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Trimurti.",
+        "Trimurti.",
+        "Trimurti",
+        "Trimurti."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_11625",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eugene Wrayburn",
+        "Eugene Wrayburn",
+        "Eugene Wrayburn",
+        "Eugene Wrayburn"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_12266",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Justin Trudeau",
+        "Justin Trudeau",
+        "Justin Trudeau",
+        "Justin Trudeau"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_12464",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Barbirolli.",
+        "John Barbirolli.",
+        "John Barbirolli",
+        "John Barbirolli"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_13261",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "12",
+        "6",
+        "6",
+        "6"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_13282",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nouakchott.",
+        "Nouakchott.",
+        "Nouakchott",
+        "Nouakchott"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_13485",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "SsangYong",
+        "SsangYong.",
+        "SsangYong",
+        "SsangYong"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_13981",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bobby Darin",
+        "Bobby Darin.",
+        "Bobby Darin",
+        "Bobby Darin"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_14474",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aston Villa.",
+        "Aston Villa.",
+        "Aston Villa",
+        "Aston Villa."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_14539",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wellington.",
+        "Wellington.",
+        "Wellington.",
+        "Wellington."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_14572",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charles Kingsford Smith",
+        "Charles Kingsford Smith.",
+        "Charles Kingsford Smith",
+        "Charles Kingsford Smith"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_14755",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pet Sounds",
+        "Pet Sounds",
+        "Pet Sounds",
+        "Pet Sounds"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_1810",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oligarchy.",
+        "Oligarchy.",
+        "Oligarchy.",
+        "Oligarchy."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_2152",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Duchess.",
+        "The Duchess.",
+        "The Duchess.",
+        "The Duchess."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_226",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mickey Rourke",
+        "Mickey Rourke.",
+        "Mickey Rourke",
+        "Mickey Rourke"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_2382",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Incident at Vichy",
+        "Incident at Vichy",
+        "Incident at Vichy",
+        "Incident at Vichy"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_2962",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isaac Asimov.",
+        "Isaac Asimov.",
+        "Isaac Asimov",
+        "Isaac Asimov."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3275",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Burgess Meredith",
+        "Burgess Meredith",
+        "Robin Lord Taylor",
+        "Burgess Meredith"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3654",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "The Black Panther.",
+        "The Strangler.",
+        "The Black Panther.",
+        "The Black Panther."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3764",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jane Austen.",
+        "Jane Austen",
+        "Jane Austen",
+        "Jane Austen"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_446",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Harold Wilson",
+        "Harold Wilson",
+        "Harold Wilson",
+        "Harold Wilson"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_4497",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1960",
+        "1960",
+        "1960",
+        "1960"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_4782",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Orchestral Manoeuvres in the Dark",
+        "Del Amitri",
+        "Del Amitri",
+        "Del Amitri"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_5334",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dave Sexton",
+        "Dave Sexton",
+        "Dave Sexton",
+        "Dave Sexton"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_6075",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Lukáš Rosol",
+        "Lukáš Rosol",
+        "Novak Djokovic",
+        "Lukáš Rosol"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_761",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Edmond Halley",
+        "Edmond Halley",
+        "Edmond Gunter",
+        "Edmond Halley"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8146",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Shepherd Neame.",
+        "Shepherd Neame.",
+        "Shepherd Neame",
+        "Shepherd Neame."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_824",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John Major",
+        "John Major",
+        "John Major",
+        "John Major"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8256",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "2004",
+        "2004",
+        "2004",
+        "2004"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8420",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "San Diego.",
+        "San Diego.",
+        "San Diego",
+        "San Diego"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8665",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Striding Edge.",
+        "Striding Edge.",
+        "Striding Edge",
+        "Striding Edge."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8823",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Copenhagen.",
+        "Copenhagen.",
+        "Seattle",
+        "Copenhagen."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_9160",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Johannesburg",
+        "Johannesburg",
+        "Southampton",
+        "Johannesburg"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_9169",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lungs.",
+        "Lungs.",
+        "Lungs.",
+        "Lungs."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_10037",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Liverpool.",
+        "Liverpool.",
+        "Liverpool",
+        "Liverpool."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_1166",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Joe Orton.",
+        "Joe Orton.",
+        "Joe Orton",
+        "Joe Orton."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_1944",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ecuador.",
+        "Ecuador.",
+        "Ecuador",
+        "Ecuador"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_2545",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gas Mark 5.",
+        "Gas Mark 5.",
+        "Gas Mark 5.",
+        "Gas Mark 5."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3775",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bactrian camel.",
+        "Bactrian camel.",
+        "Bactrian",
+        "Bactrian camel."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3876",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Augustus.",
+        "Augustus.",
+        "Augustus",
+        "Augustus."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3940",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "April",
+        "April",
+        "April",
+        "April"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_4626",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "A female skunk is called a doe.",
+        "Female skunk: Doe",
+        "Female skunk",
+        "A female skunk is called a doe."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_4796",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Backgammon.",
+        "Backgammon.",
+        "Backgammon.",
+        "Backgammon."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_4911",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Fenn Street Secondary Modern School",
+        "Fenn Street Secondary Modern School.",
+        "Fenn Street Secondary Modern School",
+        "Fenn Street Secondary Modern School"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5388",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Travis.",
+        "Travis.",
+        "Travis",
+        "Travis."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5532",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Origami.",
+        "Origami.",
+        "Origami.",
+        "Origami."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6527",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Every 10 years.",
+        "Every 10 years.",
+        "Every 10 years.",
+        "Every 10 years."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6795",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Martina Navratilova",
+        "Martina Navratilova",
+        "Martina Navratilova",
+        "Martina Navratilova"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_7244",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A. A. Milne",
+        "A. A. Milne",
+        "A. A. Milne",
+        "A. A. Milne"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_7512",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John F. Kennedy",
+        "John F. Kennedy",
+        "John F. Kennedy",
+        "John F. Kennedy"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_777",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Belgium.",
+        "Belgium.",
+        "Belgium",
+        "Belgium."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8222",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Utah.",
+        "Utah.",
+        "Utah.",
+        "Utah."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8227",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sheila Fearn",
+        "Sheila Fearn",
+        "Sheila Fearn",
+        "Sheila Fearn"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8229",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Rescuers Down Under",
+        "The Rescuers Down Under",
+        "The Rescuers Down Under",
+        "The Rescuers Down Under"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8707",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dolores.",
+        "Dolores.",
+        "Dolores.",
+        "Dolores."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_9102",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "More Than This",
+        "More Than This",
+        "More Than This",
+        "More Than This"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_9347",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Africa.",
+        "South Africa.",
+        "South Africa",
+        "South Africa"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_9682",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gold.",
+        "Gold.",
+        "Gold.",
+        "Gold."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_9779",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Leicestershire.",
+        "Leicestershire.",
+        "Leicestershire",
+        "Leicestershire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_1245",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Colorado River.",
+        "Colorado River.",
+        "Colorado River.",
+        "Colorado River"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_1634",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Grateful Dead",
+        "The Grateful Dead.",
+        "The Grateful Dead",
+        "The Grateful Dead"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_1704",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Percy Spencer.",
+        "Percy Spencer.",
+        "Percy Spencer",
+        "Percy Spencer."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_2576",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Côte d'Ivoire.",
+        "Côte d'Ivoire.",
+        "Côte d'Ivoire.",
+        "Côte d'Ivoire."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_2709",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wallace & Gromit: The Curse of the Were-Rabbit.",
+        "Wallace & Gromit: The Curse of the Were-Rabbit.",
+        "Wallace & Gromit: The Curse of the Were-Rabbit.",
+        "Wallace & Gromit: The Curse of the Were-Rabbit."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_2913",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South African.",
+        "South African.",
+        "South African",
+        "South African"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_3017",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bring on the Empty Horses was the sequel to \"The Moon's a Balloon\".",
+        "\"Bring on the Empty Horses\" was the sequel to \"The Moon's a Balloon\".",
+        "Bring on the Empty Horses was the sequel to \"The Moon's a Balloon\".",
+        "Bring on the Empty Horses was the sequel to \"The Moon's a Balloon\"."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_3075",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cannes Film Festival.",
+        "Cannes.",
+        "Cannes Film Festival",
+        "Cannes Film Festival."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_85",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mungo Jerry",
+        "Mungo Jerry",
+        "Mungo Jerry",
+        "Mungo Jerry"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_1362",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "In-N-Out Burger",
+        "In-N-Out Burger",
+        "In-N-Out Burger",
+        "In-N-Out Burger"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_1607",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A Prairie Home Companion",
+        "A Prairie Home Companion",
+        "A Prairie Home Companion",
+        "A Prairie Home Companion"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_1950",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Zorro",
+        "Zorro",
+        "Zorro \n\nEl Zorro",
+        "Zorro"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_3179",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "Three Mile Island, Pennsylvania.",
+        "Three Mile Island.",
+        "Three Mile Island.",
+        "Three Mile Island, Pennsylvania."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_4575",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The No. 1 Ladies' Detective Agency series.",
+        "The No. 1 Ladies' Detective Agency series.",
+        "The No. 1 Ladies' Detective Agency series.",
+        "The No. 1 Ladies' Detective Agency series."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_508",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A cow.",
+        "A cow.",
+        "A cow.",
+        "A cow."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_736",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Napoleon Bonaparte",
+        "Napoleon.",
+        "Napoleon",
+        "Napoleon Bonaparte"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_10253",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "The Huguenots' motto is \"Je Maintiendrai\".",
+        "Huguenots",
+        "Bailiff of Guernsey",
+        "The Huguenots' motto is \"Je Maintiendrai\"."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_11737",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dengue fever.",
+        "Dengue fever.",
+        "Dengue fever.",
+        "Dengue fever."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_11754",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nasser Hussain",
+        "Nasser Hussain",
+        "Nasser Hussain",
+        "Nasser Hussain"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_11892",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "1821",
+        "1832",
+        "1821",
+        "1821"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_1201",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Henley Royal Regatta.",
+        "Henley Royal Regatta.",
+        "Henley Royal Regatta",
+        "Henley Royal Regatta."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_12163",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Goiter.",
+        "Goiter.",
+        "Goiter.",
+        "Goiter."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_12892",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Trains.",
+        "Trains.",
+        "Trains.",
+        "Trains."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_13186",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Camshaft.",
+        "Camshaft.",
+        "Camshaft.",
+        "Camshaft."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_13355",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ancient Egypt.",
+        "Ancient Egypt.",
+        "Ancient Egypt.",
+        "Ancient Egypt."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_13803",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A donkey.",
+        "A donkey.",
+        "Donkey",
+        "A donkey."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_14565",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eric Clapton",
+        "Eric Clapton.",
+        "Eric Clapton",
+        "Eric Clapton"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_15027",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Advertising.",
+        "Advertising.",
+        "Advertising.",
+        "Advertising."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_15588",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Norwegian",
+        "Norwegian.",
+        "Norwegian",
+        "Norwegian"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_16018",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "John F. Kennedy",
+        "John F. Kennedy",
+        "John F. Kennedy",
+        "John F. Kennedy"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_16308",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bolivia.",
+        "Bolivia.",
+        "Bolivia",
+        "Bolivia."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_16785",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1882",
+        "1882",
+        "1882",
+        "1882"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_1856",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kamchatka.",
+        "Kamchatka.",
+        "Kamchatka",
+        "Kamchatka."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_2021",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yuri Gagarin.",
+        "Yuri Gagarin.",
+        "Yuri Gagarin",
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_2611",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Mecklenburg-Vorpommern, Germany.",
+        "Germany.",
+        "Germany.",
+        "Germany."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_3601",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "A sou'wester.",
+        "A sou'wester.",
+        "Hat",
+        "A sou'wester."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_4326",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peyton Manning",
+        "Peyton Manning",
+        "Peyton Manning",
+        "Peyton Manning"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_5712",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "£32,000",
+        "£32,000",
+        "£32,000",
+        "£32,000"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_581",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Peter Pan",
+        "Peter Pan.",
+        "Peter Pan",
+        "Peter Pan"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_707",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "To the Manor Born.",
+        "To the Manor Born.",
+        "To the Manor Born",
+        "To the Manor Born."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_8407",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Backgammon.",
+        "Backgammon.",
+        "Backgammon",
+        "Backgammon."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_8454",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oklahoma.",
+        "Oklahoma.",
+        "Oklahoma",
+        "Oklahoma."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_135",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dwight D. Eisenhower",
+        "Dwight D. Eisenhower",
+        "Dwight D. Eisenhower",
+        "Dwight D. Eisenhower"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_1880",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jinks",
+        "Jinks",
+        "Jinks",
+        "Jinks"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_1918",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ritchie Valens.",
+        "Ritchie Valens.",
+        "Ritchie Valens",
+        "Ritchie Valens."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_2280",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "J. Howard Marshall.",
+        "J. Howard Marshall.",
+        "J. Howard Marshall",
+        "J. Howard Marshall."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_2471",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Billy Wilder.",
+        "Billy Wilder.",
+        "Billy Wilder",
+        "Billy Wilder"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_2968",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jamaica.",
+        "Jamaica.",
+        "Jamaica",
+        "Jamaica"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_374",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Dynamite.",
+        "Dynamite.",
+        "Dynamite.",
+        "Dynamite."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_4171",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "\"Only You\"",
+        "\"Only You\"",
+        "\"Only You\"",
+        "\"Only You\""
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_4861",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rosslyn Chapel.",
+        "Rosslyn Chapel.",
+        "Rosslyn Chapel",
+        "Rosslyn Chapel."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_5487",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "MXIX",
+        "IXCIX",
+        "MXIX",
+        "MXIX"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_866",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Radar.",
+        "Radar",
+        "Radar",
+        "Radar"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10334",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jude the Obscure",
+        "Jude the Obscure",
+        "Jude the Obscure",
+        "Jude the Obscure"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1068",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Passerellidae",
+        "Passeridae.",
+        "Passeridae",
+        "Passeridae."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10701",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bono.",
+        "Bono.",
+        "Bono.",
+        "Bono."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10817",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sculpture.",
+        "Sculpture.",
+        "Sculpture",
+        "Sculpture."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10839",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Gleditsia triacanthos.",
+        "Gleditsia triacanthos.",
+        "Honey locust",
+        "Gleditsia triacanthos."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_11335",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Meerkatville",
+        "Meerkatville",
+        "Meerkatville",
+        "Meerkatville"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1178",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michiel de Ruyter",
+        "Michiel de Ruyter.",
+        "Michiel de Ruyter",
+        "Michiel de Ruyter"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_11914",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wiltshire.",
+        "Wiltshire.",
+        "Wiltshire.",
+        "Wiltshire."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_12058",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Staying Alive",
+        "Staying Alive.",
+        "Staying Alive",
+        "Staying Alive"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_12439",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Deutschland",
+        "Deutschland",
+        "Deutschland",
+        "Deutschland"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_12491",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rubber.",
+        "Rubber.",
+        "Rubber.",
+        "Rubber."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_12933",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "22 June 1941.",
+        "22 June 1941.",
+        "Operation Barbarossa",
+        "June 22, 1941."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_13270",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lily the Pink",
+        "Lily the Pink.",
+        "Lily the Pink",
+        "Lily the Pink"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_13483",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Robinson.",
+        "Robinson.",
+        "Robinson",
+        "Robinson."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_13530",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hungary.",
+        "Hungary.",
+        "Hungary",
+        "Hungary"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14399",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Wight.",
+        "Wight.",
+        "Wight.",
+        "Wight."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14439",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Chester A. Arthur",
+        "Chester A. Arthur",
+        "Chester A. Arthur",
+        "Chester A. Arthur's middle name was not Rudolph, but Arthur."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14649",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tasman.",
+        "Tasman.",
+        "Tasman",
+        "Tasman."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14668",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Scharnhorst",
+        "Scharnhorst.",
+        "Scharnhorst",
+        "Scharnhorst"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15185",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Peter Principle.",
+        "The Peter Principle.",
+        "The Peter Principle.",
+        "The Peter Principle."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15254",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Buster Keaton.",
+        "Buster Keaton.",
+        "Buster Keaton",
+        "Buster Keaton."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15281",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lulach",
+        "Lulach",
+        "Lulach",
+        "Lulach"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1537",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tin.",
+        "Tin.",
+        "Tin.",
+        "Tin."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15417",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eurythmics.",
+        "Eurythmics.",
+        "Eurythmics",
+        "Eurythmics"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15917",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kiribati.",
+        "Kiribati.",
+        "Kiribati",
+        "Kiribati."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16122",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Proscenium.",
+        "Proscenium.",
+        "orchestra",
+        "Proscenium."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16584",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "A Room with a View.",
+        "A Room with a View.",
+        "A Room with a View",
+        "A Room with a View"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1674",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Fiji.",
+        "Fiji.",
+        "Fiji",
+        "Fiji."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16908",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Long Island.",
+        "Long Island.",
+        "Long Island.",
+        "Long Island."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_17107",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Antonio Carlucci and Genaro Contaldo are better known as Antonio Carluccio and Gennaro Cont",
+        "Antonio Carlucci and Genaro Contaldo are better known as Antonio Carluccio and Gennaro Cont",
+        "Antonio Carlucci and Genaro Contaldo are better known as Antonio Carluccio and Gennaro Cont",
+        "Antonio Carlucci and Genaro Contaldo are better known as Antonio Carluccio and Gennaro Cont"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_17120",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Esther McVey",
+        "Esther McVey",
+        "Esther McVey",
+        "Esther McVey"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_17589",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Isaac Hayes",
+        "Isaac Hayes.",
+        "Isaac Hayes",
+        "Isaac Hayes"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_17886",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Australia.",
+        "South Australia.",
+        "South Australia",
+        "South Australia"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_18289",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "As You Like It.",
+        "As You Like It.",
+        "As You Like It",
+        "As You Like It"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_18420",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mauchline",
+        "Mauchline.",
+        "Mauchline",
+        "Mauchline"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_18732",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Interlaken.",
+        "Interlaken.",
+        "Interlaken",
+        "Interlaken."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_18988",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Liverpool and Manchester Railway.",
+        "Liverpool and Manchester Railway.",
+        "Liverpool and Manchester Railway",
+        "The Liverpool and Manchester Railway."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1957",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bernardo Bertolucci.",
+        "Bernardo Bertolucci.",
+        "Bernardo Bertolucci",
+        "Bernardo Bertolucci."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_196",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Hong Kong.",
+        "Hong Kong.",
+        "China",
+        "Hong Kong."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_20945",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "London.",
+        "London.",
+        "London",
+        "London."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_21214",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oregon.",
+        "Oregon.",
+        "Oregon.",
+        "Oregon."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_21478",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Halle Berry.",
+        "Halle Berry.",
+        "Halle Berry",
+        "Halle Berry"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22123",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tamagotchi.",
+        "Tamagotchi.",
+        "Tamagotchi.",
+        "Tamagotchi."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22152",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "1989",
+        "1989",
+        "1990",
+        "1989"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22172",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "John Simm",
+        "Philip Glenister.",
+        "Philip Glenister",
+        "John Simm"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22338",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Arantxa Sánchez Vicario",
+        "Arantxa Sánchez Vicario",
+        "Arantxa Sánchez Vicario",
+        "Arantxa Sánchez Vicario"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22779",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Haiyan",
+        "Haiyan",
+        "Haiyan",
+        "Haiyan"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_23017",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Will Carling.",
+        "Will Carling.",
+        "Will Carling",
+        "Will Carling."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_23310",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Verrazano-Narrows Bridge",
+        "George Washington Bridge",
+        "George Washington Bridge",
+        "George Washington Bridge"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_23461",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edward I",
+        "Edward I",
+        "Edward I",
+        "Edward I"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_2368",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rudolf Diels",
+        "Rudolf Diels",
+        "Rudolf Diels",
+        "Rudolf Diels"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_23865",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "\"Break On Through (To the Other Side)\"",
+        "\"Break On Through (To the Other Side)\"",
+        "People Are Strange",
+        "\"Break On Through (To the Other Side)\""
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_23975",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Phyllis Diller.",
+        "Phyllis Diller.",
+        "Phyllis Diller",
+        "Phyllis Diller"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_2399",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charles Gounod",
+        "Charles Gounod.",
+        "Charles Gounod",
+        "Charles Gounod"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_24692",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Ramsay MacDonald",
+        "Ramsay MacDonald",
+        "Clement Attlee",
+        "Ramsay MacDonald"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_24763",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Konstantin Chernenko.",
+        "Konstantin Chernenko.",
+        "Konstantin Chernenko",
+        "Konstantin Chernenko"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_2480",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Vodka.",
+        "Vodka.",
+        "Vodka.",
+        "Vodka."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_25007",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Faversham.",
+        "Faversham.",
+        "Faversham.",
+        "Faversham."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_2501",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kidney.",
+        "Kidney.",
+        "Kidney.",
+        "Kidney."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_3004",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Naboth.",
+        "Naboth.",
+        "Naboth",
+        "Naboth."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_3026",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "Gulliver's Travels",
+        "Pride and Prejudice",
+        "Gulliver's Travels",
+        "Pride and Prejudice"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_3203",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Michael Wray",
+        "Michael Wray",
+        "Michael Wray",
+        "Michael Wray"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_3248",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Li'l Abner.",
+        "Li'l Abner",
+        "Li'l Abner",
+        "Li'l Abner"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_3663",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Abu Dhabi.",
+        "Abu Dhabi.",
+        "Abu Dhabi",
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_4752",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "2048",
+        "2048",
+        "2048",
+        "2048"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_4769",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yorkshire",
+        "Yorkshire",
+        "Yorkshire",
+        "Yorkshire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_5456",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Richard III.",
+        "Richard III.",
+        "Richard III",
+        "Richard III."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_5501",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Windermere",
+        "Windermere",
+        "Windermere",
+        "Windermere"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_5720",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Parkesine.",
+        "Parkesine.",
+        "Parkesine",
+        "Parkesine."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_6829",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "St. John's Wort.",
+        "St. John's Wort.",
+        "St. John's Wort.",
+        "St. John's Wort."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_6935",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "Brooklyn is situated in the boroughs of New York City.",
+        "Brooklyn is situated in the borough of Kings in the county of Kings in the state of New York, but in the",
+        "Brooklyn is situated in the borough of Kings in the county of Kings in the state of New York, but in the",
+        "Brooklyn is situated in the borough of Kings in the county of Kings, in the state of New York, but in"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_7159",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Asia.",
+        "Asia.",
+        "Asia",
+        "Asia"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_7880",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "England",
+        "England.",
+        "England",
+        "England"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_8023",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1997",
+        "1997",
+        "1997",
+        "1997"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_8171",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Opus Dei",
+        "Opus Dei",
+        "Opus Dei",
+        "Opus Dei"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_8526",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jim Lovell.",
+        "Jim Lovell.",
+        "Jim Lovell.",
+        "Jim Lovell."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_888",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Patrick Branwell Brontë.",
+        "Patrick Branwell Brontë.",
+        "Patrick Brontë",
+        "Patrick Branwell Brontë"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_9018",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Loretta Swit",
+        "Loretta Swit.",
+        "Loretta Swit",
+        "Loretta Swit"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_9618",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gordon Brown",
+        "Gordon Brown",
+        "Gordon Brown",
+        "Gordon Brown"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_9687",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Heligoland.",
+        "Heligoland.",
+        "Heligoland.",
+        "Heligoland."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_9736",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nissan.",
+        "Nissan.",
+        "Nissan",
+        "Nissan"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_985",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Boston Pops Orchestra.",
+        "Boston Pops Orchestra.",
+        "Boston Pops Orchestra.",
+        "Boston Pops Orchestra."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tb_1398",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Switzerland.",
+        "Switzerland.",
+        "Switzerland.",
+        "Switzerland."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tb_1889",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nikola Tesla.",
+        "Nikola Tesla.",
+        "Nikola Tesla",
+        "Nikola Tesla"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tb_577",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Barry Lyndon.",
+        "Barry Lyndon.",
+        "Barry Lyndon",
+        "Barry Lyndon."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tb_988",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bhutan",
+        "Bhutan",
+        "Bhutan",
+        "Bhutan"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_1008",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "8",
+        "8",
+        "8",
+        "8"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_1128",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jonathan Demme",
+        "Jonathan Demme",
+        "Jonathan Demme",
+        "Jonathan Demme"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_1858",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kansas City.",
+        "Kansas City.",
+        "Kansas City.",
+        "Kansas City."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_1859",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Columbus.",
+        "Columbus.",
+        "Columbus",
+        "Columbus."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_2031",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Maastricht.",
+        "Maastricht.",
+        "Maastricht",
+        "Maastricht."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_282",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pink Floyd.",
+        "Pink Floyd.",
+        "Pink Floyd",
+        "Pink Floyd"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_626",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Anthony Kiedis",
+        "Anthony Kiedis",
+        "Anthony Kiedis",
+        "Anthony Kiedis"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_962",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Photographer.",
+        "Photographer.",
+        "Photographer.",
+        "Photographer."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_1544",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Casket Letters.",
+        "The Casket Letters.",
+        "The Casket Letters.",
+        "The Casket Letters."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_1590",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Trifle",
+        "Trifle",
+        "Trifle",
+        "Trifle"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_1780",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eastbourne.",
+        "Eastbourne.",
+        "Eastbourne.",
+        "Eastbourne."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_289",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sicily.",
+        "Sicily.",
+        "Sicily",
+        "Sicily."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_3326",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jurassic.",
+        "Jurassic.",
+        "Jurassic.",
+        "Jurassic."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_3704",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "2001: A Space Odyssey",
+        "2001: A Space Odyssey",
+        "2001: A Space Odyssey",
+        "2001: A Space Odyssey"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_3785",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tennessee.",
+        "Tennessee.",
+        "Tennessee.",
+        "Tennessee."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_4111",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Innes",
+        "George Innes",
+        "George Innes",
+        "George Innes"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_4283",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Deutschlandlied",
+        "Deutschlandlied",
+        "Deutschlandlied",
+        "Deutschlandlied"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_436",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Kate Winslet",
+        "Kate Winslet",
+        "Kate Winslet",
+        "Kate Winslet"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_4372",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Trevor Francis.",
+        "Trevor Francis.",
+        "Trevor Francis",
+        "Trevor Francis"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_673",
+      "split": "development",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Protractor.",
+        "Protractor.",
+        "Protractor.",
+        "Protractor."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_752",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The de Havilland Comet.",
+        "de Havilland Comet.",
+        "de Havilland Comet",
+        "de Havilland Comet."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_881",
+      "split": "development",
+      "label": "HCC",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "David Tyler is the current chairman of Sainsbury's.",
+        "Waitrose",
+        "Tesco",
+        "Sainsbury's"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_1522",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tahiti.",
+        "Tahiti.",
+        "Tahiti",
+        "Tahiti."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_1967",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "George Soros",
+        "George Soros.",
+        "George Soros",
+        "George Soros"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_3440",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Blessed.",
+        "Blessed.",
+        "Blessed",
+        "Blessed."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_4540",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Yes.",
+        "Philosopher.",
+        "German.",
+        "Yes."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_8498",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pantheon.",
+        "Pantheon.",
+        "Pantheon.",
+        "Pantheon."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bb_8833",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ivo Bligh",
+        "Ivo Bligh",
+        "Ivo Bligh",
+        "Ivo Bligh"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2101",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cat Stevens",
+        "Cat Stevens",
+        "Cat Stevens",
+        "Cat Stevens"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2649",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ljubljana",
+        "Ljubljana",
+        "Ljubljana",
+        "Ljubljana"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_2892",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bruno Mars",
+        "Bruno Mars",
+        "Bruno Mars",
+        "Bruno Mars"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_3237",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "\"Delilah\"",
+        "\"Delilah\"",
+        "\"Delilah\"",
+        "\"Delilah\""
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_4210",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tottenham Hotspur",
+        "Tottenham Hotspur.",
+        "Tottenham Hotspur",
+        "Tottenham Hotspur"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|bt_426",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "High Force is a waterfall.",
+        "Waterfall",
+        "Waterfall",
+        "Waterfall"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_1021",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Battle of Omdurman.",
+        "Battle of Omdurman.",
+        "Battle of Omdurman",
+        "The Battle of Omdurman."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_1607",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pluto.",
+        "Pluto.",
+        "Pluto",
+        "Pluto"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_2848",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sax Rohmer",
+        "Sax Rohmer.",
+        "Sax Rohmer",
+        "Sax Rohmer"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_3075",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Jan Verhaas",
+        "Jan Verhaas",
+        "Clare Bear",
+        "Jan Verhaas"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_3194",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Calamity Cherie",
+        "Calamity Cherie",
+        "Calamity Cherie",
+        "Calamity Cherie"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_4234",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Silent Spring.",
+        "Silent Spring.",
+        "Silent Spring.",
+        "Silent Spring."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_434",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Miss Honey",
+        "Miss Honey",
+        "Miss Honey",
+        "Miss Honey"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|dpql_4816",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1940s",
+        "1940s",
+        "1940s",
+        "1940s"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_2523",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bombay.",
+        "Bombay.",
+        "Bombay",
+        "Bombay"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_2776",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Sperm whale.",
+        "Sperm whale.",
+        "Sperm whale.",
+        "Sperm whale."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_4141",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "\"Start Me Up\"",
+        "\"Start Me Up\"",
+        "\"Start Me Up\"",
+        "\"Start Me Up\""
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|jp_487",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Boxing Day.",
+        "Boxing Day.",
+        "Boxing Day",
+        "Boxing Day."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10029",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Charlie Chan.",
+        "Charlie Chan.",
+        "Charlie Chan",
+        "Charlie Chan."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_10754",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Charles Gounod",
+        "Charles Gounod",
+        "Giacomo Puccini",
+        "Charles Gounod"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_271",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "James Hargreaves.",
+        "James Hargreaves.",
+        "James Hargreaves",
+        "James Hargreaves"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_2913",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mansfield Park",
+        "Mansfield Park",
+        "Mansfield Park",
+        "Mansfield Park"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3164",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Agrippina the Younger.",
+        "Agrippina the Younger.",
+        "Agrippina the Younger",
+        "Agrippina the Younger"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_3968",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Chinook.",
+        "Chinook.",
+        "Chinook.",
+        "Chinook."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_397",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Conductor.",
+        "Conductor.",
+        "Conductor",
+        "Conductor."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_7016",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The 1960s.",
+        "The 1960s.",
+        "The 1960s.",
+        "The 1960s."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_7728",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jean-Jacques Rousseau",
+        "Jean-Jacques Rousseau",
+        "Jean-Jacques Rousseau",
+        "Jean-Jacques Rousseau"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8215",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nottinghamshire.",
+        "Nottinghamshire.",
+        "Nottinghamshire",
+        "Nottinghamshire"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8358",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Atlanta.",
+        "Atlanta.",
+        "Atlanta.",
+        "Atlanta."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8433",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Helios.",
+        "Helios.",
+        "Helios.",
+        "Helios."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_8649",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "2002",
+        "2002",
+        "2002",
+        "2002"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|odql_982",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Mao Zedong",
+        "Mao Zedong",
+        "Mao Zedong",
+        "Mao Zedong"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_2760",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "The bone that connects the humerus with the clavicle is the scapula.",
+        "The clavicle.",
+        "Clavicle.",
+        "The bone that connects the humerus with the clavicle is the scapula."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3147",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Pirates of Penzance",
+        "The Pirates of Penzance.",
+        "The Pirates of Penzance",
+        "The Pirates of Penzance"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_3553",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "T.E. Lawrence.",
+        "T.E. Lawrence.",
+        "T.E. Lawrence",
+        "T.E. Lawrence"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_4235",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bull's-Eye",
+        "Bull's-Eye.",
+        "Bull's-Eye.",
+        "Bull's-Eye."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5124",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Russell Crowe.",
+        "Russell Crowe.",
+        "Russell Crowe",
+        "Russell Crowe."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5502",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Prometheus.",
+        "Prometheus.",
+        "Prometheus.",
+        "Prometheus."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_5747",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lionel Messi.",
+        "Lionel Messi.",
+        "Lionel Messi",
+        "Lionel Messi."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6193",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Czechoslovakia",
+        "Czechoslovakia",
+        "Czechoslovakia",
+        "Czechoslovakia"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_6748",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Leeds.",
+        "Leeds.",
+        "Leeds.",
+        "Leeds."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8050",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Capnolagnia is the arousal from watching others smoke.",
+        "Capnolagnia is the arousal from watching others smoke.",
+        "Capnolagia is the arousal from watching others smoke.",
+        "Capnolagnia"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8379",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Bleak House.",
+        "Bleak House.",
+        "Bleak House.",
+        "Bleak House"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qb_8788",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Unchained",
+        "Unchained",
+        "Unchained",
+        "Unchained"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_270",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Carry On Up the Khyber.",
+        "Carry On Up the Khyber.",
+        "Carry On Up the Khyber",
+        "Carry On Up the Khyber."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qf_301",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Cured meat.",
+        "Cured meat.",
+        "Cured meat.",
+        "Cured meat."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_2661",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "David Berkowitz.",
+        "David Berkowitz.",
+        "David Berkowitz",
+        "David Berkowitz."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_3574",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Southwest Airlines.",
+        "Southwest Airlines.",
+        "Southwest Airlines.",
+        "Southwest Airlines."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qg_577",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Arby's",
+        "Arby's",
+        "Arby's",
+        "Arby's"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_11340",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jai Alai",
+        "Jai Alai.",
+        "Jai Alai",
+        "Jai Alai"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_12302",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Meet Me in St. Louis",
+        "Meet Me in St. Louis.",
+        "Meet Me in St. Louis",
+        "Meet Me in St. Louis."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_12650",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Tennessee Williams.",
+        "Tennessee Williams.",
+        "Tennessee Williams",
+        "Tennessee Williams."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_1393",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Elizabeth Taylor",
+        "Elizabeth Taylor",
+        "Elizabeth Taylor",
+        "Elizabeth Taylor"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_14287",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edna St. Vincent Millay",
+        "Edna St. Vincent Millay",
+        "Edna St. Vincent Millay",
+        "Edna St. Vincent Millay"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_1812",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Inflation.",
+        "Inflation.",
+        "Gresham's Law",
+        "Inflation."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_2660",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Pointillism.",
+        "Pointillism.",
+        "Pointillism.",
+        "Pointillism."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_4194",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Polo",
+        "Polo.",
+        "Golf",
+        "Polo"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qw_8897",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Edmund II Ironside",
+        "Edmund II Ironside",
+        "Edmund II Ironside",
+        "Edmund II Ironside"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_1794",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Sunday Post.",
+        "The Sunday Post.",
+        "The Sunday Post.",
+        "The Sunday Post."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_2567",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Columbo.",
+        "Columbo.",
+        "Columbo",
+        "Columbo."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_3433",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Stella McCartney designed Madonna's wedding dress for her marriage to Guy Ritchie.",
+        "Stella McCartney",
+        "Stella McCartney",
+        "Stella McCartney"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|qz_4140",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Spencer Perceval.",
+        "Spencer Perceval.",
+        "Spencer Perceval",
+        "Spencer Perceval."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10376",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Gordon Brown",
+        "Gordon Brown",
+        "Tony Blair",
+        "Gordon Brown"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_10705",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jura.",
+        "Jura.",
+        "Jura",
+        "Jura."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_11672",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Lake Erie.",
+        "Lake Erie.",
+        "Lake Erie",
+        "Lake Erie."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_11985",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Raging Bull.",
+        "Raging Bull.",
+        "Raging Bull.",
+        "Raging Bull."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_13447",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Helle Thorning-Schmidt",
+        "Helle Thorning-Schmidt",
+        "Helle Thorning-Schmidt",
+        "Helle Thorning-Schmidt"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14710",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Glasgow",
+        "Glasgow",
+        "Glasgow",
+        "Glasgow"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_14830",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "The trophy awarded to the women's world team champions in badminton is the Uber Cup.",
+        "The Uber Cup.",
+        "BWF World Team Championships trophy",
+        "The Uber Cup."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15625",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Three Dots and a Dash",
+        "Three Dots and a Dash.",
+        "Blue Lagoon",
+        "Three Dots and a Dash"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_15859",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Eyes.",
+        "Eyes.",
+        "Eyes.",
+        "Eyes."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16789",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nathan Lyon",
+        "Nathan Lyon",
+        "Nathan Lyon",
+        "Nathan Lyon"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_1682",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alan Bennett",
+        "Alan Bennett",
+        "Alan Bennett",
+        "Alan Bennett"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_16888",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Buckinghamshire.",
+        "Buckinghamshire.",
+        "Buckinghamshire",
+        "Buckinghamshire."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_189",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "St. Bartholomew's Day.",
+        "St. Bartholomew's Day.",
+        "St. Bartholomew's Day.",
+        "St. Bartholomew's Day."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_20405",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Nirvana.",
+        "Nirvana.",
+        "Nirvana",
+        "Nirvana"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_20946",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "The People's Party",
+        "The People's Party",
+        "The People Party is now known as UKIP.",
+        "The People's Party"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_22467",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1960s",
+        "1960s",
+        "1960s",
+        "1960s"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_24346",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "New York City.",
+        "New York City.",
+        "New York City.",
+        "New York City."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_25534",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Norman Mailer.",
+        "Norman Mailer.",
+        "Norman Mailer",
+        "Norman Mailer."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_4719",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Alexandra",
+        "Alexandra.",
+        "Alexandra",
+        "Alexandra"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_4771",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Gianni Schicchi",
+        "Gianni Schicchi",
+        "Gianni Schicchi",
+        "Gianni Schicchi"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_6607",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Aconcagua.",
+        "Aconcagua.",
+        "Aconcagua",
+        "Aconcagua"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_720",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Yellowstone National Park.",
+        "Yellowstone.",
+        "Yellowstone.",
+        "Yellowstone National Park."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_7582",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Miracles.",
+        "The Miracles.",
+        "The Miracles",
+        "The Miracles."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_8105",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Oliver Stone",
+        "Oliver Stone.",
+        "Oliver Stone",
+        "Oliver Stone"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_819",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Rodgers and Hammerstein.",
+        "Rodgers and Hammerstein.",
+        "Rodgers and Hammerstein",
+        "Rodgers and Hammerstein"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_8614",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Moctezuma II.",
+        "Moctezuma II.",
+        "Moctezuma II",
+        "Moctezuma II"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_93",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.25,
+      "original_support": 0.75,
+      "panel_answers": [
+        "Walter Matthau",
+        "Jack Lemmon",
+        "Walter Matthau",
+        "Walter Matthau"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|sfq_9386",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Hazel Blears",
+        "Hazel Blears",
+        "Hazel Blears",
+        "Hazel Blears"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tb_951",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "South Ossetia.",
+        "South Ossetia.",
+        "South Ossetia.",
+        "South Ossetia."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_1250",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Martina Hingis",
+        "Martina Hingis",
+        "Martina Hingis",
+        "Martina Hingis"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_2380",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "1912",
+        "1912",
+        "1912",
+        "1912"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|tc_3026",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.75,
+      "original_support": 0.25,
+      "panel_answers": [
+        "The Great Barrier Reef.",
+        "The Great Wall of China.",
+        "The Great Wall of China",
+        "The Great Wall of China"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_1069",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Speaker of the House of Commons.",
+        "The Speaker of the House of Commons.",
+        "The Speaker of the House of Commons.",
+        "The Speaker of the House of Commons."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_1348",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "Pembrokeshire Coast National Park.",
+        "Northumberland.",
+        "Pembrokeshire Coast National Park",
+        "Northumberland National Park"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_2197",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Ken Follett.",
+        "Ken Follett.",
+        "Ken Follett",
+        "Ken Follett"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_252",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "The Battle of the Somme.",
+        "The Battle of the Somme.",
+        "The Battle of the Somme.",
+        "The Battle of the Somme."
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_2826",
+      "split": "validation",
+      "label": "HCE",
+      "risk_score": 0.5,
+      "original_support": 0.5,
+      "panel_answers": [
+        "1999",
+        "2000",
+        "1999",
+        "2000"
+      ]
+    },
+    {
+      "sample_id": "llama31|TriviaQA|wh_3935",
+      "split": "validation",
+      "label": "HCC",
+      "risk_score": 0.0,
+      "original_support": 1.0,
+      "panel_answers": [
+        "Jamaica.",
+        "Jamaica.",
+        "Jamaica",
+        "Jamaica"
+      ]
+    }
+  ]
+}

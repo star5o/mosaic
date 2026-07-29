@@ -1,0 +1,156 @@
+{
+  "schema_version": "one-confidence-mosaic-v1-frozen-test-source-authorization-v1",
+  "purpose": "one_confidence_materialize_frozen_test_applications_once",
+  "authorized": true,
+  "locked_access_acknowledged": true,
+  "one_shot": true,
+  "authorization_id": "user-directive-20260729-run6-materialization",
+  "issued_at": "2026-07-29T12:45:00+08:00",
+  "public_plan_sha256": "06ec5ca86320f3a1eaa238d12c9ac75dc246344aed3966c582d82b9a2ee8bc3d",
+  "source_generation_authorization": {
+    "authorization_id": "user-directive-20260729-run6-source-generation",
+    "sha256": "e3aa9c241a82ab9efcf76c263e32379a47b1671075db47121f4fc4e166610472"
+  },
+  "cells": {
+    "mistral7|TriviaQA": {
+      "locked_index": {
+        "path": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+        "sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb"
+      },
+      "internal_states": {
+        "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/mistral7-triviaqa-internal-states.pt",
+        "sha256": "d8bba9beb4716e6f722d0625a7870dc3e846981d60e5e0cdf0c660856965f163"
+      },
+      "feature_sources": {
+        "behavioral": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/mistral7-triviaqa-corrected-panel-features.json",
+          "sha256": "e09545ae92898e7a374db6265347188e7d1210c5634d497274de4caa18423aff"
+        },
+        "nli": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/mistral7-triviaqa-corrected-panel-nli.json",
+          "sha256": "78e14199539cce9c2d22550258487270bd4e5c9b257b28a5c33644ab773416b4"
+        },
+        "candidate": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/mistral7-triviaqa-candidate-margins.json",
+          "sha256": "0d0b66815f371ec6c646b9760a1a680abbaba6f46c265b01a2a666b1aaeddad7"
+        },
+        "persistence": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/mistral7-triviaqa-persistence.json",
+          "sha256": "8b84a31f19accc155649f6f3c2a870e94ab8a6d84db62214a4c5d12e93414377"
+        }
+      }
+    },
+    "qwen8|TriviaQA": {
+      "locked_index": {
+        "path": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+        "sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb"
+      },
+      "internal_states": {
+        "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen8-triviaqa-internal-states.pt",
+        "sha256": "7b50a0dab331ec6891dc59d3da5f8fd9bbb2c51093c25a667cd1787ccde20434"
+      },
+      "feature_sources": {
+        "behavioral": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen8-triviaqa-corrected-panel-features.json",
+          "sha256": "e74ca7a1759ea2606be0119029b68fcab0b1cdea1ecd4fbd5b805eff79ee8d91"
+        },
+        "nli": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen8-triviaqa-corrected-panel-nli.json",
+          "sha256": "b2347a1e803b7999045367d7820a22c6666b0522e5d6cf502b837309a4a3b90d"
+        },
+        "candidate": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen8-triviaqa-candidate-margins.json",
+          "sha256": "1df9a66010eb89a3bc49f91d237585e99cc32307a63e91b8f2652b0ce097cf76"
+        },
+        "persistence": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen8-triviaqa-persistence.json",
+          "sha256": "9ebd159bc4447984047e345437f84d24f0acc6b6e9436458b2ea4835ecbaf875"
+        }
+      }
+    },
+    "llama31|TriviaQA": {
+      "locked_index": {
+        "path": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+        "sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb"
+      },
+      "internal_states": {
+        "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/llama31-triviaqa-internal-states.pt",
+        "sha256": "ca668e21731c7822865c63fff55465acf21bf31b9c0a473dc647816e1019805d"
+      },
+      "feature_sources": {
+        "behavioral": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/llama31-triviaqa-corrected-panel-features.json",
+          "sha256": "ad61cdf930ba95cd2f6478d227976e7025f8fe5c7ffa895adde2c12a053a343c"
+        },
+        "nli": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/llama31-triviaqa-corrected-panel-nli.json",
+          "sha256": "73f96aecc31938a4a4cc5411fc2c2a652f83e119955cf568558a836c7cf58536"
+        },
+        "candidate": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/llama31-triviaqa-candidate-margins.json",
+          "sha256": "3a600c805abd43f7b04d55102f820fc3cebf2d9e2f2f48b618e277e68b7b28d9"
+        },
+        "persistence": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/llama31-triviaqa-persistence.json",
+          "sha256": "593e440edb6bd477ecf8eb528ae88704307e0b7450d4d2a23bb16aae811f3136"
+        }
+      }
+    },
+    "qwen14|PopQA": {
+      "locked_index": {
+        "path": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+        "sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb"
+      },
+      "internal_states": {
+        "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen14-popqa-internal-states.pt",
+        "sha256": "58d2843c2b7a96e81c3d0173ae6a6aca91a47fc5b45b4aa4ea2e8a75b043566b"
+      },
+      "feature_sources": {
+        "behavioral": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen14-popqa-corrected-panel-features.json",
+          "sha256": "73603eb1142507620eee96ea84368dab5b8ea23fe6ac758c360439fb39dbd3c3"
+        },
+        "nli": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen14-popqa-corrected-panel-nli.json",
+          "sha256": "358eda7a5c81d7b57df94042df25027a6aef9ade466d81158a6ecc617076ffaa"
+        },
+        "candidate": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen14-popqa-candidate-margins.json",
+          "sha256": "ec37b711cfea0ab9486f17305e59732448c8662bc038eeb559ed259f1654188c"
+        },
+        "persistence": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/qwen14-popqa-persistence.json",
+          "sha256": "4bec2b9a810e83b0654b1ab7808ec93f2dabacb75af7267b933c0177b982c383"
+        }
+      }
+    },
+    "nemo12|PopQA": {
+      "locked_index": {
+        "path": "experiments/hallucination/results/one_confidence_five_model_eval/locked_runtime_benchmark.json",
+        "sha256": "04b508b88eb6933b382aad011505722a4bd26a90048f76c1c40bbbedf3ae8afb"
+      },
+      "internal_states": {
+        "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/nemo12-popqa-internal-states.pt",
+        "sha256": "98bd1819145054f0ed01dd7e2b3911747968bc036931a2a9ba525a2f1698fa3e"
+      },
+      "feature_sources": {
+        "behavioral": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/nemo12-popqa-corrected-panel-features.json",
+          "sha256": "949976d24e789ecfb2de5cb65244d863e1f66afa2a7579e0aef6e71984f4bb3d"
+        },
+        "nli": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/nemo12-popqa-corrected-panel-nli.json",
+          "sha256": "66cd3639ae4468917ce3471324eaf532abd9fada2cdfada59788e60f885a5590"
+        },
+        "candidate": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/nemo12-popqa-candidate-margins.json",
+          "sha256": "39729b8395ad76e0d579eedd58ab4132cb068228989e5020c2fc21616f68bda0"
+        },
+        "persistence": {
+          "path": "experiments/hallucination/results/one_confidence_mosaic_v1_frozen_sources_run6/nemo12-popqa-persistence.json",
+          "sha256": "357e0d5c0162e2bda02f6cdc2428f9c1a257f56702368ddfa09331f49799c465"
+        }
+      }
+    }
+  }
+}

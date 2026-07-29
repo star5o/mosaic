@@ -1,0 +1,2084 @@
+{
+  "schema_version": "one-confidence-nli-sampling-scores-v1",
+  "cell": "qwen14|PopQA",
+  "K": 4,
+  "nli_model": "microsoft/deberta-large-mnli",
+  "clustering": "greedy bidirectional entailment",
+  "records": [
+    {
+      "sample_id": "qwen14|PopQA|2088053",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bodybuilding"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1124451",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Chile"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1733532",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Vozhega"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1235640",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Aristotle"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1698723",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John Donne"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1390388",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alfonso Cuarón"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5953998",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Rhonda Byrne"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1436486",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pete Docter"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1642787",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Vangelis"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1576368",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United Kingdom"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|499672",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Iloilo City"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1652607",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christopher Nolan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2312763",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1689521",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Manoah's wife"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|751049",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christianity"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1806713",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Trenton"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3744201",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Romania"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1842654",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Japan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6239537",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|184388",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Anna Wintour"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2314531",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1942871",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ludwig van Beethoven"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2950925",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Belgrade"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|198683",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jane Austen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6453500",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Oliver Stone"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2099338",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mexico City"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4420065",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "George Town"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|217029",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Michael Mann"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6258460",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tallahassee"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2281801",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Massachusetts"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1447026",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2378475",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Amman"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4831102",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Thriller"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2425063",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "David"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5009738",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Field hockey"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2436436",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4718146",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Shia Islam"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2438146",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Game show"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2225857",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alejandro Jodorowsky"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2465832",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Isabella of Portugal"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1364849",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Abdulaziz Al Saud"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2557830",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christianity"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5133623",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2728241",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Cricket"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3170152",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Guillermo del Toro"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2758759",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Netherlands"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5774568",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Papua New Guinea"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2831250",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Antwerp"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|221856",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "American football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|295756",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Federico Fellini"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2468664",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Canberra"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2976292",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Australia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1033176",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Saipan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2993953",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Richard Grosvenor, 1st Marquess of Westminster"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3159999",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.75,
+      "semantic_entropy_risk": 0.5623351446188083,
+      "cluster_ids": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "cluster_representatives": [
+        "Pop rock",
+        "Pop"
+      ],
+      "original_support": 0.25
+    },
+    {
+      "sample_id": "qwen14|PopQA|3119262",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Philip II of Macedon"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6286690",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sion"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3122631",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Brian De Palma"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3514599",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Cairo"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3135064",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jeff Bezos"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2297022",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Comedy"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3146871",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "China"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|294568",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Denmark"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3316724",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Asif Kapadia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4781423",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Meissen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3602432",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "George Pal"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3019182",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christian rock"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3782968",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Maryam"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1892618",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3877353",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1527171",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4196346",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bong Joon-ho"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2192092",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Chile"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4403337",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Myanmar"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|21265",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Finland"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4494929",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Peru"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3592879",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4745759",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Malaysia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2022571",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4931200",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Hans Zimmer"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2252492",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tennis"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5068263",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Woody Allen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2317572",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5208803",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "South Korea"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6262109",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Phoenix"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5263580",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Orson Welles"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6522136",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John Dos Passos"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5308304",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Shandong"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|928708",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Thornton Wilder"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5495431",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Action-adventure"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6173288",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Actor"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5574760",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "actor"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1195988",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Michel Hazanavicius"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5616884",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John G. Avildsen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|29990",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tim LaHaye"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|569345",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|600223",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Columbia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5773566",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "B.F. Skinner"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|2688955",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John Grisham"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5816873",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Vincent van Gogh"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4466133",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Iran"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5938943",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "J.R.R. Tolkien"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6354799",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5965159",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Lewis Carroll"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|3374307",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6084372",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jordan Peele"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|4128947",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Olyokminsk"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6120764",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1573571",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Oslo"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|613942",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "South Africa"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|1686002",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Nova Scotia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6334551",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sindh"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6370830",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Orotina"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6430076",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "South Korea"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6074424",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|6493916",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Myanmar"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|711593",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Hurling"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|767720",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christianity"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|210736",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Kiyoshi Kurosawa"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|84829",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "William Castle"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|5936243",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Joseph Conrad"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "qwen14|PopQA|985065",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Arcade"
+      ],
+      "original_support": 1.0
+    }
+  ]
+}

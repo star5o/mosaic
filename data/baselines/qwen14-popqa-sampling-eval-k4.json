@@ -1,0 +1,5393 @@
+{
+  "schema_version": "one-confidence-generic-score-eval-v1",
+  "cell": "qwen14|PopQA",
+  "locked_accessed": false,
+  "methods": {
+    "self_consistency": {
+      "validation": {
+        "threshold": 0.7500000000000001,
+        "TP": 0,
+        "FN": 58,
+        "FP": 0,
+        "TN": 58,
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "f1": 0.0,
+        "auroc": 0.49137931034482757
+      },
+      "scores": [
+        {
+          "sample_id": "qwen14|PopQA|1000825",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1001548",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1014081",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1020335",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1022989",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1049793",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1059548",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1081675",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1110634",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1111661",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1114521",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1123859",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1130523",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1146794",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1148060",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1186467",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1192195",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1196428",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1198269",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1200458",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1201284",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1202978",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1207013",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1230066",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1246258",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1281223",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1292989",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1303276",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1305822",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1323264",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|133487",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1336616",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1402531",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1402952",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1416177",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|14171",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|144090",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1444653",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1447265",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1482020",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1487881",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1518691",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1528899",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1549592",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1571718",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|15805",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1580995",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1582998",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1587765",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1594309",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1601192",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1611776",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1627734",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1638077",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1649838",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1659966",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1660153",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1660625",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1677824",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1683241",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1683421",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|168423",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1706241",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1722399",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1726045",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1726340",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1729733",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1737166",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1739387",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1746468",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1751617",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1753742",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1763729",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1770493",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1785792",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1786832",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1788690",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1789286",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1790890",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1800453",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1802180",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1808767",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1810004",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1818595",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1820953",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1823075",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1823768",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|184142",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1853189",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1862399",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1866419",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|189068",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1902925",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1918483",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1931430",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1932836",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1936197",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1946555",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|195002",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|19518",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1956088",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1961411",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|199412",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2015316",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2022959",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|20250",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2038373",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2049010",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2049787",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2059485",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2065688",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2070124",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|20781",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2096935",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2100090",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2106548",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2113325",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|215156",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2197462",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2235290",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2250993",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2259208",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2266361",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2281843",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2350255",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2366583",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2413157",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2431203",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2438406",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2490569",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2493472",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2527173",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2533106",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2534092",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2535927",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|254163",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2567382",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2599603",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2612485",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2630915",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|265754",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2658183",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2674978",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2691042",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2695965",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2742977",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2750484",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2755911",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2774098",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2797818",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|282508",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2826142",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2833179",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2849913",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2850847",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|286654",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2878364",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2892102",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2898290",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2899839",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2921077",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2948870",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2953719",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|297952",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3004455",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3011411",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3014897",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3024446",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3033691",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3034815",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3044665",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3048391",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3073493",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3078422",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|308234",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3084025",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3087446",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3113390",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3141012",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3149447",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3169996",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3191297",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3202083",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3207197",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3221878",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276960",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276962",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3290608",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3313057",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3313089",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3316731",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3405500",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3415081",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|34246",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3427269",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3448351",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|351663",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|353985",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|356006",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3588340",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3635640",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|367189",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|373418",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753768",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753788",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753833",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3773632",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|381474",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3817483",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3824884",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3886077",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3897677",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3980472",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3998967",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4003566",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|401127",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4012395",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4078079",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4169456",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4182134",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4185439",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4202811",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4240400",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4249573",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4280000",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321247",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321258",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321260",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4442437",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4469423",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4544622",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4549280",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4549284",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4552598",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4588933",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4591269",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4686489",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4732699",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4740507",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4783073",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|485119",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|490816",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4933597",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4966824",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4966829",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4987163",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|500387",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5026418",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5054345",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5080809",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5089423",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5112830",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5123807",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5135377",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5185183",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5241281",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5246998",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5302153",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5313876",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|531441",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|543535",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5459362",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5467293",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5472576",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5481425",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5493611",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5524839",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5563657",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5576523",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5586876",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5616890",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|567269",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5696015",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5716672",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5717470",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|57303",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5731048",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5783022",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5783749",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5815002",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|58303",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5860263",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5864218",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5866070",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5910730",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5924909",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5926906",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|593981",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|596053",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5965034",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|601740",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6051351",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6078726",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6081578",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6099166",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6118835",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6138181",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|614789",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|614930",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6154838",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6205535",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6251634",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6261308",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6265173",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6273545",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6275770",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6290863",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6304231",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6310879",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6318750",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6330613",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6355626",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6363270",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6395335",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6401520",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6405452",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6423457",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6468445",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|647040",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6503286",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6552986",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|672890",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|707881",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|77228",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|789817",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|791541",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|806866",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|88774",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|901152",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|987936",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1181122",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|119179",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1211753",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1243604",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|128717",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1340076",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1385147",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1406197",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1461108",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1488536",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1495476",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1594698",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1760362",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1770178",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1830536",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1864117",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1874399",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1887736",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1889250",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1905981",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1924437",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1926471",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1948261",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1950413",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1951267",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1974597",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1977383",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1980847",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1981390",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2003646",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2025404",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2032651",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|21770",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2218396",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|223560",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2237951",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2284594",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|258682",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2621885",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2651226",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2658151",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2702620",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2782790",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2785560",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|282751",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2838214",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|287919",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2942700",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2965793",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2986246",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3004507",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3038698",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3064464",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3073298",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|307811",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3099941",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276946",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3311112",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3319861",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|33474",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3379536",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3467867",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3553137",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3629767",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3709607",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3963711",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|401366",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4077985",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4094476",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4100770",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|412759",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4304705",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4309143",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4325726",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4452989",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|450155",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4521313",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|456429",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4607987",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4712406",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|471853",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4767525",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4807954",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4889221",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4938904",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.75
+        },
+        {
+          "sample_id": "qwen14|PopQA|4994752",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5154865",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5172941",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5175831",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5189715",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5483327",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5634223",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5785289",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5816105",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5909630",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5918515",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5945953",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5964543",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6044354",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6082176",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6083018",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6094597",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6251694",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|629369",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6300318",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6302842",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6312040",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6340616",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6341002",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6345556",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6414929",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6447955",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6469182",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6534377",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6554942",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|988268",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        }
+      ]
+    },
+    "semantic_entropy": {
+      "validation": {
+        "threshold": 0.5623351446188084,
+        "TP": 0,
+        "FN": 58,
+        "FP": 0,
+        "TN": 58,
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fpr": 0.0,
+        "f1": 0.0,
+        "auroc": 0.49137931034482757
+      },
+      "scores": [
+        {
+          "sample_id": "qwen14|PopQA|1000825",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1001548",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1014081",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1020335",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1022989",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1049793",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1059548",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1081675",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1110634",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1111661",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1114521",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1123859",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1130523",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1146794",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1148060",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1186467",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1192195",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1196428",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1198269",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1200458",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1201284",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1202978",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1207013",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1230066",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1246258",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1281223",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1292989",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1303276",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1305822",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1323264",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|133487",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1336616",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1402531",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1402952",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1416177",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|14171",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|144090",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1444653",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1447265",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1482020",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1487881",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1518691",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1528899",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1549592",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1571718",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|15805",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1580995",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1582998",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1587765",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1594309",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1601192",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1611776",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1627734",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1638077",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1649838",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1659966",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1660153",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1660625",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1677824",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1683241",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1683421",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|168423",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1706241",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1722399",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1726045",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1726340",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1729733",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1737166",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1739387",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1746468",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1751617",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1753742",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1763729",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1770493",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1785792",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1786832",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1788690",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1789286",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1790890",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1800453",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1802180",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1808767",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1810004",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1818595",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1820953",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1823075",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1823768",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|184142",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1853189",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1862399",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1866419",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|189068",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1902925",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1918483",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1931430",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1932836",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1936197",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1946555",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|195002",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|19518",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1956088",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1961411",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|199412",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2015316",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2022959",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|20250",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2038373",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2049010",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2049787",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2059485",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2065688",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2070124",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|20781",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2096935",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2100090",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2106548",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2113325",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|215156",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2197462",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2235290",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2250993",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2259208",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2266361",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2281843",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2350255",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2366583",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2413157",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2431203",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2438406",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2490569",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2493472",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2527173",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2533106",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2534092",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2535927",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|254163",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2567382",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2599603",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2612485",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2630915",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|265754",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2658183",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2674978",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2691042",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2695965",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2742977",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2750484",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2755911",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2774098",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2797818",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|282508",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2826142",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2833179",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2849913",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2850847",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|286654",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2878364",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2892102",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2898290",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2899839",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2921077",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2948870",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2953719",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|297952",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3004455",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3011411",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3014897",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3024446",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3033691",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3034815",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3044665",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3048391",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3073493",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3078422",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|308234",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3084025",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3087446",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3113390",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3141012",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3149447",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3169996",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3191297",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3202083",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3207197",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3221878",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276960",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276962",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3290608",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3313057",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3313089",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3316731",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3405500",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3415081",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|34246",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3427269",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3448351",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|351663",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|353985",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|356006",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3588340",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3635640",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|367189",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|373418",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753768",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753788",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3753833",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3773632",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|381474",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3817483",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3824884",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3886077",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3897677",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3980472",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3998967",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4003566",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|401127",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4012395",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4078079",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4169456",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4182134",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4185439",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4202811",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4240400",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4249573",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4280000",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321247",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321258",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4321260",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4442437",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4469423",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4544622",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4549280",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4549284",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4552598",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4588933",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4591269",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4686489",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4732699",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4740507",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4783073",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|485119",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|490816",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4933597",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4966824",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4966829",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4987163",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|500387",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5026418",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5054345",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5080809",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5089423",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5112830",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5123807",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5135377",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5185183",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5241281",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5246998",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5302153",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5313876",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|531441",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|543535",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5459362",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5467293",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5472576",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5481425",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5493611",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5524839",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5563657",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5576523",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5586876",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5616890",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|567269",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5696015",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5716672",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5717470",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|57303",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5731048",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5783022",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5783749",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5815002",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|58303",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5860263",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5864218",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5866070",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5910730",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5924909",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5926906",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|593981",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|596053",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5965034",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|601740",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6051351",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6078726",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6081578",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6099166",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6118835",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6138181",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|614789",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|614930",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6154838",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6205535",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6251634",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6261308",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6265173",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6273545",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6275770",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6290863",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6304231",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6310879",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6318750",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6330613",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6355626",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6363270",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6395335",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6401520",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6405452",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6423457",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6468445",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|647040",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6503286",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6552986",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|672890",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|707881",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|77228",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|789817",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|791541",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|806866",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|88774",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|901152",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|987936",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1181122",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|119179",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1211753",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1243604",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|128717",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1340076",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1385147",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1406197",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1461108",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1488536",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1495476",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1594698",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1760362",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1770178",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1830536",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1864117",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1874399",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1887736",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1889250",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1905981",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1924437",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1926471",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1948261",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1950413",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1951267",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1974597",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1977383",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1980847",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|1981390",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2003646",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2025404",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2032651",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|21770",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2218396",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|223560",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2237951",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2284594",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|258682",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2621885",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2651226",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2658151",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2702620",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2782790",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2785560",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|282751",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2838214",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|287919",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2942700",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2965793",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|2986246",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3004507",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3038698",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3064464",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3073298",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|307811",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3099941",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3276946",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3311112",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3319861",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|33474",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3379536",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3467867",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3553137",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3629767",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3709607",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|3963711",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|401366",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4077985",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4094476",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4100770",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|412759",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4304705",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4309143",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4325726",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4452989",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|450155",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4521313",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|456429",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4607987",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4712406",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|471853",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4767525",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4807954",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4889221",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|4938904",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.5623351446188083
+        },
+        {
+          "sample_id": "qwen14|PopQA|4994752",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5154865",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5172941",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5175831",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5189715",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5483327",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5634223",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5785289",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5816105",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5909630",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5918515",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5945953",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|5964543",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6044354",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6082176",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6083018",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6094597",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6251694",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|629369",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6300318",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6302842",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6312040",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6340616",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6341002",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6345556",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6414929",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6447955",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6469182",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6534377",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|6554942",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "qwen14|PopQA|988268",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "one-confidence-mosaic-external-artifacts-v1",
+  "included_in_git": false,
+  "artifacts": [
+    {
+      "path": "experiments/hallucination/results/one_confidence_five_model_eval/llama31-triviaqa-public-features.pt",
+      "size_bytes": 406918786,
+      "sha256": "d51b290eaa874dbcc992631fefb9aad5553ce30d073ddd623227fcbac23f3f9d",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_five_model_eval/mistral7-triviaqa-public-features.pt",
+      "size_bytes": 557933707,
+      "sha256": "dc4a7a83234ddcf53705093212ee7e14955c9dd666f90942489494963cb0af80",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_five_model_eval/nemo12-popqa-public-features.pt",
+      "size_bytes": 753739230,
+      "sha256": "e58a09a1d5db865950ee70826043e42b18ee2499613e90df30a2c7b97c4c129c",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_five_model_eval/qwen14-popqa-public-features.pt",
+      "size_bytes": 730798046,
+      "sha256": "d4863702a95ea6300f9354f4dc87d2d60cfca8d481e2d2e00332decf840c183b",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_five_model_eval/qwen8-triviaqa-public-features.pt",
+      "size_bytes": 762160944,
+      "sha256": "496b529eea5e101f6752cf4e4b11de4e53ed5020d6fcb707290968d1dfdd2aa1",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_sources/llama31-triviaqa-frozen-internal-states.pt",
+      "size_bytes": 132127900,
+      "sha256": "76e46bdde25432921ce21cf741607e95492ac107f274f76aac293f1e310da1de",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_sources/mistral7-triviaqa-frozen-internal-states.pt",
+      "size_bytes": 169877989,
+      "sha256": "eb789ca1f3627dde7725bd05e8fe8f5301893de03db80b466ddc9b6b12d5dac1",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_sources/nemo12-popqa-frozen-internal-states.pt",
+      "size_bytes": 186783992,
+      "sha256": "ae776e642b9e4db142e560b1d21c805aed3865218da458abdbd91c0e9463388f",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_sources/qwen14-popqa-frozen-internal-states.pt",
+      "size_bytes": 199891384,
+      "sha256": "18f0f1d859dfddf374036ef4ce1ef1d2090912f73115b4306f1e2bc0f5080972",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/frozen_test_sources/qwen8-triviaqa-frozen-internal-states.pt",
+      "size_bytes": 153361418,
+      "sha256": "b42de60af0c9d1010f33bc314eb8162d05538786c1c9d7aa57a4639bfa220746",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/checkpoint.joblib",
+      "size_bytes": 747369307,
+      "sha256": "a42b1c1b994ad2943edb7a19ab5d4f4ed592bf79f630c8eef9313149f75b46e0",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/checkpoint.joblib",
+      "size_bytes": 752707479,
+      "sha256": "8aacde4ab0d6fa0c5ee4a3c03482f7549d9a0c684060a4d0e05039621365edb9",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/checkpoint.joblib",
+      "size_bytes": 937335070,
+      "sha256": "53267e8c82259b56e9f0544d9ac0d35cbaca62a2dbd4ccecfe16dd061525430d",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/checkpoint.joblib",
+      "size_bytes": 933151163,
+      "sha256": "56780740873ce563949abf5681f8e4fa38019edfa61293ac940f067719b24b32",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/checkpoint.joblib",
+      "size_bytes": 756158984,
+      "sha256": "435e3cb0e59a5e9a06c08cb76bf0c0df4df98a8064dfdbe6d3ffe2b301f03b48",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/fresh_holdout_generations/llama31-triviaqa-train4000-bf16-generation.jsonl",
+      "size_bytes": 12261699,
+      "sha256": "75d48d782f56b92a4544def77f910717535cced60fd26386744c3140533b4d35",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/fresh_holdout_generations/mistral7-triviaqa-train4000-bf16-generation.jsonl",
+      "size_bytes": 11930604,
+      "sha256": "9bff563d69acf3b40716f7805863865f873daa085fb0ae38607f29284011c926",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/fresh_holdout_generations/nemo12-triviaqa-train4000-bf16-generation.jsonl",
+      "size_bytes": 11197095,
+      "sha256": "29ad60a8287bba4e7edc5ca01232dbdca04669a6cde35e67e937a4b49950e569",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/fresh_holdout_generations/qwen14-triviaqa-train4000-bf16-generation.jsonl",
+      "size_bytes": 11373829,
+      "sha256": "5d2648a95e2dde24578856da5d917afe063f337c56eea181b28975144f36ef0a",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    },
+    {
+      "path": "experiments/hallucination/results/one_confidence_mosaic_v1/fresh_holdout_generations/qwen8-triviaqa-train4000-bf16-generation.jsonl",
+      "size_bytes": 11427309,
+      "sha256": "9ba1ba56c1d430f4d10347714710ec2dd296555c1612c13d295e955b4870416e",
+      "reason_omitted": "large reproducibility artifact; distribute through a versioned release or artifact store, not Git"
+    }
+  ],
+  "fresh_holdout": {
+    "generation_files": 5,
+    "rows_per_model": 4000,
+    "correctness_reviewed": false,
+    "detector_scored": false,
+    "result_status": "generation_only_not_an_evaluation"
+  },
+  "model_weights": {
+    "included": false,
+    "source": "official model repositories identified in configs/model_provenance.json"
+  }
+}

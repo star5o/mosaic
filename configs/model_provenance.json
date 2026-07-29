@@ -1,0 +1,57 @@
+{
+  "schema_version": "one-confidence-mosaic-v1-checkpoint-reference-index-v1",
+  "scope": "public-trained Run6 checkpoint references; checkpoint bytes are not duplicated",
+  "public_only": true,
+  "locked_accessed": false,
+  "fresh_accessed": false,
+  "checkpoint_deserialized": false,
+  "selected_run": "one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization",
+  "selected_method": "learned_gate_no_phenotype",
+  "cells": [
+    {
+      "cell": "mistral7|TriviaQA",
+      "method": "learned_gate_no_phenotype",
+      "reference_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/mistral7-triviaqa/checkpoint.joblib",
+      "sha256": "8aacde4ab0d6fa0c5ee4a3c03482f7549d9a0c684060a4d0e05039621365edb9",
+      "size_bytes": 752707479,
+      "serialization": "joblib",
+      "copied": false
+    },
+    {
+      "cell": "qwen8|TriviaQA",
+      "method": "learned_gate_no_phenotype",
+      "reference_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen8-triviaqa/checkpoint.joblib",
+      "sha256": "435e3cb0e59a5e9a06c08cb76bf0c0df4df98a8064dfdbe6d3ffe2b301f03b48",
+      "size_bytes": 756158984,
+      "serialization": "joblib",
+      "copied": false
+    },
+    {
+      "cell": "llama31|TriviaQA",
+      "method": "learned_gate_no_phenotype",
+      "reference_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/llama31-triviaqa/checkpoint.joblib",
+      "sha256": "a42b1c1b994ad2943edb7a19ab5d4f4ed592bf79f630c8eef9313149f75b46e0",
+      "size_bytes": 747369307,
+      "serialization": "joblib",
+      "copied": false
+    },
+    {
+      "cell": "qwen14|PopQA",
+      "method": "learned_gate_no_phenotype",
+      "reference_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/qwen14-popqa/checkpoint.joblib",
+      "sha256": "56780740873ce563949abf5681f8e4fa38019edfa61293ac940f067719b24b32",
+      "size_bytes": 933151163,
+      "serialization": "joblib",
+      "copied": false
+    },
+    {
+      "cell": "nemo12|PopQA",
+      "method": "learned_gate_no_phenotype",
+      "reference_path": "experiments/hallucination/results/one_confidence_mosaic_v1_nested_public_run6_16layer_strong_regularization/nemo12-popqa/checkpoint.joblib",
+      "sha256": "53267e8c82259b56e9f0544d9ac0d35cbaca62a2dbd4ccecfe16dd061525430d",
+      "size_bytes": 937335070,
+      "serialization": "joblib",
+      "copied": false
+    }
+  ]
+}

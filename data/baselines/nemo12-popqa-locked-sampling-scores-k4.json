@@ -1,0 +1,1947 @@
+{
+  "schema_version": "one-confidence-nli-sampling-scores-v1",
+  "cell": "nemo12|PopQA",
+  "K": 4,
+  "nli_model": "microsoft/deberta-large-mnli",
+  "clustering": "greedy bidirectional entailment",
+  "records": [
+    {
+      "sample_id": "nemo12|PopQA|2064896",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Lee Daniels"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1390388",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alfonso Cuarón"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1632873",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Racing"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1530395",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Renny Harlin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2031416",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Masami Kurumada"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1568692",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Football"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6457547",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Walter Salles"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1601571",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Robert Zemeckis"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|364383",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Lamberto Bava"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1652607",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Christopher Nolan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3072581",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Zebedee"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1806713",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Trenton"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3017525",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Claude Chabrol"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1887723",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2670586",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Kuwait"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|198683",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jane Austen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4329404",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Akira Kurosawa"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1999019",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Grant Wood"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2634781",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Vaduz"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|207647",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Simon Pegg"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4466717",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Lannion"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2137775",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ludwig van Beethoven"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1580390",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Yellowknife"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|217029",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Michael Mann"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4351837",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Babylon"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2213921",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Woody Allen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5932045",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Lucy Mack Smith"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2425063",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "David"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|90681",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jacques Audiard"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2436436",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5817172",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ilaiyaraaja"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2518299",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Walt Disney"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|85486",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Robert Mulligan"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2586951",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "David Auburn"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1247229",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mick Garris"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2672696",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Paul Haggis"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5124268",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sidney Lumet"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2675676",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sidney Lumet"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1319193",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Levan Gabriadze"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2831250",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Antwerp"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6278529",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Czech Republic"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2834199",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Richard Curtis"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3782968",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mary"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|283922",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Malcolm D. Lee"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5194601",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Poland"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|289051",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Kevin Connolly"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5963814",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Levice"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2941315",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Arthur Hiller"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3558671",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Wolfgang Petersen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3028807",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Frigga"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2950110",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jason Reitman"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3036772",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jon Stewart"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1829094",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Hamilton"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3122631",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Brian De Palma"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1363778",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Berlin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3135064",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jeff Bezos"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2943491",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Fortaleza"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3237211",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Martin Scorsese"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2022571",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3316724",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Asif Kapadia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5489997",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John Marshall Clemens"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|362567",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mark Andrews"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6438341",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Basketball"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3631600",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "J.R.R. Tolkien"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5928375",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Tan Twan Eng"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3791883",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Scott Rudin"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4577146",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jazz"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3955540",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Nicolas Winding Refn"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|990529",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Paddy Chayefsky"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4150910",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jeff Atwood"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6408743",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Luanda"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4196346",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bong Joon-ho"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|287593",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Hannover"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|435327",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bruce Brown"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4902991",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Steven Spielberg"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4449613",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Claude Miller"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3039072",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Steven Spielberg"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4494929",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Peru"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5247986",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Mystery"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4650149",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Gregory Maguire"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6426014",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Plato"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4745759",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Malaysia"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1995329",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Edmund White"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4753197",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Epic Games"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2192092",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Chile"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4781423",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Dresden"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|156556",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Rock"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5065973",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Barry Levinson"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|158234",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Bemidji"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5068263",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Woody Allen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|2938102",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Ptolemy XII Auletes"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5263580",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Orson Welles"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1135839",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Chris Rock"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|540058",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Alan Parker"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|392039",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Calcutta"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5574760",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Actor"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5533209",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Philippines"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5616884",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "John G. Avildsen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5558096",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Cal Ripken Sr."
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|569345",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|3550345",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Poland"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5707942",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Curling"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5251883",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "United States"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5810347",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Baroque"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5240449",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Horror"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5951886",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Gore Verbinski"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|4512972",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "France"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6028500",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "David Ayer"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|5953998",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Rhonda Byrne"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6084372",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Jordan Peele"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|1796164",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Eric Carmen"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6436399",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Chuck Russell"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6286690",
+      "split": "locked",
+      "label": "HCC",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Sion"
+      ],
+      "original_support": 1.0
+    },
+    {
+      "sample_id": "nemo12|PopQA|6494367",
+      "split": "locked",
+      "label": "HCE",
+      "self_consistency_risk": 0.0,
+      "semantic_entropy_risk": -0.0,
+      "cluster_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cluster_representatives": [
+        "Pink Floyd"
+      ],
+      "original_support": 1.0
+    }
+  ]
+}

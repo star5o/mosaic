@@ -1,0 +1,5561 @@
+{
+  "schema_version": "one-confidence-generic-score-eval-v1",
+  "cell": "nemo12|PopQA",
+  "locked_accessed": false,
+  "methods": {
+    "self_consistency": {
+      "validation": {
+        "threshold": 0.25,
+        "TP": 1,
+        "FN": 51,
+        "FP": 2,
+        "TN": 50,
+        "accuracy": 0.49038461538461536,
+        "precision": 0.3333333333333333,
+        "recall": 0.019230769230769232,
+        "fpr": 0.038461538461538464,
+        "f1": 0.03636363636363636,
+        "auroc": 0.4901997041420118
+      },
+      "scores": [
+        {
+          "sample_id": "nemo12|PopQA|1000825",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1004840",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1014081",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1014859",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1020236",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1049793",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1052154",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1098931",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1111661",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1126308",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1130523",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1143958",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1146794",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1149680",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1150596",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1160798",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1162082",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1163745",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1164783",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1182694",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1202712",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1232843",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1238204",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1318614",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1323193",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1323264",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1336616",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1353687",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1367064",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1402531",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1405024",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|14171",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1419351",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1436355",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|143788",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1446352",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1447840",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1473215",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1486222",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1496439",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1525",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1577478",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1579959",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1580995",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1582998",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1627734",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1646788",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1649838",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1660153",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1683089",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|168423",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1685270",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1691938",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1693978",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1701001",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1705239",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1719327",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1723024",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1726045",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1726487",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1730929",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1737166",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1746468",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1782553",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1785792",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1788846",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1789286",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1796951",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1802180",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1808767",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1809418",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1813753",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1818407",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1820953",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1843401",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1844051",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1850153",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1866419",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|189068",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1932836",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1939215",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1957390",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1958465",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1961411",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1967548",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1976296",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1982186",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1983309",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1985795",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2018026",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2029828",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2038373",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2043042",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2057039",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2063489",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|207602",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|20781",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2087902",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|209136",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2106548",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2107251",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2123773",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2140014",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|215156",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2189871",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2202563",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2209062",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2213079",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2213219",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.25
+        },
+        {
+          "sample_id": "nemo12|PopQA|2235290",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|225259",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2254982",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2258414",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2260298",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2281843",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2285017",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2292083",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2313878",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|233822",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2348074",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|235440",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2366583",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2373462",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2381538",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2431203",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2440722",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2450604",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|245609",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2490554",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2490781",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2493472",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2513496",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2567382",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2584594",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2630915",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2654545",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2668336",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2668563",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2674885",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2727132",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2740658",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2742111",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2742977",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2798170",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2832739",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2842700",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2849913",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|287643",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2880301",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2885834",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2889942",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2899611",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2919601",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|291988",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2923431",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2933196",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2941094",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2953610",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2953980",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2972379",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2994031",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3004068",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3014897",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3016956",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3030578",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|304012",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3044518",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3049881",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3069183",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3077288",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3101183",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|315037",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|315395",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|316815",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|317149",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3193125",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3270459",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3290608",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3293853",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3316731",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3362680",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3368455",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3373198",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3415081",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3426219",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3432136",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3437069",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3493816",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3509583",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.5
+        },
+        {
+          "sample_id": "nemo12|PopQA|3516339",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3523268",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3539436",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3592185",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|360559",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|361831",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3620943",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3719761",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|373418",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3773632",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3803719",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3806311",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3846543",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3886077",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3924452",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|392466",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3980533",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3998967",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|401127",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4012395",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4165948",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4172941",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|419041",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4202811",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4202841",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4249573",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4281027",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4321258",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4321617",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4329546",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4345863",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4363526",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|437612",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4404593",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4419938",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4460459",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4490640",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4490656",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4494358",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4501267",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4514247",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4554434",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|458287",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4591269",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4612653",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4686489",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|470176",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|470300",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4754864",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4916721",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4939550",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4963133",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4966824",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4966829",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4974600",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4975631",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4977081",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4985526",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4998723",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4999192",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.25
+        },
+        {
+          "sample_id": "nemo12|PopQA|5026333",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5026418",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5047005",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|508352",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5097595",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|512415",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5178521",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5185183",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5240651",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5242947",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5246998",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|543535",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5452334",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5481425",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5547087",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5575241",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5576523",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5580851",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5613652",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5614635",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5616890",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|570749",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5717470",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|57303",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5731048",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5731264",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5739385",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5776797",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5783022",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5864218",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5874410",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5901293",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5905522",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5913920",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5918656",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5923376",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5925682",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5926722",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5933806",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5934450",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5937083",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5949300",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5960904",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6028203",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6036343",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6041536",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6043400",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|606889",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6074502",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6081578",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6098623",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6161682",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6184067",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6257265",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6265173",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6266131",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6269689",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6273545",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6291315",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6295277",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6320840",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6322925",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6333469",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6355626",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6357746",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6367074",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6382080",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6399559",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6404382",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6405624",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6423457",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6464294",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6468445",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6471223",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6471900",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6476448",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6490853",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6513436",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6515620",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6533919",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6547647",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6549760",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6552986",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6559583",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|664514",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|672890",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|697234",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|719121",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|731867",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|732205",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|766497",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|76751",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|770035",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|77398",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|789817",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|793141",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|796480",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|801894",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|806039",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|806866",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|907670",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|950404",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|974262",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|977847",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|981550",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|997056",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|999311",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1118624",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1146607",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1165631",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|119179",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1259497",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1277504",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1334087",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1340076",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1348054",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1363357",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1366262",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|136945",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1378543",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1402872",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1406197",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1446983",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1475631",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1518377",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1562438",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1594698",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1632209",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1686870",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1728078",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1740588",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1864117",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1878539",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1950413",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1953459",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1980847",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|200353",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2031175",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.25
+        },
+        {
+          "sample_id": "nemo12|PopQA|2183288",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2259095",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2281513",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2342656",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2411849",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2596450",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2621885",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2651226",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2672513",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2673811",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2821000",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|282751",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|285106",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2860062",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2986246",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2998233",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3149189",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3205785",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3276946",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|33474",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3365474",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|339503",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3473657",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.25
+        },
+        {
+          "sample_id": "nemo12|PopQA|3487405",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3527521",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3720231",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3798686",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3999864",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4083907",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4100770",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4106590",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|415310",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4413154",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4493551",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4498733",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|450155",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4572720",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4607987",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|471853",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4925200",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|494409",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4965470",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4975222",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.5
+        },
+        {
+          "sample_id": "nemo12|PopQA|5351097",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|542552",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5479968",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5483327",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5558190",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|558463",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5634223",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5679572",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5720063",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5757858",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5834003",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5917724",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5930681",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5945953",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6028497",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6035056",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6080906",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6251694",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6256473",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6340564",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6359560",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6366035",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6447955",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6469182",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6533012",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|666331",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|761251",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|908987",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|96402",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|988372",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.0
+        }
+      ]
+    },
+    "semantic_entropy": {
+      "validation": {
+        "threshold": 0.5623351446188083,
+        "TP": 1,
+        "FN": 51,
+        "FP": 2,
+        "TN": 50,
+        "accuracy": 0.49038461538461536,
+        "precision": 0.3333333333333333,
+        "recall": 0.019230769230769232,
+        "fpr": 0.038461538461538464,
+        "f1": 0.03636363636363636,
+        "auroc": 0.4901997041420118
+      },
+      "scores": [
+        {
+          "sample_id": "nemo12|PopQA|1000825",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1004840",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1014081",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1014859",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1020236",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1049793",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1052154",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1098931",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1111661",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1126308",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1130523",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1143958",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1146794",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1149680",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1150596",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1160798",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1162082",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1163745",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1164783",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1182694",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1202712",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1232843",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1238204",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1318614",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1323193",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1323264",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1336616",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1353687",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1367064",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1402531",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1405024",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|14171",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1419351",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1436355",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|143788",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1446352",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1447840",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1473215",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1486222",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1496439",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1525",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1577478",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1579959",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1580995",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1582998",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1627734",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1646788",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1649838",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1660153",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1683089",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|168423",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1685270",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1691938",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1693978",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1701001",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1705239",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1719327",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1723024",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1726045",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1726487",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1730929",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1737166",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1746468",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1782553",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1785792",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1788846",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1789286",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1796951",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1802180",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1808767",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1809418",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1813753",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1818407",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1820953",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1843401",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1844051",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1850153",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1866419",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|189068",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1932836",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1939215",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1957390",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1958465",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1961411",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1967548",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1976296",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1982186",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1983309",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1985795",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2018026",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2029828",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2038373",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2043042",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2057039",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2063489",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|207602",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|20781",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2087902",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|209136",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2106548",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2107251",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2123773",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2140014",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|215156",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2189871",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2202563",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2209062",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2213079",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2213219",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.5623351446188083
+        },
+        {
+          "sample_id": "nemo12|PopQA|2235290",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|225259",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2254982",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2258414",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2260298",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2281843",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2285017",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2292083",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2313878",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|233822",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2348074",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|235440",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2366583",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2373462",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2381538",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2431203",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2440722",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2450604",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|245609",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2490554",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2490781",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2493472",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2513496",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2567382",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2584594",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2630915",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2654545",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2668336",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2668563",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2674885",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2727132",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2740658",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2742111",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2742977",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2798170",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2832739",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2842700",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2849913",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|287643",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2880301",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2885834",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2889942",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2899611",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2919601",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|291988",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2923431",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2933196",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2941094",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2953610",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2953980",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2972379",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2994031",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3004068",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3014897",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3016956",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3030578",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|304012",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3044518",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3049881",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3069183",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3077288",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3101183",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|315037",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|315395",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|316815",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|317149",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3193125",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3270459",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3290608",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3293853",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3316731",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3362680",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3368455",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3373198",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3415081",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3426219",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3432136",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3437069",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3493816",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3509583",
+          "split": "development",
+          "label": "HCE",
+          "score": 0.6931471805599453
+        },
+        {
+          "sample_id": "nemo12|PopQA|3516339",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3523268",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3539436",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3592185",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|360559",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|361831",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3620943",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3719761",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|373418",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3773632",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3803719",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3806311",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3846543",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3886077",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3924452",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|392466",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3980533",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3998967",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|401127",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4012395",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4165948",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4172941",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|419041",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4202811",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4202841",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4249573",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4281027",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4321258",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4321617",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4329546",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4345863",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4363526",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|437612",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4404593",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4419938",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4460459",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4490640",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4490656",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4494358",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4501267",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4514247",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4554434",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|458287",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4591269",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4612653",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4686489",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|470176",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|470300",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4754864",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4916721",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4939550",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4963133",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4966824",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4966829",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4974600",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4975631",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4977081",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4985526",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4998723",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4999192",
+          "split": "development",
+          "label": "HCC",
+          "score": 0.5623351446188083
+        },
+        {
+          "sample_id": "nemo12|PopQA|5026333",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5026418",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5047005",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|508352",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5097595",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|512415",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5178521",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5185183",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5240651",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5242947",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5246998",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|543535",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5452334",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5481425",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5547087",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5575241",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5576523",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5580851",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5613652",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5614635",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5616890",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|570749",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5717470",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|57303",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5731048",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5731264",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5739385",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5776797",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5783022",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5864218",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5874410",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5901293",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5905522",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5913920",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5918656",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5923376",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5925682",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5926722",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5933806",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5934450",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5937083",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5949300",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5960904",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6028203",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6036343",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6041536",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6043400",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|606889",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6074502",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6081578",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6098623",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6161682",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6184067",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6257265",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6265173",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6266131",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6269689",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6273545",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6291315",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6295277",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6320840",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6322925",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6333469",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6355626",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6357746",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6367074",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6382080",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6399559",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6404382",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6405624",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6423457",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6464294",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6468445",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6471223",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6471900",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6476448",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6490853",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6513436",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6515620",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6533919",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6547647",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6549760",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6552986",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6559583",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|664514",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|672890",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|697234",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|719121",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|731867",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|732205",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|766497",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|76751",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|770035",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|77398",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|789817",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|793141",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|796480",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|801894",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|806039",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|806866",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|907670",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|950404",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|974262",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|977847",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|981550",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|997056",
+          "split": "development",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|999311",
+          "split": "development",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1118624",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1146607",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1165631",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|119179",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1259497",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1277504",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1334087",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1340076",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1348054",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1363357",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1366262",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|136945",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1378543",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1402872",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1406197",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1446983",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1475631",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1518377",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1562438",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1594698",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1632209",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1686870",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1728078",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1740588",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1864117",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1878539",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1950413",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1953459",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|1980847",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|200353",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2031175",
+          "split": "validation",
+          "label": "HCE",
+          "score": 0.5623351446188083
+        },
+        {
+          "sample_id": "nemo12|PopQA|2183288",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2259095",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2281513",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2342656",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2411849",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2596450",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2621885",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2651226",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2672513",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2673811",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2821000",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|282751",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|285106",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2860062",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2986246",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|2998233",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3149189",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3205785",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3276946",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|33474",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3365474",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|339503",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3473657",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.5623351446188083
+        },
+        {
+          "sample_id": "nemo12|PopQA|3487405",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3527521",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3720231",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3798686",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|3999864",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4083907",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4100770",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4106590",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|415310",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4413154",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4493551",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4498733",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|450155",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4572720",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4607987",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|471853",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4925200",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|494409",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4965470",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|4975222",
+          "split": "validation",
+          "label": "HCC",
+          "score": 0.6931471805599453
+        },
+        {
+          "sample_id": "nemo12|PopQA|5351097",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|542552",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5479968",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5483327",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5558190",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|558463",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5634223",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5679572",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5720063",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5757858",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5834003",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5917724",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5930681",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|5945953",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6028497",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6035056",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6080906",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6251694",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6256473",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6340564",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6359560",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6366035",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6447955",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6469182",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|6533012",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|666331",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|761251",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|908987",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|96402",
+          "split": "validation",
+          "label": "HCE",
+          "score": -0.0
+        },
+        {
+          "sample_id": "nemo12|PopQA|988372",
+          "split": "validation",
+          "label": "HCC",
+          "score": -0.0
+        }
+      ]
+    }
+  }
+}
