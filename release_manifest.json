@@ -14,8 +14,8 @@
       "path": "README.md",
       "source": null,
       "source_sha256": null,
-      "release_sha256": "6ad1e2704bdaea471a1cfd05f57d4c2d559fead9446be5900c2a4d24cd38086a",
-      "size_bytes": 2619,
+      "release_sha256": "2a489dc33ef76a0a2b19b3c5171c7f801a7e79b8dc983156735f6920ccf73e73",
+      "size_bytes": 2595,
       "path_provenance_sanitized": false
     },
     {
@@ -1598,8 +1598,8 @@
       "path": "docs/RESULTS.md",
       "source": null,
       "source_sha256": null,
-      "release_sha256": "60722f75908d178c9d056a39b04ff6729b6b8fb1a50c9534a58bfb51fbc645c1",
-      "size_bytes": 7879,
+      "release_sha256": "af316c0a697440ebe08e598540376884677760ef8bbc46d981c310df0a20a104",
+      "size_bytes": 6995,
       "path_provenance_sanitized": false
     },
     {
@@ -2374,8 +2374,8 @@
       "path": "tools/build_release.py",
       "source": "experiments/hallucination/export_one_confidence_mosaic_github.py",
       "source_sha256": "4d00aff8ed0092407d22906f4bed44c55f2d236aebfcee3134ebfb540317b368",
-      "release_sha256": "045cb20deac7372bf8f0622c1a6fe8f13b32f1e322f952a14e17033f788e6b27",
-      "size_bytes": 21020,
+      "release_sha256": "93a37a3ecd96e305adfbcc18ff6e3adfce6de910ccf188bdc5795a7eb83deb81",
+      "size_bytes": 20996,
       "path_provenance_sanitized": true
     },
     {
@@ -2388,7 +2388,7 @@
     }
   ],
   "file_count": 298,
-  "total_size_bytes": 61508325,
+  "total_size_bytes": 61507393,
   "path_only_sanitization": true,
   "labels_or_numeric_results_modified": false
 }

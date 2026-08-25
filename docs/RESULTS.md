@@ -1,9 +1,6 @@
 # Experimental Results
 
-Numbers below match the tables and confirmatory text in the MOSAIC paper.
-Error is the positive class. Primary cells are five checkpoints, weighted
-equally. Thresholds are selected on validation and then frozen for the held-out
-test set.
+Hallucination is the positive class. The five checkpoints are weighted equally.
 
 ## HalluMatch
 
@@ -38,11 +35,10 @@ with a correct response of nearly identical confidence.
 
 Sequence confidence obtains 50.05% balanced accuracy on the matched task.
 
-## Held-out test (Table 2)
+## Held-out test
 
-Validation-selected thresholds are applied without refitting features, fusion,
-or thresholds. Each cell reports TP/FP. Parentheses are the number of
-hallucinations and the same number of correct controls. ΔR is versus the
+Each cell reports TP/FP. Parentheses give the number of hallucinations and the
+same number of correct controls. ΔR is the recall difference versus the
 internal-state trajectory.
 
 | Method | M7 (81) | Q8 (65) | L8 (63) | Q14 (61) | MN (57) | Macro R | FPR | Acc. | ΔR |
@@ -56,13 +52,11 @@ internal-state trajectory.
 | **MOSAIC** | **45/5** | **22/10** | **36/6** | **19/5** | **36/5** | **48.17** | **9.61** | **69.28** | **+7.80** |
 
 MOSAIC raises macro recall from 40.37% to 48.17% at 9.61% macro FPR and 69.28%
-accuracy. A 500-replicate hierarchical bootstrap that resamples development,
-validation, and test facts, then repeats fitting and threshold selection, gives
-a 95% CI of 4.28 to 11.36 for the 7.80-point gain and a two-sided p value of
-0.002. Five independent seeds give a mean gain of 7.42 points (SD 0.91). The
-point estimate is positive on all five checkpoints (4.92 to 12.28 points).
+accuracy. A 500-replicate hierarchical bootstrap gives a 95% CI of 4.28 to
+11.36 for the 7.80-point gain (p = 0.002). Five seeds give a mean gain of 7.42
+points (SD 0.91). The gain is positive on all five checkpoints (4.92 to 12.28).
 
-### Transferred operating points
+### Other FPR operating points
 
 | Validation FPR cap | Trajectory FPR / recall | MOSAIC FPR / recall | ΔR |
 |---|---|---|---:|
@@ -70,32 +64,28 @@ point estimate is positive on all five checkpoints (4.92 to 12.28 points).
 | 10% | 8.93 / 40.37 | 9.61 / 48.17 | +7.80 |
 | 15% | 14.52 / 51.08 | 14.71 / 58.46 | +7.38 |
 
-A checkpoint-stratified bootstrap places MOSAIC macro test FPR at the 10%
-target between 7.12% and 12.31%, versus 6.63% to 11.58% for the trajectory
-expert. Test partial AUC over FPR from 0 to 0.10 is 0.061 for MOSAIC and 0.052
-for the trajectory expert. Aggregate precision and F1 at the central
-transferred threshold are 83.60% and 61.21%.
+At the 10% FPR setting, MOSAIC's macro test FPR is 7.12% to 12.31% (bootstrap),
+versus 6.63% to 11.58% for the trajectory baseline. Partial AUC over FPR 0–0.10
+is 0.061 for MOSAIC and 0.052 for the trajectory baseline. Precision and F1 at
+this threshold are 83.60% and 61.21%.
 
-## Validation operating points
+## Validation
 
-Validation is used for model and threshold selection, not as a second
-confirmatory test.
-
-At the validation threshold constrained to 10% FPR, sequence confidence,
+At 10% FPR, sequence confidence,
 self-consistency, semantic entropy, PALE-style contrast, the mean hidden
 probe, the internal-state trajectory, and MOSAIC obtain 9.30, 17.26, 21.22,
 37.72, 39.01, and 46.84% macro recall, respectively. MOSAIC at this point
 obtains 84.32% precision, 46.84% recall, 8.71% FPR, 60.22% F1, and 69.07%
 accuracy.
 
-At a separate balanced validation operating point, MOSAIC reaches 73.07%
-accuracy and 70.50% recall. Precision, FPR, and F1 are 74.32%, 24.36%, and
-72.36%. The fixed-model grouped-bootstrap 95% CI for recall is 68.76 to 72.03.
-Per-checkpoint recall is 78.0, 76.0, 65.0, 69.0, and 64.5%.
+At a balanced validation threshold, MOSAIC reaches 73.07% accuracy and 70.50%
+recall. Precision, FPR, and F1 are 74.32%, 24.36%, and 72.36%. The bootstrap
+95% CI for recall is 68.76 to 72.03. Per-checkpoint recall is 78.0, 76.0, 65.0,
+69.0, and 64.5%.
 
-## Capacity-matched validation ablation (Table 3)
+## Capacity-matched ablation
 
-FPR ≤ 10%.
+Validation, FPR ≤ 10%.
 
 | Variant | Accuracy | Recall | FPR |
 |---|---:|---:|---:|
@@ -109,7 +99,7 @@ FPR ≤ 10%.
 
 MOSAIC is 7.83 points above the internal-state trajectory on this split.
 
-## Inference cost (Table 4)
+## Inference cost
 
 Auxiliary generations exclude the original answer. Latency is relative to
 greedy generation, measured on an RTX PRO 6000 with the 14B checkpoint. Full
@@ -125,9 +115,9 @@ MOSAIC costs 3.12× greedy latency and peaks at 34.7 GB.
 | Internal-state trajectory | 0 | 39.01 | 1.08× |
 | **MOSAIC** | **8** | **46.84** | **3.12×** |
 
-## Surface and split controls (Table 5)
+## Surface and split controls
 
-Validation controls for question and fact difficulty. R is recall at FPR ≤ 10%.
+R is recall at FPR ≤ 10% on validation.
 
 | Available features | Accuracy | R |
 |---|---:|---:|
@@ -144,28 +134,28 @@ On a stricter held-out same-fact control of 214 facts, the internal-state
 trajectory obtains 39.3% recall and MOSAIC obtains 46.7%. The paired 7.4-point
 gain has a 95% CI of 1.2 to 13.7.
 
-Leave-one-checkpoint-out transfer reaches 32.6% macro recall at 10.8% FPR on
-the unseen checkpoint, compared with 48.17% for checkpoint-specific training.
+Training on four checkpoints and testing on the held-out fifth reaches 32.6%
+macro recall at 10.8% FPR, compared with 48.17% when training on the target
+checkpoint.
 
 ## Additional analyses
 
-- Eighteen of 328 validation hallucinations satisfy the strict behavioral
-  recovery rule. MOSAIC detects this subset with 95.0% equal-checkpoint macro
-  recall. A uniform paraphrase vote corrects nine hallucinations without
-  changing a matched correct response.
-- Exploratory patching and erasure on Mistral-7B, Qwen3-8B, and Llama-3.1-8B
-  give control-adjusted margins of −0.116, −2.258, and −0.202. None moves
-  toward the alternative candidate.
-- A score-blind audit of 100 false negatives finds 41 answers stable under
-  every auxiliary generation, 30 overlapping internal-state trajectories, 18
-  suppressed by the gate, and 11 within two score points of the threshold.
-- With 10%, 25%, 50%, and 100% of labeled development facts, MOSAIC obtains
-  35.84%, 40.91%, 44.52%, and 46.84% validation recall.
-- Rebuilding the validation task at confidence 0.85 and 0.95 yields 2,041 and
-  914 pairs. MOSAIC recall varies from 45.31% to 48.07%.
-- Retaining the least-risky 50% of each balanced validation cell yields 74.06%
-  selective accuracy.
+- 18 of 328 validation hallucinations change to a correct answer under
+  equivalent questions. MOSAIC recall on this subset is 95.0%. Majority vote
+  over paraphrases corrects nine of them and does not flip a matched correct
+  answer.
+- Activation patching and erasure on Mistral-7B, Qwen3-8B, and Llama-3.1-8B
+  give margins of −0.116, −2.258, and −0.202, and do not increase the
+  alternative answer.
+- Of 100 missed hallucinations, 41 keep the same answer under every extra
+  generation, 30 have internal-state trajectories that overlap correct
+  answers, 18 are down-weighted by the gate, and 11 sit near the threshold.
+- With 10%, 25%, 50%, and 100% of labeled development data, MOSAIC validation
+  recall is 35.84%, 40.91%, 44.52%, and 46.84%.
+- At confidence cutoffs 0.85 and 0.95 the validation set has 2,041 and 914
+  pairs; MOSAIC recall is 45.31% to 48.07%.
+- Keeping the lowest-risk half of each balanced validation cell gives 74.06%
+  accuracy on the kept answers.
 
-The detector requires labeled target-checkpoint data, white-box states, and
-eight auxiliary generations. The intervention results do not establish that the
-predictive features provide a causal direction for correcting the answer.
+MOSAIC uses labeled data from the target checkpoint, white-box hidden states,
+and eight auxiliary generations.

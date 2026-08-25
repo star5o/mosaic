@@ -223,8 +223,8 @@ use a reference answer at inference time.
 
 ## Held-out test
 
-Validation-selected thresholds, no refitting. Macro metrics weight the five
-checkpoints equally. ΔR is versus the internal-state trajectory.
+Macro metrics weight the five checkpoints equally. ΔR is the recall difference
+versus the internal-state trajectory.
 
 | Method | M7 (81) | Q8 (65) | L8 (63) | Q14 (61) | MN (57) | Macro R | FPR | Acc. | ΔR |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
