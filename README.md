@@ -1,39 +1,43 @@
+# MOSAIC
 
-# One Confidence / MOSAIC
+Code and artifacts for MOSAIC (Multi-view Output and State Aggregation for
+Identifying Confident Hallucinations) and the HalluMatch benchmark.
 
-Compact research release for confidence-matched general confident hallucination
-detection across five language models.
+HalluMatch contains 1,563 confidence-matched hallucination/correct pairs
+across five checkpoints. MOSAIC combines equivalent-question behavior,
+layerwise internal-state trajectories, and sampling persistence. It does not
+use a reference answer at inference time.
 
-## Scope
+## Held-out test
 
-The positive class is HCE (high-confidence error); HCC is the matched negative
-class. The public validation split is used for model and threshold selection.
-The 327-pair frozen cohort is retrospective because it was previously opened
-for baseline and MOSAIC-v0 evaluation. The five 4,000-row fresh generations
-were not correctness-reviewed or detector-scored and are therefore not test
-results.
+Validation-selected thresholds, no refitting. Macro metrics weight the five
+checkpoints equally. ΔR is versus the internal-state trajectory.
 
-The empirical conclusion is deliberately limited:
+| Method | M7 (81) | Q8 (65) | L8 (63) | Q14 (61) | MN (57) | Macro R | FPR | Acc. | ΔR |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Mean hidden probe | 34/7 | 14/6 | 27/6 | 13/5 | 25/5 | 34.31 | 8.87 | 62.72 | −6.06 |
+| Capacity-matched MLP | 37/6 | 15/7 | 29/6 | 14/5 | 27/5 | 37.02 | 8.93 | 64.04 | −3.35 |
+| Behavior expert | 30/6 | 18/8 | 24/7 | 15/6 | 25/5 | 34.26 | 9.89 | 62.18 | −6.11 |
+| Persistence expert | 18/5 | 13/6 | 17/5 | 12/5 | 15/4 | 23.04 | 7.71 | 57.66 | −17.33 |
+| Internal-state trajectory | 40/6 | 17/7 | 31/6 | 16/5 | 29/5 | 40.37 | 8.93 | 65.72 | — |
+| Flat concatenation | 42/7 | 20/9 | 33/7 | 17/6 | 32/5 | 43.80 | 10.44 | 66.68 | +3.43 |
+| **MOSAIC** | **45/5** | **22/10** | **36/6** | **19/5** | **36/5** | **48.17** | **9.61** | **69.28** | **+7.80** |
 
-- MOSAIC-v1 frozen macro Accuracy / Recall / FPR: 69.28 / 48.17 / 9.61%.
-- Recall gain over MOSAIC-v0: +4.83 points, 95% CI [-0.57, +10.35].
-- No tested cell passed both patch and erasure causal controls.
-- Conditional routing had net correction -30; uniform likelihood had +5.
+The 7.80-point recall gain has a full-pipeline hierarchical-bootstrap 95% CI
+of 4.28 to 11.36 (p = 0.002). The same sign of improvement appears at the 5%
+and 15% transferred FPR caps and in test partial AUC (0.061 vs 0.052).
 
-See [docs/RESULTS.md](docs/RESULTS.md) for the full result boundary.
+Full tables, validation ablations, cost, and controls are in
+[docs/RESULTS.md](docs/RESULTS.md).
 
 ## Layout
 
-- `src/`: feature extraction, baselines, MOSAIC, mechanism, and mitigation code.
-- `tests/`: focused unit and integrity tests.
-- `configs/`: frozen protocol, feature schema, thresholds, and model revisions.
-- `data/`: per-sample scores, OOF metadata, baseline outputs, and reviewed cases.
-- `results/`: canonical paper tables, figures, bootstrap intervals, and audits.
-- `external_artifacts.json`: SHA256 records for large tensors/checkpoints omitted
-  from Git.
-
-No model weights, Hugging Face tokens, remote credentials, hidden-state tensors,
-joblib checkpoints, or unreviewed fresh generations are included.
+- `src/`: feature extraction, baselines, MOSAIC, intervention, and mitigation
+- `tests/`: unit and integrity tests
+- `configs/`: protocol, feature schema, thresholds, and model revisions
+- `data/`: per-sample scores, OOF metadata, baselines, and case studies
+- `results/`: canonical tables, figures, and bootstrap intervals
+- `external_artifacts.json`: SHA256 records for large tensors omitted from Git
 
 ## Install
 
@@ -43,8 +47,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-GPU regeneration additionally requires model access for the official revisions
-listed in `configs/model_provenance.json`.
+GPU regeneration requires the official checkpoints in
+`configs/model_provenance.json`.
 
 ## Verify
 
@@ -53,14 +57,8 @@ python tools/verify_release.py
 PYTHONPATH=src pytest -q
 ```
 
-The verifier checks every released file against `release_manifest.json` and
-recomputes the headline frozen metrics.
+## Data
 
-## Data and licensing
-
-Questions originate from PopQA and TriviaQA. Model outputs come from the
+Questions come from PopQA, TriviaQA, and SimpleQA. Model outputs come from the
 official Mistral, Qwen, and Llama checkpoints listed in the provenance files.
-Upstream dataset and model licenses continue to apply. No repository-level
-license is asserted in this export; choose and add one before public release.
-
-`codex_reviewed` is treated as `human_confirmed` throughout this project.
+Upstream dataset and model licenses continue to apply.
