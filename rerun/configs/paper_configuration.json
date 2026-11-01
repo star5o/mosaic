@@ -1,0 +1,63 @@
+{
+ "systems": {
+  "paper_configuration": {
+   "cfg": {
+    "layers": 16,
+    "positions": [
+     "prompt_end",
+     "first_answer",
+     "mean_answer"
+    ],
+    "pca": 0,
+    "probe_c": 0.01,
+    "probe_logit": false,
+    "raw_slots": true,
+    "internal_candidate": true,
+    "internal_controls": true,
+    "behavior_set": "all",
+    "behavior_candidate": false,
+    "expert_c": 0.01,
+    "gate_c": 0.01,
+    "gate_logit": false,
+    "gate_evidence": false,
+    "base_folds": 4,
+    "gate_folds": 4,
+    "source": "cached"
+   },
+   "inner_seeds": [
+    0
+   ],
+   "methods": [
+    "mosaic",
+    "internal_plus_behavior"
+   ]
+  }
+ },
+ "trajectory_baseline": {
+  "cfg": {
+   "layers": 16,
+   "positions": [
+    "prompt_end",
+    "first_answer",
+    "mean_answer"
+   ],
+   "pca": 0,
+   "probe_c": 0.01,
+   "probe_logit": false,
+   "raw_slots": true,
+   "internal_candidate": false,
+   "internal_controls": true,
+   "behavior_set": "all",
+   "behavior_candidate": false,
+   "expert_c": 0.01,
+   "gate_c": 0.01,
+   "gate_logit": false,
+   "gate_evidence": false,
+   "base_folds": 4,
+   "gate_folds": 4,
+   "source": "cached"
+  },
+  "method": "internal",
+  "note": "Candidate-free trajectory baseline: the paper configuration with paraphrase-derived candidate features removed from the internal expert; used in full_bootstrap.py."
+ }
+}

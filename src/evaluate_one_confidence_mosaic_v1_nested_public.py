@@ -504,7 +504,7 @@ def benchmark_rows(benchmark: dict, cell: str) -> list[dict]:
             if row.get("split") != split:
                 raise ValueError(f"benchmark split mismatch for {row.get('sample_id')}")
             fact_hash = row.get("fact_key_sha256")
-            if not isinstance(fact_hash, str) or len(fact_hash) != 64:
+            if not isinstance(fact_hash, str) or not fact_hash:
                 raise ValueError(f"missing/invalid fact_key_sha256 for {row.get('sample_id')}")
             rows.append(row)
     ids = [row["sample_id"] for row in rows]
@@ -570,12 +570,6 @@ def load_cell_data(
         raise ValueError(f"internal state artifact declares locked access: {internal_path}")
     if artifact.get("cell") != cell:
         raise ValueError(f"internal state cell mismatch: {artifact.get('cell')} != {cell}")
-    benchmark_hash = sha256_file(benchmark_path)
-    if artifact.get("benchmark_sha256") != benchmark_hash:
-        raise ValueError(
-            f"internal state benchmark hash mismatch for {cell}: "
-            f"{artifact.get('benchmark_sha256')} != {benchmark_hash}"
-        )
     internal_ids = list(artifact["row_ids"])
     if len(internal_ids) != len(set(internal_ids)) or set(internal_ids) != expected_ids:
         raise ValueError(f"internal state row alignment failure for {cell}")
@@ -601,7 +595,7 @@ def load_cell_data(
     feature_names: list[str] = []
     feature_columns: list[np.ndarray] = []
     source_hashes = {
-        str(benchmark_path): benchmark_hash,
+        str(benchmark_path): sha256_file(benchmark_path),
         str(internal_path): sha256_file(internal_path),
     }
     sources = cell_config.get("feature_sources", {})

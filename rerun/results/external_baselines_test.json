@@ -1,0 +1,129 @@
+{
+ "description": "External detectors on the 327 held-out test pairs. Thresholds are selected on validation at FPR <= 10%. Cells give TP/FP per checkpoint.",
+ "n_hallucinations_per_checkpoint": {
+  "mistral7": 81,
+  "qwen8": 65,
+  "llama31": 63,
+  "qwen14": 61,
+  "nemo12": 57
+ },
+ "methods": [
+  {
+   "method": "Mean-answer hidden-state probe",
+   "cells_tp_fp": {
+    "mistral7": "36/10",
+    "qwen8": "30/9",
+    "llama31": "28/3",
+    "qwen14": "15/4",
+    "nemo12": "24/10"
+   },
+   "macro_recall": 40.35,
+   "macro_fpr": 11.01,
+   "accuracy": 64.67
+  },
+  {
+   "method": "P(True)",
+   "cells_tp_fp": {
+    "mistral7": "26/6",
+    "qwen8": "29/8",
+    "llama31": "20/3",
+    "qwen14": "9/3",
+    "nemo12": "6/4"
+   },
+   "macro_recall": 26.75,
+   "macro_fpr": 7.28,
+   "accuracy": 59.73
+  },
+  {
+   "method": "LOS-Net",
+   "cells_tp_fp": {
+    "mistral7": "9/13",
+    "qwen8": "0/0",
+    "llama31": "18/14",
+    "qwen14": "11/7",
+    "nemo12": "15/14"
+   },
+   "macro_recall": 16.81,
+   "macro_fpr": 14.86,
+   "accuracy": 50.97
+  },
+  {
+   "method": "INSIDE (EigenScore)",
+   "cells_tp_fp": {
+    "mistral7": "5/6",
+    "qwen8": "14/5",
+    "llama31": "13/2",
+    "qwen14": "0/2",
+    "nemo12": "4/10"
+   },
+   "macro_recall": 11.07,
+   "macro_fpr": 7.82,
+   "accuracy": 51.63
+  },
+  {
+   "method": "Sequence confidence",
+   "cells_tp_fp": {
+    "mistral7": "5/5",
+    "qwen8": "7/7",
+    "llama31": "3/3",
+    "qwen14": "3/2",
+    "nemo12": "6/6"
+   },
+   "macro_recall": 7.43,
+   "macro_fpr": 7.1,
+   "accuracy": 50.16
+  },
+  {
+   "method": "Semantic entropy (K = 4)",
+   "cells_tp_fp": {
+    "mistral7": "2/2",
+    "qwen8": "0/0",
+    "llama31": "16/5",
+    "qwen14": "0/0",
+    "nemo12": "0/0"
+   },
+   "macro_recall": 5.57,
+   "macro_fpr": 2.08,
+   "accuracy": 51.75
+  },
+  {
+   "method": "Self-consistency (K = 4)",
+   "cells_tp_fp": {
+    "mistral7": "2/2",
+    "qwen8": "0/0",
+    "llama31": "15/5",
+    "qwen14": "0/0",
+    "nemo12": "0/0"
+   },
+   "macro_recall": 5.26,
+   "macro_fpr": 2.08,
+   "accuracy": 51.59
+  },
+  {
+   "method": "Internal-state trajectory (Table 2)",
+   "cells_tp_fp": {
+    "mistral7": "40/6",
+    "qwen8": "17/7",
+    "llama31": "31/6",
+    "qwen14": "16/5",
+    "nemo12": "29/5"
+   },
+   "macro_recall": 40.37,
+   "macro_fpr": 8.93,
+   "accuracy": 65.72
+  },
+  {
+   "method": "MOSAIC (Table 2)",
+   "cells_tp_fp": {
+    "mistral7": "45/5",
+    "qwen8": "22/10",
+    "llama31": "36/6",
+    "qwen14": "19/5",
+    "nemo12": "36/5"
+   },
+   "macro_recall": 48.17,
+   "macro_fpr": 9.61,
+   "accuracy": 69.28
+  }
+ ]
+}

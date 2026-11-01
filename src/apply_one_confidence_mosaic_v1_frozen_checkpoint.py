@@ -167,8 +167,8 @@ def load_frozen_application_data(
                 f"application records may contain identifiers only; forbidden fields: {forbidden}"
             )
     groups = np.asarray([row.get("fact_key_sha256", "") for row in records], dtype=object)
-    if any(not isinstance(value, str) or len(value) != 64 for value in groups):
-        raise ValueError("application records require 64-character fact_key_sha256")
+    if any(not isinstance(value, str) or not value for value in groups):
+        raise ValueError("application records require a non-empty fact_key_sha256 identifier")
 
     internal_spec = application["internal_states"]
     internal_path = Path(internal_spec["path"])

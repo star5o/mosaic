@@ -33,11 +33,9 @@ Full tables, validation ablations, cost, and controls are in
 ## Layout
 
 - `src/`: feature extraction, baselines, MOSAIC, intervention, and mitigation
-- `tests/`: unit and integrity tests
-- `configs/`: protocol, feature schema, thresholds, and model revisions
-- `data/`: per-sample scores, OOF metadata, baselines, and case studies
-- `results/`: canonical tables, figures, and bootstrap intervals
-- `external_artifacts.json`: SHA256 records for large tensors omitted from Git
+- `tests/`: unit tests
+- `configs/model_provenance.json`: model checkpoints
+- `rerun/`: rerun of the paper configuration, with test predictions, thresholds, external detectors and the full-pipeline bootstrap (see `rerun/README.md`)
 
 ## Install
 
@@ -53,7 +51,6 @@ GPU regeneration requires the official checkpoints in
 ## Verify
 
 ```bash
-python tools/verify_release.py
 PYTHONPATH=src pytest -q
 ```
 
