@@ -12,7 +12,10 @@ This directory contains the code, configuration and outputs of the rerun of MOSA
 | `src/full_bootstrap.py` | Full-pipeline hierarchical bootstrap of MOSAIC versus the trajectory baseline |
 | `src/full_bootstrap_summary.py` | Point estimates, percentile intervals and one-sided p values from the bootstrap output |
 | `results/test_predictions_paper_configuration.json` | Per checkpoint: labels, fact groups, sample ids, validation thresholds, test metrics and per-example test scores |
+| `results/per_checkpoint_summary.json` | Per checkpoint: TP/FP, threshold, recall, FPR, accuracy, AUROC and raw pAUC over FPR [0, 0.15], with macro values |
 | `results/external_baselines_test.json` | Per-checkpoint TP/FP, recall, realized FPR and accuracy of the external detectors on the test split |
+| `results/external_baselines_scores.json` | Per-example scores and validation thresholds of the external detectors on the test split |
+| `src/external_baselines.py` | Metrics of the external detectors from the per-example scores |
 
 ## Bootstrap procedure
 

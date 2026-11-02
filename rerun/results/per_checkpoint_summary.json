@@ -1,0 +1,147 @@
+{
+ "description": "Per-checkpoint test results of the rerun of the paper configuration, from test_predictions_paper_configuration.json. Macro metrics weight the five checkpoints equally. pAUC is the raw area over FPR [0, 0.15].",
+ "systems": {
+  "mosaic": {
+   "cells": {
+    "mistral7|TriviaQA": {
+     "n_hallucinations": 81,
+     "n_correct": 81,
+     "threshold": 0.5343393281747334,
+     "tp": 37,
+     "fp": 9,
+     "recall": 0.4567901234567901,
+     "fpr": 0.1111111111111111,
+     "accuracy": 0.6728395061728395,
+     "auroc": 0.8369151044048163,
+     "pauc_raw_0_0.15": 0.0530940405426002
+    },
+    "qwen8|TriviaQA": {
+     "n_hallucinations": 65,
+     "n_correct": 65,
+     "threshold": 0.5344949907101432,
+     "tp": 43,
+     "fp": 8,
+     "recall": 0.6615384615384615,
+     "fpr": 0.12307692307692308,
+     "accuracy": 0.7692307692307693,
+     "auroc": 0.8740828402366865,
+     "pauc_raw_0_0.15": 0.0749112426035503
+    },
+    "llama31|TriviaQA": {
+     "n_hallucinations": 63,
+     "n_correct": 63,
+     "threshold": 0.5176780464583406,
+     "tp": 36,
+     "fp": 6,
+     "recall": 0.5714285714285714,
+     "fpr": 0.09523809523809523,
+     "accuracy": 0.7380952380952381,
+     "auroc": 0.8329554043839759,
+     "pauc_raw_0_0.15": 0.06615016376921137
+    },
+    "qwen14|PopQA": {
+     "n_hallucinations": 61,
+     "n_correct": 61,
+     "threshold": 0.5247493121797588,
+     "tp": 25,
+     "fp": 0,
+     "recall": 0.4098360655737705,
+     "fpr": 0.0,
+     "accuracy": 0.7049180327868853,
+     "auroc": 0.8288094598226283,
+     "pauc_raw_0_0.15": 0.07093523246439129
+    },
+    "nemo12|PopQA": {
+     "n_hallucinations": 57,
+     "n_correct": 57,
+     "threshold": 0.5285038374064278,
+     "tp": 19,
+     "fp": 6,
+     "recall": 0.3333333333333333,
+     "fpr": 0.10526315789473684,
+     "accuracy": 0.6140350877192983,
+     "auroc": 0.7873191751308094,
+     "pauc_raw_0_0.15": 0.04693751923668821
+    }
+   },
+   "macro": {
+    "recall": 0.48658531106618536,
+    "fpr": 0.08693785746417325,
+    "accuracy": 0.6998237268010061,
+    "auroc": 0.8320163967957832,
+    "pauc_raw_0_0.15": 0.062405639723288275
+   }
+  },
+  "internal_plus_behavior": {
+   "cells": {
+    "mistral7|TriviaQA": {
+     "n_hallucinations": 81,
+     "n_correct": 81,
+     "threshold": 0.613747477322028,
+     "tp": 39,
+     "fp": 10,
+     "recall": 0.48148148148148145,
+     "fpr": 0.12345679012345678,
+     "accuracy": 0.6790123456790124,
+     "auroc": 0.830056393842402,
+     "pauc_raw_0_0.15": 0.0471269623532998
+    },
+    "qwen8|TriviaQA": {
+     "n_hallucinations": 65,
+     "n_correct": 65,
+     "threshold": 0.5754160586636362,
+     "tp": 46,
+     "fp": 9,
+     "recall": 0.7076923076923077,
+     "fpr": 0.13846153846153847,
+     "accuracy": 0.7846153846153846,
+     "auroc": 0.8783431952662724,
+     "pauc_raw_0_0.15": 0.07792899408284024
+    },
+    "llama31|TriviaQA": {
+     "n_hallucinations": 63,
+     "n_correct": 63,
+     "threshold": 0.5881814115515714,
+     "tp": 36,
+     "fp": 6,
+     "recall": 0.5714285714285714,
+     "fpr": 0.09523809523809523,
+     "accuracy": 0.7380952380952381,
+     "auroc": 0.8458049886621315,
+     "pauc_raw_0_0.15": 0.07517006802721088
+    },
+    "qwen14|PopQA": {
+     "n_hallucinations": 61,
+     "n_correct": 61,
+     "threshold": 0.6185639317360436,
+     "tp": 21,
+     "fp": 3,
+     "recall": 0.3442622950819672,
+     "fpr": 0.04918032786885246,
+     "accuracy": 0.6475409836065574,
+     "auroc": 0.8005912389142704,
+     "pauc_raw_0_0.15": 0.050819672131147534
+    },
+    "nemo12|PopQA": {
+     "n_hallucinations": 57,
+     "n_correct": 57,
+     "threshold": 0.6238848818987736,
+     "tp": 23,
+     "fp": 4,
+     "recall": 0.40350877192982454,
+     "fpr": 0.07017543859649122,
+     "accuracy": 0.6666666666666666,
+     "auroc": 0.7697753154816868,
+     "pauc_raw_0_0.15": 0.05378578024007387
+    }
+   },
+   "macro": {
+    "recall": 0.5016746855228305,
+    "fpr": 0.09530243805768683,
+    "accuracy": 0.7031861237325718,
+    "auroc": 0.8249142264333527,
+    "pauc_raw_0_0.15": 0.06096629536691446
+   }
+  }
+ }
+}
